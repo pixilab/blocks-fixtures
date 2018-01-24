@@ -1,0 +1,248 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Color",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "White",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Red",
+                    "first": 10,
+                    "last": 19
+                },
+                {
+                    "name": "Green",
+                    "first": 20,
+                    "last": 29
+                },
+                {
+                    "name": "Blue",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "Yellow",
+                    "first": 40,
+                    "last": 49
+                },
+                {
+                    "name": "Purple",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "Orange",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "Cyan",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "White/Red",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Red/Green",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Blue/Green",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Blue/Yellow",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "Yellow/Purple",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Orange/Purple",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Cyan/Orange",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "White/Blue",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Color scroll slow-fast",
+                    "first": 160,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo1",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo2",
+                    "first": 16,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo3",
+                    "first": 24,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo4",
+                    "first": 32,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo5",
+                    "first": 40,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo6",
+                    "first": 48,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo7",
+                    "first": 56,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo Shake",
+                    "first": 64,
+                    "last": 127
+                },
+                {
+                    "name": "Gobo scroll slow-fast",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Horizontal Vertical Run",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Auto Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Other channels on",
+                    "first": 0,
+                    "last": 59
+                },
+                {
+                    "name": "Auto mode 3",
+                    "first": 60,
+                    "last": 84
+                },
+                {
+                    "name": "Auto mode 2",
+                    "first": 85,
+                    "last": 109
+                },
+                {
+                    "name": "Auto mode 1",
+                    "first": 110,
+                    "last": 134
+                },
+                {
+                    "name": "Sound-to-light mode 0",
+                    "first": 135,
+                    "last": 159
+                },
+                {
+                    "name": "Sound-to-light mode 3",
+                    "first": 160,
+                    "last": 184
+                },
+                {
+                    "name": "Sound-to-light mode 2",
+                    "first": 185,
+                    "last": 209
+                },
+                {
+                    "name": "Sound-to-light mode 1",
+                    "first": 210,
+                    "last": 234
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No Action",
+                    "first": 0,
+                    "last": 249
+                },
+                {
+                    "name": "Reset After 5 secs",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

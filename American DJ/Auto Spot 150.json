@@ -1,0 +1,178 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        },
+        {
+            "name": "Gobo",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Gobo",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Gobo 1",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Gobo 2",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Gobo 3",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Gobo 4",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Gobo 5",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Gobo 6",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Gobo 7",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Rotating slow-fast",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Stop",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Rotation CW fast-slow",
+                    "first": 10,
+                    "last": 120
+                },
+                {
+                    "name": "Rotation CCW slow-fast",
+                    "first": 135,
+                    "last": 245
+                }
+            ]
+        },
+        {
+            "name": "Full Colors",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 12
+                },
+                {
+                    "name": "Blue",
+                    "first": 13,
+                    "last": 25
+                },
+                {
+                    "name": "Yellow",
+                    "first": 26,
+                    "last": 38
+                },
+                {
+                    "name": "Green",
+                    "first": 39,
+                    "last": 51
+                },
+                {
+                    "name": "Lightblue",
+                    "first": 52,
+                    "last": 63
+                },
+                {
+                    "name": "Orange",
+                    "first": 64,
+                    "last": 76
+                },
+                {
+                    "name": "Pink",
+                    "first": 77,
+                    "last": 89
+                },
+                {
+                    "name": "Magenta",
+                    "first": 90,
+                    "last": 102
+                },
+                {
+                    "name": "Amber",
+                    "first": 103,
+                    "last": 115
+                },
+                {
+                    "name": "Lightgreen",
+                    "first": 116,
+                    "last": 127
+                },
+                {
+                    "name": "Rotating slow-fast",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Dimmer",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Dimmer 0-100%",
+                    "first": 5,
+                    "last": 131
+                },
+                {
+                    "name": "Strobe slow-fast",
+                    "first": 132,
+                    "last": 252
+                },
+                {
+                    "name": "Open",
+                    "first": 253,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,264 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open (White)",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Turquoise",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Red",
+                    "first": 16,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Cyan",
+                    "first": 24,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightgreen",
+                    "first": 32,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Magenta",
+                    "first": 40,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightblue",
+                    "first": 48,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Yellow",
+                    "first": 56,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Green",
+                    "first": 64,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Pink",
+                    "first": 72,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue",
+                    "first": 80,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Orange",
+                    "first": 88,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "UV",
+                    "first": 96,
+                    "last": 103,
+                    "discrete": true
+                },
+                {
+                    "name": "Red-Blue",
+                    "first": 104,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "Yellow-Green",
+                    "first": 112,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightblue-Magenta",
+                    "first": 120,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow CW fast-slow",
+                    "first": 128,
+                    "last": 190
+                },
+                {
+                    "name": "Rotation stop",
+                    "first": 191,
+                    "last": 192,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow CCW slow-fast",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 23
+                },
+                {
+                    "name": "Gobo 1",
+                    "first": 24,
+                    "last": 47
+                },
+                {
+                    "name": "Gobo 2",
+                    "first": 48,
+                    "last": 79
+                },
+                {
+                    "name": "Gobo 3",
+                    "first": 80,
+                    "last": 103
+                },
+                {
+                    "name": "Gobo 4",
+                    "first": 104,
+                    "last": 127
+                },
+                {
+                    "name": "Gobo 5",
+                    "first": 128,
+                    "last": 151
+                },
+                {
+                    "name": "Gobo 6",
+                    "first": 152,
+                    "last": 175
+                },
+                {
+                    "name": "Gobo 7",
+                    "first": 176,
+                    "last": 207
+                },
+                {
+                    "name": "Gobo 8",
+                    "first": 208,
+                    "last": 231
+                },
+                {
+                    "name": "Gobo 9",
+                    "first": 232,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Indexing / Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Indexing",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Rotation CW fast-slow",
+                    "first": 128,
+                    "last": 191
+                },
+                {
+                    "name": "Rotation stop",
+                    "first": 192,
+                    "last": 193,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotation CCW slow-fast",
+                    "first": 194,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Closed",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Dimmer 0-100%",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "Open",
+                    "first": 64,
+                    "last": 95
+                },
+                {
+                    "name": "Strobe 0-8Hz",
+                    "first": 96,
+                    "last": 127
+                },
+                {
+                    "name": "Reset",
+                    "first": 128,
+                    "last": 139
+                },
+                {
+                    "name": "Pulse slow-fast",
+                    "first": 160,
+                    "last": 175
+                },
+                {
+                    "name": "Pulse fast-slow",
+                    "first": 176,
+                    "last": 191
+                },
+                {
+                    "name": "Random Strobe slow-fast",
+                    "first": 192,
+                    "last": 223
+                }
+            ]
+        }
+    ],
+    "note": "Scanner, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

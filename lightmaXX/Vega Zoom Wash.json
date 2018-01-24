@@ -1,0 +1,234 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan / Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "closed",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "strobe",
+                    "first": 10,
+                    "last": 245
+                },
+                {
+                    "name": "open",
+                    "first": 246,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macro",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "open",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "red",
+                    "first": 11,
+                    "last": 20
+                },
+                {
+                    "name": "green",
+                    "first": 21,
+                    "last": 30
+                },
+                {
+                    "name": "blue",
+                    "first": 31,
+                    "last": 40
+                },
+                {
+                    "name": "white",
+                    "first": 41,
+                    "last": 50
+                },
+                {
+                    "name": "yellow",
+                    "first": 51,
+                    "last": 60
+                },
+                {
+                    "name": "cyan",
+                    "first": 61,
+                    "last": 70
+                },
+                {
+                    "name": "lightblue",
+                    "first": 71,
+                    "last": 80
+                },
+                {
+                    "name": "pink",
+                    "first": 81,
+                    "last": 90
+                },
+                {
+                    "name": "lightgreen",
+                    "first": 91,
+                    "last": 100
+                },
+                {
+                    "name": "lightred",
+                    "first": 101,
+                    "last": 110
+                },
+                {
+                    "name": "RGB",
+                    "first": 111,
+                    "last": 120
+                },
+                {
+                    "name": "RGW",
+                    "first": 121,
+                    "last": 130
+                },
+                {
+                    "name": "GBW",
+                    "first": 131,
+                    "last": 140
+                },
+                {
+                    "name": "RGBW",
+                    "first": 141,
+                    "last": 150
+                },
+                {
+                    "name": "jump",
+                    "first": 151,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Macro Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "macro off",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "speed",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "no function",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "program 1",
+                    "first": 21,
+                    "last": 40
+                },
+                {
+                    "name": "program 2",
+                    "first": 41,
+                    "last": 60
+                },
+                {
+                    "name": "program 3",
+                    "first": 61,
+                    "last": 80
+                },
+                {
+                    "name": "program 4",
+                    "first": 81,
+                    "last": 100
+                },
+                {
+                    "name": "program 5",
+                    "first": 101,
+                    "last": 120
+                },
+                {
+                    "name": "program 6",
+                    "first": 121,
+                    "last": 140
+                },
+                {
+                    "name": "program 7",
+                    "first": 141,
+                    "last": 160
+                },
+                {
+                    "name": "program 8",
+                    "first": 161,
+                    "last": 180
+                },
+                {
+                    "name": "motor reset",
+                    "first": 201,
+                    "last": 225
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

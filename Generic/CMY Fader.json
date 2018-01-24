@@ -1,0 +1,20 @@
+{
+	"channels": [
+		{
+			"name": "Cyan",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Magenta",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Yellow",
+			"type": "Analog_8",
+			"normalized": true
+		}
+	],
+	"note": "Color Changer"
+}

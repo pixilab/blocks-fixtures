@@ -1,0 +1,21 @@
+{
+    "channels": [
+        {
+            "name": "strobe1",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Strobe closed",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Strobe 0Hz-30Hz",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Strobe, Blinder (imported from open-fixture-library.herokuapp.com)"
+}

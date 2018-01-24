@@ -1,0 +1,321 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt Continuous Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 55
+                },
+                {
+                    "name": "Clockwise rotation",
+                    "first": 56,
+                    "last": 127
+                },
+                {
+                    "name": "Counter-clockwise rotation",
+                    "first": 128,
+                    "last": 199
+                }
+            ]
+        },
+        {
+            "name": "Tilt Continuous Rotation Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "slow - fast",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macros & Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Red",
+                    "first": 11,
+                    "last": 20
+                },
+                {
+                    "name": "Green",
+                    "first": 21,
+                    "last": 30
+                },
+                {
+                    "name": "Red & Green",
+                    "first": 31,
+                    "last": 40
+                },
+                {
+                    "name": "Blue",
+                    "first": 41,
+                    "last": 50
+                },
+                {
+                    "name": "Red & Blue",
+                    "first": 51,
+                    "last": 60
+                },
+                {
+                    "name": "Green & Blue",
+                    "first": 61,
+                    "last": 70
+                },
+                {
+                    "name": "Red & Green & Blue",
+                    "first": 71,
+                    "last": 80
+                },
+                {
+                    "name": "Single color change slow - fast",
+                    "first": 81,
+                    "last": 123
+                },
+                {
+                    "name": "Color mix slow - fast",
+                    "first": 124,
+                    "last": 166
+                },
+                {
+                    "name": "Color fade slow - fast",
+                    "first": 167,
+                    "last": 209
+                },
+                {
+                    "name": "Color change slow - fast",
+                    "first": 210,
+                    "last": 249
+                },
+                {
+                    "name": "Sound active color effect",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Strobing",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Strobing slow - fast",
+                    "first": 8,
+                    "last": 139
+                },
+                {
+                    "name": "Slow open - fast close",
+                    "first": 140,
+                    "last": 189
+                },
+                {
+                    "name": "Fast open - slow close",
+                    "first": 190,
+                    "last": 239
+                },
+                {
+                    "name": "Random strobe",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Nothing",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Program 1",
+                    "first": 16,
+                    "last": 40
+                },
+                {
+                    "name": "Program 2",
+                    "first": 41,
+                    "last": 65
+                },
+                {
+                    "name": "Program 3",
+                    "first": 66,
+                    "last": 90
+                },
+                {
+                    "name": "Program 4",
+                    "first": 91,
+                    "last": 115
+                },
+                {
+                    "name": "Program 5",
+                    "first": 116,
+                    "last": 140
+                },
+                {
+                    "name": "Program 6",
+                    "first": 141,
+                    "last": 165
+                },
+                {
+                    "name": "Program 7",
+                    "first": 166,
+                    "last": 190
+                },
+                {
+                    "name": "Program 8",
+                    "first": 191,
+                    "last": 215
+                },
+                {
+                    "name": "Random program playing 5 times each",
+                    "first": 216,
+                    "last": 240
+                },
+                {
+                    "name": "Random program 2min each",
+                    "first": 241,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "slow - fast",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan / Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "fast - slow",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Special Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 69
+                },
+                {
+                    "name": "Blackout with Pan / Tilt movement",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "Blackout with RGBW value change",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Reset all",
+                    "first": 200,
+                    "last": 209
+                }
+            ]
+        },
+        {
+            "name": "Dimmer Curve",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Standard",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "Stage",
+                    "first": 21,
+                    "last": 40
+                },
+                {
+                    "name": "TV",
+                    "first": 41,
+                    "last": 60
+                },
+                {
+                    "name": "Architectural",
+                    "first": 61,
+                    "last": 80
+                },
+                {
+                    "name": "Theatre",
+                    "first": 81,
+                    "last": 100
+                },
+                {
+                    "name": "Default setting",
+                    "first": 101,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

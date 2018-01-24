@@ -1,0 +1,94 @@
+{
+    "channels": [
+        {
+            "name": "Show mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 69
+                },
+                {
+                    "name": "Show 1",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "Show 2",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Show 3",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Show 4",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Show 5",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "Show 6",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Show 7",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Show 8",
+                    "first": 140,
+                    "last": 209
+                },
+                {
+                    "name": "Show 9",
+                    "first": 210,
+                    "last": 249
+                },
+                {
+                    "name": "Show 0",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Show speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Special Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 139
+                },
+                {
+                    "name": "Reset all",
+                    "first": 140,
+                    "last": 209
+                },
+                {
+                    "name": "Sound active",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Laser, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

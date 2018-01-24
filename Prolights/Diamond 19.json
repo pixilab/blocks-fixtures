@@ -1,0 +1,454 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        },
+        {
+            "name": "Movement Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        },
+        {
+            "name": "Shutter Function",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Normal Shutter Functions",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Pulse-effect Forward",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Pulse-effect Reverse",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Random Strobe",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "No function (TBD)",
+                    "first": 64,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Close",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Strobe Rate (slow to fast)",
+                    "first": 32,
+                    "last": 223
+                },
+                {
+                    "name": "Open",
+                    "first": 224,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Virtual Color Function",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "On Function",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "CTC Function",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Forward Spin",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Reverse Spin",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Continuous",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Color Bounce",
+                    "first": 80,
+                    "last": 111
+                },
+                {
+                    "name": "No function (TBD)",
+                    "first": 112,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Virtual Color 2",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Black",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Red",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "Green",
+                    "first": 2,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue",
+                    "first": 3,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "White",
+                    "first": 4,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Green ASC, Blue",
+                    "first": 5,
+                    "last": 46
+                },
+                {
+                    "name": "Green, Blue DESC",
+                    "first": 47,
+                    "last": 88
+                },
+                {
+                    "name": "Red ASC, Green",
+                    "first": 89,
+                    "last": 130
+                },
+                {
+                    "name": "Red, Green DESC",
+                    "first": 131,
+                    "last": 172
+                },
+                {
+                    "name": "Red, Blue ASC",
+                    "first": 173,
+                    "last": 214
+                },
+                {
+                    "name": "Red DESC, Blue",
+                    "first": 215,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red-All",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green-All",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue-All",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White-All",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "small angle -> big angle",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Foreground",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No Color",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Red",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Green",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Blue",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "White",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Yellow",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Magenta",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Cyan",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Full Color",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Background",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No Color",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Red",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Green",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Blue",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "White",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Yellow",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Magenta",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Cyan",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Full Color",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Patterns",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Static Pattern",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Dynamic Pattern 1",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Dynamic Pattern 2",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Dynamic Pattern 3",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Dynamic Pattern 4",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Dynamic Pattern 5",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Dynamic Pattern 6",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Dynamic Pattern 7",
+                    "first": 128,
+                    "last": 143
+                },
+                {
+                    "name": "Dynamic Pattern 8",
+                    "first": 144,
+                    "last": 159
+                },
+                {
+                    "name": "Dynamic Pattern 9",
+                    "first": 160,
+                    "last": 175
+                },
+                {
+                    "name": "Dynamic Pattern 10",
+                    "first": 176,
+                    "last": 191
+                },
+                {
+                    "name": "Dynamic Pattern 11",
+                    "first": 192,
+                    "last": 207
+                },
+                {
+                    "name": "Dynamic Pattern 12",
+                    "first": 208,
+                    "last": 223
+                },
+                {
+                    "name": "Dynamic Pattern 13",
+                    "first": 224,
+                    "last": 239
+                },
+                {
+                    "name": "Dynamic Pattern 14",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Reset All",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Pan&Tilt Reset",
+                    "first": 16,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "No function (TBD)",
+                    "first": 24,
+                    "last": 47
+                },
+                {
+                    "name": "Other Reset",
+                    "first": 48,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Display Off",
+                    "first": 56,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Display On",
+                    "first": 64,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Hibernation",
+                    "first": 88,
+                    "last": 95,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,450 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan / Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Fast (standard)",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Ultra fast (for programming)",
+                    "first": 11,
+                    "last": 25
+                },
+                {
+                    "name": "Vector mode fast - slow",
+                    "first": 26,
+                    "last": 127
+                },
+                {
+                    "name": "Tracking mode fast - slow",
+                    "first": 128,
+                    "last": 247
+                },
+                {
+                    "name": "Tracking mode slow",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "closed",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "0 - 100%",
+                    "first": 8,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "closed",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Synchro strobe 0 - 10Hz",
+                    "first": 10,
+                    "last": 66
+                },
+                {
+                    "name": "open",
+                    "first": 67,
+                    "last": 68,
+                    "discrete": true
+                },
+                {
+                    "name": "Pulse sequences (close slow, open fast) slow - fast",
+                    "first": 69,
+                    "last": 125
+                },
+                {
+                    "name": "Pulse sequences (close fast, open slow) slow - fast",
+                    "first": 128,
+                    "last": 184
+                },
+                {
+                    "name": "Random strobe slow - fast",
+                    "first": 188,
+                    "last": 244
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Gobo selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Rotating gobo 1",
+                    "first": 11,
+                    "last": 30
+                },
+                {
+                    "name": "Rotating gobo 2",
+                    "first": 31,
+                    "last": 50
+                },
+                {
+                    "name": "Rotating gobo 3",
+                    "first": 51,
+                    "last": 70
+                },
+                {
+                    "name": "Rotating gobo 4",
+                    "first": 71,
+                    "last": 90
+                },
+                {
+                    "name": "Rotating gobo 5",
+                    "first": 91,
+                    "last": 110
+                },
+                {
+                    "name": "Rotating gobo 6",
+                    "first": 111,
+                    "last": 127
+                },
+                {
+                    "name": "360° positioning",
+                    "first": 128,
+                    "last": 192
+                },
+                {
+                    "name": "Gobo wheel rotation slow - fast",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo 360° positioning",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No effect",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Gobo positioning 0 - 360°",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No effect",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Continuous CW rotation fast - slow",
+                    "first": 11,
+                    "last": 131
+                },
+                {
+                    "name": "Stop rotation",
+                    "first": 132,
+                    "last": 134,
+                    "discrete": true
+                },
+                {
+                    "name": "Continuous CCW rotation slow - fast",
+                    "first": 135,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No prism",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "3 facet prism",
+                    "first": 11,
+                    "last": 20
+                },
+                {
+                    "name": "Continuous CW rotation fast - slow",
+                    "first": 21,
+                    "last": 136
+                },
+                {
+                    "name": "Stop prism rotation",
+                    "first": 137,
+                    "last": 139,
+                    "discrete": true
+                },
+                {
+                    "name": "Continuous CCW rotation slow - fast",
+                    "first": 140,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Colors",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open / white",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 1",
+                    "first": 5,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 2",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 3",
+                    "first": 15,
+                    "last": 19,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 4",
+                    "first": 20,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 5",
+                    "first": 25,
+                    "last": 29,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 6",
+                    "first": 30,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 7",
+                    "first": 35,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 8",
+                    "first": 40,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 9",
+                    "first": 45,
+                    "last": 49,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 10",
+                    "first": 50,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "Color 11",
+                    "first": 55,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "360° positioning",
+                    "first": 60,
+                    "last": 127
+                },
+                {
+                    "name": "Forwards rainbow effect fast - slow",
+                    "first": 128,
+                    "last": 190
+                },
+                {
+                    "name": "No rotation",
+                    "first": 191,
+                    "last": 192,
+                    "discrete": true
+                },
+                {
+                    "name": "Backwards rainbow effect slow - fast",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo shake / Blackout effect",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No effect",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Gobo shake slow - fast",
+                    "first": 10,
+                    "last": 249
+                },
+                {
+                    "name": "Blackout during movements",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Gobo shake amplitute",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Gobo shake size 1 (maximum)",
+                    "first": 0,
+                    "last": 23
+                },
+                {
+                    "name": "Gobo shake size 2",
+                    "first": 24,
+                    "last": 47
+                },
+                {
+                    "name": "Gobo shake size 3",
+                    "first": 48,
+                    "last": 71
+                },
+                {
+                    "name": "Gobo shake size 4",
+                    "first": 72,
+                    "last": 95
+                },
+                {
+                    "name": "Gobo shake size 5",
+                    "first": 96,
+                    "last": 119
+                },
+                {
+                    "name": "Gobo shake size 6",
+                    "first": 120,
+                    "last": 143
+                },
+                {
+                    "name": "Gobo shake size 7",
+                    "first": 144,
+                    "last": 167
+                },
+                {
+                    "name": "Gobo shake size 8",
+                    "first": 168,
+                    "last": 191
+                },
+                {
+                    "name": "Gobo shake size 9",
+                    "first": 192,
+                    "last": 215
+                },
+                {
+                    "name": "Gobo shake size 10",
+                    "first": 216,
+                    "last": 239
+                },
+                {
+                    "name": "Gobo shake size 11 (minimum)",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Lamp on / Motor reset (hold 6s)",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Lamp off",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "No effects (idle)",
+                    "first": 20,
+                    "last": 100
+                },
+                {
+                    "name": "Effects reset (once), no Pan / Tilt movement",
+                    "first": 101,
+                    "last": 170
+                },
+                {
+                    "name": "All motor reset (once)",
+                    "first": 171,
+                    "last": 200
+                },
+                {
+                    "name": "Silent fans (if external temperature allows it)",
+                    "first": 201,
+                    "last": 240
+                },
+                {
+                    "name": "Lamp on",
+                    "first": 241,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

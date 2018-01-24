@@ -1,0 +1,200 @@
+{
+    "channels": [
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "White",
+                    "first": 0,
+                    "last": 17
+                },
+                {
+                    "name": "Red",
+                    "first": 18,
+                    "last": 33
+                },
+                {
+                    "name": "Yellow",
+                    "first": 34,
+                    "last": 50
+                },
+                {
+                    "name": "Cyan",
+                    "first": 51,
+                    "last": 67
+                },
+                {
+                    "name": "Green",
+                    "first": 68,
+                    "last": 84
+                },
+                {
+                    "name": "Orange",
+                    "first": 85,
+                    "last": 101
+                },
+                {
+                    "name": "Purple",
+                    "first": 102,
+                    "last": 107,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue",
+                    "first": 108,
+                    "last": 127
+                },
+                {
+                    "name": "Color scroll CW fast - slow",
+                    "first": 128,
+                    "last": 192
+                },
+                {
+                    "name": "Color scroll CCW slow - fast",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Spot",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "Gobo 1",
+                    "first": 21,
+                    "last": 41
+                },
+                {
+                    "name": "Gobo 2",
+                    "first": 42,
+                    "last": 62
+                },
+                {
+                    "name": "Gobo 3",
+                    "first": 63,
+                    "last": 83
+                },
+                {
+                    "name": "Gobo 4",
+                    "first": 84,
+                    "last": 104
+                },
+                {
+                    "name": "Gobo 5",
+                    "first": 105,
+                    "last": 119
+                },
+                {
+                    "name": "Gobo 6",
+                    "first": 120,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo scroll CW fast - slow",
+                    "first": 128,
+                    "last": 192
+                },
+                {
+                    "name": "Gobo scroll CCW slow - fast",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No rotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "CW fast - slow",
+                    "first": 1,
+                    "last": 127
+                },
+                {
+                    "name": "CCW slow - fast",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Closed",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "0-100% Dimmer",
+                    "first": 1,
+                    "last": 115
+                },
+                {
+                    "name": "Strobe slow - fast",
+                    "first": 116,
+                    "last": 243
+                },
+                {
+                    "name": "Open",
+                    "first": 244,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "fast - slow",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No action",
+                    "first": 0,
+                    "last": 149
+                },
+                {
+                    "name": "Electronic reset",
+                    "first": 150,
+                    "last": 200
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

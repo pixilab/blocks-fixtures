@@ -1,0 +1,328 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Strobe 1-20Hz",
+                    "first": 6,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Flash Duration",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "0-510ms",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Warm Yellow",
+                    "first": 6,
+                    "last": 18
+                },
+                {
+                    "name": "Lavender",
+                    "first": 19,
+                    "last": 31
+                },
+                {
+                    "name": "Lime",
+                    "first": 32,
+                    "last": 44
+                },
+                {
+                    "name": "Cyan",
+                    "first": 45,
+                    "last": 57
+                },
+                {
+                    "name": "Amber",
+                    "first": 58,
+                    "last": 70
+                },
+                {
+                    "name": "Yellow",
+                    "first": 71,
+                    "last": 83
+                },
+                {
+                    "name": "Blue",
+                    "first": 84,
+                    "last": 96
+                },
+                {
+                    "name": "Green",
+                    "first": 97,
+                    "last": 109
+                },
+                {
+                    "name": "Red",
+                    "first": 110,
+                    "last": 122
+                },
+                {
+                    "name": "Rotating stop",
+                    "first": 123,
+                    "last": 128,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotating slow-fast",
+                    "first": 129,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 1",
+                    "first": 6,
+                    "last": 17
+                },
+                {
+                    "name": "Gobo 2",
+                    "first": 18,
+                    "last": 29
+                },
+                {
+                    "name": "Gobo 3",
+                    "first": 30,
+                    "last": 41
+                },
+                {
+                    "name": "Gobo 4",
+                    "first": 42,
+                    "last": 53
+                },
+                {
+                    "name": "Gobo 5",
+                    "first": 54,
+                    "last": 65
+                },
+                {
+                    "name": "Gobo 6",
+                    "first": 66,
+                    "last": 77
+                },
+                {
+                    "name": "Gobo 7",
+                    "first": 78,
+                    "last": 89
+                },
+                {
+                    "name": "Gobo 8",
+                    "first": 90,
+                    "last": 101
+                },
+                {
+                    "name": "Gobo 9",
+                    "first": 102,
+                    "last": 113
+                },
+                {
+                    "name": "Gobo shake 1 slow-fast",
+                    "first": 114,
+                    "last": 125
+                },
+                {
+                    "name": "Gobo shake 2 slow-fast",
+                    "first": 126,
+                    "last": 137
+                },
+                {
+                    "name": "Gobo shake 3 slow-fast",
+                    "first": 138,
+                    "last": 149
+                },
+                {
+                    "name": "Gobo shake 4 slow-fast",
+                    "first": 150,
+                    "last": 161
+                },
+                {
+                    "name": "Gobo shake 5 slow-fast",
+                    "first": 162,
+                    "last": 173
+                },
+                {
+                    "name": "Gobo shake 6 slow-fast",
+                    "first": 174,
+                    "last": 185
+                },
+                {
+                    "name": "Gobo shake 7 slow-fast",
+                    "first": 186,
+                    "last": 197
+                },
+                {
+                    "name": "Gobo shake 8 slow-fast",
+                    "first": 198,
+                    "last": 209
+                },
+                {
+                    "name": "Gobo shake 9 slow-fast",
+                    "first": 210,
+                    "last": 221
+                },
+                {
+                    "name": "Rotating Stop",
+                    "first": 222,
+                    "last": 231
+                },
+                {
+                    "name": "Rotating CW slow-fast",
+                    "first": 232,
+                    "last": 243
+                },
+                {
+                    "name": "Rotating CCW fast-slow",
+                    "first": 244,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "off",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Pan small-big",
+                    "first": 6,
+                    "last": 40
+                },
+                {
+                    "name": "Tilt small-big",
+                    "first": 41,
+                    "last": 75
+                },
+                {
+                    "name": "Pan/Tilt small-big",
+                    "first": 76,
+                    "last": 110
+                },
+                {
+                    "name": "Pan/Tilt invers small-big",
+                    "first": 111,
+                    "last": 145
+                },
+                {
+                    "name": "Circle small-big",
+                    "first": 146,
+                    "last": 180
+                },
+                {
+                    "name": "Circle invers small-big",
+                    "first": 181,
+                    "last": 215
+                },
+                {
+                    "name": "Random small-big",
+                    "first": 216,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Speed fast-slow",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Settings",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Invert Pan on (Hold 3s)",
+                    "first": 6,
+                    "last": 55
+                },
+                {
+                    "name": "Invert Pan off (Hold 5s)",
+                    "first": 56,
+                    "last": 105
+                },
+                {
+                    "name": "Invert Tilt on (Hold 3s)",
+                    "first": 106,
+                    "last": 155
+                },
+                {
+                    "name": "Invert Tilt off (Hold 5s)",
+                    "first": 156,
+                    "last": 205
+                },
+                {
+                    "name": "Reset All Functions (Hold 3s)",
+                    "first": 206,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Scanner, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,506 @@
+{
+    "channels": [
+        {
+            "name": "Operating Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Aut0: Laser + RGBWA LEDs + white LEDs",
+                    "first": 10,
+                    "last": 24
+                },
+                {
+                    "name": "Aut1: Laser + RGBWA LEDs",
+                    "first": 25,
+                    "last": 39
+                },
+                {
+                    "name": "Aut2: Laser + white LEDs",
+                    "first": 40,
+                    "last": 54
+                },
+                {
+                    "name": "Aut3: RGBWA LEDs + white LEDs",
+                    "first": 55,
+                    "last": 69
+                },
+                {
+                    "name": "Aut4: RGBWA LEDs",
+                    "first": 70,
+                    "last": 84
+                },
+                {
+                    "name": "Aut5: Laser",
+                    "first": 85,
+                    "last": 99
+                },
+                {
+                    "name": "Aut6: white LEDs",
+                    "first": 100,
+                    "last": 114
+                },
+                {
+                    "name": "Sou0: Laser + RGBWA LEDs + white LEDs",
+                    "first": 115,
+                    "last": 129
+                },
+                {
+                    "name": "Sou1: Laser + RGBWA LEDs",
+                    "first": 130,
+                    "last": 144
+                },
+                {
+                    "name": "Sou2: Laser + white LEDs",
+                    "first": 145,
+                    "last": 159
+                },
+                {
+                    "name": "Sou3: RGBWA LEDs + white LEDs",
+                    "first": 160,
+                    "last": 174
+                },
+                {
+                    "name": "Sou4: RGBWA LEDs",
+                    "first": 175,
+                    "last": 189
+                },
+                {
+                    "name": "Sou5: Laser",
+                    "first": 190,
+                    "last": 204
+                },
+                {
+                    "name": "Sou6: white LEDs",
+                    "first": 205,
+                    "last": 219
+                },
+                {
+                    "name": "DMX mode",
+                    "first": 220,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "RGBWA LEDs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Red",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "Green",
+                    "first": 15,
+                    "last": 19,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue",
+                    "first": 20,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Amber",
+                    "first": 25,
+                    "last": 29,
+                    "discrete": true
+                },
+                {
+                    "name": "White",
+                    "first": 30,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "White + red",
+                    "first": 35,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green",
+                    "first": 40,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "Green + blue",
+                    "first": 45,
+                    "last": 49,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue + amber",
+                    "first": 50,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "Amber + white",
+                    "first": 55,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "White + green",
+                    "first": 60,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "Green + amber",
+                    "first": 65,
+                    "last": 69,
+                    "discrete": true
+                },
+                {
+                    "name": "Amber + red",
+                    "first": 70,
+                    "last": 74,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + blue",
+                    "first": 75,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue + white",
+                    "first": 80,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + blue",
+                    "first": 85,
+                    "last": 89,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + amber ",
+                    "first": 90,
+                    "last": 94,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + white",
+                    "first": 95,
+                    "last": 99,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + amber + blue",
+                    "first": 100,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + white + blue",
+                    "first": 105,
+                    "last": 109,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + amber + white",
+                    "first": 110,
+                    "last": 114,
+                    "discrete": true
+                },
+                {
+                    "name": "Amber + green + blue ",
+                    "first": 115,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue + green + white",
+                    "first": 120,
+                    "last": 124,
+                    "discrete": true
+                },
+                {
+                    "name": "Amber + green + white",
+                    "first": 125,
+                    "last": 129,
+                    "discrete": true
+                },
+                {
+                    "name": "Amber + white + blue",
+                    "first": 130,
+                    "last": 134,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + blue + amber",
+                    "first": 135,
+                    "last": 139,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + blue + white",
+                    "first": 140,
+                    "last": 144,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue + green + white + amber",
+                    "first": 145,
+                    "last": 149,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + amber + white",
+                    "first": 150,
+                    "last": 154,
+                    "discrete": true
+                },
+                {
+                    "name": "White + red + blue + amber",
+                    "first": 155,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Red + green + blue + amber + white",
+                    "first": 160,
+                    "last": 164,
+                    "discrete": true
+                },
+                {
+                    "name": "Automatic color change (one color) ",
+                    "first": 165,
+                    "last": 209
+                },
+                {
+                    "name": "Automatic color change (two colors)",
+                    "first": 210,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Change Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "slow-fast",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "RGBWA LED Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No strobe",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Strobe fast-slow",
+                    "first": 5,
+                    "last": 254
+                },
+                {
+                    "name": "Sound-controlled strobe",
+                    "first": 255,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "White LED Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Light pattern 1 fast-slow",
+                    "first": 10,
+                    "last": 19
+                },
+                {
+                    "name": "Light pattern 2 fast-slow",
+                    "first": 20,
+                    "last": 29
+                },
+                {
+                    "name": "Light pattern 3 fast-slow",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "Light pattern 4 fast-slow",
+                    "first": 40,
+                    "last": 49
+                },
+                {
+                    "name": "Light pattern 5 fast-slow",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "Light pattern 6 fast-slow",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "Light pattern 7 fast-slow",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "Light pattern 8 fast-slow",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Light pattern 9 fast-slow",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Light pattern 10 fast-slow",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Full on",
+                    "first": 110,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Laser",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Red on",
+                    "first": 10,
+                    "last": 49
+                },
+                {
+                    "name": "Green on",
+                    "first": 50,
+                    "last": 89
+                },
+                {
+                    "name": "Change green and red",
+                    "first": 90,
+                    "last": 129
+                },
+                {
+                    "name": "Red on + Green strobe",
+                    "first": 130,
+                    "last": 169
+                },
+                {
+                    "name": "Green on + Red strobe",
+                    "first": 170,
+                    "last": 209
+                },
+                {
+                    "name": "Red strobe + Green strobe",
+                    "first": 210,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Laser Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No strobe",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Strobe fast-slow",
+                    "first": 5,
+                    "last": 254
+                },
+                {
+                    "name": "Sound-controlled strobe",
+                    "first": 255,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "RGBWA LED rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No rotation",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotation CW slow-fast",
+                    "first": 5,
+                    "last": 127
+                },
+                {
+                    "name": "Rotation CCW slow-fast",
+                    "first": 134,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Laser rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No rotation",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotation CW slow-fast",
+                    "first": 5,
+                    "last": 127
+                },
+                {
+                    "name": "Rotation CCW slow-fast",
+                    "first": 134,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Flower, Laser, Strobe, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

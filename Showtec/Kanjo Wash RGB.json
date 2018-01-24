@@ -1,0 +1,54 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32639
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "0-20Hz",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

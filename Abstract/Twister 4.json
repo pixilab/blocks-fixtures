@@ -1,0 +1,103 @@
+{
+    "channels": [
+        {
+            "name": "Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Stop",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "Fast CW",
+                    "first": 12,
+                    "last": 111
+                },
+                {
+                    "name": "Slow CW",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Slow CCW",
+                    "first": 141,
+                    "last": 243
+                },
+                {
+                    "name": "Fast CCW",
+                    "first": 244,
+                    "last": 254
+                }
+            ]
+        },
+        {
+            "name": "Color/Gobo",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "White [Open]",
+                    "first": 10,
+                    "last": 25
+                },
+                {
+                    "name": "Red [Dot Tunnel]",
+                    "first": 26,
+                    "last": 42
+                },
+                {
+                    "name": "Blue [Slash]",
+                    "first": 43,
+                    "last": 58
+                },
+                {
+                    "name": "Green [Segment]",
+                    "first": 59,
+                    "last": 74
+                },
+                {
+                    "name": "Yellow [Triangle]",
+                    "first": 75,
+                    "last": 90
+                },
+                {
+                    "name": "Cyan [Tunnel]",
+                    "first": 91,
+                    "last": 107
+                },
+                {
+                    "name": "Orange [Bubbles]",
+                    "first": 108,
+                    "last": 123
+                },
+                {
+                    "name": "Pink [Stars]",
+                    "first": 124,
+                    "last": 139
+                },
+                {
+                    "name": "Multicolor [Quadrant]",
+                    "first": 140,
+                    "last": 155
+                },
+                {
+                    "name": "Slow Strobe",
+                    "first": 238,
+                    "last": 253
+                },
+                {
+                    "name": "Fast Strobe",
+                    "first": 254,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Flower, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

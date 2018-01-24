@@ -1,0 +1,52 @@
+{
+    "channels": [
+        {
+            "name": "Auto Modes",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Show mode 1",
+                    "first": 8,
+                    "last": 30
+                },
+                {
+                    "name": "Show mode 2",
+                    "first": 31,
+                    "last": 53
+                },
+                {
+                    "name": "Show mode 3",
+                    "first": 54,
+                    "last": 76
+                },
+                {
+                    "name": "Show mode 4",
+                    "first": 77,
+                    "last": 99
+                },
+                {
+                    "name": "Sound control",
+                    "first": 100,
+                    "last": 122
+                },
+                {
+                    "name": "Reset",
+                    "first": 200,
+                    "last": 224
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

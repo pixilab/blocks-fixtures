@@ -1,0 +1,175 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Color Macro",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Nothing",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Red",
+                    "first": 8,
+                    "last": 17
+                },
+                {
+                    "name": "Green",
+                    "first": 18,
+                    "last": 27
+                },
+                {
+                    "name": "Blue",
+                    "first": 28,
+                    "last": 37
+                },
+                {
+                    "name": "White",
+                    "first": 38,
+                    "last": 47
+                },
+                {
+                    "name": "Yellow",
+                    "first": 48,
+                    "last": 57
+                },
+                {
+                    "name": "Cyan",
+                    "first": 58,
+                    "last": 67
+                },
+                {
+                    "name": "Blue/White",
+                    "first": 68,
+                    "last": 77
+                },
+                {
+                    "name": "Red/White",
+                    "first": 78,
+                    "last": 87
+                },
+                {
+                    "name": "Red/Green/Blue",
+                    "first": 88,
+                    "last": 97
+                },
+                {
+                    "name": "Green/Blue/White",
+                    "first": 98,
+                    "last": 107
+                },
+                {
+                    "name": "Red/Blue/White",
+                    "first": 108,
+                    "last": 117
+                },
+                {
+                    "name": "Red/Green/White",
+                    "first": 118,
+                    "last": 127
+                },
+                {
+                    "name": "Red/Green/Blue/White",
+                    "first": 128,
+                    "last": 137
+                },
+                {
+                    "name": "Color Change",
+                    "first": 138,
+                    "last": 188
+                },
+                {
+                    "name": "Color Fade",
+                    "first": 189,
+                    "last": 239
+                },
+                {
+                    "name": "Sound Active Change",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Change / Fade Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "slow - fast",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Nothing",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Program 1",
+                    "first": 8,
+                    "last": 32
+                },
+                {
+                    "name": "Program 2",
+                    "first": 59,
+                    "last": 84
+                },
+                {
+                    "name": "Program 3",
+                    "first": 85,
+                    "last": 110
+                },
+                {
+                    "name": "Program 4",
+                    "first": 111,
+                    "last": 136
+                },
+                {
+                    "name": "Program 5",
+                    "first": 137,
+                    "last": 162
+                },
+                {
+                    "name": "Program 6",
+                    "first": 163,
+                    "last": 188
+                },
+                {
+                    "name": "Program 7",
+                    "first": 189,
+                    "last": 214
+                },
+                {
+                    "name": "Program 8",
+                    "first": 215,
+                    "last": 240
+                },
+                {
+                    "name": "Sound Active",
+                    "first": 241,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

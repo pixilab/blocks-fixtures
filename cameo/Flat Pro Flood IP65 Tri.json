@@ -1,0 +1,52 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Macros Simple",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Red",
+                    "first": 0,
+                    "last": 36
+                },
+                {
+                    "name": "Green",
+                    "first": 37,
+                    "last": 73
+                },
+                {
+                    "name": "Blue",
+                    "first": 74,
+                    "last": 110
+                },
+                {
+                    "name": "Yellow",
+                    "first": 111,
+                    "last": 147
+                },
+                {
+                    "name": "Magenta",
+                    "first": 148,
+                    "last": 184
+                },
+                {
+                    "name": "Cyan",
+                    "first": 185,
+                    "last": 221
+                },
+                {
+                    "name": "White",
+                    "first": 222,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Blinder, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

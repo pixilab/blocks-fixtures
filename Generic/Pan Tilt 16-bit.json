@@ -1,0 +1,17 @@
+{
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		}
+	],
+	"note": "Moving Head, 16-bit"
+}

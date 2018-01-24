@@ -1,0 +1,144 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Warm White",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Cool White",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Color macros",
+                    "first": 16,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Strobe 0-31Hz",
+                    "first": 16,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Pulse 0-100%",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "Pulse 100-0%",
+                    "first": 64,
+                    "last": 95
+                },
+                {
+                    "name": "Pulse 100-0-100%",
+                    "first": 96,
+                    "last": 127
+                },
+                {
+                    "name": "Auto fade transition",
+                    "first": 128,
+                    "last": 159
+                },
+                {
+                    "name": "Auto snap transition (3-color)",
+                    "first": 160,
+                    "last": 191
+                },
+                {
+                    "name": "Auto snap transition (7-color)",
+                    "first": 192,
+                    "last": 223
+                },
+                {
+                    "name": "Sound mode (3-color)",
+                    "first": 224,
+                    "last": 249
+                },
+                {
+                    "name": "Sound mode (7-color)",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Default dimmer speed",
+                    "first": 0,
+                    "last": 51
+                },
+                {
+                    "name": "Dimmer speed mode off",
+                    "first": 52,
+                    "last": 101
+                },
+                {
+                    "name": "Dimmer speed 1 fast",
+                    "first": 102,
+                    "last": 152
+                },
+                {
+                    "name": "Dimmer speed 2 medium",
+                    "first": 153,
+                    "last": 203
+                },
+                {
+                    "name": "Dimmer speed 3 slow",
+                    "first": 204,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

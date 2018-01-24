@@ -1,0 +1,419 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32639
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32639
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "speed fast-slow",
+                    "first": 0,
+                    "last": 249
+                },
+                {
+                    "name": "fast, black while moving",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "fan speed fast-slow",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "lamp on",
+                    "first": 128,
+                    "last": 139
+                },
+                {
+                    "name": "no function",
+                    "first": 140,
+                    "last": 179
+                },
+                {
+                    "name": "reset",
+                    "first": 180,
+                    "last": 189
+                },
+                {
+                    "name": "lamp off after 5s",
+                    "first": 230,
+                    "last": 239
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "white",
+                    "first": 0,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "white-yellow",
+                    "first": 7,
+                    "last": 13,
+                    "discrete": true
+                },
+                {
+                    "name": "yellow",
+                    "first": 14,
+                    "last": 20,
+                    "discrete": true
+                },
+                {
+                    "name": "yellow-orange",
+                    "first": 21,
+                    "last": 27,
+                    "discrete": true
+                },
+                {
+                    "name": "orange",
+                    "first": 28,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "orange-red",
+                    "first": 35,
+                    "last": 41,
+                    "discrete": true
+                },
+                {
+                    "name": "red",
+                    "first": 42,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "red-blue",
+                    "first": 49,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "blue",
+                    "first": 56,
+                    "last": 62,
+                    "discrete": true
+                },
+                {
+                    "name": "blue-green",
+                    "first": 63,
+                    "last": 69,
+                    "discrete": true
+                },
+                {
+                    "name": "green",
+                    "first": 70,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "green-pink",
+                    "first": 77,
+                    "last": 83,
+                    "discrete": true
+                },
+                {
+                    "name": "pink",
+                    "first": 84,
+                    "last": 90,
+                    "discrete": true
+                },
+                {
+                    "name": "pink-turquoise",
+                    "first": 91,
+                    "last": 97,
+                    "discrete": true
+                },
+                {
+                    "name": "turquoise",
+                    "first": 98,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "turquoise-purple",
+                    "first": 105,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "purple",
+                    "first": 112,
+                    "last": 118,
+                    "discrete": true
+                },
+                {
+                    "name": "purple-white",
+                    "first": 119,
+                    "last": 127
+                },
+                {
+                    "name": "Rotation CW fast-slow",
+                    "first": 128,
+                    "last": 189
+                },
+                {
+                    "name": "No rotation",
+                    "first": 190,
+                    "last": 193,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotation CW slow-fast",
+                    "first": 194,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "open",
+                    "first": 0,
+                    "last": 95
+                },
+                {
+                    "name": "Prism",
+                    "first": 96,
+                    "last": 159
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 160,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 168,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 176,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 184,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 192,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 200,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 208,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 216,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 9",
+                    "first": 224,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 10",
+                    "first": 232,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 11",
+                    "first": 240,
+                    "last": 247,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 12",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No rotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "CW fast-slow",
+                    "first": 1,
+                    "last": 126
+                },
+                {
+                    "name": "CCW slow-fast",
+                    "first": 129,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "open",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Gobo 1",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "Gobo 2",
+                    "first": 64,
+                    "last": 95
+                },
+                {
+                    "name": "Gobo 3",
+                    "first": 96,
+                    "last": 127
+                },
+                {
+                    "name": "Gobo 4",
+                    "first": 128,
+                    "last": 159
+                },
+                {
+                    "name": "Gobo 5",
+                    "first": 160,
+                    "last": 223
+                },
+                {
+                    "name": "CW",
+                    "first": 224,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "index",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "CW fast-slow",
+                    "first": 128,
+                    "last": 190
+                },
+                {
+                    "name": "No rotation",
+                    "first": 191,
+                    "last": 192,
+                    "discrete": true
+                },
+                {
+                    "name": "CCW slow-fast",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "far-near",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "closed",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "open",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "strobe slow-fast",
+                    "first": 64,
+                    "last": 95
+                },
+                {
+                    "name": "pulse",
+                    "first": 128,
+                    "last": 159
+                },
+                {
+                    "name": "random slow-fast",
+                    "first": 192,
+                    "last": 223
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

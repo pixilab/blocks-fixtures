@@ -1,0 +1,37 @@
+{
+    "channels": [
+        {
+            "name": "Fog",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Fog off",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Fog on",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Fog Emission",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No fog",
+                    "first": 0,
+                    "last": 17
+                },
+                {
+                    "name": "Proportional emission 0-100",
+                    "first": 18,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Hazer (imported from open-fixture-library.herokuapp.com)"
+}

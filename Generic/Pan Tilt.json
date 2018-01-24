@@ -1,0 +1,17 @@
+{
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 127
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 127
+		}
+	],
+	"note": "Moving Head, 8-bit"
+}

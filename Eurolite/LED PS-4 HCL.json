@@ -1,0 +1,190 @@
+{
+    "channels": [
+        {
+            "name": "Color Presets",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Red",
+                    "first": 10,
+                    "last": 19
+                },
+                {
+                    "name": "Green",
+                    "first": 20,
+                    "last": 29
+                },
+                {
+                    "name": "Blue",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "White",
+                    "first": 40,
+                    "last": 49
+                },
+                {
+                    "name": "Amber",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "UV",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "Red + Green",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "Red + Blue",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Red + White",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Red + Amber",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Red + UV",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "Green + Blue",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Green + White",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Green + Amber",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Green + UV",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Blue + White",
+                    "first": 160,
+                    "last": 169
+                },
+                {
+                    "name": "Blue + Amber",
+                    "first": 170,
+                    "last": 179
+                },
+                {
+                    "name": "Blue + UV",
+                    "first": 180,
+                    "last": 189
+                },
+                {
+                    "name": "White + Amber",
+                    "first": 190,
+                    "last": 199
+                },
+                {
+                    "name": "White + UV",
+                    "first": 200,
+                    "last": 209
+                },
+                {
+                    "name": "Amber + UV",
+                    "first": 210,
+                    "last": 219
+                },
+                {
+                    "name": "Red + Green + Blue",
+                    "first": 220,
+                    "last": 229
+                },
+                {
+                    "name": "Red + Blue + Amber",
+                    "first": 230,
+                    "last": 239
+                },
+                {
+                    "name": "Green + White + UV",
+                    "first": 240,
+                    "last": 249
+                },
+                {
+                    "name": "All",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "slow - fast",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Auto mode",
+                    "first": 10,
+                    "last": 199
+                },
+                {
+                    "name": "Sound mode",
+                    "first": 200,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "slow - fast",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

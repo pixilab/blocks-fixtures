@@ -1,0 +1,28 @@
+{
+    "channels": [
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Blackout",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Strobe slow-fast",
+                    "first": 6,
+                    "last": 249
+                },
+                {
+                    "name": "Blind",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Strobe (imported from open-fixture-library.herokuapp.com)"
+}

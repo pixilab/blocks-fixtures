@@ -1,0 +1,749 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Max. speed / tracking mode",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Speed fast-slow / Time 0.1-25.5s",
+                    "first": 1,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Special Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Reserved",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Display on",
+                    "first": 20,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Display off",
+                    "first": 25,
+                    "last": 29,
+                    "discrete": true
+                },
+                {
+                    "name": "RGBW color mixing mode",
+                    "first": 30,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY color mixing mode",
+                    "first": 35,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Pan/Tilt speed mode",
+                    "first": 40,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "Pan/Tilt time mode",
+                    "first": 45,
+                    "last": 49,
+                    "discrete": true
+                },
+                {
+                    "name": "lackout while pan/tilt moving",
+                    "first": 50,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "Disabled blackout while pan/tilt moving",
+                    "first": 55,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "Dimmer curve - square law",
+                    "first": 60,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "Dimmer curve - linear",
+                    "first": 65,
+                    "last": 69,
+                    "discrete": true
+                },
+                {
+                    "name": "Fans mode: Auto",
+                    "first": 70,
+                    "last": 74,
+                    "discrete": true
+                },
+                {
+                    "name": "Fans mode: High",
+                    "first": 75,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "White point 8000K ON",
+                    "first": 80,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "White point 8000K OFF",
+                    "first": 85,
+                    "last": 89,
+                    "discrete": true
+                },
+                {
+                    "name": "Fans mode: Quiet",
+                    "first": 90,
+                    "last": 94,
+                    "discrete": true
+                },
+                {
+                    "name": "Pan/Tilt reset",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Zoom reset",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Tungsten effect simulation (750W) On",
+                    "first": 170,
+                    "last": 171,
+                    "discrete": true
+                },
+                {
+                    "name": "Tungsten effect simulation (1000W) On",
+                    "first": 172,
+                    "last": 173,
+                    "discrete": true
+                },
+                {
+                    "name": "Tungsten effect simulation (1200W) On",
+                    "first": 174,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Tungsten effect simulation (2000W) On",
+                    "first": 176,
+                    "last": 177,
+                    "discrete": true
+                },
+                {
+                    "name": "Tungsten effect simulation (2500W) On",
+                    "first": 178,
+                    "last": 179,
+                    "discrete": true
+                },
+                {
+                    "name": "Tungsten effect simulation Off",
+                    "first": 180,
+                    "last": 181,
+                    "discrete": true
+                },
+                {
+                    "name": "Total fixture reset",
+                    "first": 200,
+                    "last": 209
+                }
+            ]
+        },
+        {
+            "name": "Virtual Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 4 (Medium Bastard Amber)",
+                    "first": 1,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 25 (Sunset Red)",
+                    "first": 3,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 19 (Fire)",
+                    "first": 5,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 26 (Bright Red)",
+                    "first": 7,
+                    "last": 8,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 58 (Lavender)",
+                    "first": 9,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 68 (Sky Blue)",
+                    "first": 11,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 36 (Medium Pink)",
+                    "first": 13,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 89 (Moss Green)",
+                    "first": 15,
+                    "last": 16,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 88 (Lime Green)",
+                    "first": 17,
+                    "last": 18,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 90 (Dark Yellow Green)",
+                    "first": 19,
+                    "last": 20,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 49 (Medium Purple)",
+                    "first": 21,
+                    "last": 22,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 52 (Light Lavender)",
+                    "first": 23,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 102 (Light Amber)",
+                    "first": 25,
+                    "last": 26,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 103 (Straw)",
+                    "first": 27,
+                    "last": 28,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 140 (Summer Blue)",
+                    "first": 29,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 124 (Dark Green)",
+                    "first": 31,
+                    "last": 32,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 106 (Primary Red)",
+                    "first": 33,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 111 (Dark Pink)",
+                    "first": 35,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 115 (Peacock Blue)",
+                    "first": 37,
+                    "last": 38,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 126 (Mauve)",
+                    "first": 39,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 117 (Steel Blue)",
+                    "first": 41,
+                    "last": 42,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 118 (Light Blue)",
+                    "first": 43,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 122 (Fern Green)",
+                    "first": 45,
+                    "last": 46,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 182 (Light Red)",
+                    "first": 47,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter  121 (Filter Green)",
+                    "first": 49,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 128 (Bright Pink)",
+                    "first": 51,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 131 (Marine Blue)",
+                    "first": 53,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 132 (Medium Blue)",
+                    "first": 55,
+                    "last": 56,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 134 (Golden Amber)",
+                    "first": 57,
+                    "last": 58,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 135 (Deep Golden Amber)",
+                    "first": 59,
+                    "last": 60,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 136 (Pale Lavender)",
+                    "first": 61,
+                    "last": 62,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter  137 (Special Lavender)",
+                    "first": 63,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 138 (Pale Green)",
+                    "first": 65,
+                    "last": 66,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 798 (Chrysalis Pink)",
+                    "first": 67,
+                    "last": 68,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 141 (Bright Blue)",
+                    "first": 69,
+                    "last": 70,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 147 (Apricot)",
+                    "first": 71,
+                    "last": 72,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 148 (Bright Rose)",
+                    "first": 73,
+                    "last": 74,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 152 (Pale Gold)",
+                    "first": 75,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 154 (Pale Rose)",
+                    "first": 77,
+                    "last": 78,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 157 (Pink)",
+                    "first": 79,
+                    "last": 80,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 143 (Pale Navy Blue)",
+                    "first": 81,
+                    "last": 82,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 162 (Bastard Amber)",
+                    "first": 83,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 164 (Flame Red)",
+                    "first": 85,
+                    "last": 86,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 165 (Daylight Blue)",
+                    "first": 87,
+                    "last": 88,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 169 (Lilac Tint)",
+                    "first": 89,
+                    "last": 90,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 170 (Deep Lavender)",
+                    "first": 91,
+                    "last": 92,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 172 (Lagoon Blue)",
+                    "first": 93,
+                    "last": 94,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 194 (Surprise Pink)",
+                    "first": 95,
+                    "last": 96,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 180 (Dark Lavender)",
+                    "first": 97,
+                    "last": 98,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 181 (Congo Blue)",
+                    "first": 99,
+                    "last": 100,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 197 (Alice Blue)",
+                    "first": 101,
+                    "last": 102,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 201 (Full C.T. Blue)",
+                    "first": 103,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 202 (Half C.T. Blue)",
+                    "first": 105,
+                    "last": 106,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 203 (Quarter C.T. Blue)",
+                    "first": 107,
+                    "last": 108,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 204 (Full C.T. Orange)",
+                    "first": 109,
+                    "last": 110,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 219 (Fluorescent Green)",
+                    "first": 111,
+                    "last": 112,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 206 (Quarter C.T. Orange)",
+                    "first": 113,
+                    "last": 114,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 247 (Filter Minus Green)",
+                    "first": 115,
+                    "last": 116,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 248 (Half Minus Green)",
+                    "first": 117,
+                    "last": 118,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 281 (Three Quarter C.T. Blue)",
+                    "first": 119,
+                    "last": 120,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 285 (Three Quarter C.T. Orange)",
+                    "first": 121,
+                    "last": 122,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 352 (Glacier Blue)",
+                    "first": 123,
+                    "last": 124,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 353 (Lighter Blue)",
+                    "first": 125,
+                    "last": 126,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 507 (Madge)",
+                    "first": 127,
+                    "last": 128,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 778 (Millennium Gold)",
+                    "first": 129,
+                    "last": 130,
+                    "discrete": true
+                },
+                {
+                    "name": "Filter 793 (Vanity Fair)",
+                    "first": 131,
+                    "last": 132,
+                    "discrete": true
+                },
+                {
+                    "name": "Raw DMX",
+                    "first": 133,
+                    "last": 235
+                },
+                {
+                    "name": "Color fade slow-fast",
+                    "first": 236,
+                    "last": 245
+                },
+                {
+                    "name": "Color jump slow-fast",
+                    "first": 246,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "White",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "CTC",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Color temperature 8000-2700K",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Mix Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Virtual Color Wheel has priority",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Highest values have priority",
+                    "first": 10,
+                    "last": 19
+                },
+                {
+                    "name": "Lowest values have priority",
+                    "first": 20,
+                    "last": 29
+                },
+                {
+                    "name": "Multiply wheel and color mix",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "Add wheel and color mix",
+                    "first": 40,
+                    "last": 49
+                },
+                {
+                    "name": "Subtract color mix from wheel",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "Substract wheel from color mix",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "Reserved",
+                    "first": 70,
+                    "last": 128
+                },
+                {
+                    "name": "Crossfade between wheel and color mix",
+                    "first": 130,
+                    "last": 254
+                },
+                {
+                    "name": "Color mix has priority",
+                    "first": 255,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Closed",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Open",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "Strobe 0.3-20Hz",
+                    "first": 64,
+                    "last": 95
+                },
+                {
+                    "name": "Opening pulse slow-fast",
+                    "first": 128,
+                    "last": 143
+                },
+                {
+                    "name": "Closing pulse fast-slow",
+                    "first": 144,
+                    "last": 159
+                },
+                {
+                    "name": "Random strobe slow-fast",
+                    "first": 192,
+                    "last": 223
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

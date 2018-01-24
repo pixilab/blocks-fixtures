@@ -1,0 +1,21 @@
+{
+    "channels": [
+        {
+            "name": "Fog",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No haze",
+                    "first": 0,
+                    "last": 29
+                },
+                {
+                    "name": "Haze density min-max",
+                    "first": 30,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Hazer (imported from open-fixture-library.herokuapp.com)"
+}

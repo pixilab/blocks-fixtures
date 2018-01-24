@@ -1,0 +1,46 @@
+{
+    "channels": [
+        {
+            "name": "laser-mode-1ch",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Laser off",
+                    "first": 0,
+                    "last": 24
+                },
+                {
+                    "name": "AUd mode (Auto grating effects show)",
+                    "first": 25,
+                    "last": 59
+                },
+                {
+                    "name": "AUp mode (Auto pattern effects show)",
+                    "first": 60,
+                    "last": 99
+                },
+                {
+                    "name": "AUn mode (Auto grating + pattern effects show)",
+                    "first": 100,
+                    "last": 139
+                },
+                {
+                    "name": "Sod mode (Sound active grating effects show)",
+                    "first": 140,
+                    "last": 179
+                },
+                {
+                    "name": "SoP mode (Sound active pattern effects show)",
+                    "first": 180,
+                    "last": 219
+                },
+                {
+                    "name": "Son mode (Sound active grating / pattern effects show)",
+                    "first": 220,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Laser, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

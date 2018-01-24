@@ -1,0 +1,1051 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "fast-slow",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Function",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 29
+                },
+                {
+                    "name": "Dimmer - conventional",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "Dimmer - linear",
+                    "first": 40,
+                    "last": 49
+                },
+                {
+                    "name": "Pan/tilt - fast",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "Pan/tilt - normal",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "Blackout during pan&tilt",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "Disable blackout during color change",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Blackout during gobo change",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Disable blackout during gobo change",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Lamp on",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Pan/tilt reset",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Color reset",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Gobo reset",
+                    "first": 160,
+                    "last": 169
+                },
+                {
+                    "name": "Shutter/prism/rotating prism reset",
+                    "first": 170,
+                    "last": 179
+                },
+                {
+                    "name": "Frost/focus/zoom reset",
+                    "first": 190,
+                    "last": 199
+                },
+                {
+                    "name": "Reset all",
+                    "first": 200,
+                    "last": 209
+                },
+                {
+                    "name": "Blackout during pan/tilt or color/gobo change",
+                    "first": 210,
+                    "last": 219
+                },
+                {
+                    "name": "Disable blackout during pan/tilt or color/gobo change",
+                    "first": 220,
+                    "last": 229
+                },
+                {
+                    "name": "Lamp off",
+                    "first": 230,
+                    "last": 239
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Off",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 16,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 24,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 32,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 40,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 48,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 56,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 64,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 9",
+                    "first": 72,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 10",
+                    "first": 80,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 11",
+                    "first": 88,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 12",
+                    "first": 96,
+                    "last": 103,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 13",
+                    "first": 104,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 14",
+                    "first": 112,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 15",
+                    "first": 120,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 16",
+                    "first": 128,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 17",
+                    "first": 136,
+                    "last": 143,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 18",
+                    "first": 144,
+                    "last": 151,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 19",
+                    "first": 152,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 20",
+                    "first": 160,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 21",
+                    "first": 168,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 22",
+                    "first": 176,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 23",
+                    "first": 184,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 24",
+                    "first": 192,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 25",
+                    "first": 200,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 26",
+                    "first": 208,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 27",
+                    "first": 216,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 28",
+                    "first": 224,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 29",
+                    "first": 232,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 30",
+                    "first": 240,
+                    "last": 247,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 31",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Macro Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Speed fast-slow",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open (White)",
+                    "first": 0,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "White-Red",
+                    "first": 3,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Red",
+                    "first": 5,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "Red-Yellow",
+                    "first": 7,
+                    "last": 8,
+                    "discrete": true
+                },
+                {
+                    "name": "Yellow",
+                    "first": 9,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Yellow-Blue",
+                    "first": 11,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue",
+                    "first": 13,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue-Turquoise",
+                    "first": 15,
+                    "last": 16,
+                    "discrete": true
+                },
+                {
+                    "name": "Turquoise",
+                    "first": 17,
+                    "last": 18,
+                    "discrete": true
+                },
+                {
+                    "name": "Turquoise-Green",
+                    "first": 19,
+                    "last": 21,
+                    "discrete": true
+                },
+                {
+                    "name": "Green",
+                    "first": 22,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Green-Lightblue",
+                    "first": 24,
+                    "last": 25,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightblue",
+                    "first": 26,
+                    "last": 27,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightblue-Lightpink",
+                    "first": 28,
+                    "last": 29,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightpink",
+                    "first": 30,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightpink-Yellowgreen",
+                    "first": 32,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "Yellowgreen",
+                    "first": 34,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "Yellowgreen-Darkpink",
+                    "first": 36,
+                    "last": 37,
+                    "discrete": true
+                },
+                {
+                    "name": "Darkpink",
+                    "first": 38,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Darkpink-Blue",
+                    "first": 40,
+                    "last": 42,
+                    "discrete": true
+                },
+                {
+                    "name": "Blue-Lightyellow",
+                    "first": 45,
+                    "last": 46,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightyellow",
+                    "first": 47,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightyellow-White",
+                    "first": 49,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "White",
+                    "first": 51,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "White-Lightblue",
+                    "first": 53,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "Lightblue-Darkblue",
+                    "first": 57,
+                    "last": 58,
+                    "discrete": true
+                },
+                {
+                    "name": "Darkblue",
+                    "first": 59,
+                    "last": 60,
+                    "discrete": true
+                },
+                {
+                    "name": "Darkblue-White",
+                    "first": 61,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel indexing",
+                    "first": 64,
+                    "last": 127
+                },
+                {
+                    "name": "Clockwise rotation, fast-slow",
+                    "first": 128,
+                    "last": 189
+                },
+                {
+                    "name": "Stop",
+                    "first": 190,
+                    "last": 193,
+                    "discrete": true
+                },
+                {
+                    "name": "Counter-clockwise rotation, slow-fast",
+                    "first": 194,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobos",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 1",
+                    "first": 4,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 2",
+                    "first": 7,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 3",
+                    "first": 10,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 4",
+                    "first": 13,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 5",
+                    "first": 16,
+                    "last": 18,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 6",
+                    "first": 19,
+                    "last": 21,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 7",
+                    "first": 22,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 8",
+                    "first": 25,
+                    "last": 27,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 9",
+                    "first": 28,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 10",
+                    "first": 31,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 11",
+                    "first": 34,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 12",
+                    "first": 37,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 13",
+                    "first": 40,
+                    "last": 42,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 14",
+                    "first": 43,
+                    "last": 45,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 15",
+                    "first": 46,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 16",
+                    "first": 49,
+                    "last": 51,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 17",
+                    "first": 52,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Open gobo shake",
+                    "first": 56,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 1 shake",
+                    "first": 60,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 2 shake",
+                    "first": 64,
+                    "last": 67,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 3 shake",
+                    "first": 68,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 4 shake",
+                    "first": 72,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 5 shake",
+                    "first": 76,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 6 shake",
+                    "first": 80,
+                    "last": 83,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 7 shake",
+                    "first": 84,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 8 shake",
+                    "first": 88,
+                    "last": 91,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 9 shake",
+                    "first": 92,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 10 shake",
+                    "first": 96,
+                    "last": 99,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 11 shake",
+                    "first": 100,
+                    "last": 103,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 12 shake",
+                    "first": 104,
+                    "last": 107,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 13 shake",
+                    "first": 108,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 14 shake",
+                    "first": 112,
+                    "last": 115,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 15 shake",
+                    "first": 116,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 16 shake",
+                    "first": 120,
+                    "last": 123,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo 17 shake",
+                    "first": 124,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Wheel rotation, counter-clockwise, fast-slow",
+                    "first": 128,
+                    "last": 189
+                },
+                {
+                    "name": "Stop",
+                    "first": 190,
+                    "last": 193,
+                    "discrete": true
+                },
+                {
+                    "name": "Wheel rotation, clockwise, slow-fast",
+                    "first": 194,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism effect",
+                    "first": 8,
+                    "last": 127
+                },
+                {
+                    "name": "Prism rotation effects 1",
+                    "first": 128,
+                    "last": 132,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 2",
+                    "first": 133,
+                    "last": 137,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 3",
+                    "first": 138,
+                    "last": 141,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 4",
+                    "first": 142,
+                    "last": 146,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 5",
+                    "first": 147,
+                    "last": 150,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 6",
+                    "first": 151,
+                    "last": 155,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 7",
+                    "first": 156,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 8",
+                    "first": 160,
+                    "last": 164,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 9",
+                    "first": 165,
+                    "last": 168,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 10",
+                    "first": 169,
+                    "last": 173,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 11",
+                    "first": 174,
+                    "last": 177,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 12",
+                    "first": 178,
+                    "last": 182,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 13",
+                    "first": 183,
+                    "last": 187,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 14",
+                    "first": 188,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 15",
+                    "first": 192,
+                    "last": 196,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 16",
+                    "first": 197,
+                    "last": 200,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 17",
+                    "first": 201,
+                    "last": 205,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 18",
+                    "first": 206,
+                    "last": 209,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 19",
+                    "first": 210,
+                    "last": 214,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 20",
+                    "first": 215,
+                    "last": 218,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 21",
+                    "first": 219,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 22",
+                    "first": 224,
+                    "last": 227,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 23",
+                    "first": 228,
+                    "last": 232,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 24",
+                    "first": 233,
+                    "last": 236,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 25",
+                    "first": 237,
+                    "last": 241,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 26",
+                    "first": 242,
+                    "last": 246,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 27",
+                    "first": 247,
+                    "last": 250,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism rotation effects 28",
+                    "first": 251,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Indexing",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "CW fast-slow",
+                    "first": 128,
+                    "last": 189
+                },
+                {
+                    "name": "Stop",
+                    "first": 190,
+                    "last": 193,
+                    "discrete": true
+                },
+                {
+                    "name": "CCW slow-fast",
+                    "first": 194,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Focus",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Near-far",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Off",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Open",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Strobe slow-fast",
+                    "first": 16,
+                    "last": 131
+                },
+                {
+                    "name": "Fast close, slow open",
+                    "first": 132,
+                    "last": 167
+                },
+                {
+                    "name": "Slow close, fast open",
+                    "first": 168,
+                    "last": 203
+                },
+                {
+                    "name": "Pulse open and close",
+                    "first": 204,
+                    "last": 239
+                },
+                {
+                    "name": "Random shutter",
+                    "first": 240,
+                    "last": 247,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}
