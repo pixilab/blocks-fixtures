@@ -159,7 +159,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Gobo scroll slow-fast",
+					"name": "Gobo scroll",
                     "first": 128,
                     "last": 255
                 }

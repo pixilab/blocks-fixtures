@@ -113,7 +113,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rainbow CW fast-slow",
+					"name": "Rainbow CW",
                     "first": 128,
                     "last": 190
                 },
@@ -124,7 +124,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rainbow CCW slow-fast",
+					"name": "Rainbow CCW",
                     "first": 193,
                     "last": 255
                 }
@@ -187,7 +187,7 @@
             ]
         },
         {
-            "name": "Gobo Indexing / Rotation",
+			"name": "Gobo Indexing/Rotation",
             "type": "Ranges",
             "ranges": [
                 {
@@ -196,7 +196,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Rotation CW fast-slow",
+					"name": "Rotation CW",
                     "first": 128,
                     "last": 191
                 },
@@ -207,14 +207,14 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rotation CCW slow-fast",
+					"name": "Rotation CCW",
                     "first": 194,
                     "last": 255
                 }
             ]
         },
         {
-            "name": "Shutter / Strobe",
+			"name": "Shutter/Strobe",
             "type": "Ranges",
             "ranges": [
                 {
@@ -223,7 +223,7 @@
                     "last": 31
                 },
                 {
-                    "name": "Dimmer 0-100%",
+					"name": "Dimmer",
                     "first": 32,
                     "last": 63
                 },
@@ -233,7 +233,7 @@
                     "last": 95
                 },
                 {
-                    "name": "Strobe 0-8Hz",
+					"name": "Strobe",
                     "first": 96,
                     "last": 127
                 },
@@ -248,12 +248,12 @@
                     "last": 175
                 },
                 {
-                    "name": "Pulse fast-slow",
+					"name": "Pulse",
                     "first": 176,
                     "last": 191
                 },
                 {
-                    "name": "Random Strobe slow-fast",
+					"name": "Random Strobe",
                     "first": 192,
                     "last": 223
                 }

@@ -1,833 +1,821 @@
 {
-    "channels": [
-        {
-            "name": "Pan",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32767
-        },
-        {
-            "name": "Tilt",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32767
-        },
-        {
-            "name": "Color Macros",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "No macro (use RGB channels)",
-                    "first": 0,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "Red",
-                    "first": 8,
-                    "last": 15,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Yellow warm",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Yellow",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Green",
-                    "first": 40,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Turquoise",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Cyan",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue",
-                    "first": 64,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Lavender",
-                    "first": 72,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Malve",
-                    "first": 80,
-                    "last": 87,
-                    "discrete": true
-                },
-                {
-                    "name": "Magenta",
-                    "first": 88,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "Pink",
-                    "first": 96,
-                    "last": 103,
-                    "discrete": true
-                },
-                {
-                    "name": "White CTO 3200K",
-                    "first": 104,
-                    "last": 111,
-                    "discrete": true
-                },
-                {
-                    "name": "White 5600K",
-                    "first": 112,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "White CTB 7200K",
-                    "first": 120,
-                    "last": 127,
-                    "discrete": true
-                },
-                {
-                    "name": "Rainbow slow-fast",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Red",
-            "type": "Analog_16",
-            "normalized": true
-        },
-        {
-            "name": "Green",
-            "type": "Analog_16",
-            "normalized": true
-        },
-        {
-            "name": "Blue",
-            "type": "Analog_16",
-            "normalized": true
-        },
-        {
-            "name": "Shutter",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Closed",
-                    "first": 0,
-                    "last": 15
-                },
-                {
-                    "name": "Pulse random slow-fast",
-                    "first": 16,
-                    "last": 47
-                },
-                {
-                    "name": "Ramp up slow-fast",
-                    "first": 48,
-                    "last": 79
-                },
-                {
-                    "name": "Ramp down slow-fast",
-                    "first": 80,
-                    "last": 111
-                },
-                {
-                    "name": "Ramp up/down slow-fast",
-                    "first": 112,
-                    "last": 143
-                },
-                {
-                    "name": "Random strobe slow-fast",
-                    "first": 144,
-                    "last": 159
-                },
-                {
-                    "name": "Strobe pause 5-0.1s",
-                    "first": 160,
-                    "last": 199
-                },
-                {
-                    "name": "Strobe slow-fast 1-25Hz",
-                    "first": 200,
-                    "last": 241
-                },
-                {
-                    "name": "Open",
-                    "first": 242,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Dimmer",
-            "type": "Analog_16",
-            "normalized": true
-        },
-        {
-            "name": "Color Temperature",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "No correction",
-                    "first": 0,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "CTC 7200-3200K",
-                    "first": 8,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo Shake & Reset",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Gobowheel 1&2 Shake",
-                    "first": 0,
-                    "last": 15
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 1",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 2",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 3",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 4",
-                    "first": 40,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 5",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 6",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 7",
-                    "first": 64,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1 Shake Speed 8",
-                    "first": 72,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 1",
-                    "first": 80,
-                    "last": 87,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 2",
-                    "first": 88,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 3",
-                    "first": 96,
-                    "last": 103,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 4",
-                    "first": 104,
-                    "last": 111,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 5",
-                    "first": 112,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 6",
-                    "first": 120,
-                    "last": 127,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 7",
-                    "first": 128,
-                    "last": 135,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 2 Shake Speed 8",
-                    "first": 136,
-                    "last": 143,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 1",
-                    "first": 144,
-                    "last": 151,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 2",
-                    "first": 152,
-                    "last": 159,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 3",
-                    "first": 160,
-                    "last": 167,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 4",
-                    "first": 168,
-                    "last": 175,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 5",
-                    "first": 176,
-                    "last": 183,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 6",
-                    "first": 184,
-                    "last": 191,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 7",
-                    "first": 192,
-                    "last": 199,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobowheel 1&2 Shake Speed 8",
-                    "first": 200,
-                    "last": 207,
-                    "discrete": true
-                },
-                {
-                    "name": "Unknown",
-                    "first": 208,
-                    "last": 249
-                },
-                {
-                    "name": "Reset head",
-                    "first": 250,
-                    "last": 253,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset all functions",
-                    "first": 254,
-                    "last": 255,
-                    "discrete": true
-                }
-            ]
-        },
-        {
-            "name": "Movement",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "No movement",
-                    "first": 0,
-                    "last": 0,
-                    "discrete": true
-                },
-                {
-                    "name": "Pan 0-270° size 1",
-                    "first": 1,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "Pan 0-270° size 2",
-                    "first": 8,
-                    "last": 15,
-                    "discrete": true
-                },
-                {
-                    "name": "Pan 0-270° size 3",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Pan 0-270° size 4",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Tilt 0-270° size 1",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Tilt 0-270° size 2",
-                    "first": 40,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Tilt 0-270° size 3",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Tilt 0-270° size 4",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt 0-270° size 1",
-                    "first": 64,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt 0-270° size 2",
-                    "first": 72,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt 0-270° size 3",
-                    "first": 80,
-                    "last": 87,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt 0-270° size 4",
-                    "first": 88,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt inverse 0-270° size 1",
-                    "first": 96,
-                    "last": 103,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt inverse 0-270° size 2",
-                    "first": 104,
-                    "last": 111,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt inverse 0-270° size 3",
-                    "first": 112,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "PanTilt inverse 0-270° size 4",
-                    "first": 120,
-                    "last": 127,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle 0-270° size 1",
-                    "first": 128,
-                    "last": 135,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle 0-270° size 2",
-                    "first": 136,
-                    "last": 143,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle 0-270° size 3",
-                    "first": 144,
-                    "last": 151,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle 0-270° size 4",
-                    "first": 152,
-                    "last": 159,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle inverse 0-270° size 1",
-                    "first": 160,
-                    "last": 167,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle inverse 0-270° size 2",
-                    "first": 168,
-                    "last": 175,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle inverse 0-270° size 3",
-                    "first": 176,
-                    "last": 183,
-                    "discrete": true
-                },
-                {
-                    "name": "Circle inverse 0-270° size 4",
-                    "first": 184,
-                    "last": 191,
-                    "discrete": true
-                },
-                {
-                    "name": "Eight 0-270° size 1",
-                    "first": 192,
-                    "last": 199,
-                    "discrete": true
-                },
-                {
-                    "name": "Eight 0-270° size 2",
-                    "first": 200,
-                    "last": 207,
-                    "discrete": true
-                },
-                {
-                    "name": "Eight 0-270° size 3",
-                    "first": 208,
-                    "last": 215,
-                    "discrete": true
-                },
-                {
-                    "name": "Eight 0-270° size 4",
-                    "first": 216,
-                    "last": 223,
-                    "discrete": true
-                },
-                {
-                    "name": "Random 0-270° size 1",
-                    "first": 224,
-                    "last": 231,
-                    "discrete": true
-                },
-                {
-                    "name": "Random 0-270° size 2",
-                    "first": 232,
-                    "last": 239,
-                    "discrete": true
-                },
-                {
-                    "name": "Random 0-270° size 3",
-                    "first": 240,
-                    "last": 247,
-                    "discrete": true
-                },
-                {
-                    "name": "Random 0-270° size 4",
-                    "first": 248,
-                    "last": 255,
-                    "discrete": true
-                }
-            ]
-        },
-        {
-            "name": "Pan/Tilt Speed",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Zoom",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "10-32°",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Focus",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "far-near",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo 1",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Gobo 1 (open)",
-                    "first": 0,
-                    "last": 15
-                },
-                {
-                    "name": "Gobo 2",
-                    "first": 16,
-                    "last": 31
-                },
-                {
-                    "name": "Gobo 3",
-                    "first": 32,
-                    "last": 47
-                },
-                {
-                    "name": "Gobo 4",
-                    "first": 48,
-                    "last": 63
-                },
-                {
-                    "name": "Gobo 5",
-                    "first": 64,
-                    "last": 79
-                },
-                {
-                    "name": "Gobo 6",
-                    "first": 80,
-                    "last": 95
-                },
-                {
-                    "name": "Gobo 7",
-                    "first": 96,
-                    "last": 111
-                },
-                {
-                    "name": "Gobo 8",
-                    "first": 112,
-                    "last": 126
-                },
-                {
-                    "name": "Rotation slow-fast CW",
-                    "first": 127,
-                    "last": 192
-                },
-                {
-                    "name": "Rotation fast-slow CCW",
-                    "first": 193,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo 1 Position",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Gobo position 0-540°",
-                    "first": 0,
-                    "last": 127
-                },
-                {
-                    "name": "Rotation CW slow-fast",
-                    "first": 128,
-                    "last": 192
-                },
-                {
-                    "name": "Rotation CCW fast-slow",
-                    "first": 193,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo 2",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Gobo 1 (open)",
-                    "first": 0,
-                    "last": 15
-                },
-                {
-                    "name": "Gobo 2",
-                    "first": 16,
-                    "last": 31
-                },
-                {
-                    "name": "Gobo 3",
-                    "first": 32,
-                    "last": 47
-                },
-                {
-                    "name": "Gobo 4",
-                    "first": 48,
-                    "last": 63
-                },
-                {
-                    "name": "Gobo 5",
-                    "first": 64,
-                    "last": 79
-                },
-                {
-                    "name": "Gobo 6",
-                    "first": 80,
-                    "last": 95
-                },
-                {
-                    "name": "Gobo 7",
-                    "first": 96,
-                    "last": 111
-                },
-                {
-                    "name": "Gobo 8",
-                    "first": 112,
-                    "last": 126
-                },
-                {
-                    "name": "Rotation CW slow-fast",
-                    "first": 127,
-                    "last": 192
-                },
-                {
-                    "name": "Rotation CCW fast-slow",
-                    "first": 193,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo 2 Position",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Gobo position 0-540°",
-                    "first": 0,
-                    "last": 127
-                },
-                {
-                    "name": "Rotation CW slow-fast",
-                    "first": 128,
-                    "last": 192
-                },
-                {
-                    "name": "Rotation CCW fast-slow",
-                    "first": 193,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Effect Wheel Swing",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Effect Wheel Position",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Rotation CW slow-fast",
-                    "first": 0,
-                    "last": 128
-                },
-                {
-                    "name": "Rotation CCW fast-slow",
-                    "first": 129,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Prism",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Prism swing out",
-                    "first": 0,
-                    "last": 5,
-                    "discrete": true
-                },
-                {
-                    "name": "Prism position 0-540°",
-                    "first": 6,
-                    "last": 127
-                },
-                {
-                    "name": "Rotation CW slow-fast",
-                    "first": 128,
-                    "last": 192
-                },
-                {
-                    "name": "Rotation CCW fast-slow",
-                    "first": 193,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Iris",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "100-4%",
-                    "first": 0,
-                    "last": 131
-                },
-                {
-                    "name": "4%",
-                    "first": 132,
-                    "last": 255
-                }
-            ]
-        }
-    ],
-    "note": "Color Changer, Moving Head (imported from open-fixture-library.herokuapp.com)"
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32767
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32767
+		},
+		{
+			"name": "Color Macros",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No macro",
+					"first": 0,
+					"last": 7,
+					"discrete": true
+				},
+				{
+					"name": "Red",
+					"first": 8,
+					"last": 15,
+					"discrete": true
+				},
+				{
+					"name": "Amber",
+					"first": 16,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Yellow warm",
+					"first": 24,
+					"last": 31,
+					"discrete": true
+				},
+				{
+					"name": "Yellow",
+					"first": 32,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "Green",
+					"first": 40,
+					"last": 47,
+					"discrete": true
+				},
+				{
+					"name": "Turquoise",
+					"first": 48,
+					"last": 55,
+					"discrete": true
+				},
+				{
+					"name": "Cyan",
+					"first": 56,
+					"last": 63,
+					"discrete": true
+				},
+				{
+					"name": "Blue",
+					"first": 64,
+					"last": 71,
+					"discrete": true
+				},
+				{
+					"name": "Lavender",
+					"first": 72,
+					"last": 79,
+					"discrete": true
+				},
+				{
+					"name": "Mauve",
+					"first": 80,
+					"last": 87,
+					"discrete": true
+				},
+				{
+					"name": "Magenta",
+					"first": 88,
+					"last": 95,
+					"discrete": true
+				},
+				{
+					"name": "Pink",
+					"first": 96,
+					"last": 103,
+					"discrete": true
+				},
+				{
+					"name": "White CTO 3200K",
+					"first": 104,
+					"last": 111,
+					"discrete": true
+				},
+				{
+					"name": "White 5600K",
+					"first": 112,
+					"last": 119,
+					"discrete": true
+				},
+				{
+					"name": "White CTB 7200K",
+					"first": 120,
+					"last": 127,
+					"discrete": true
+				},
+				{
+					"name": "Rainbow",
+					"first": 128,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Red",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Green",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Blue",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Shutter",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Closed",
+					"first": 0,
+					"last": 15
+				},
+				{
+					"name": "Pulse random",
+					"first": 16,
+					"last": 47
+				},
+				{
+					"name": "Ramp up",
+					"first": 48,
+					"last": 79
+				},
+				{
+					"name": "Ramp down",
+					"first": 80,
+					"last": 111
+				},
+				{
+					"name": "Ramp up/down",
+					"first": 112,
+					"last": 143
+				},
+				{
+					"name": "Random strobe",
+					"first": 144,
+					"last": 159
+				},
+				{
+					"name": "Strobe pause 5-0.1s",
+					"first": 160,
+					"last": 199
+				},
+				{
+					"name": "Strobe 1-25Hz",
+					"first": 200,
+					"last": 241
+				},
+				{
+					"name": "Open",
+					"first": 242,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Dimmer",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Color Temperature",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No correction",
+					"first": 0,
+					"last": 7,
+					"discrete": true
+				},
+				{
+					"name": "CTC 7200-3200K",
+					"first": 8,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo Shake & Reset",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Gobowheel 1&2 Shake",
+					"first": 0,
+					"last": 15
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 1",
+					"first": 16,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 2",
+					"first": 24,
+					"last": 31,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 3",
+					"first": 32,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 4",
+					"first": 40,
+					"last": 47,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 5",
+					"first": 48,
+					"last": 55,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 6",
+					"first": 56,
+					"last": 63,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 7",
+					"first": 64,
+					"last": 71,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1 Shake Speed 8",
+					"first": 72,
+					"last": 79,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 1",
+					"first": 80,
+					"last": 87,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 2",
+					"first": 88,
+					"last": 95,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 3",
+					"first": 96,
+					"last": 103,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 4",
+					"first": 104,
+					"last": 111,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 5",
+					"first": 112,
+					"last": 119,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 6",
+					"first": 120,
+					"last": 127,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 7",
+					"first": 128,
+					"last": 135,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 2 Shake Speed 8",
+					"first": 136,
+					"last": 143,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 1",
+					"first": 144,
+					"last": 151,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 2",
+					"first": 152,
+					"last": 159,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 3",
+					"first": 160,
+					"last": 167,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 4",
+					"first": 168,
+					"last": 175,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 5",
+					"first": 176,
+					"last": 183,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 6",
+					"first": 184,
+					"last": 191,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 7",
+					"first": 192,
+					"last": 199,
+					"discrete": true
+				},
+				{
+					"name": "Gobowheel 1&2 Shake Speed 8",
+					"first": 200,
+					"last": 207,
+					"discrete": true
+				},
+				{
+					"name": "Unknown",
+					"first": 208,
+					"last": 249
+				},
+				{
+					"name": "Reset head",
+					"first": 250,
+					"last": 253,
+					"discrete": true
+				},
+				{
+					"name": "Reset all functions",
+					"first": 254,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Movement",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No movement",
+					"first": 0,
+					"last": 0,
+					"discrete": true
+				},
+				{
+					"name": "Pan size 1",
+					"first": 1,
+					"last": 7,
+					"discrete": true
+				},
+				{
+					"name": "Pan size 2",
+					"first": 8,
+					"last": 15,
+					"discrete": true
+				},
+				{
+					"name": "Pan size 3",
+					"first": 16,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Pan size 4",
+					"first": 24,
+					"last": 31,
+					"discrete": true
+				},
+				{
+					"name": "Tilt size 1",
+					"first": 32,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "Tilt size 2",
+					"first": 40,
+					"last": 47,
+					"discrete": true
+				},
+				{
+					"name": "Tilt size 3",
+					"first": 48,
+					"last": 55,
+					"discrete": true
+				},
+				{
+					"name": "Tilt size 4",
+					"first": 56,
+					"last": 63,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt size 1",
+					"first": 64,
+					"last": 71,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt size 2",
+					"first": 72,
+					"last": 79,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt size 3",
+					"first": 80,
+					"last": 87,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt size 4",
+					"first": 88,
+					"last": 95,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt inverse size 1",
+					"first": 96,
+					"last": 103,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt inverse size 2",
+					"first": 104,
+					"last": 111,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt inverse size 3",
+					"first": 112,
+					"last": 119,
+					"discrete": true
+				},
+				{
+					"name": "PanTilt inverse size 4",
+					"first": 120,
+					"last": 127,
+					"discrete": true
+				},
+				{
+					"name": "Circle size 1",
+					"first": 128,
+					"last": 135,
+					"discrete": true
+				},
+				{
+					"name": "Circle size 2",
+					"first": 136,
+					"last": 143,
+					"discrete": true
+				},
+				{
+					"name": "Circle size 3",
+					"first": 144,
+					"last": 151,
+					"discrete": true
+				},
+				{
+					"name": "Circle size 4",
+					"first": 152,
+					"last": 159,
+					"discrete": true
+				},
+				{
+					"name": "Circle inverse size 1",
+					"first": 160,
+					"last": 167,
+					"discrete": true
+				},
+				{
+					"name": "Circle inverse size 2",
+					"first": 168,
+					"last": 175,
+					"discrete": true
+				},
+				{
+					"name": "Circle inverse size 3",
+					"first": 176,
+					"last": 183,
+					"discrete": true
+				},
+				{
+					"name": "Circle inverse size 4",
+					"first": 184,
+					"last": 191,
+					"discrete": true
+				},
+				{
+					"name": "Eight size 1",
+					"first": 192,
+					"last": 199,
+					"discrete": true
+				},
+				{
+					"name": "Eight size 2",
+					"first": 200,
+					"last": 207,
+					"discrete": true
+				},
+				{
+					"name": "Eight size 3",
+					"first": 208,
+					"last": 215,
+					"discrete": true
+				},
+				{
+					"name": "Eight size 4",
+					"first": 216,
+					"last": 223,
+					"discrete": true
+				},
+				{
+					"name": "Random size 1",
+					"first": 224,
+					"last": 231,
+					"discrete": true
+				},
+				{
+					"name": "Random size 2",
+					"first": 232,
+					"last": 239,
+					"discrete": true
+				},
+				{
+					"name": "Random size 3",
+					"first": 240,
+					"last": 247,
+					"discrete": true
+				},
+				{
+					"name": "Random size 4",
+					"first": 248,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Pan/Tilt Speed",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Zoom",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Focus",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Gobo 1",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Gobo 1 (open)",
+					"first": 0,
+					"last": 15
+				},
+				{
+					"name": "Gobo 2",
+					"first": 16,
+					"last": 31
+				},
+				{
+					"name": "Gobo 3",
+					"first": 32,
+					"last": 47
+				},
+				{
+					"name": "Gobo 4",
+					"first": 48,
+					"last": 63
+				},
+				{
+					"name": "Gobo 5",
+					"first": 64,
+					"last": 79
+				},
+				{
+					"name": "Gobo 6",
+					"first": 80,
+					"last": 95
+				},
+				{
+					"name": "Gobo 7",
+					"first": 96,
+					"last": 111
+				},
+				{
+					"name": "Gobo 8",
+					"first": 112,
+					"last": 126
+				},
+				{
+					"name": "Rotation CW",
+					"first": 127,
+					"last": 192
+				},
+				{
+					"name": "Rotation CCW",
+					"first": 193,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo 1 Position",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Gobo position 0-540°",
+					"first": 0,
+					"last": 127
+				},
+				{
+					"name": "Rotation CW",
+					"first": 128,
+					"last": 192
+				},
+				{
+					"name": "Rotation CCW",
+					"first": 193,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo 2",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Gobo 1 (open)",
+					"first": 0,
+					"last": 15
+				},
+				{
+					"name": "Gobo 2",
+					"first": 16,
+					"last": 31
+				},
+				{
+					"name": "Gobo 3",
+					"first": 32,
+					"last": 47
+				},
+				{
+					"name": "Gobo 4",
+					"first": 48,
+					"last": 63
+				},
+				{
+					"name": "Gobo 5",
+					"first": 64,
+					"last": 79
+				},
+				{
+					"name": "Gobo 6",
+					"first": 80,
+					"last": 95
+				},
+				{
+					"name": "Gobo 7",
+					"first": 96,
+					"last": 111
+				},
+				{
+					"name": "Gobo 8",
+					"first": 112,
+					"last": 126
+				},
+				{
+					"name": "Rotation CW",
+					"first": 127,
+					"last": 192
+				},
+				{
+					"name": "Rotation CCW",
+					"first": 193,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo 2 Position",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Gobo position 0-540°",
+					"first": 0,
+					"last": 127
+				},
+				{
+					"name": "Rotation CW",
+					"first": 128,
+					"last": 192
+				},
+				{
+					"name": "Rotation CCW",
+					"first": 193,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Effect Wheel Swing",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Effect Wheel Position",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Rotation CW",
+					"first": 0,
+					"last": 128
+				},
+				{
+					"name": "Rotation CCW",
+					"first": 129,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Prism",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Prism swing out",
+					"first": 0,
+					"last": 5,
+					"discrete": true
+				},
+				{
+					"name": "Prism position 0-540°",
+					"first": 6,
+					"last": 127
+				},
+				{
+					"name": "Rotation CW",
+					"first": 128,
+					"last": 192
+				},
+				{
+					"name": "Rotation CCW",
+					"first": 193,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Iris",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "100-4%",
+					"first": 0,
+					"last": 131
+				},
+				{
+					"name": "4%",
+					"first": 132,
+					"last": 255
+				}
+			]
+		}
+	],
+	"note": "Color Changer, Moving Head (imported from open-fixture-library.herokuapp.com)"
 }

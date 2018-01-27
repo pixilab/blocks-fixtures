@@ -1,595 +1,589 @@
 {
-    "channels": [
-        {
-            "name": "Pan",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32768
-        },
-        {
-            "name": "Tilt",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32768
-        },
-        {
-            "name": "Pan / Tilt Speed",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "fast-slow",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Pan / Tilt function",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Normal",
-                    "first": 0,
-                    "last": 15
-                },
-                {
-                    "name": "Blackout at Pan / Tilt movement",
-                    "first": 16,
-                    "last": 31
-                },
-                {
-                    "name": "Pan rotation forwards",
-                    "first": 32,
-                    "last": 47
-                },
-                {
-                    "name": "Pan rotation backwards",
-                    "first": 48,
-                    "last": 63
-                },
-                {
-                    "name": "Tilt rotation forwards",
-                    "first": 64,
-                    "last": 79
-                },
-                {
-                    "name": "Tilt rotation backwards",
-                    "first": 80,
-                    "last": 95
-                },
-                {
-                    "name": "Pan / Tilt rotation forwards",
-                    "first": 96,
-                    "last": 111
-                },
-                {
-                    "name": "Pan / Tilt rotation backwards",
-                    "first": 112,
-                    "last": 127
-                },
-                {
-                    "name": "Pan rotation forwards, Tilt rotation backwards",
-                    "first": 128,
-                    "last": 143
-                },
-                {
-                    "name": "Pan rotation backwards, Tilt rotation forwards",
-                    "first": 144,
-                    "last": 159
-                },
-                {
-                    "name": "No function",
-                    "first": 160,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Shutter / Strobe basic",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Shutter closed",
-                    "first": 0,
-                    "last": 31
-                },
-                {
-                    "name": "Shutter open",
-                    "first": 32,
-                    "last": 63
-                },
-                {
-                    "name": "Strobe slow-fast",
-                    "first": 64,
-                    "last": 95
-                },
-                {
-                    "name": "Pulse effect in sequences",
-                    "first": 128,
-                    "last": 159
-                },
-                {
-                    "name": "Random strobe slow-fast",
-                    "first": 192,
-                    "last": 223
-                }
-            ]
-        },
-        {
-            "name": "Dimmer intensity",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Color wheel basic",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Normal color change: Open",
-                    "first": 0,
-                    "last": 5,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 1",
-                    "first": 6,
-                    "last": 11,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 2",
-                    "first": 12,
-                    "last": 17,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 3",
-                    "first": 18,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 4",
-                    "first": 24,
-                    "last": 29,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 5",
-                    "first": 30,
-                    "last": 35,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 6",
-                    "first": 36,
-                    "last": 41,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 7",
-                    "first": 42,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal color change: Position 8",
-                    "first": 48,
-                    "last": 53,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Open",
-                    "first": 54,
-                    "last": 59,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 1",
-                    "first": 60,
-                    "last": 65,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 2",
-                    "first": 66,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 3",
-                    "first": 72,
-                    "last": 77,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 4",
-                    "first": 78,
-                    "last": 83,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 5",
-                    "first": 84,
-                    "last": 89,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 6",
-                    "first": 90,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 7",
-                    "first": 96,
-                    "last": 101,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at color change: Position 8",
-                    "first": 102,
-                    "last": 106,
-                    "discrete": true
-                },
-                {
-                    "name": "Color Bounce: Open",
-                    "first": 107,
-                    "last": 119
-                },
-                {
-                    "name": "Color Bounce: Position 1",
-                    "first": 120,
-                    "last": 132
-                },
-                {
-                    "name": "Color Bounce: Position 2",
-                    "first": 133,
-                    "last": 145
-                },
-                {
-                    "name": "Color Bounce: Position 3",
-                    "first": 146,
-                    "last": 158
-                },
-                {
-                    "name": "Color Bounce: Position 4",
-                    "first": 159,
-                    "last": 171
-                },
-                {
-                    "name": "Color Bounce: Position 5",
-                    "first": 172,
-                    "last": 184
-                },
-                {
-                    "name": "Color Bounce: Position 6",
-                    "first": 185,
-                    "last": 197
-                },
-                {
-                    "name": "Color Bounce: Position 7",
-                    "first": 198,
-                    "last": 210
-                },
-                {
-                    "name": "Color Bounce: Position 8",
-                    "first": 211,
-                    "last": 223
-                },
-                {
-                    "name": "Forwards rainbow effect slow-fast",
-                    "first": 224,
-                    "last": 239
-                },
-                {
-                    "name": "Backwards rainbow effect slow-fast",
-                    "first": 240,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo wheel basic",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Normal gobo change: Open",
-                    "first": 0,
-                    "last": 5,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 1",
-                    "first": 6,
-                    "last": 11,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 2",
-                    "first": 12,
-                    "last": 17,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 3",
-                    "first": 18,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 4",
-                    "first": 24,
-                    "last": 29,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 5",
-                    "first": 30,
-                    "last": 35,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 6",
-                    "first": 36,
-                    "last": 41,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal gobo change: Position 7",
-                    "first": 42,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Open",
-                    "first": 48,
-                    "last": 53,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 1",
-                    "first": 54,
-                    "last": 59,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 2",
-                    "first": 60,
-                    "last": 65,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 3",
-                    "first": 66,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 4",
-                    "first": 72,
-                    "last": 77,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 5",
-                    "first": 78,
-                    "last": 83,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 6",
-                    "first": 84,
-                    "last": 89,
-                    "discrete": true
-                },
-                {
-                    "name": "Blackout at gobo change: Position 7",
-                    "first": 90,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "No function? Note: This capability is not documented in the manual.",
-                    "first": 96,
-                    "last": 97,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo shake: Position 1",
-                    "first": 98,
-                    "last": 115
-                },
-                {
-                    "name": "Gobo shake: Position 2",
-                    "first": 116,
-                    "last": 133
-                },
-                {
-                    "name": "Gobo shake: Position 3",
-                    "first": 134,
-                    "last": 151
-                },
-                {
-                    "name": "Gobo shake: Position 4",
-                    "first": 152,
-                    "last": 169
-                },
-                {
-                    "name": "Gobo shake: Position 5",
-                    "first": 170,
-                    "last": 187
-                },
-                {
-                    "name": "Gobo shake: Position 6",
-                    "first": 188,
-                    "last": 205
-                },
-                {
-                    "name": "Gobo shake: Position 7",
-                    "first": 206,
-                    "last": 223
-                },
-                {
-                    "name": "Rotating gobo wheel forwards: Stop",
-                    "first": 224,
-                    "last": 224,
-                    "discrete": true
-                },
-                {
-                    "name": "Rotating gobo wheel forwards: slow - fast",
-                    "first": 225,
-                    "last": 239
-                },
-                {
-                    "name": "Rotating gobo wheel backwards: Stop",
-                    "first": 240,
-                    "last": 240,
-                    "discrete": true
-                },
-                {
-                    "name": "Rotating gobo wheel backwards: slow - fast",
-                    "first": 241,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo rotation basic",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Gobo indexing: Positioning from 0 - 360 degrees",
-                    "first": 0,
-                    "last": 191
-                },
-                {
-                    "name": "Motion macro forwards slow - fast",
-                    "first": 192,
-                    "last": 207
-                },
-                {
-                    "name": "Motion macro backwards slow - fast",
-                    "first": 208,
-                    "last": 223
-                },
-                {
-                    "name": "Rotation gobo forwards: Stop",
-                    "first": 224,
-                    "last": 224,
-                    "discrete": true
-                },
-                {
-                    "name": "Rotation gobo forwards: slow - fast",
-                    "first": 225,
-                    "last": 239
-                },
-                {
-                    "name": "Rotating gobo backwards: Stop",
-                    "first": 240,
-                    "last": 240,
-                    "discrete": true
-                },
-                {
-                    "name": "Rotating gobo backwards: slow - fast",
-                    "first": 241,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Prism",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Open",
-                    "first": 0,
-                    "last": 3,
-                    "discrete": true
-                },
-                {
-                    "name": "Rotating prism forwards stop - fast",
-                    "first": 4,
-                    "last": 127
-                },
-                {
-                    "name": "Rotating prism backwards stop - fast",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Focus",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Near - far",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Reset, display control",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "No function",
-                    "first": 0,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset all motors",
-                    "first": 8,
-                    "last": 15,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset Pan / Tilt",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset colors",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset gobo",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset other motors",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Display off",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "Display on",
-                    "first": 64,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Hibernation",
-                    "first": 88,
-                    "last": 95,
-                    "discrete": true
-                }
-            ]
-        }
-    ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Pan/Tilt Speed",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Pan/Tilt",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Normal",
+					"first": 0,
+					"last": 15
+				},
+				{
+					"name": "Blackout at Pan/Tilt movement",
+					"first": 16,
+					"last": 31
+				},
+				{
+					"name": "Pan rotation forwards",
+					"first": 32,
+					"last": 47
+				},
+				{
+					"name": "Pan rotation backwards",
+					"first": 48,
+					"last": 63
+				},
+				{
+					"name": "Tilt rotation forwards",
+					"first": 64,
+					"last": 79
+				},
+				{
+					"name": "Tilt rotation backwards",
+					"first": 80,
+					"last": 95
+				},
+				{
+					"name": "Pan/Tilt rotation forwards",
+					"first": 96,
+					"last": 111
+				},
+				{
+					"name": "Pan/Tilt rotation backwards",
+					"first": 112,
+					"last": 127
+				},
+				{
+					"name": "Pan rotation forwards, Tilt rotation backwards",
+					"first": 128,
+					"last": 143
+				},
+				{
+					"name": "Pan rotation backwards, Tilt rotation forwards",
+					"first": 144,
+					"last": 159
+				},
+				{
+					"name": "No function",
+					"first": 160,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Shutter/Strobe basic",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Shutter closed",
+					"first": 0,
+					"last": 31
+				},
+				{
+					"name": "Shutter open",
+					"first": 32,
+					"last": 63
+				},
+				{
+					"name": "Strobe",
+					"first": 64,
+					"last": 95
+				},
+				{
+					"name": "Pulse effect in sequences",
+					"first": 128,
+					"last": 159
+				},
+				{
+					"name": "Random strobe",
+					"first": 192,
+					"last": 223
+				}
+			]
+		},
+		{
+			"name": "Dimmer intensity",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Color wheel basic",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Normal color change: Open",
+					"first": 0,
+					"last": 5,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 1",
+					"first": 6,
+					"last": 11,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 2",
+					"first": 12,
+					"last": 17,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 3",
+					"first": 18,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 4",
+					"first": 24,
+					"last": 29,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 5",
+					"first": 30,
+					"last": 35,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 6",
+					"first": 36,
+					"last": 41,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 7",
+					"first": 42,
+					"last": 47,
+					"discrete": true
+				},
+				{
+					"name": "Normal color change 8",
+					"first": 48,
+					"last": 53,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change: Open",
+					"first": 54,
+					"last": 59,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 1",
+					"first": 60,
+					"last": 65,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 2",
+					"first": 66,
+					"last": 71,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 3",
+					"first": 72,
+					"last": 77,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 4",
+					"first": 78,
+					"last": 83,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 5",
+					"first": 84,
+					"last": 89,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 6",
+					"first": 90,
+					"last": 95,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 7",
+					"first": 96,
+					"last": 101,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at color change 8",
+					"first": 102,
+					"last": 106,
+					"discrete": true
+				},
+				{
+					"name": "Color Bounce: Open",
+					"first": 107,
+					"last": 119
+				},
+				{
+					"name": "Color Bounce 1",
+					"first": 120,
+					"last": 132
+				},
+				{
+					"name": "Color Bounce 2",
+					"first": 133,
+					"last": 145
+				},
+				{
+					"name": "Color Bounce 3",
+					"first": 146,
+					"last": 158
+				},
+				{
+					"name": "Color Bounce 4",
+					"first": 159,
+					"last": 171
+				},
+				{
+					"name": "Color Bounce 5",
+					"first": 172,
+					"last": 184
+				},
+				{
+					"name": "Color Bounce 6",
+					"first": 185,
+					"last": 197
+				},
+				{
+					"name": "Color Bounce 7",
+					"first": 198,
+					"last": 210
+				},
+				{
+					"name": "Color Bounce 8",
+					"first": 211,
+					"last": 223
+				},
+				{
+					"name": "Forwards rainbow effect",
+					"first": 224,
+					"last": 239
+				},
+				{
+					"name": "Backwards rainbow effect",
+					"first": 240,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo wheel basic",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Normal gobo change: Open",
+					"first": 0,
+					"last": 5,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 1",
+					"first": 6,
+					"last": 11,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 2",
+					"first": 12,
+					"last": 17,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 3",
+					"first": 18,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 4",
+					"first": 24,
+					"last": 29,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 5",
+					"first": 30,
+					"last": 35,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 6",
+					"first": 36,
+					"last": 41,
+					"discrete": true
+				},
+				{
+					"name": "Normal gobo change 7",
+					"first": 42,
+					"last": 47,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change: Open",
+					"first": 48,
+					"last": 53,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 1",
+					"first": 54,
+					"last": 59,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 2",
+					"first": 60,
+					"last": 65,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 3",
+					"first": 66,
+					"last": 71,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 4",
+					"first": 72,
+					"last": 77,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 5",
+					"first": 78,
+					"last": 83,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 6",
+					"first": 84,
+					"last": 89,
+					"discrete": true
+				},
+				{
+					"name": "Blackout at gobo change 7",
+					"first": 90,
+					"last": 95,
+					"discrete": true
+				},
+				{
+					"name": "No function? Note: This capability is not documented in the manual.",
+					"first": 96,
+					"last": 97,
+					"discrete": true
+				},
+				{
+					"name": "Gobo shake 1",
+					"first": 98,
+					"last": 115
+				},
+				{
+					"name": "Gobo shake 2",
+					"first": 116,
+					"last": 133
+				},
+				{
+					"name": "Gobo shake 3",
+					"first": 134,
+					"last": 151
+				},
+				{
+					"name": "Gobo shake 4",
+					"first": 152,
+					"last": 169
+				},
+				{
+					"name": "Gobo shake 5",
+					"first": 170,
+					"last": 187
+				},
+				{
+					"name": "Gobo shake 6",
+					"first": 188,
+					"last": 205
+				},
+				{
+					"name": "Gobo shake 7",
+					"first": 206,
+					"last": 223
+				},
+				{
+					"name": "Rotating gobo wheel forwards Stop",
+					"first": 224,
+					"last": 224,
+					"discrete": true
+				},
+				{
+					"name": "Rotating gobo wheel forwards",
+					"first": 225,
+					"last": 239
+				},
+				{
+					"name": "Rotating gobo wheel backwards Stop",
+					"first": 240,
+					"last": 240,
+					"discrete": true
+				},
+				{
+					"name": "Rotating gobo wheel backwards",
+					"first": 241,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo rotation basic",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Gobo indexing",
+					"first": 0,
+					"last": 191
+				},
+				{
+					"name": "Motion macro forwards",
+					"first": 192,
+					"last": 207
+				},
+				{
+					"name": "Motion macro backwards",
+					"first": 208,
+					"last": 223
+				},
+				{
+					"name": "Rotation gobo forwards Stop",
+					"first": 224,
+					"last": 224,
+					"discrete": true
+				},
+				{
+					"name": "Rotation gobo forwards",
+					"first": 225,
+					"last": 239
+				},
+				{
+					"name": "Rotating gobo backwards Stop",
+					"first": 240,
+					"last": 240,
+					"discrete": true
+				},
+				{
+					"name": "Rotating gobo backwards",
+					"first": 241,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Prism",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Open",
+					"first": 0,
+					"last": 3,
+					"discrete": true
+				},
+				{
+					"name": "Rotating prism forwards",
+					"first": 4,
+					"last": 127
+				},
+				{
+					"name": "Rotating prism backwards",
+					"first": 128,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Focus",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Near - far",
+					"first": 0,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Reset, display control",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No function",
+					"first": 0,
+					"last": 7,
+					"discrete": true
+				},
+				{
+					"name": "Reset all motors",
+					"first": 8,
+					"last": 15,
+					"discrete": true
+				},
+				{
+					"name": "Reset Pan/Tilt",
+					"first": 16,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Reset colors",
+					"first": 24,
+					"last": 31,
+					"discrete": true
+				},
+				{
+					"name": "Reset gobo",
+					"first": 32,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "Reset other motors",
+					"first": 48,
+					"last": 55,
+					"discrete": true
+				},
+				{
+					"name": "Display off",
+					"first": 56,
+					"last": 63,
+					"discrete": true
+				},
+				{
+					"name": "Display on",
+					"first": 64,
+					"last": 71,
+					"discrete": true
+				},
+				{
+					"name": "Hibernation",
+					"first": 88,
+					"last": 95,
+					"discrete": true
+				}
+			]
+		}
+	],
+	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
 }

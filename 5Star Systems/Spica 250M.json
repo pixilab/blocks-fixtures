@@ -17,7 +17,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "speed fast-slow",
+					"name": "speed",
                     "first": 0,
                     "last": 249
                 },
@@ -34,7 +34,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "fan speed fast-slow",
+					"name": "fan speed",
                     "first": 0,
                     "last": 127
                 },
@@ -172,7 +172,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Rotation CW fast-slow",
+					"name": "Rotation CW",
                     "first": 128,
                     "last": 189
                 },
@@ -183,7 +183,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rotation CW slow-fast",
+					"name": "Rotation CW",
                     "first": 194,
                     "last": 255
                 }
@@ -288,12 +288,12 @@
                     "discrete": true
                 },
                 {
-                    "name": "CW fast-slow",
+					"name": "CW",
                     "first": 1,
                     "last": 126
                 },
                 {
-                    "name": "CCW slow-fast",
+					"name": "CCW",
                     "first": 129,
                     "last": 255
                 }
@@ -350,7 +350,7 @@
                     "last": 127
                 },
                 {
-                    "name": "CW fast-slow",
+					"name": "CW",
                     "first": 128,
                     "last": 190
                 },
@@ -361,7 +361,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "CCW slow-fast",
+					"name": "CCW",
                     "first": 193,
                     "last": 255
                 }
@@ -379,7 +379,7 @@
             ]
         },
         {
-            "name": "Shutter / Strobe",
+			"name": "Shutter/Strobe",
             "type": "Ranges",
             "ranges": [
                 {
@@ -393,7 +393,7 @@
                     "last": 63
                 },
                 {
-                    "name": "strobe slow-fast",
+					"name": "strobe",
                     "first": 64,
                     "last": 95
                 },
@@ -403,7 +403,7 @@
                     "last": 159
                 },
                 {
-                    "name": "random slow-fast",
+					"name": "random",
                     "first": 192,
                     "last": 223
                 }

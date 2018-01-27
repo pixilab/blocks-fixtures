@@ -17,7 +17,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Open / White",
+					"name": "Open/White",
                     "first": 0,
                     "last": 7,
                     "discrete": true
@@ -113,7 +113,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "CW Rainbow fast-slow",
+					"name": "CW Rainbow",
                     "first": 128,
                     "last": 190
                 },
@@ -124,7 +124,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "CCW Rainbow slow-fast",
+					"name": "CCW Rainbow",
                     "first": 193,
                     "last": 255
                 }
@@ -140,47 +140,47 @@
                     "last": 23
                 },
                 {
-                    "name": "Rotating Gobo 1",
+					"name": "Rotate 1",
                     "first": 24,
                     "last": 47
                 },
                 {
-                    "name": "Rotating Gobo 2",
+					"name": "Rotate 2",
                     "first": 48,
                     "last": 79
                 },
                 {
-                    "name": "Rotating Gobo 3",
+					"name": "Rotate 3",
                     "first": 80,
                     "last": 103
                 },
                 {
-                    "name": "Rotating Gobo 4",
+					"name": "Rotate 4",
                     "first": 104,
                     "last": 127
                 },
                 {
-                    "name": "Rotating Gobo 5",
+					"name": "Rotate 5",
                     "first": 128,
                     "last": 151
                 },
                 {
-                    "name": "Rotating Gobo 6",
+					"name": "Rotate 6",
                     "first": 152,
                     "last": 175
                 },
                 {
-                    "name": "Rotating Gobo 7",
+					"name": "Rotate 7",
                     "first": 176,
                     "last": 207
                 },
                 {
-                    "name": "Rotating Gobo 8",
+					"name": "Rotate 8",
                     "first": 208,
                     "last": 231
                 },
                 {
-                    "name": "Rotating Gobo 9",
+					"name": "Rotate 9",
                     "first": 232,
                     "last": 255
                 }
@@ -191,47 +191,36 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Gobo rotation",
+					"name": "Rotate",
                     "first": 0,
                     "last": 127
                 },
                 {
-                    "name": "CW fast-slow",
+					"name": "CW",
                     "first": 128,
                     "last": 190
                 },
                 {
-                    "name": "No rotation",
+					"name": "Stop",
                     "first": 191,
                     "last": 192,
                     "discrete": true
                 },
                 {
-                    "name": "CCW slow-fast",
+					"name": "CCW",
                     "first": 193,
                     "last": 255
                 }
             ]
         },
         {
-            "name": "Shutter / Strobe",
+			"name": "Shutter/Strobe",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Closed",
+					"name": "Dimmer",
                     "first": 0,
-                    "last": 0,
-                    "discrete": true
-                },
-                {
-                    "name": "Dimmer 0-100%",
-                    "first": 1,
-                    "last": 63
-                },
-                {
-                    "name": "Open",
-                    "first": 64,
-                    "last": 95
+					"last": 64
                 },
                 {
                     "name": "Strobe 0-8Hz",
@@ -249,12 +238,12 @@
                     "last": 175
                 },
                 {
-                    "name": "Pulse fast-slow",
+					"name": "Pulse",
                     "first": 176,
                     "last": 191
                 },
                 {
-                    "name": "Random strobe slow-fast",
+					"name": "Random strobe",
                     "first": 192,
                     "last": 223
                 }

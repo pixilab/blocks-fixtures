@@ -57,7 +57,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Rotating slow-fast",
+					"name": "Rotating",
                     "first": 128,
                     "last": 255
                 }
@@ -73,12 +73,12 @@
                     "last": 9
                 },
                 {
-                    "name": "Rotation CW fast-slow",
+					"name": "Rotation CW",
                     "first": 10,
                     "last": 120
                 },
                 {
-                    "name": "Rotation CCW slow-fast",
+					"name": "Rotation CCW",
                     "first": 135,
                     "last": 245
                 }
@@ -139,14 +139,14 @@
                     "last": 127
                 },
                 {
-                    "name": "Rotating slow-fast",
+					"name": "Rotating",
                     "first": 128,
                     "last": 255
                 }
             ]
         },
         {
-            "name": "Shutter / Dimmer",
+			"name": "Shutter/Dimmer",
             "type": "Ranges",
             "ranges": [
                 {
@@ -161,7 +161,7 @@
                     "last": 131
                 },
                 {
-                    "name": "Strobe slow-fast",
+					"name": "Strobe",
                     "first": 132,
                     "last": 252
                 },

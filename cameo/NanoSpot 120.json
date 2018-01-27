@@ -73,7 +73,7 @@
                     "last": 175
                 },
                 {
-                    "name": "Rotation slow-fast",
+					"name": "Rotation",
                     "first": 176,
                     "last": 255
                 }

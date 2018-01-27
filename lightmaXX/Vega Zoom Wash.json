@@ -11,7 +11,7 @@
             "normalized": true
         },
         {
-            "name": "Pan / Tilt Speed",
+			"name": "Pan/Tilt Speed",
             "type": "Analog_8",
             "normalized": true
         },
@@ -173,47 +173,47 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "no function",
+					"name": "Off",
                     "first": 0,
                     "last": 20
                 },
                 {
-                    "name": "program 1",
+					"name": "1",
                     "first": 21,
                     "last": 40
                 },
                 {
-                    "name": "program 2",
+					"name": "2",
                     "first": 41,
                     "last": 60
                 },
                 {
-                    "name": "program 3",
+					"name": "3",
                     "first": 61,
                     "last": 80
                 },
                 {
-                    "name": "program 4",
+					"name": "4",
                     "first": 81,
                     "last": 100
                 },
                 {
-                    "name": "program 5",
+					"name": "5",
                     "first": 101,
                     "last": 120
                 },
                 {
-                    "name": "program 6",
+					"name": "6",
                     "first": 121,
                     "last": 140
                 },
                 {
-                    "name": "program 7",
+					"name": "7",
                     "first": 141,
                     "last": 160
                 },
                 {
-                    "name": "program 8",
+					"name": "8",
                     "first": 161,
                     "last": 180
                 },

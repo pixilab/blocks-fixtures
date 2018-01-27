@@ -5,62 +5,62 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Shutter closed",
+					"name": "Closed",
                     "first": 0,
                     "last": 19
                 },
                 {
-                    "name": "Shutter open",
+					"name": "Open",
                     "first": 20,
                     "last": 49
                 },
                 {
-                    "name": "Strobe 1 (fast>slow)",
+					"name": "Strobe 1",
                     "first": 50,
                     "last": 64
                 },
                 {
-                    "name": "Strobe 2: opening pulse (fast>slow)",
+					"name": "Strobe 2 opening pulse",
                     "first": 70,
                     "last": 84
                 },
                 {
-                    "name": "Strobe 3: closing pulse (fast>slow)",
+					"name": "Strobe 3 closing pulse",
                     "first": 90,
                     "last": 104
                 },
                 {
-                    "name": "Strobe 4: random strobe (fast>slow)",
+					"name": "Strobe 4 random strobe",
                     "first": 110,
                     "last": 124
                 },
                 {
-                    "name": "Strobe 5: random opening pulse (fast>slow)",
+					"name": "Strobe 5 random opening pulse",
                     "first": 130,
                     "last": 144
                 },
                 {
-                    "name": "Strobe 6: random closing pulse (fast>slow)",
+					"name": "Strobe 6 random closing pulse",
                     "first": 150,
                     "last": 164
                 },
                 {
-                    "name": "Strobe 7: burst pulse (fast>slow)",
+					"name": "Strobe 7 burst pulse",
                     "first": 170,
                     "last": 184
                 },
                 {
-                    "name": "Strobe 8: random burst pulse (fast>slow)",
+					"name": "Strobe 8 random burst pulse",
                     "first": 190,
                     "last": 204
                 },
                 {
-                    "name": "Strobe 9: sine wave (fast>slow)",
+					"name": "Strobe 9 sine wave",
                     "first": 210,
                     "last": 224
                 },
                 {
-                    "name": "Strobe 10: burst (fast>slow)",
+					"name": "Strobe 10 burst",
                     "first": 230,
                     "last": 244
                 }
@@ -341,18 +341,18 @@
                     "discrete": true
                 },
                 {
-                    "name": "CW, fast>slow",
+					"name": "CW",
                     "first": 180,
                     "last": 201
                 },
                 {
-                    "name": "Stop (wherever the color is at the time)",
+					"name": "Stop",
                     "first": 202,
                     "last": 207,
                     "discrete": true
                 },
                 {
-                    "name": "CCW, slow>fast",
+					"name": "CCW",
                     "first": 208,
                     "last": 229
                 },

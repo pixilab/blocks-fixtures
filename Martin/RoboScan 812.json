@@ -10,12 +10,12 @@
                     "last": 10
                 },
                 {
-                    "name": "Gobo strobe fast-slow",
+					"name": "Gobo strobe",
                     "first": 11,
                     "last": 74
                 },
                 {
-                    "name": "Color strobe fast-slow",
+					"name": "Color strobe",
                     "first": 75,
                     "last": 138
                 },

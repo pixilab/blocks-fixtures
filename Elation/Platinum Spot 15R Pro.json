@@ -52,7 +52,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Rainbow forwards fast–slow",
+					"name": "Rainbow forwards",
                     "first": 128,
                     "last": 189
                 },
@@ -63,7 +63,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rainbow backwards slow–fast",
+					"name": "Rainbow backwards",
                     "first": 194,
                     "last": 255
                 }
@@ -174,7 +174,7 @@
                     "last": 209
                 },
                 {
-                    "name": "Rotating slow–fast",
+					"name": "Rotating",
                     "first": 210,
                     "last": 255
                 }
@@ -190,7 +190,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Rotating fast–slow",
+					"name": "Rotating",
                     "first": 128,
                     "last": 189
                 },
@@ -201,7 +201,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rotating slow–fast",
+					"name": "Rotating",
                     "first": 194,
                     "last": 255
                 }
@@ -302,91 +302,91 @@
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 1 slow–fast",
+					"name": "Gobo shake 1",
                     "first": 120,
                     "last": 126,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 2 slow–fast",
+					"name": "Gobo shake 2",
                     "first": 127,
                     "last": 133,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 3 slow–fast",
+					"name": "Gobo shake 3",
                     "first": 134,
                     "last": 140,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 4 slow–fast",
+					"name": "Gobo shake 4",
                     "first": 141,
                     "last": 147,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 5 slow–fast",
+					"name": "Gobo shake 5",
                     "first": 148,
                     "last": 154,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 6 slow–fast",
+					"name": "Gobo shake 6",
                     "first": 155,
                     "last": 161,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 7 slow–fast",
+					"name": "Gobo shake 7",
                     "first": 162,
                     "last": 168,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 8 slow–fast",
+					"name": "Gobo shake 8",
                     "first": 169,
                     "last": 175,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 9 slow–fast",
+					"name": "Gobo shake 9",
                     "first": 176,
                     "last": 182,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 10 slow–fast",
+					"name": "Gobo shake 10",
                     "first": 183,
                     "last": 189,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 11 slow–fast",
+					"name": "Gobo shake 11",
                     "first": 190,
                     "last": 196,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 12 slow–fast",
+					"name": "Gobo shake 12",
                     "first": 197,
                     "last": 203,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 13 slow–fast",
+					"name": "Gobo shake 13",
                     "first": 204,
                     "last": 210,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo shake 14 slow–fast",
+					"name": "Gobo shake 14",
                     "first": 211,
                     "last": 217,
                     "discrete": true
                 },
                 {
-                    "name": "Rotating slow–fast",
+					"name": "Rotating",
                     "first": 218,
                     "last": 255
                 }
@@ -514,7 +514,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Rotating fast–slow (CW)",
+					"name": "Rotating (CW)",
                     "first": 128,
                     "last": 189
                 },
@@ -525,7 +525,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rotating slow–fast (CCW)",
+					"name": "Rotating (CCW)",
                     "first": 194,
                     "last": 255
                 }
@@ -533,26 +533,14 @@
         },
         {
             "name": "Focus",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "near–far",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
+			"type": "Analog_8",
+			"normalized": true
         },
         {
             "name": "Zoom",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "small–big",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
+			"type": "Analog_8",
+			"normalized": true
+		},
         {
             "name": "Strobe",
             "type": "Ranges",
@@ -578,7 +566,7 @@
                     "last": 159
                 },
                 {
-                    "name": "Random slow–fast",
+					"name": "Random",
                     "first": 192,
                     "last": 223
                 }
@@ -594,17 +582,17 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Diameter max–min",
+					"name": "Diameter",
                     "first": 0,
                     "last": 191
                 },
                 {
-                    "name": "Pulse closing fast–slow",
+					"name": "Pulse closing",
                     "first": 192,
                     "last": 223
                 },
                 {
-                    "name": "Pulse opening slow–fast",
+					"name": "Pulse opening",
                     "first": 224,
                     "last": 255
                 }
@@ -615,17 +603,17 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Frost 0–100%",
+					"name": "Variable",
                     "first": 0,
                     "last": 191
                 },
                 {
-                    "name": "Pulse opening fast–slow",
+					"name": "Pulse opening",
                     "first": 192,
                     "last": 223
                 },
                 {
-                    "name": "Pulse closing slow–fast",
+					"name": "Pulse closing",
                     "first": 224,
                     "last": 254
                 },
@@ -647,7 +635,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Speed max–min",
+					"name": "Speed",
                     "first": 0,
                     "last": 225
                 },
@@ -657,7 +645,7 @@
                     "last": 235
                 },
                 {
-                    "name": "Blackout by all wheel changing",
+					"name": "Blackout by wheel",
                     "first": 236,
                     "last": 245
                 },
@@ -867,21 +855,21 @@
             ]
         },
         {
-            "name": "Maintenance / Programs",
+			"name": "Maintenance/Programs",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Colour change normal ",
+					"name": "Colour change normal",
                     "first": 0,
                     "last": 19
                 },
                 {
-                    "name": "Colour change to any position ",
+					"name": "Colour change to any position",
                     "first": 20,
                     "last": 29
                 },
                 {
-                    "name": "Colour & gobo change to any position ",
+					"name": "Colour & gobo change to any position",
                     "first": 30,
                     "last": 39
                 },

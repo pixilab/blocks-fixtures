@@ -1,120 +1,114 @@
 {
-    "channels": [
-        {
-            "name": "Pan",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32768
-        },
-        {
-            "name": "Tilt",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32768
-        },
-        {
-            "name": "Pan / Tilt Speed",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Decreasing speed",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Red",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Green",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Blue",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Color Macros",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Neutral",
-                    "first": 0,
-                    "last": 40
-                },
-                {
-                    "name": "Macro 1",
-                    "first": 41,
-                    "last": 80
-                },
-                {
-                    "name": "Macro 2",
-                    "first": 81,
-                    "last": 120
-                },
-                {
-                    "name": "Macro 3",
-                    "first": 121,
-                    "last": 140
-                },
-                {
-                    "name": "Macro 4",
-                    "first": 141,
-                    "last": 160
-                },
-                {
-                    "name": "Macro 5",
-                    "first": 161,
-                    "last": 200
-                },
-                {
-                    "name": "Macro 6",
-                    "first": 201,
-                    "last": 240
-                }
-            ]
-        },
-        {
-            "name": "Shutter",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "LED off",
-                    "first": 0,
-                    "last": 10
-                },
-                {
-                    "name": "Neutral",
-                    "first": 11,
-                    "last": 20
-                },
-                {
-                    "name": "Reset",
-                    "first": 21,
-                    "last": 30
-                },
-                {
-                    "name": "Strobe slow - fast",
-                    "first": 31,
-                    "last": 200
-                },
-                {
-                    "name": "Random strobe slow - fast",
-                    "first": 201,
-                    "last": 250
-                }
-            ]
-        },
-        {
-            "name": "Dimmer Intensity",
-            "type": "Analog_8",
-            "normalized": true
-        }
-    ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Pan/Tilt Speed",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Red",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Color Macros",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Neutral",
+					"first": 0,
+					"last": 40
+				},
+				{
+					"name": "Macro 1",
+					"first": 41,
+					"last": 80
+				},
+				{
+					"name": "Macro 2",
+					"first": 81,
+					"last": 120
+				},
+				{
+					"name": "Macro 3",
+					"first": 121,
+					"last": 140
+				},
+				{
+					"name": "Macro 4",
+					"first": 141,
+					"last": 160
+				},
+				{
+					"name": "Macro 5",
+					"first": 161,
+					"last": 200
+				},
+				{
+					"name": "Macro 6",
+					"first": 201,
+					"last": 240
+				}
+			]
+		},
+		{
+			"name": "Shutter",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "LED off",
+					"first": 0,
+					"last": 10
+				},
+				{
+					"name": "Neutral",
+					"first": 11,
+					"last": 20
+				},
+				{
+					"name": "Reset",
+					"first": 21,
+					"last": 30
+				},
+				{
+					"name": "Strobe",
+					"first": 31,
+					"last": 200
+				},
+				{
+					"name": "Random strobe",
+					"first": 201,
+					"last": 250
+				}
+			]
+		},
+		{
+			"name": "Dimmer Intensity",
+			"type": "Analog_8",
+			"normalized": true
+		}
+	],
+	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
 }

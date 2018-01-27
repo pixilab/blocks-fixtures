@@ -1,597 +1,551 @@
 {
-    "channels": [
-        {
-            "name": "Strobe / Shutter",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Shutter closed (Lamp switches to 800 watt mode after shutter is closed for 10 seconds)",
-                    "first": 0,
-                    "last": 19
-                },
-                {
-                    "name": "Shutter open",
-                    "first": 20,
-                    "last": 49
-                },
-                {
-                    "name": "Strobe, slow>fast",
-                    "first": 50,
-                    "last": 200
-                },
-                {
-                    "name": "Random strobe, slow>fast",
-                    "first": 211,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Dimmer",
-            "type": "Analog_16",
-            "normalized": true
-        },
-        {
-            "name": "Cyan",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Magenta",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Yellow",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "CTO",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "CTO, Open (6000 K)>warm (3200 K)",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Color Wheel",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Open",
-                    "first": 0,
-                    "last": 0,
-                    "discrete": true
-                },
-                {
-                    "name": "Open>Slot1",
-                    "first": 1,
-                    "last": 14
-                },
-                {
-                    "name": "Slot1>Slot2",
-                    "first": 16,
-                    "last": 29
-                },
-                {
-                    "name": "Slot2",
-                    "first": 30,
-                    "last": 30,
-                    "discrete": true
-                },
-                {
-                    "name": "Slot2>Slot3",
-                    "first": 31,
-                    "last": 44
-                },
-                {
-                    "name": "Slot3",
-                    "first": 45,
-                    "last": 45,
-                    "discrete": true
-                },
-                {
-                    "name": "Slot3>Slot4",
-                    "first": 46,
-                    "last": 59
-                },
-                {
-                    "name": "Slot4",
-                    "first": 60,
-                    "last": 60,
-                    "discrete": true
-                },
-                {
-                    "name": "Slot4>Slot5",
-                    "first": 61,
-                    "last": 74
-                },
-                {
-                    "name": "Slot5",
-                    "first": 75,
-                    "last": 75,
-                    "discrete": true
-                },
-                {
-                    "name": "Slot5>Slot6",
-                    "first": 76,
-                    "last": 89
-                },
-                {
-                    "name": "Slot6",
-                    "first": 90,
-                    "last": 90,
-                    "discrete": true
-                },
-                {
-                    "name": "Slot6>Slot7",
-                    "first": 91,
-                    "last": 104
-                },
-                {
-                    "name": "Slot7",
-                    "first": 105,
-                    "last": 105,
-                    "discrete": true
-                },
-                {
-                    "name": "Slot7>Open",
-                    "first": 106,
-                    "last": 119
-                },
-                {
-                    "name": "Slot1",
-                    "first": 121,
-                    "last": 125,
-                    "discrete": true
-                },
-                {
-                    "name": "CW, Fast>Slow",
-                    "first": 161,
-                    "last": 200
-                },
-                {
-                    "name": "Stop, color wheel stops at current position",
-                    "first": 201,
-                    "last": 203,
-                    "discrete": true
-                },
-                {
-                    "name": "CCW, Slow>Fast",
-                    "first": 204,
-                    "last": 243
-                },
-                {
-                    "name": "Fast random color",
-                    "first": 244,
-                    "last": 247,
-                    "discrete": true
-                },
-                {
-                    "name": "Medium random color",
-                    "first": 248,
-                    "last": 251,
-                    "discrete": true
-                },
-                {
-                    "name": "Slow random color",
-                    "first": 252,
-                    "last": 255,
-                    "discrete": true
-                }
-            ]
-        },
-        {
-            "name": "Iris",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Iris, Open>Closed",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Internal barndoor 1",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Barndoor 1, Out>In",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Internal barndoor 2",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Barndoor 2, Out>In",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Internal barndoors rotation",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "-10° > -1°",
-                    "first": 0,
-                    "last": 9
-                },
-                {
-                    "name": "0°",
-                    "first": 10,
-                    "last": 10,
-                    "discrete": true
-                },
-                {
-                    "name": "1° > 89°",
-                    "first": 11,
-                    "last": 99
-                },
-                {
-                    "name": "90°",
-                    "first": 100,
-                    "last": 100,
-                    "discrete": true
-                },
-                {
-                    "name": "91° > +179°",
-                    "first": 101,
-                    "last": 189
-                },
-                {
-                    "name": "180°",
-                    "first": 190,
-                    "last": 190,
-                    "discrete": true
-                },
-                {
-                    "name": "181° > 190°",
-                    "first": 191,
-                    "last": 200
-                },
-                {
-                    "name": "No function",
-                    "first": 201,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Zoom",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Zoom, Flood > spot",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Focus",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Focus, Infinity > near",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Pan",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Pan, Left > right",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Tilt",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Tilt, Up > down",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Fixture control / settings",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "No function (disables calibration) – 5 sec.",
-                    "first": 0,
-                    "last": 9
-                },
-                {
-                    "name": "Reset entire fixture – 5 sec.",
-                    "first": 10,
-                    "last": 14,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset dimmer and shutter only – 5 sec.",
-                    "first": 15,
-                    "last": 19,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset color (CMY and CTO plus color wheel if fitted) only – 5 sec.",
-                    "first": 20,
-                    "last": 24,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset beam (zoom, focus plus iris if fitted) only – 5 sec.",
-                    "first": 25,
-                    "last": 29,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset pan and tilt only – 5 sec.",
-                    "first": 30,
-                    "last": 34,
-                    "discrete": true
-                },
-                {
-                    "name": "No function",
-                    "first": 35,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Lamp on",
-                    "first": 40,
-                    "last": 44,
-                    "discrete": true
-                },
-                {
-                    "name": "Lamp off – 5 sec.",
-                    "first": 45,
-                    "last": 49,
-                    "discrete": true
-                },
-                {
-                    "name": "Enable calibration – 5 sec.",
-                    "first": 55,
-                    "last": 59,
-                    "discrete": true
-                },
-                {
-                    "name": "Linear dimming curve – 1 sec. (menu override, setting unaffected by power off/on)",
-                    "first": 60,
-                    "last": 64,
-                    "discrete": true
-                },
-                {
-                    "name": "Square law dimming curve – 1 sec. (menu override, factory default setting, setting unaffected by power off/on)",
-                    "first": 65,
-                    "last": 69,
-                    "discrete": true
-                },
-                {
-                    "name": "Inverse square law dimming curve – 1 sec. (menu override, setting unaffected by power off/on)",
-                    "first": 70,
-                    "last": 74,
-                    "discrete": true
-                },
-                {
-                    "name": "S-curve dimming curve– 1 sec. (menu override, setting unaffected by power off/on)",
-                    "first": 75,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Normal pan and tilt speed – 1 sec. (menu override - setting returns to MENU setting after power on/off)",
-                    "first": 80,
-                    "last": 84,
-                    "discrete": true
-                },
-                {
-                    "name": "Fast pan and tilt speed – 1 sec. (default setting, menu override - setting returns to MENU setting after power on/off)",
-                    "first": 85,
-                    "last": 89,
-                    "discrete": true
-                },
-                {
-                    "name": "Slow pan and tilt speed – 1 sec. (menu override - setting returns to MENU setting after power on/off)",
-                    "first": 90,
-                    "last": 94,
-                    "discrete": true
-                },
-                {
-                    "name": "Effect shortcuts = ON – 1 sec. (default setting, menu override, setting stays at factory default ON at power off/on)",
-                    "first": 95,
-                    "last": 99,
-                    "discrete": true
-                },
-                {
-                    "name": "Effect shortcuts = OFF – 1 sec. (menu override, setting returns to factory default ON at power off/on)",
-                    "first": 100,
-                    "last": 104,
-                    "discrete": true
-                },
-                {
-                    "name": "Disable zoom/focus linking– 1 sec.",
-                    "first": 105,
-                    "last": 109,
-                    "discrete": true
-                },
-                {
-                    "name": "Enable zoom/focus linking, near distance – 1 sec.",
-                    "first": 110,
-                    "last": 114,
-                    "discrete": true
-                },
-                {
-                    "name": "Enable zoom/focus linking, medium distance (default setting) – 1 sec.",
-                    "first": 115,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "Enable zoom/focus linking, far distance – 1 sec.",
-                    "first": 120,
-                    "last": 124,
-                    "discrete": true
-                },
-                {
-                    "name": "Ballast output full, set to 100% (default setting)",
-                    "first": 125,
-                    "last": 126,
-                    "discrete": true
-                },
-                {
-                    "name": "Ballast output reduced to 90%",
-                    "first": 127,
-                    "last": 128,
-                    "discrete": true
-                },
-                {
-                    "name": "Ballast output reduced to 80%",
-                    "first": 129,
-                    "last": 130,
-                    "discrete": true
-                },
-                {
-                    "name": "Ballast output reduced to 70%",
-                    "first": 131,
-                    "last": 132,
-                    "discrete": true
-                },
-                {
-                    "name": "Ballast output reduced to 60%",
-                    "first": 133,
-                    "last": 134,
-                    "discrete": true
-                },
-                {
-                    "name": "Auto blackout = ON – 1 sec.",
-                    "first": 135,
-                    "last": 139,
-                    "discrete": true
-                },
-                {
-                    "name": "Auto blackout = OFF – 1 sec. (default setting)",
-                    "first": 140,
-                    "last": 144,
-                    "discrete": true
-                },
-                {
-                    "name": "Turn on control panel display",
-                    "first": 150,
-                    "last": 154,
-                    "discrete": true
-                },
-                {
-                    "name": "Turn off control panel display – 1 sec.",
-                    "first": 155,
-                    "last": 159,
-                    "discrete": true
-                },
-                {
-                    "name": "Store pan and tilt calibration – 5 sec.",
-                    "first": 165,
-                    "last": 169,
-                    "discrete": true
-                },
-                {
-                    "name": "Store dimmer calibration – 5 sec.",
-                    "first": 170,
-                    "last": 174,
-                    "discrete": true
-                },
-                {
-                    "name": "Store cyan calibration – 5 sec.",
-                    "first": 175,
-                    "last": 179,
-                    "discrete": true
-                },
-                {
-                    "name": "Store magenta calibration – 5 sec.",
-                    "first": 180,
-                    "last": 184,
-                    "discrete": true
-                },
-                {
-                    "name": "Store yellow calibration – 5 sec.",
-                    "first": 185,
-                    "last": 189,
-                    "discrete": true
-                },
-                {
-                    "name": "Store CTC calibration – 5 sec.",
-                    "first": 190,
-                    "last": 194,
-                    "discrete": true
-                },
-                {
-                    "name": "Store all CMY and CTC calibration – 5 sec.",
-                    "first": 195,
-                    "last": 199,
-                    "discrete": true
-                },
-                {
-                    "name": "Store internal barndoors calibration – 5 sec.",
-                    "first": 215,
-                    "last": 219,
-                    "discrete": true
-                },
-                {
-                    "name": "Store iris calibration – 5 sec.",
-                    "first": 220,
-                    "last": 224,
-                    "discrete": true
-                },
-                {
-                    "name": "Store focus calibration – 5 sec.",
-                    "first": 225,
-                    "last": 229,
-                    "discrete": true
-                },
-                {
-                    "name": "Store zoom calibration – 5 sec.",
-                    "first": 230,
-                    "last": 234,
-                    "discrete": true
-                },
-                {
-                    "name": "Store pan calibration – 5 sec.",
-                    "first": 235,
-                    "last": 239,
-                    "discrete": true
-                },
-                {
-                    "name": "Store tilt calibration – 5 sec.",
-                    "first": 240,
-                    "last": 244,
-                    "discrete": true
-                },
-                {
-                    "name": "Reset all calibration values to factory defaults – 5 sec.",
-                    "first": 245,
-                    "last": 249,
-                    "discrete": true
-                }
-            ]
-        }
-    ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+	"channels": [
+		{
+			"name": "Strobe/Shutter",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Closed",
+					"first": 0,
+					"last": 19
+				},
+				{
+					"name": "Open",
+					"first": 20,
+					"last": 49
+				},
+				{
+					"name": "Strobe",
+					"first": 50,
+					"last": 200
+				},
+				{
+					"name": "Random strobe",
+					"first": 211,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Dimmer",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Cyan",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Magenta",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Yellow",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "CTO",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Color Wheel",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Open",
+					"first": 0,
+					"last": 0,
+					"discrete": true
+				},
+				{
+					"name": "Open>Slot1",
+					"first": 1,
+					"last": 14
+				},
+				{
+					"name": "Slot1>Slot2",
+					"first": 16,
+					"last": 29
+				},
+				{
+					"name": "Slot2",
+					"first": 30,
+					"last": 30,
+					"discrete": true
+				},
+				{
+					"name": "Slot2>Slot3",
+					"first": 31,
+					"last": 44
+				},
+				{
+					"name": "Slot3",
+					"first": 45,
+					"last": 45,
+					"discrete": true
+				},
+				{
+					"name": "Slot3>Slot4",
+					"first": 46,
+					"last": 59
+				},
+				{
+					"name": "Slot4",
+					"first": 60,
+					"last": 60,
+					"discrete": true
+				},
+				{
+					"name": "Slot4>Slot5",
+					"first": 61,
+					"last": 74
+				},
+				{
+					"name": "Slot5",
+					"first": 75,
+					"last": 75,
+					"discrete": true
+				},
+				{
+					"name": "Slot5>Slot6",
+					"first": 76,
+					"last": 89
+				},
+				{
+					"name": "Slot6",
+					"first": 90,
+					"last": 90,
+					"discrete": true
+				},
+				{
+					"name": "Slot6>Slot7",
+					"first": 91,
+					"last": 104
+				},
+				{
+					"name": "Slot7",
+					"first": 105,
+					"last": 105,
+					"discrete": true
+				},
+				{
+					"name": "Slot7>Open",
+					"first": 106,
+					"last": 119
+				},
+				{
+					"name": "Slot1",
+					"first": 121,
+					"last": 125,
+					"discrete": true
+				},
+				{
+					"name": "CW",
+					"first": 161,
+					"last": 200
+				},
+				{
+					"name": "Stop",
+					"first": 201,
+					"last": 203,
+					"discrete": true
+				},
+				{
+					"name": "CCW",
+					"first": 204,
+					"last": 243
+				},
+				{
+					"name": "Fast random color",
+					"first": 244,
+					"last": 247,
+					"discrete": true
+				},
+				{
+					"name": "Medium random color",
+					"first": 248,
+					"last": 251,
+					"discrete": true
+				},
+				{
+					"name": "Slow random color",
+					"first": 252,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Iris",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Internal barndoor 1",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Internal barndoor 2",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Internal barndoors rotation",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "-10° > -1°",
+					"first": 0,
+					"last": 9
+				},
+				{
+					"name": "0°",
+					"first": 10,
+					"last": 10,
+					"discrete": true
+				},
+				{
+					"name": "1° > 89°",
+					"first": 11,
+					"last": 99
+				},
+				{
+					"name": "90°",
+					"first": 100,
+					"last": 100,
+					"discrete": true
+				},
+				{
+					"name": "91° > +179°",
+					"first": 101,
+					"last": 189
+				},
+				{
+					"name": "180°",
+					"first": 190,
+					"last": 190,
+					"discrete": true
+				},
+				{
+					"name": "181° > 190°",
+					"first": 191,
+					"last": 200
+				},
+				{
+					"name": "No function",
+					"first": 201,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Zoom",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Focus",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Pan",
+			"type": "Analog_8",
+			"defaultValue": 127,
+			"normalized": true
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_8",
+			"defaultValue": 127,
+			"normalized": true
+		},
+		{
+			"name": "Fixture control/settings",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No function",
+					"first": 0,
+					"last": 9
+				},
+				{
+					"name": "Reset entire fixture",
+					"first": 10,
+					"last": 14,
+					"discrete": true
+				},
+				{
+					"name": "Reset dimmer and shutter",
+					"first": 15,
+					"last": 19,
+					"discrete": true
+				},
+				{
+					"name": "Reset color",
+					"first": 20,
+					"last": 24,
+					"discrete": true
+				},
+				{
+					"name": "Reset beam",
+					"first": 25,
+					"last": 29,
+					"discrete": true
+				},
+				{
+					"name": "Reset pan and tilt",
+					"first": 30,
+					"last": 34,
+					"discrete": true
+				},
+				{
+					"name": "No function 2",
+					"first": 35,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "Lamp on",
+					"first": 40,
+					"last": 44,
+					"discrete": true
+				},
+				{
+					"name": "Lamp off",
+					"first": 45,
+					"last": 49,
+					"discrete": true
+				},
+				{
+					"name": "Enable calibration",
+					"first": 55,
+					"last": 59,
+					"discrete": true
+				},
+				{
+					"name": "Linear dimming curve",
+					"first": 60,
+					"last": 64,
+					"discrete": true
+				},
+				{
+					"name": "Square law dimming curve",
+					"first": 65,
+					"last": 69,
+					"discrete": true
+				},
+				{
+					"name": "Inverse square law dimming curve",
+					"first": 70,
+					"last": 74,
+					"discrete": true
+				},
+				{
+					"name": "S-curve dimming curve",
+					"first": 75,
+					"last": 79,
+					"discrete": true
+				},
+				{
+					"name": "Normal pan and tilt speed ",
+					"first": 80,
+					"last": 84,
+					"discrete": true
+				},
+				{
+					"name": "Fast pan and tilt speed",
+					"first": 85,
+					"last": 89,
+					"discrete": true
+				},
+				{
+					"name": "Slow pan and tilt speed ",
+					"first": 90,
+					"last": 94,
+					"discrete": true
+				},
+				{
+					"name": "Effect shortcuts ON",
+					"first": 95,
+					"last": 99,
+					"discrete": true
+				},
+				{
+					"name": "Effect shortcuts OFF",
+					"first": 100,
+					"last": 104,
+					"discrete": true
+				},
+				{
+					"name": "Disable zoom/focus linking",
+					"first": 105,
+					"last": 109,
+					"discrete": true
+				},
+				{
+					"name": "Enable zoom/focus linking, near",
+					"first": 110,
+					"last": 114,
+					"discrete": true
+				},
+				{
+					"name": "Enable zoom/focus linking, medium",
+					"first": 115,
+					"last": 119,
+					"discrete": true
+				},
+				{
+					"name": "Enable zoom/focus linking, far",
+					"first": 120,
+					"last": 124,
+					"discrete": true
+				},
+				{
+					"name": "Ballast output full",
+					"first": 125,
+					"last": 126,
+					"discrete": true
+				},
+				{
+					"name": "Ballast output reduced to 90%",
+					"first": 127,
+					"last": 128,
+					"discrete": true
+				},
+				{
+					"name": "Ballast output reduced to 80%",
+					"first": 129,
+					"last": 130,
+					"discrete": true
+				},
+				{
+					"name": "Ballast output reduced to 70%",
+					"first": 131,
+					"last": 132,
+					"discrete": true
+				},
+				{
+					"name": "Ballast output reduced to 60%",
+					"first": 133,
+					"last": 134,
+					"discrete": true
+				},
+				{
+					"name": "Auto blackout ON",
+					"first": 135,
+					"last": 139,
+					"discrete": true
+				},
+				{
+					"name": "Auto blackout OFF",
+					"first": 140,
+					"last": 144,
+					"discrete": true
+				},
+				{
+					"name": "Turn on control panel display",
+					"first": 150,
+					"last": 154,
+					"discrete": true
+				},
+				{
+					"name": "Turn off control panel display",
+					"first": 155,
+					"last": 159,
+					"discrete": true
+				},
+				{
+					"name": "Store pan and tilt calibration",
+					"first": 165,
+					"last": 169,
+					"discrete": true
+				},
+				{
+					"name": "Store dimmer calibration",
+					"first": 170,
+					"last": 174,
+					"discrete": true
+				},
+				{
+					"name": "Store cyan calibration",
+					"first": 175,
+					"last": 179,
+					"discrete": true
+				},
+				{
+					"name": "Store magenta calibration",
+					"first": 180,
+					"last": 184,
+					"discrete": true
+				},
+				{
+					"name": "Store yellow calibration",
+					"first": 185,
+					"last": 189,
+					"discrete": true
+				},
+				{
+					"name": "Store CTC calibration",
+					"first": 190,
+					"last": 194,
+					"discrete": true
+				},
+				{
+					"name": "Store all CMY and CTC calibration",
+					"first": 195,
+					"last": 199,
+					"discrete": true
+				},
+				{
+					"name": "Store internal barndoors calibration",
+					"first": 215,
+					"last": 219,
+					"discrete": true
+				},
+				{
+					"name": "Store iris calibration",
+					"first": 220,
+					"last": 224,
+					"discrete": true
+				},
+				{
+					"name": "Store focus calibration",
+					"first": 225,
+					"last": 229,
+					"discrete": true
+				},
+				{
+					"name": "Store zoom calibration",
+					"first": 230,
+					"last": 234,
+					"discrete": true
+				},
+				{
+					"name": "Store pan calibration",
+					"first": 235,
+					"last": 239,
+					"discrete": true
+				},
+				{
+					"name": "Store tilt calibration",
+					"first": 240,
+					"last": 244,
+					"discrete": true
+				},
+				{
+					"name": "Reset all calibration values to factory defaults",
+					"first": 245,
+					"last": 249,
+					"discrete": true
+				}
+			]
+		}
+	],
+	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
 }

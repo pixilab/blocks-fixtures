@@ -19,7 +19,7 @@
             "defaultValue": 128
         },
         {
-            "name": "Color Wheel",
+			"name": "Color",
             "type": "Ranges",
             "ranges": [
                 {
@@ -296,7 +296,7 @@
                     "last": 231
                 },
                 {
-                    "name": "Gobo Bounce",
+					"name": "Bounce",
                     "first": 232,
                     "last": 255
                 }
@@ -400,88 +400,88 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+					"name": "Off",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-                    "name": "Built-in Program 1",
+					"name": "Built-in 1",
                     "first": 8,
                     "last": 23
                 },
                 {
-                    "name": "Built-in Program 2",
+					"name": "Built-in 2",
                     "first": 24,
                     "last": 39
                 },
                 {
-                    "name": "Built-in Program 3",
+					"name": "Built-in 3",
                     "first": 40,
                     "last": 55
                 },
                 {
-                    "name": "Built-in Program 4",
+					"name": "Built-in 4",
                     "first": 56,
                     "last": 71
                 },
                 {
-                    "name": "Built-in Program 5",
+					"name": "Built-in 5",
                     "first": 72,
                     "last": 87
                 },
                 {
-                    "name": "Built-in Program 6",
+					"name": "Built-in 6",
                     "first": 88,
                     "last": 103
                 },
                 {
-                    "name": "Built-in Program 7",
+					"name": "Built-in 7",
                     "first": 104,
                     "last": 119
                 },
                 {
-                    "name": "Built-in Program 8",
+					"name": "Built-in 8",
                     "first": 120,
                     "last": 135
                 },
                 {
-                    "name": "Sound-controlled Program 1",
+					"name": "Sound 1",
                     "first": 136,
                     "last": 151
                 },
                 {
-                    "name": "Sound-controlled Program 2",
+					"name": "Sound 2",
                     "first": 152,
                     "last": 167
                 },
                 {
-                    "name": "Sound-controlled Program 3",
+					"name": "Sound 3",
                     "first": 168,
                     "last": 183
                 },
                 {
-                    "name": "Sound-controlled Program 4",
+					"name": "Sound 4",
                     "first": 184,
                     "last": 199
                 },
                 {
-                    "name": "Sound-controlled Program 5",
+					"name": "Sound 5",
                     "first": 200,
                     "last": 215
                 },
                 {
-                    "name": "Sound-controlled Program 6",
+					"name": "Sound 6",
                     "first": 216,
                     "last": 231
                 },
                 {
-                    "name": "Sound-controlled Program 7",
+					"name": "Sound 7",
                     "first": 232,
                     "last": 247
                 },
                 {
-                    "name": "Sound-controlled Program 8",
+					"name": "Sound 8",
                     "first": 248,
                     "last": 255,
                     "discrete": true

@@ -87,7 +87,7 @@
                     "last": 127
                 },
                 {
-                    "name": "CW rotation fast - slow",
+					"name": "CW rotation",
                     "first": 128,
                     "last": 189
                 },
@@ -98,7 +98,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "CCW rotation slow fast",
+					"name": "CCW rotation",
                     "first": 194,
                     "last": 255
                 }
@@ -159,52 +159,52 @@
                     "last": 101
                 },
                 {
-                    "name": "Gobo 1 shake slow - fast",
+					"name": "Gobo 1 shake",
                     "first": 102,
                     "last": 112
                 },
                 {
-                    "name": "Gobo 2 shake slow - fast",
+					"name": "Gobo 2 shake",
                     "first": 113,
                     "last": 123
                 },
                 {
-                    "name": "Gobo 3 shake slow - fast",
+					"name": "Gobo 3 shake",
                     "first": 124,
                     "last": 134
                 },
                 {
-                    "name": "Gobo 4 shake slow - fast",
+					"name": "Gobo 4 shake",
                     "first": 135,
                     "last": 145
                 },
                 {
-                    "name": "Gobo 5 shake slow - fast",
+					"name": "Gobo 5 shake",
                     "first": 146,
                     "last": 156
                 },
                 {
-                    "name": "Gobo 6 shake slow - fast",
+					"name": "Gobo 6 shake",
                     "first": 157,
                     "last": 167
                 },
                 {
-                    "name": "Gobo 7 shake slow - fast",
+					"name": "Gobo 7 shake",
                     "first": 168,
                     "last": 178
                 },
                 {
-                    "name": "Gobo 8  shake slow - fast",
+					"name": "Gobo 8 shake",
                     "first": 179,
                     "last": 189
                 },
                 {
-                    "name": "CW Gobo wheel rotation fast - slow",
+					"name": "CW Gobo wheel rotation",
                     "first": 190,
                     "last": 223
                 },
                 {
-                    "name": "CCW Gobo wheel rotation slow -fast",
+					"name": "CCW Gobo wheel rotation",
                     "first": 224,
                     "last": 255
                 }
@@ -220,7 +220,7 @@
                     "last": 127
                 },
                 {
-                    "name": "CW Gobo rotation fast - slow",
+					"name": "CW Gobo rotation",
                     "first": 128,
                     "last": 189
                 },
@@ -231,14 +231,14 @@
                     "discrete": true
                 },
                 {
-                    "name": "CCW Gobo rotation fast - slow",
+					"name": "CCW Gobo rotation",
                     "first": 194,
                     "last": 255
                 }
             ]
         },
         {
-            "name": "Static-stamped Gobos (Gobo wheel 2)",
+			"name": "Gobos",
             "type": "Ranges",
             "ranges": [
                 {
@@ -247,151 +247,151 @@
                     "last": 21
                 },
                 {
-                    "name": "Static-stamped Gobo 1",
+					"name": "Gobo 1",
                     "first": 22,
                     "last": 28,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 2",
+					"name": "Gobo 2",
                     "first": 29,
                     "last": 35,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 3",
+					"name": "Gobo 3",
                     "first": 36,
                     "last": 42,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 4",
+					"name": "Gobo 4",
                     "first": 43,
                     "last": 49,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 5",
+					"name": "Gobo 5",
                     "first": 50,
                     "last": 56,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 6",
+					"name": "Gobo 6",
                     "first": 57,
                     "last": 63,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 7",
+					"name": "Gobo 7",
                     "first": 64,
                     "last": 70,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 8",
+					"name": "Gobo 8",
                     "first": 71,
                     "last": 77,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 9",
+					"name": "Gobo 9",
                     "first": 78,
                     "last": 84,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 10",
+					"name": "Gobo 10",
                     "first": 85,
                     "last": 91,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 11",
+					"name": "Gobo 11",
                     "first": 92,
                     "last": 98,
                     "discrete": true
                 },
                 {
-                    "name": "Static-stamped Gobo 12",
+					"name": "Gobo 12",
                     "first": 99,
                     "last": 105,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 1",
+					"name": "Shake Gobo 1",
                     "first": 106,
                     "last": 112,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 2",
+					"name": "Shake Gobo 2",
                     "first": 113,
                     "last": 119,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 3",
+					"name": "Shake Gobo 3",
                     "first": 120,
                     "last": 126,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 4",
+					"name": "Shake Gobo 4",
                     "first": 127,
                     "last": 133,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 5",
+					"name": "Shake Gobo 5",
                     "first": 134,
                     "last": 140,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 6",
+					"name": "Shake Gobo 6",
                     "first": 141,
                     "last": 147,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 7",
+					"name": "Shake Gobo 7",
                     "first": 148,
                     "last": 154,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 8",
+					"name": "Shake Gobo 8",
                     "first": 155,
                     "last": 161,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 9",
+					"name": "Shake Gobo 9",
                     "first": 162,
                     "last": 168,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 10",
+					"name": "Shake Gobo 10",
                     "first": 169,
                     "last": 175,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 11",
+					"name": "Shake Gobo 11",
                     "first": 176,
                     "last": 182,
                     "discrete": true
                 },
                 {
-                    "name": "Shake slow - fast static-stamped Gobo 12",
+					"name": "Shake Gobo 12",
                     "first": 183,
                     "last": 189,
                     "discrete": true
                 },
                 {
-                    "name": "CW Gobo Wheel rotation fast - slow",
+					"name": "CW Gobo Wheel rotation",
                     "first": 190,
                     "last": 221
                 },
@@ -402,7 +402,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "CCW Gobo Wheel rotation slow - fast",
+					"name": "CCW Gobo Wheel rotation",
                     "first": 224,
                     "last": 255
                 }
@@ -423,7 +423,7 @@
                     "last": 50
                 },
                 {
-                    "name": "linear rotating prism",
+					"name": "Linear rotating prism",
                     "first": 51,
                     "last": 69
                 },
@@ -443,97 +443,97 @@
                     "last": 127
                 },
                 {
-                    "name": "linear prism / Gobo macro 1",
+					"name": "Macro 1",
                     "first": 128,
                     "last": 135,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 2",
+					"name": "Macro 2",
                     "first": 136,
                     "last": 143,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 3",
+					"name": "Macro 3",
                     "first": 144,
                     "last": 151,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 4",
+					"name": "Macro 4",
                     "first": 152,
                     "last": 159,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 5",
+					"name": "Macro 5",
                     "first": 160,
                     "last": 167,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 6",
+					"name": "Macro 6",
                     "first": 168,
                     "last": 175,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 7",
+					"name": "Macro 7",
                     "first": 176,
                     "last": 183,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 8",
+					"name": "Macro 8",
                     "first": 184,
                     "last": 191,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 9",
+					"name": "Macro 9",
                     "first": 192,
                     "last": 199,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 10",
+					"name": "Macro 10",
                     "first": 200,
                     "last": 207,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 11",
+					"name": "Macro 11",
                     "first": 208,
                     "last": 215,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 12",
+					"name": "Macro 12",
                     "first": 216,
                     "last": 223,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 13",
+					"name": "Macro 13",
                     "first": 224,
                     "last": 231,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 14",
+					"name": "Macro 14",
                     "first": 232,
                     "last": 239,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 15",
+					"name": "Macro 15",
                     "first": 240,
                     "last": 247,
                     "discrete": true
                 },
                 {
-                    "name": "linear prism / Gobo macro 16",
+					"name": "Macro 16",
                     "first": 248,
                     "last": 255,
                     "discrete": true
@@ -550,18 +550,18 @@
                     "last": 127
                 },
                 {
-                    "name": "CW linear prism rotation fast - slow",
+					"name": "CW linear prism rotation",
                     "first": 128,
                     "last": 189
                 },
                 {
-                    "name": "no rotation",
+					"name": "No rotation",
                     "first": 190,
                     "last": 193,
                     "discrete": true
                 },
                 {
-                    "name": "CCW linear prism rotation slow - fast",
+					"name": "CCW linear prism rotation",
                     "first": 194,
                     "last": 255
                 }
@@ -569,25 +569,13 @@
         },
         {
             "name": "Focus",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "near - fast",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
+			"type": "Analog_8",
+			"normalized": true
         },
         {
             "name": "Zoom",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "small - big",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
+			"type": "Analog_8",
+			"normalized": true
         },
         {
             "name": "Auto focus",
@@ -611,7 +599,7 @@
             ]
         },
         {
-            "name": "Shutter / Strobe",
+			"name": "Shutter/Strobe",
             "type": "Ranges",
             "ranges": [
                 {
@@ -625,7 +613,7 @@
                     "last": 63
                 },
                 {
-                    "name": "strobe slow - fast",
+					"name": "strobe",
                     "first": 64,
                     "last": 95
                 },
@@ -635,7 +623,7 @@
                     "last": 159
                 },
                 {
-                    "name": "random strobe slow - fast",
+					"name": "random strobe",
                     "first": 192,
                     "last": 223
                 }
@@ -663,16 +651,16 @@
             ]
         },
         {
-            "name": "Pan / Tilt speed",
+			"name": "Pan/Tilt speed",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "max - min speed",
+					"name": "Speed",
                     "first": 0,
                     "last": 225
                 },
                 {
-                    "name": "blackout with Pan / Tilt movement",
+					"name": "blackout with Pan/Tilt movement",
                     "first": 226,
                     "last": 235
                 },
@@ -724,7 +712,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Pan / Tilt motor reset",
+					"name": "Pan/Tilt motor reset",
                     "first": 85,
                     "last": 87,
                     "discrete": true
@@ -736,49 +724,49 @@
                     "discrete": true
                 },
                 {
-                    "name": "Shutter + dimmer motor reset",
+					"name": "Shutter/Dimmer motor reset",
                     "first": 94,
                     "last": 96,
                     "discrete": true
                 },
                 {
-                    "name": "other motor reset",
+					"name": "Other motor reset",
                     "first": 97,
                     "last": 99,
                     "discrete": true
                 },
                 {
-                    "name": "Internal program 1 (scene 1 - 8)",
+					"name": "Program 1",
                     "first": 100,
                     "last": 119
                 },
                 {
-                    "name": "Internal Program 2 (scene 9 - 16)",
+					"name": "Program 2",
                     "first": 120,
                     "last": 139
                 },
                 {
-                    "name": "Internal Program 3 (scene 17 - 24)",
+					"name": "Program 3",
                     "first": 140,
                     "last": 159
                 },
                 {
-                    "name": "Internal Program 4 (scene 25 - 32)",
+					"name": "Program 4",
                     "first": 160,
                     "last": 179
                 },
                 {
-                    "name": "Internal Program 5 (scene 33 - 40)",
+					"name": "Program 5",
                     "first": 180,
                     "last": 199
                 },
                 {
-                    "name": "Internal Program 6 (scene 41 - 48)",
+					"name": "Program 6",
                     "first": 200,
                     "last": 219
                 },
                 {
-                    "name": "Internal Program 7 (scene 49 - 56)",
+					"name": "Program 7",
                     "first": 220,
                     "last": 239
                 },

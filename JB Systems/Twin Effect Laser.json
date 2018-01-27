@@ -35,7 +35,7 @@
                     "last": 219
                 },
                 {
-                    "name": "Son mode (Sound active grating / pattern effects show)",
+					"name": "Son mode (Sound active grating/pattern effects show)",
                     "first": 220,
                     "last": 255
                 }

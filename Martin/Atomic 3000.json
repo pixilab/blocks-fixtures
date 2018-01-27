@@ -11,7 +11,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Strobe slow-fast",
+					"name": "Strobe",
                     "first": 6,
                     "last": 249
                 },

@@ -331,52 +331,52 @@
                     "last": 9
                 },
                 {
-                    "name": "Program 1 fast-slow",
+					"name": "Program 1",
                     "first": 10,
                     "last": 19
                 },
                 {
-                    "name": "Program 2 fast-slow",
+					"name": "Program 2",
                     "first": 20,
                     "last": 29
                 },
                 {
-                    "name": "Program 3 fast-slow",
+					"name": "Program 3",
                     "first": 30,
                     "last": 39
                 },
                 {
-                    "name": "Program 4 fast-slow",
+					"name": "Program 4",
                     "first": 40,
                     "last": 49
                 },
                 {
-                    "name": "Program 5 fast-slow",
+					"name": "Program 5",
                     "first": 50,
                     "last": 59
                 },
                 {
-                    "name": "Program 6 fast-slow",
+					"name": "Program 6",
                     "first": 60,
                     "last": 69
                 },
                 {
-                    "name": "Program 7 fast-slow",
+					"name": "Program 7",
                     "first": 70,
                     "last": 79
                 },
                 {
-                    "name": "Program 8 fast-slow",
+					"name": "Program 8",
                     "first": 80,
                     "last": 89
                 },
                 {
-                    "name": "Program 9 fast-slow",
+					"name": "Program 9",
                     "first": 90,
                     "last": 99
                 },
                 {
-                    "name": "Program 10 fast-slow",
+					"name": "Program 10",
                     "first": 100,
                     "last": 109
                 },
@@ -439,12 +439,12 @@
                     "discrete": true
                 },
                 {
-                    "name": "Strobe 0-30Hz",
+					"name": "Strobe",
                     "first": 5,
                     "last": 254
                 },
                 {
-                    "name": "Sound activated strobe",
+					"name": "Sound activated",
                     "first": 255,
                     "last": 255,
                     "discrete": true
@@ -462,12 +462,12 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rotate CW slow-fast",
+					"name": "Rotate CW",
                     "first": 5,
                     "last": 127
                 },
                 {
-                    "name": "Rotate CCW slow-fast",
+					"name": "Rotate CCW",
                     "first": 134,
                     "last": 255
                 }
@@ -484,12 +484,12 @@
                     "discrete": true
                 },
                 {
-                    "name": "Rotate CW slow-fast",
+					"name": "Rotate CW",
                     "first": 5,
                     "last": 127
                 },
                 {
-                    "name": "Rotate CCW slow-fast",
+					"name": "Rotate CCW",
                     "first": 134,
                     "last": 255
                 }

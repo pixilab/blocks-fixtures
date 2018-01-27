@@ -11,26 +11,26 @@
             "normalized": true
         },
         {
-            "name": "Pan / Tilt Speed",
+			"name": "Pan/Tilt Speed",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Fast (standard)",
+					"name": "Fast",
                     "first": 0,
                     "last": 10
                 },
                 {
-                    "name": "Ultra fast (for programming)",
+					"name": "Ultra fast",
                     "first": 11,
                     "last": 25
                 },
                 {
-                    "name": "Vector mode fast - slow",
+					"name": "Vector mode",
                     "first": 26,
                     "last": 127
                 },
                 {
-                    "name": "Tracking mode fast - slow",
+					"name": "Tracking mode",
                     "first": 128,
                     "last": 247
                 },
@@ -60,7 +60,7 @@
             ]
         },
         {
-            "name": "Shutter / Strobe",
+			"name": "Shutter/Strobe",
             "type": "Ranges",
             "ranges": [
                 {
@@ -80,17 +80,17 @@
                     "discrete": true
                 },
                 {
-                    "name": "Pulse sequences (close slow, open fast) slow - fast",
+					"name": "Pulse sequences (close slow, open fast)",
                     "first": 69,
                     "last": 125
                 },
                 {
-                    "name": "Pulse sequences (close fast, open slow) slow - fast",
+					"name": "Pulse sequences (close fast, open slow)",
                     "first": 128,
                     "last": 184
                 },
                 {
-                    "name": "Random strobe slow - fast",
+					"name": "Random strobe",
                     "first": 188,
                     "last": 244
                 }
@@ -146,7 +146,7 @@
                     "last": 192
                 },
                 {
-                    "name": "Gobo wheel rotation slow - fast",
+					"name": "Gobo wheel rotation",
                     "first": 193,
                     "last": 255
                 }
@@ -178,7 +178,7 @@
                     "last": 10
                 },
                 {
-                    "name": "Continuous CW rotation fast - slow",
+					"name": "Continuous CW rotation",
                     "first": 11,
                     "last": 131
                 },
@@ -189,7 +189,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Continuous CCW rotation slow - fast",
+					"name": "Continuous CCW rotation",
                     "first": 135,
                     "last": 255
                 }
@@ -210,7 +210,7 @@
                     "last": 20
                 },
                 {
-                    "name": "Continuous CW rotation fast - slow",
+					"name": "Continuous CW rotation",
                     "first": 21,
                     "last": 136
                 },
@@ -221,7 +221,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Continuous CCW rotation slow - fast",
+					"name": "Continuous CCW rotation",
                     "first": 140,
                     "last": 255
                 }
@@ -232,7 +232,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Open / white",
+					"name": "Open/white",
                     "first": 0,
                     "last": 4,
                     "discrete": true
@@ -309,7 +309,7 @@
                     "last": 127
                 },
                 {
-                    "name": "Forwards rainbow effect fast - slow",
+					"name": "Forwards rainbow effect",
                     "first": 128,
                     "last": 190
                 },
@@ -320,7 +320,7 @@
                     "discrete": true
                 },
                 {
-                    "name": "Backwards rainbow effect slow - fast",
+					"name": "Backwards rainbow effect",
                     "first": 193,
                     "last": 255
                 }
@@ -336,7 +336,7 @@
                     "last": 9
                 },
                 {
-                    "name": "Gobo shake slow - fast",
+					"name": "Gobo shake",
                     "first": 10,
                     "last": 249
                 },
@@ -353,7 +353,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Gobo shake size 1 (maximum)",
+					"name": "Gobo shake size 1",
                     "first": 0,
                     "last": 23
                 },
@@ -403,14 +403,14 @@
                     "last": 239
                 },
                 {
-                    "name": "Gobo shake size 11 (minimum)",
+					"name": "Gobo shake size 11",
                     "first": 240,
                     "last": 255
                 }
             ]
         },
         {
-            "name": "Lamp on / Motor reset (hold 6s)",
+			"name": "Lamp on / Motor reset",
             "type": "Ranges",
             "ranges": [
                 {
@@ -419,22 +419,22 @@
                     "last": 19
                 },
                 {
-                    "name": "No effects (idle)",
+					"name": "No effects",
                     "first": 20,
                     "last": 100
                 },
                 {
-                    "name": "Effects reset (once), no Pan / Tilt movement",
+					"name": "Effects reset, no Pan/Tilt movement",
                     "first": 101,
                     "last": 170
                 },
                 {
-                    "name": "All motor reset (once)",
+					"name": "All motor reset",
                     "first": 171,
                     "last": 200
                 },
                 {
-                    "name": "Silent fans (if external temperature allows it)",
+					"name": "Silent fans",
                     "first": 201,
                     "last": 240
                 },

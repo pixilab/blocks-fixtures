@@ -1,233 +1,227 @@
 {
-    "channels": [
-        {
-            "name": "Pan",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32768
-        },
-        {
-            "name": "Tilt",
-            "type": "Analog_16",
-            "normalized": true,
-            "defaultValue": 32768
-        },
-        {
-            "name": "Pan / Tilt Speed",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Max to min speed",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Color Wheel",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "White",
-                    "first": 0,
-                    "last": 15
-                },
-                {
-                    "name": "Red",
-                    "first": 16,
-                    "last": 31
-                },
-                {
-                    "name": "Green",
-                    "first": 32,
-                    "last": 47
-                },
-                {
-                    "name": "Blue",
-                    "first": 48,
-                    "last": 63
-                },
-                {
-                    "name": "Yellow",
-                    "first": 64,
-                    "last": 79
-                },
-                {
-                    "name": "Magenta",
-                    "first": 80,
-                    "last": 95
-                },
-                {
-                    "name": "Cyan",
-                    "first": 96,
-                    "last": 111
-                },
-                {
-                    "name": "Orange",
-                    "first": 112,
-                    "last": 127
-                },
-                {
-                    "name": "Color rotation slow - fast",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Gobo Wheel",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Off",
-                    "first": 0,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 1",
-                    "first": 8,
-                    "last": 15,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 2",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 3",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 4",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 5",
-                    "first": 40,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 6",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 7",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo rotation slow - fast",
-                    "first": 64,
-                    "last": 127
-                },
-                {
-                    "name": "No function",
-                    "first": 128,
-                    "last": 143
-                },
-                {
-                    "name": "Gobo 1 shake slow - fast",
-                    "first": 144,
-                    "last": 159
-                },
-                {
-                    "name": "Gobo 2 shake slow - fast",
-                    "first": 160,
-                    "last": 175
-                },
-                {
-                    "name": "Gobo 3 shake slow - fast",
-                    "first": 176,
-                    "last": 191
-                },
-                {
-                    "name": "Gobo 4 shake slow - fast",
-                    "first": 192,
-                    "last": 207
-                },
-                {
-                    "name": "Gobo 5 shake slow - fast",
-                    "first": 208,
-                    "last": 223
-                },
-                {
-                    "name": "Gobo 6 shake slow - fast",
-                    "first": 224,
-                    "last": 239
-                },
-                {
-                    "name": "Gobo 7 shake slow - fast",
-                    "first": 240,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Dimmer",
-            "type": "Analog_8",
-            "normalized": true
-        },
-        {
-            "name": "Strobe / Shutter",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Off",
-                    "first": 0,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "Strobe 0 - 20Hz",
-                    "first": 8,
-                    "last": 127
-                },
-                {
-                    "name": "Random strobe 0 - 20Hz",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Functions",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "No function",
-                    "first": 0,
-                    "last": 93
-                },
-                {
-                    "name": "Reset settings",
-                    "first": 94,
-                    "last": 94,
-                    "discrete": true
-                },
-                {
-                    "name": "Restore factory settings",
-                    "first": 95,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "Sound-controlled Mode",
-                    "first": 96,
-                    "last": 255
-                }
-            ]
-        }
-    ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Pan/Tilt Speed",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Color Wheel",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "White",
+					"first": 0,
+					"last": 15
+				},
+				{
+					"name": "Red",
+					"first": 16,
+					"last": 31
+				},
+				{
+					"name": "Green",
+					"first": 32,
+					"last": 47
+				},
+				{
+					"name": "Blue",
+					"first": 48,
+					"last": 63
+				},
+				{
+					"name": "Yellow",
+					"first": 64,
+					"last": 79
+				},
+				{
+					"name": "Magenta",
+					"first": 80,
+					"last": 95
+				},
+				{
+					"name": "Cyan",
+					"first": 96,
+					"last": 111
+				},
+				{
+					"name": "Orange",
+					"first": 112,
+					"last": 127
+				},
+				{
+					"name": "Color rotation",
+					"first": 128,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo Wheel",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Off",
+					"first": 0,
+					"last": 7,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 1",
+					"first": 8,
+					"last": 15,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 2",
+					"first": 16,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 3",
+					"first": 24,
+					"last": 31,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 4",
+					"first": 32,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 5",
+					"first": 40,
+					"last": 47,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 6",
+					"first": 48,
+					"last": 55,
+					"discrete": true
+				},
+				{
+					"name": "Gobo 7",
+					"first": 56,
+					"last": 63,
+					"discrete": true
+				},
+				{
+					"name": "Gobo rotation",
+					"first": 64,
+					"last": 127
+				},
+				{
+					"name": "No function",
+					"first": 128,
+					"last": 143
+				},
+				{
+					"name": "Gobo 1 shake",
+					"first": 144,
+					"last": 159
+				},
+				{
+					"name": "Gobo 2 shake",
+					"first": 160,
+					"last": 175
+				},
+				{
+					"name": "Gobo 3 shake",
+					"first": 176,
+					"last": 191
+				},
+				{
+					"name": "Gobo 4 shake",
+					"first": 192,
+					"last": 207
+				},
+				{
+					"name": "Gobo 5 shake",
+					"first": 208,
+					"last": 223
+				},
+				{
+					"name": "Gobo 6 shake",
+					"first": 224,
+					"last": 239
+				},
+				{
+					"name": "Gobo 7 shake",
+					"first": 240,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Dimmer",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Strobe/Shutter",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Off",
+					"first": 0,
+					"last": 7,
+					"discrete": true
+				},
+				{
+					"name": "Strobe 0 - 20Hz",
+					"first": 8,
+					"last": 127
+				},
+				{
+					"name": "Random strobe 0 - 20Hz",
+					"first": 128,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Functions",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No function",
+					"first": 0,
+					"last": 93
+				},
+				{
+					"name": "Reset settings",
+					"first": 94,
+					"last": 94,
+					"discrete": true
+				},
+				{
+					"name": "Restore factory settings",
+					"first": 95,
+					"last": 95,
+					"discrete": true
+				},
+				{
+					"name": "Sound-controlled Mode",
+					"first": 96,
+					"last": 255
+				}
+			]
+		}
+	],
+	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
 }

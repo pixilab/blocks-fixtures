@@ -1,75 +1,67 @@
 {
-    "channels": [
-        {
-            "name": "Power",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Unit off",
-                    "first": 0,
-                    "last": 127
-                },
-                {
-                    "name": "Unit On",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Haze / Fog",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Haze",
-                    "first": 0,
-                    "last": 127
-                },
-                {
-                    "name": "Fog",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Fog output",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "0-100%",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "Fog on/off",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Fog off",
-                    "first": 0,
-                    "last": 127
-                },
-                {
-                    "name": "Fog on",
-                    "first": 128,
-                    "last": 255
-                }
-            ]
-        },
-        {
-            "name": "External Fan",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "0-100%",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
-        }
-    ],
-    "note": "Hazer, Smoke (imported from open-fixture-library.herokuapp.com)"
+	"channels": [
+		{
+			"name": "Power",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Off",
+					"first": 0,
+					"last": 127,
+					"discrete": true
+				},
+				{
+					"name": "On",
+					"first": 128,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Haze/Fog",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Haze",
+					"first": 0,
+					"last": 127
+				},
+				{
+					"name": "Fog",
+					"first": 128,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Fog output",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Fog on/off",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Fog off",
+					"first": 0,
+					"last": 127,
+					"discrete": true
+				},
+				{
+					"name": "Fog on",
+					"first": 128,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "External Fan",
+			"type": "Analog_8",
+			"normalized": true
+		}
+	],
+	"note": "Hazer, Smoke (imported from open-fixture-library.herokuapp.com)"
 }

@@ -91,12 +91,12 @@
                     "last": 9
                 },
                 {
-                    "name": "CW fast-slow",
+					"name": "CW",
                     "first": 10,
                     "last": 120
                 },
                 {
-                    "name": "CCW slow-fast",
+					"name": "CCW",
                     "first": 135,
                     "last": 245
                 },
@@ -113,13 +113,13 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No Strobe",
+					"name": "Off",
                     "first": 0,
                     "last": 0,
                     "discrete": true
                 },
                 {
-                    "name": "Strobe slow-fast",
+					"name": "Strobe",
                     "first": 1,
                     "last": 255
                 }

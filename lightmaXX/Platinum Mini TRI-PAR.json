@@ -127,12 +127,12 @@
                     "discrete": true
                 },
                 {
-                    "name": "jump slow-fast",
+					"name": "Jump",
                     "first": 85,
                     "last": 169
                 },
                 {
-                    "name": "fade slow-fast",
+					"name": "Fade",
                     "first": 170,
                     "last": 255
                 }
