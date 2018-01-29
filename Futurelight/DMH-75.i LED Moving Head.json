@@ -515,14 +515,8 @@
 		},
 		{
 			"name": "Focus",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Near - far",
-					"first": 0,
-					"last": 255
-				}
-			]
+			"type": "Analog_8",
+			"normalized": true
 		},
 		{
 			"name": "Reset, display control",

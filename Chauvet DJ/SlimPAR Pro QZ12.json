@@ -140,15 +140,9 @@
             ]
         },
         {
-            "name": "Zoom",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Zoom 0-100%",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
+			"name": "Zoom",
+			"type": "Analog_8",
+			"normalized": true
         }
     ],
     "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"

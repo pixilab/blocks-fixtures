@@ -368,15 +368,9 @@
             ]
         },
         {
-            "name": "Focus",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "far-near",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
+			"name": "Focus",
+			"type": "Analog_8",
+			"normalized": true
         },
         {
 			"name": "Shutter/Strobe",
