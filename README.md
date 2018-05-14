@@ -38,6 +38,10 @@ interface Range extends Named {
   first: number; last: number;  // First and last value corresponding to this mode
   discrete?: boolean; // Is discrete (single enum) value only, with no "range" within
 }
+
+interface Named {
+  name: string;
+}
 </pre>
 
 Each FixtureDescriptor contains a list of channels. A channel can be of one of four types, where the first three represent an analog value wth 8, 16 or 24 bits resolution (mapping to one, two or three DMX channels). Such an analog value can also accept the following optional properties:
