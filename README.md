@@ -5,7 +5,7 @@ A set of lighting fixture definitions usable with PIXILAB Blocks 2 or later.
 
 To use these files, copy the desired brand name folder(s) into the fixtures directory located inside your PIXILAN-root directory.
 
-**NOTE:** These definitions were partially derived from the excellent _Open Fixtures Library_ found at https://open-fixture-library.herokuapp.com
+**NOTE:** These definitions were partially derived from the excellent _Open Fixture Library_ found at https://open-fixture-library.org ([GitHub repository](https://github.com/OpenLightingProject/open-fixture-library))
 
 ## Folder Structure
 
@@ -18,7 +18,7 @@ The _fixtures_ directory holds a simple folder/file structure:
 
 The format of the data in each description file is defined by the following types (using _typescript_ notation), where the top level object is of the FixtureDescriptor type:
 
-<pre>
+```typescript
 interface FixtureDescriptor {
   channels: Channel[];  // The channels supported by this fixture
   note: string;  // Notes related to this fixture
@@ -42,7 +42,7 @@ interface Range extends Named {
 interface Named {
   name: string;
 }
-</pre>
+```
 
 Each FixtureDescriptor contains a list of channels. A channel can be of one of four types, where the first three represent an analog value wth 8, 16 or 24 bits resolution (mapping to one, two or three DMX channels). Such an analog value can also accept the following optional properties:
 
@@ -54,7 +54,7 @@ Alternatively the type is defined as 'Ranges', which describes a channel divided
 
 Here's an example of what the content of a description file can look like, taken from the generic _Pan Tilt_ model:
 
-<pre>
+```json
 {
   "note": "Moving Head, 8-bit",
   "channels": [
@@ -70,4 +70,5 @@ Here's an example of what the content of a description file can look like, taken
       "defaultValue": 127
     }
   ]
-}</pre>
+}
+```
