@@ -3,7 +3,7 @@ Blocks Lighting Fixture Definitions
 
 A set of lighting fixture definitions usable with PIXILAB Blocks 2 or later.
 
-To use these files, copy the desired brand name folder(s) into the fixtures directory located inside your PIXILAN-root directory.
+To use these files, copy the desired brand name folder(s) into the fixtures directory located inside your PIXILAB-Blocks-root directory.
 
 **NOTE:** These definitions were partially derived from the excellent _Open Fixture Library_ found at https://open-fixture-library.org ([GitHub repository](https://github.com/OpenLightingProject/open-fixture-library))
 
