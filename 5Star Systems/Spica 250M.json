@@ -183,7 +183,7 @@
                     "discrete": true
                 },
                 {
-					"name": "Rotation CW",
+					"name": "Rotation CCW",
                     "first": 194,
                     "last": 255
                 }
@@ -368,9 +368,15 @@
             ]
         },
         {
-			"name": "Focus",
-			"type": "Analog_8",
-			"normalized": true
+            "name": "Focus",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "far-near",
+                    "first": 0,
+                    "last": 255
+                }
+            ]
         },
         {
 			"name": "Shutter/Strobe",

@@ -1,0 +1,183 @@
+{
+	"note": "Panasonic Moving Head MH11, 8-bit",
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32639
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32639
+		},
+		{
+			"name": "Reset",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Reset",
+					"first": 255,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Picture",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Picture mute off",
+					"first": 0,
+					"last": 10,
+					"discrete": true
+				},
+				{
+					"name": "Picture mute on",
+					"first": 20,
+					"last": 30,
+					"discrete": true
+				},
+				{
+					"name": "Shutter off",
+					"first": 40,
+					"last": 50,
+					"discrete": true
+				},
+				{
+					"name": "Shutter on",
+					"first": 60,
+					"last": 70,
+					"discrete": true
+				},
+				{
+					"name": "Picture freeze off",
+					"first": 100,
+					"last": 110,
+					"discrete": true
+				},
+				{
+					"name": "Picture freeze on",
+					"first": 120,
+					"last": 130,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Image orientation",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Image orientation 1",
+					"first": 10,
+					"last": 63,
+					"discrete": true
+				},
+				{
+					"name": "Image orientation 2",
+					"first": 64,
+					"last": 127,
+					"discrete": true
+				},
+				{
+					"name": "Image orientation 3",
+					"first": 128,
+					"last": 192,
+					"discrete": true
+				},
+				{
+					"name": "Shutter off",
+					"first": 193,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Reserved",
+			"type": "Analog_8",
+			"hidden": true
+		},
+		{
+			"name": "Lamp",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Motor and LED drivers on",
+					"first": 28,
+					"last": 38,
+					"discrete": true
+				},
+				{
+					"name": "Motor and LED drivers off",
+					"first": 50,
+					"last": 58,
+					"discrete": true
+				},
+				{
+					"name": "Lamp mode 1",
+					"first": 130,
+					"last": 138,
+					"discrete": true
+				},
+				{
+					"name": "Lamp mode 2",
+					"first": 150,
+					"last": 158,
+					"discrete": true
+				},
+				{
+					"name": "Lamp mode 3",
+					"first": 170,
+					"last": 178,
+					"discrete": true
+				},
+				{
+					"name": "Lamp on",
+					"first": 230,
+					"last": 238,
+					"discrete": true
+				},
+				{
+					"name": "Lamp off",
+					"first": 250,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "LED intensity",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 127
+		},
+		{
+			"name": "LED red",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 127
+		},
+		{
+			"name": "LED green",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 127
+		},
+		{
+			"name": "LED blue",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 127
+		},
+		{
+			"name": "Reserved",
+			"type": "Analog_8",
+			"hidden": true
+		}
+	]
+}

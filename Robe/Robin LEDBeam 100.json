@@ -1,0 +1,153 @@
+{
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Pan/Tilt Speed",
+			"type": "Analog_8"
+		},
+		{
+			"name": "Special Functions",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "RGBW Color Mixing Mode",
+					"first": 30,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "CMY Color Mixing Mode",
+					"first": 40,
+					"last": 49,
+					"discrete": true
+				},
+				{
+					"name": "Pen/Tilt Speed Mode",
+					"first": 50,
+					"last": 59,
+					"discrete": true
+				},
+				{
+					"name": "Pen/Tilt Time Mode",
+					"first": 60,
+					"last": 69,
+					"discrete": true
+				},
+				{
+					"name": "Blackout while pan/tilt moving",
+					"first": 70,
+					"last": 79,
+					"discrete": true
+				},
+				{
+					"name": "Disabled blackout while pan/tilt moving",
+					"first": 80,
+					"last": 89,
+					"discrete": true
+				},
+				{
+					"name": "Pan/Tilt reset",
+					"first": 140,
+					"last": 149
+				},
+				{
+					"name": "Total fixture reset",
+					"first": 200,
+					"last": 209
+				}
+			]
+		},
+		{
+			"name": "Red/Cyan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "Green/Magenta",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "Blue/Yellow",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "White",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+
+		{
+			"name": "Red/Cyan Z2",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "Green/Magenta Z2",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "Blue/Yellow Z2",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "White Z2",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+
+		{
+			"name": "Red/Cyan Z3",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "Green/Magenta Z3",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "Blue/Yellow Z3",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+		{
+			"name": "White Z3",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 0
+		},
+
+		{
+			"name": "CTC",
+			"type": "Analog_8",
+			"normalized": true
+		}
+	],
+	"note": "Moving Head, Color Changer"
+}
