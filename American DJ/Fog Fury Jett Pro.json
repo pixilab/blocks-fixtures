@@ -7,8 +7,7 @@
                 {
                     "name": "Off",
                     "first": 0,
-					"last": 31,
-					"discrete": true
+                    "last": 31
                 },
                 {
                     "name": "Max fog & color change",
