@@ -1,0 +1,741 @@
+{
+	"channels": [
+		{
+			"name": "Strobe/Shutter",
+			"defaultValue": 30,
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "closed",
+					"first": 0,
+					"last": 19,
+					"discrete": true
+				},
+				{
+					"name": "open",
+					"first": 20,
+					"last": 49,
+					"discrete": true
+				},
+				{
+					"name": "strobe",
+					"first": 50,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Dimmer fade",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Cyan",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Magenta",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Yellow",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Color Wheel",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "Open",
+					"first": 0,
+					"last": 0,
+					"discrete": true
+				},
+				{
+					"name": "Open > Blue",
+					"first": 1,
+					"last": 14
+				},
+				{
+					"name": "Blue",
+					"first": 15,
+					"last": 15,
+					"discrete": true
+				},
+				{
+					"name": "Blue > Green",
+					"first": 16,
+					"last": 29
+				},
+				{
+					"name": "Green",
+					"first": 30,
+					"last": 30,
+					"discrete": true
+				},
+				{
+					"name": "Green > Orange",
+					"first": 31,
+					"last": 44
+				},
+				{
+					"name": "Orange",
+					"first": 45,
+					"last": 45,
+					"discrete": true
+				},
+				{
+					"name": "Orange > Magenta",
+					"first": 46,
+					"last": 59
+				},
+				{
+					"name": "Magenta",
+					"first": 60,
+					"last": 60,
+					"discrete": true
+				},
+				{
+					"name": "Magenta > Congo Blue",
+					"first": 61,
+					"last": 74
+				},
+				{
+					"name": "Congo Blue",
+					"first": 75,
+					"last": 75,
+					"discrete": true
+				},
+				{
+					"name": "Congo Blue > Red",
+					"first": 76,
+					"last": 89
+				},
+				{
+					"name": "Red",
+					"first": 90,
+					"last": 90,
+					"discrete": true
+				},
+				{
+					"name": "Red > Open",
+					"first": 91,
+					"last": 105
+				},
+				{
+					"name": "Stepped Scroll Blue",
+					"first": 161,
+					"last": 163,
+					"discrete": true
+				},
+				{
+					"name": "Stepped Scroll Green",
+					"first": 164,
+					"last": 166,
+					"discrete": true
+				},
+				{
+					"name": "Stepped Scroll Orange",
+					"first": 167,
+					"last": 169,
+					"discrete": true
+				},
+				{
+					"name": "Stepped Scroll Magenta",
+					"first": 170,
+					"last": 172,
+					"discrete": true
+				},
+				{
+					"name": "Stepped Scroll Congo Blue",
+					"first": 173,
+					"last": 175,
+					"discrete": true
+				},
+				{
+					"name": "Stepped Scroll Congo Red",
+					"first": 176,
+					"last": 178,
+					"discrete": true
+				},
+				{
+					"name": "Stepped Scroll Open",
+					"first": 179,
+					"last": 192,
+					"discrete": true
+				},
+				{
+					"name": "CW",
+					"first": 193,
+					"last": 214
+				},
+				{
+					"name": "Stop",
+					"first": 215,
+					"last": 221,
+					"discrete": true
+				},
+				{
+					"name": "CCW",
+					"first": 222,
+					"last": 243
+				},
+				{
+					"name": "Random color fast",
+					"first": 244,
+					"last": 247,
+					"discrete": true
+				},
+				{
+					"name": "Random color medium",
+					"first": 248,
+					"last": 251,
+					"discrete": true
+				},
+				{
+					"name": "Random color slow",
+					"first": 252,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Gobo Selection",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "open",
+					"first": 0,
+					"last": 4,
+					"discrete": true
+				},
+				{
+					"name": "gobo 1",
+					"first": 5,
+					"last": 9,
+					"discrete": true
+				},
+				{
+					"name": "gobo 2",
+					"first": 10,
+					"last": 14,
+					"discrete": true
+				},
+				{
+					"name": "gobo 3",
+					"first": 15,
+					"last": 19,
+					"discrete": true
+				},
+				{
+					"name": "gobo 4",
+					"first": 20,
+					"last": 24,
+					"discrete": true
+				},
+				{
+					"name": "gobo 5",
+					"first": 25,
+					"last": 29,
+					"discrete": true
+				},
+				{
+					"name": "gobo 6",
+					"first": 30,
+					"last": 34,
+					"discrete": true
+				},
+				{
+					"name": "gobo 1 continuous rotation",
+					"first": 35,
+					"last": 39,
+					"discrete": true
+				},
+				{
+					"name": "gobo 2 continuous rotation",
+					"first": 40,
+					"last": 44,
+					"discrete": true
+				},
+				{
+					"name": "gobo 3 continuous rotation",
+					"first": 45,
+					"last": 49,
+					"discrete": true
+				},
+				{
+					"name": "gobo 4 continuous rotation",
+					"first": 50,
+					"last": 54,
+					"discrete": true
+				},
+				{
+					"name": "gobo 5 continuous rotation",
+					"first": 55,
+					"last": 59,
+					"discrete": true
+				},
+				{
+					"name": "gobo 6 continuous rotation",
+					"first": 60,
+					"last": 64,
+					"discrete": true
+				},
+				{
+					"name": "gobo shake 1",
+					"first": 65,
+					"last": 88
+				},
+				{
+					"name": "gobo shake 2",
+					"first": 89,
+					"last": 112
+				},
+				{
+					"name": "gobo shake 3",
+					"first": 113,
+					"last": 136
+				},
+				{
+					"name": "gobo shake 4",
+					"first": 137,
+					"last": 160
+				},
+				{
+					"name": "gobo shake 5",
+					"first": 161,
+					"last": 184
+				},
+				{
+					"name": "gobo shake 6",
+					"first": 185,
+					"last": 209
+				},
+				{
+					"name": "CW gobo wheel scroll",
+					"first": 210,
+					"last": 232
+				},
+				{
+					"name": "CCW gobo wheel scroll",
+					"first": 233,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Gobo Indexing",
+			"type": "Analog_16",
+			"defaultValue": 32768
+		},
+		{
+			"name": "Static Gobo",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "open",
+					"first": 0,
+					"last": 14
+				},
+				{
+					"name": "01",
+					"first": 15,
+					"last": 29
+				},
+				{
+					"name": "02",
+					"first": 30,
+					"last": 44
+				},
+				{
+					"name": "03",
+					"first": 45,
+					"last": 59
+				},
+				{
+					"name": "04",
+					"first": 60,
+					"last": 74
+				},
+				{
+					"name": "05",
+					"first": 75,
+					"last": 89
+				},
+				{
+					"name": "06",
+					"first": 90,
+					"last": 104
+				},
+				{
+					"name": "07",
+					"first": 105,
+					"last": 119
+				},
+				{
+					"name": "08",
+					"first": 120,
+					"last": 134
+				},
+				{
+					"name": "09",
+					"first": 135,
+					"last": 149
+				},
+				{
+					"name": "10",
+					"first": 150,
+					"last": 165
+				},
+				{
+					"name": "Stepped 01",
+					"first": 166,
+					"last": 167,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 02",
+					"first": 168,
+					"last": 169,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 03",
+					"first": 170,
+					"last": 171,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 04",
+					"first": 172,
+					"last": 173,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 05",
+					"first": 174,
+					"last": 175,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 06",
+					"first": 176,
+					"last": 177,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 07",
+					"first": 178,
+					"last": 179,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 08",
+					"first": 180,
+					"last": 181,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 09",
+					"first": 182,
+					"last": 183,
+					"discrete": true
+				},
+				{
+					"name": "Stepped 10",
+					"first": 184,
+					"last": 185,
+					"discrete": true
+				},
+				{
+					"name": "rotation",
+					"first": 193,
+					"last": 243
+				},
+				{
+					"name": "random fast",
+					"first": 244,
+					"last": 247,
+					"discrete": true
+				},
+				{
+					"name": "random medium",
+					"first": 248,
+					"last": 251,
+					"discrete": true
+				},
+				{
+					"name": "random slow",
+					"first": 252,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Prism Rotation",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "open",
+					"first": 0,
+					"last": 2,
+					"discrete": true
+				},
+				{
+					"name": "rotation",
+					"first": 3,
+					"last": 253,
+					"defaultValue": 0.5
+				}
+			]
+		},
+		{
+			"name": "Iris",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "close",
+					"first": 0,
+					"last": 200
+				},
+				{
+					"name": "animate",
+					"first": 201,
+					"last": 255,
+					"defaultValue": 0.5
+				}
+			]
+		},
+		{
+			"name": "Zoom",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Focus",
+			"type": "Analog_16",
+			"normalized": true
+		},
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32768
+		},
+		{
+			"name": "Fixture control",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "no function",
+					"first": 0,
+					"last": 9
+				},
+				{
+					"name": "reset entire fixture",
+					"first": 10,
+					"last": 14,
+					"discrete": true
+				},
+				{
+					"name": "reset color",
+					"first": 16,
+					"last": 16,
+					"discrete": true
+				},
+				{
+					"name": "reset beam",
+					"first": 17,
+					"last": 17,
+					"discrete": true
+				},
+				{
+					"name": "reset pan tilt",
+					"first": 18,
+					"last": 18,
+					"discrete": true
+				},
+				{
+					"name": "linear dimming curve",
+					"first": 23,
+					"last": 23,
+					"discrete": true
+				},
+				{
+					"name": "square law dimming curve",
+					"first": 24,
+					"last": 24,
+					"discrete": true
+				},
+				{
+					"name": "inverse square lae dimming curve",
+					"first": 25,
+					"last": 25,
+					"discrete": true
+				},
+				{
+					"name": "s-curve dimming curve",
+					"first": 26,
+					"last": 26,
+					"discrete": true
+				},
+				{
+					"name": "fast pan and tilt speed",
+					"first": 28,
+					"last": 28,
+					"discrete": true
+				},
+				{
+					"name": "smooth pan and tilt speed",
+					"first": 29,
+					"last":29,
+					"discrete": true
+				},
+				{
+					"name": "disable zoom/focus linking",
+					"first": 32,
+					"last": 32,
+					"discrete": true
+				},
+				{
+					"name": "enable zoom/focus linking, near",
+					"first": 33,
+					"last": 33,
+					"discrete": true
+				},
+				{
+					"name": "enable zoom/focus linking, medium",
+					"first": 34,
+					"last": 34,
+					"discrete": true
+				},
+				{
+					"name": "enable zoom/focus linking, far",
+					"first": 35,
+					"last": 35,
+					"discrete": true
+				},
+				{
+					"name": "turn on display",
+					"first": 52,
+					"last": 52,
+					"discrete": true
+				},
+				{
+					"name": "turn off display",
+					"first": 53,
+					"last": 53,
+					"discrete": true
+				},
+				{
+					"name": "enable calibration",
+					"first": 100,
+					"last": 100,
+					"discrete": true
+				},
+				{
+					"name": "store pan tilt calibration",
+					"first": 101,
+					"last": 101,
+					"discrete": true
+				},
+				{
+					"name": "store dimmer calibration",
+					"first": 102,
+					"last": 102,
+					"discrete": true
+				},
+				{
+					"name": "store cyan calibration",
+					"first": 103,
+					"last": 103,
+					"discrete": true
+				},
+				{
+					"name": "store magenta calibration",
+					"first": 104,
+					"last": 104,
+					"discrete": true
+				},
+				{
+					"name": "store CMY calibration",
+					"first": 107,
+					"last": 107,
+					"discrete": true
+				},
+				{
+					"name": "store rot gobo wheel calibration",
+					"first": 108,
+					"last": 108,
+					"discrete": true
+				},
+				{
+					"name": "store static gobo wheel calibration",
+					"first": 110,
+					"last": 110,
+					"discrete": true
+				},
+				{
+					"name": "store iris calibration",
+					"first": 112,
+					"last": 112,
+					"discrete": true
+				},
+				{
+					"name": "store focus calibration",
+					"first": 113,
+					"last": 113,
+					"discrete": true
+				},
+				{
+					"name": "store zoom calibration",
+					"first": 114,
+					"last": 114,
+					"discrete": true
+				},
+				{
+					"name": "reset all calibration values to factory defaults",
+					"first": 199,
+					"last": 199,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "FX1",
+			"type": "Analog_8"
+		},
+		{
+			"name": "FX1 adjust",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 128
+		},
+		{
+			"name": "FX2",
+			"type": "Analog_8"
+		},
+		{
+			"name": "FX2 adjust",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 128
+		},
+		{
+			"name": "FX Synchronization",
+			"type": "Analog_8"
+		}
+	],
+	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

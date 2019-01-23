@@ -35,8 +35,10 @@ interface Channel extends Named {
 type ChannelTypes = 'Analog_8'|'Analog_16'|'Analog_24'|'Ranges';
 
 interface Range extends Named {
-  first: number; last: number;  // First and last value corresponding to this mode
+  first: number;   // First value corresponding to this mode
+  last?: number;	// Last value (same as first if not specified)
   discrete?: boolean; // Is discrete (single enum) value only, with no "range" within
+  defaultValue?: number; // What value to set channel to on system start-up (normalized 0...1)
 }
 
 interface Named {
