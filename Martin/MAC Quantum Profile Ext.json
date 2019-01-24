@@ -1,8 +1,9 @@
 {
+	"note": "Note that 'Shutter' must be set to 'open' for lamp to turn on.",
 	"channels": [
 		{
-			"name": "Strobe/Shutter",
-			"defaultValue": 30,
+			"name": "Shutter",
+			"defaultValue": 20,
 			"type": "Ranges",
 			"ranges": [
 				{
@@ -337,116 +338,66 @@
 			"type": "Ranges",
 			"ranges": [
 				{
-					"name": "open",
+					"name": "continuous",
 					"first": 0,
-					"last": 14
-				},
-				{
-					"name": "01",
-					"first": 15,
-					"last": 29
-				},
-				{
-					"name": "02",
-					"first": 30,
-					"last": 44
-				},
-				{
-					"name": "03",
-					"first": 45,
-					"last": 59
-				},
-				{
-					"name": "04",
-					"first": 60,
-					"last": 74
-				},
-				{
-					"name": "05",
-					"first": 75,
-					"last": 89
-				},
-				{
-					"name": "06",
-					"first": 90,
-					"last": 104
-				},
-				{
-					"name": "07",
-					"first": 105,
-					"last": 119
-				},
-				{
-					"name": "08",
-					"first": 120,
-					"last": 134
-				},
-				{
-					"name": "09",
-					"first": 135,
-					"last": 149
-				},
-				{
-					"name": "10",
-					"first": 150,
 					"last": 165
 				},
 				{
-					"name": "Stepped 01",
+					"name": "01",
 					"first": 166,
 					"last": 167,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 02",
+					"name": "02",
 					"first": 168,
 					"last": 169,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 03",
+					"name": "03",
 					"first": 170,
 					"last": 171,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 04",
+					"name": "04",
 					"first": 172,
 					"last": 173,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 05",
+					"name": "05",
 					"first": 174,
 					"last": 175,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 06",
+					"name": "06",
 					"first": 176,
 					"last": 177,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 07",
+					"name": "07",
 					"first": 178,
 					"last": 179,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 08",
+					"name": "08",
 					"first": 180,
 					"last": 181,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 09",
+					"name": "09",
 					"first": 182,
 					"last": 183,
 					"discrete": true
 				},
 				{
-					"name": "Stepped 10",
+					"name": "10",
 					"first": 184,
 					"last": 185,
 					"discrete": true
@@ -454,7 +405,8 @@
 				{
 					"name": "rotation",
 					"first": 193,
-					"last": 243
+					"last": 243,
+					"defaultValue": 0.5
 				},
 				{
 					"name": "random fast",
@@ -736,6 +688,5 @@
 			"name": "FX Synchronization",
 			"type": "Analog_8"
 		}
-	],
-	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+	]
 }
