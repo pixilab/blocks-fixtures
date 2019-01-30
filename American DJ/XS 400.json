@@ -161,7 +161,7 @@
             ]
         },
         {
-            "name": "Master Dimmer",
+            "name": "Dimmer",
             "type": "Analog_8",
             "normalized": true
         },

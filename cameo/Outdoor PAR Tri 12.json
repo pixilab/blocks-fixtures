@@ -1,7 +1,7 @@
 {
     "channels": [
         {
-            "name": "Master dimmer",
+            "name": "Dimmer",
             "type": "Analog_8",
             "normalized": true
         },

@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"name": "Dimmer fade",
+			"name": "Dimmer",
 			"type": "Analog_16",
 			"normalized": true
 		},
