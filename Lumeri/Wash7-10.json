@@ -1,0 +1,62 @@
+{
+	"note": "Really cheap little moving head fixture",
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32767
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_16",
+			"normalized": true,
+			"defaultValue": 32767
+		},
+		{
+			"name": "Speed",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 0,
+			"hidden": true
+		},
+		{
+			"name": "Intensity",
+			"type": "Ranges",
+			"defaultValue": 134,
+			"ranges": [
+				{
+					"name": "Dim",
+					"first": 8,
+					"last": 134,
+					"defaultValue": 1
+				},
+				{
+					"name": "Strobe",
+					"first": 135,
+					"last": 239
+				}
+			]
+		},
+		{
+			"name": "Red",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "White",
+			"type": "Analog_8",
+			"normalized": true
+		}
+	]
+}
