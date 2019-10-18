@@ -4,78 +4,32 @@
             "name": "Pan",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32767
+            "defaultValue": "50%"
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32767
+            "defaultValue": "50%"
         },
         {
             "name": "Motor Running Speed",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Fast-Slow",
-                    "first": 0,
-                    "last": 255
-                }
-            ]
+            "type": "Analog_8",
+            "normalized": true
         },
         {
             "name": "Color Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "White",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 10
                 },
                 {
-                    "name": "Red",
-                    "first": 11,
-                    "last": 21
-                },
-                {
-                    "name": "Orange",
-                    "first": 22,
-                    "last": 32
-                },
-                {
-                    "name": "Yellow",
-                    "first": 33,
-                    "last": 43
-                },
-                {
-                    "name": "Green",
-                    "first": 44,
-                    "last": 54
-                },
-                {
-                    "name": "Blue",
-                    "first": 55,
-                    "last": 65
-                },
-                {
-                    "name": "Cyan",
-                    "first": 66,
-                    "last": 76
-                },
-                {
-                    "name": "Purple",
-                    "first": 77,
-                    "last": 87
-                },
-                {
-                    "name": "Color selection (smooth shift)",
+                    "name": "WheelRotation",
                     "first": 88,
                     "last": 175
-                },
-                {
-					"name": "Rotation",
-                    "first": 176,
-                    "last": 255
                 }
             ]
         },
@@ -85,5 +39,5 @@
             "normalized": true
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

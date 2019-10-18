@@ -1,0 +1,592 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 49
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 50,
+                    "last": 59
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 190,
+                    "last": 215
+                },
+                {
+                    "name": "Random Color by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto random color selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CTO Filter",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CMY Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 16,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 24,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 32,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 40,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 48,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 56,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 64,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 9",
+                    "first": 72,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 10",
+                    "first": 80,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 11",
+                    "first": 88,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 12",
+                    "first": 96,
+                    "last": 103,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 13",
+                    "first": 104,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 14",
+                    "first": 112,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 15",
+                    "first": 120,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 16",
+                    "first": 128,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 17",
+                    "first": 136,
+                    "last": 143,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 18",
+                    "first": 144,
+                    "last": 151,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 19",
+                    "first": 152,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 20",
+                    "first": 160,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 21",
+                    "first": 168,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 22",
+                    "first": 176,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 23",
+                    "first": 184,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 24",
+                    "first": 192,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 25",
+                    "first": 200,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 26",
+                    "first": 208,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 27",
+                    "first": 216,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 28",
+                    "first": 224,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 29",
+                    "first": 232,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 30",
+                    "first": 240,
+                    "last": 243,
+                    "discrete": true
+                },
+                {
+                    "name": "Random Macro selection by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto random selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Effect Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Static Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 202,
+                    "last": 221
+                },
+                {
+                    "name": "Random Gobo selection by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto Random Gobo selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 202,
+                    "last": 221
+                },
+                {
+                    "name": "Random Gobo selection by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto Random Gobo selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Prism",
+                    "first": 20,
+                    "last": 127
+                },
+                {
+                    "name": "Prism/Gobo Macro 1",
+                    "first": 128,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 2",
+                    "first": 136,
+                    "last": 143,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 3",
+                    "first": 144,
+                    "last": 151,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 4",
+                    "first": 152,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 5",
+                    "first": 160,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 6",
+                    "first": 168,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 7",
+                    "first": 176,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 8",
+                    "first": 184,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 9",
+                    "first": 192,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 10",
+                    "first": 200,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 11",
+                    "first": 208,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 12",
+                    "first": 216,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 13",
+                    "first": 224,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 14",
+                    "first": 232,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 15",
+                    "first": 240,
+                    "last": 247,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo Macro 16",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Frost",
+                    "first": 1,
+                    "last": 179
+                },
+                {
+                    "name": "Ramp down",
+                    "first": 190,
+                    "last": 211
+                },
+                {
+                    "name": "Ramp up",
+                    "first": 212,
+                    "last": 233
+                },
+                {
+                    "name": "Ramping",
+                    "first": 234,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Iris",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Iris",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Ramp up",
+                    "first": 192,
+                    "last": 219
+                },
+                {
+                    "name": "Ramp down",
+                    "first": 220,
+                    "last": 247
+                },
+                {
+                    "name": "Random ramp up",
+                    "first": 248,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Random ramp down",
+                    "first": 252,
+                    "last": 253,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Hot Spot",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

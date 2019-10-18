@@ -1,466 +1,119 @@
 {
-	"channels": [
-		{
-			"name": "Shutter",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "closed",
-					"first": 0,
-					"last": 19
-				},
-				{
-					"name": "open",
-					"first": 20,
-					"last": 24,
-					"discrete": true
-				},
-				{
-					"name": "strobe 1",
-					"first": 25,
-					"last": 64
-				},
-				{
-					"name": "strobe 2 opening pulse",
-					"first": 70,
-					"last": 84
-				},
-				{
-					"name": "strobe 3 closing pulse",
-					"first": 90,
-					"last": 104
-				},
-				{
-					"name": "strobe 4 random strobe",
-					"first": 110,
-					"last": 124
-				},
-				{
-					"name": "strobe 5 random opening pulse",
-					"first": 130,
-					"last": 144
-				},
-				{
-					"name": "strobe 6 random closing pulse",
-					"first": 150,
-					"last": 164
-				},
-				{
-					"name": "strobe 7 burst pulse",
-					"first": 170,
-					"last": 184
-				},
-				{
-					"name": "strobe 8 random burst pulse",
-					"first": 190,
-					"last": 204
-				},
-				{
-					"name": "strobe 9 sine wave",
-					"first": 210,
-					"last": 224
-				},
-				{
-					"name": "strobe 10 burst",
-					"first": 230,
-					"last": 244
-				}
-			]
-		},
-		{
-			"name": "Dimmer",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Zoom",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Pan",
-			"type": "Analog_16",
-			"normalized": true
-		},
-		{
-			"name": "Tilt",
-			"type": "Analog_16",
-			"normalized": true
-		},
-		{
-			"name": "Fixture control settings",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "no function",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "reset entire fixture",
-					"first": 10,
-					"last": 14,
-					"discrete": true
-				},
-				{
-					"name": "PTSP = NORM",
-					"first": 40,
-					"last": 44,
-					"discrete": true
-				},
-				{
-					"name": "PTSP = FAST",
-					"first": 45,
-					"last": 49,
-					"discrete": true
-				},
-				{
-					"name": "PTSP = SLOW",
-					"first": 50,
-					"last": 54,
-					"discrete": true
-				},
-				{
-					"name": "Fan mode FULL",
-					"first": 60,
-					"last": 64,
-					"discrete": true
-				},
-				{
-					"name": "Fan mode REGULATED",
-					"first": 70,
-					"last": 74,
-					"discrete": true
-				},
-				{
-					"name": "Calibrated color output mode COLOR CALIB = ON",
-					"first": 90,
-					"last": 94,
-					"discrete": true
-				},
-				{
-					"name": "Raw color output mode COLOR CALIB = OFF",
-					"first": 100,
-					"last": 104,
-					"discrete": true
-				},
-				{
-					"name": "Fast dimming, speed of changes unrestricted",
-					"first": 110,
-					"last": 114,
-					"discrete": true
-				},
-				{
-					"name": "Smooth dimming, speed of changes restricted slightly",
-					"first": 120,
-					"last": 124,
-					"discrete": true
-				},
-				{
-					"name": "Illuminate display",
-					"first": 250,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Beam color wheel effect",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Open. RGBW color mixing enabled",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "LEE 790 - Moroccan Pink",
-					"first": 10,
-					"last": 14,
-					"discrete": true
-				},
-				{
-					"name": "LEE 157 - Pink",
-					"first": 15,
-					"last": 19,
-					"discrete": true
-				},
-				{
-					"name": "LEE 332 - Special rose Pink",
-					"first": 20,
-					"last": 24,
-					"discrete": true
-				},
-				{
-					"name": "LEE 328 - Follies Pink",
-					"first": 25,
-					"last": 29,
-					"discrete": true
-				},
-				{
-					"name": "LEE 345 - Fuchsia Pink",
-					"first": 30,
-					"last": 34,
-					"discrete": true
-				},
-				{
-					"name": "LEE 194 - Surprise Pink",
-					"first": 35,
-					"last": 39,
-					"discrete": true
-				},
-				{
-					"name": "LEE 181 - Congo Blue",
-					"first": 40,
-					"last": 44,
-					"discrete": true
-				},
-				{
-					"name": "LEE 071 - Tokyo Blue",
-					"first": 45,
-					"last": 49,
-					"discrete": true
-				},
-				{
-					"name": "LEE 120 - Deep Blue",
-					"first": 50,
-					"last": 54,
-					"discrete": true
-				},
-				{
-					"name": "LEE 079 - Just Blue",
-					"first": 55,
-					"last": 59,
-					"discrete": true
-				},
-				{
-					"name": "LEE 132 - Medium Blue",
-					"first": 60,
-					"last": 64,
-					"discrete": true
-				},
-				{
-					"name": "LEE 200 - Double CT Blue",
-					"first": 65,
-					"last": 69,
-					"discrete": true
-				},
-				{
-					"name": "LEE 161 - State Blue",
-					"first": 70,
-					"last": 74,
-					"discrete": true
-				},
-				{
-					"name": "LEE 201 - Full CT Blue",
-					"first": 75,
-					"last": 79,
-					"discrete": true
-				},
-				{
-					"name": "LEE 202 - Half CT Blue",
-					"first": 80,
-					"last": 84,
-					"discrete": true
-				},
-				{
-					"name": "LEE 117 - Steel Blue",
-					"first": 85,
-					"last": 89,
-					"discrete": true
-				},
-				{
-					"name": "LEE 353 - Lighter Blue",
-					"first": 90,
-					"last": 94,
-					"discrete": true
-				},
-				{
-					"name": "LEE 118 - Light Blue",
-					"first": 95,
-					"last": 99,
-					"discrete": true
-				},
-				{
-					"name": "LEE 116 - Medium Blue Green",
-					"first": 100,
-					"last": 104,
-					"discrete": true
-				},
-				{
-					"name": "LEE 124 - Dark Green",
-					"first": 105,
-					"last": 109,
-					"discrete": true
-				},
-				{
-					"name": "LEE 139 - Primary Green",
-					"first": 110,
-					"last": 114,
-					"discrete": true
-				},
-				{
-					"name": "LEE 089 - Moss Green",
-					"first": 115,
-					"last": 119,
-					"discrete": true
-				},
-				{
-					"name": "LEE 122 - Fern Green",
-					"first": 120,
-					"last": 124,
-					"discrete": true
-				},
-				{
-					"name": "LEE 738 - JAS Green",
-					"first": 125,
-					"last": 129,
-					"discrete": true
-				},
-				{
-					"name": "LEE 088 - Lime Green",
-					"first": 130,
-					"last": 134,
-					"discrete": true
-				},
-				{
-					"name": "LEE 100 - Spring Yellow",
-					"first": 135,
-					"last": 139,
-					"discrete": true
-				},
-				{
-					"name": "LEE 104 - Deep Amber",
-					"first": 140,
-					"last": 144,
-					"discrete": true
-				},
-				{
-					"name": "LEE 179 - Chrome Orange",
-					"first": 145,
-					"last": 149,
-					"discrete": true
-				},
-				{
-					"name": "LEE 105 - Orange",
-					"first": 150,
-					"last": 154,
-					"discrete": true
-				},
-				{
-					"name": "LEE 021 - Gold Amber",
-					"first": 155,
-					"last": 159,
-					"discrete": true
-				},
-				{
-					"name": "LEE 778 - Millennium Gold",
-					"first": 160,
-					"last": 164,
-					"discrete": true
-				},
-				{
-					"name": "LEE 135 - Deep Golden Amber",
-					"first": 165,
-					"last": 169,
-					"discrete": true
-				},
-				{
-					"name": "LEE 164 - Flame Red",
-					"first": 170,
-					"last": 174,
-					"discrete": true
-				},
-				{
-					"name": "Open Color wheel rotation effect",
-					"first": 175,
-					"last": 179,
-					"discrete": true
-				},
-				{
-					"name": "Clockwise",
-					"first": 180,
-					"last": 201
-				},
-				{
-					"name": "Stop",
-					"first": 202,
-					"last": 207,
-					"discrete": true
-				},
-				{
-					"name": "Counter-clockwise",
-					"first": 208,
-					"last": 229
-				},
-				{
-					"name": "Open Random color",
-					"first": 230,
-					"last": 234,
-					"discrete": true
-				},
-				{
-					"name": "Fast random",
-					"first": 235,
-					"last": 239,
-					"discrete": true
-				},
-				{
-					"name": "Medium random",
-					"first": 240,
-					"last": 244,
-					"discrete": true
-				},
-				{
-					"name": "Slow random",
-					"first": 245,
-					"last": 249,
-					"discrete": true
-				},
-				{
-					"name": "Open",
-					"first": 250,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Red",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Green",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Blue",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "White",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Color Temperature Control",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Off",
-					"first": 0,
-					"last": 19
-				},
-				{
-					"name": "10000K>2500K",
-					"first": 20,
-					"last": 255
-				}
-			]
-		}
-	],
-	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "channels": [
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 19
+                }
+            ]
+        },
+        {
+            "name": "Beam dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Fixture control settings",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Beam color wheel effect",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 180,
+                    "last": 201
+                },
+                {
+                    "name": "Random color",
+                    "first": 235,
+                    "last": 239,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Beam red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Beam green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Beam blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Beam white",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Beam CTC",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "ColorTemperature-10000K-2500K",
+                    "first": 20,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

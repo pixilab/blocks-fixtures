@@ -4,97 +4,22 @@
             "name": "Pan",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32768
+            "defaultValue": 128
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32768
+            "defaultValue": 128
         },
         {
             "name": "Color macros",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "ColorPreset",
                     "first": 0,
                     "last": 15
-                },
-                {
-                    "name": "Red",
-                    "first": 16,
-                    "last": 31
-                },
-                {
-                    "name": "Green",
-                    "first": 32,
-                    "last": 47
-                },
-                {
-                    "name": "Blue",
-                    "first": 48,
-                    "last": 63
-                },
-                {
-                    "name": "White",
-                    "first": 64,
-                    "last": 79
-                },
-                {
-					"name": "Red/green",
-                    "first": 80,
-                    "last": 95
-                },
-                {
-					"name": "Red/blue",
-                    "first": 96,
-                    "last": 111
-                },
-                {
-					"name": "Red/white",
-                    "first": 112,
-                    "last": 127
-                },
-                {
-					"name": "Green/blue",
-                    "first": 128,
-                    "last": 143
-                },
-                {
-					"name": "Green/white",
-                    "first": 144,
-                    "last": 159
-                },
-                {
-					"name": "Blue/white",
-                    "first": 160,
-                    "last": 175
-                },
-                {
-					"name": "Red/green/blue",
-                    "first": 176,
-                    "last": 191
-                },
-                {
-					"name": "Red/green/white",
-                    "first": 192,
-                    "last": 207
-                },
-                {
-					"name": "Green/blue/white",
-                    "first": 208,
-                    "last": 223
-                },
-                {
-					"name": "Blue/red/white",
-                    "first": 224,
-                    "last": 239
-                },
-                {
-					"name": "Red/blue/green/white",
-                    "first": 240,
-                    "last": 255
                 }
             ]
         },
@@ -103,33 +28,22 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Neutral",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 20
                 },
                 {
-                    "name": "Reset",
+                    "name": "Maintenance",
                     "first": 21,
                     "last": 30
                 },
                 {
-					"name": "Strobe",
+                    "name": "ShutterStrobe",
                     "first": 31,
                     "last": 200
-                },
-                {
-					"name": "Random strobe",
-                    "first": 201,
-                    "last": 250
-                },
-                {
-                    "name": "Open",
-                    "first": 251,
-                    "last": 255,
-                    "discrete": true
                 }
             ]
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

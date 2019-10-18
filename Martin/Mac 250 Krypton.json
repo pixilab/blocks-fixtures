@@ -1,0 +1,180 @@
+{
+    "channels": [
+        {
+            "name": "Shutter / Maintenance",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 208,
+                    "last": 217
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 208,
+                    "last": 226
+                },
+                {
+                    "name": "Random color",
+                    "first": 246,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 105,
+                    "last": 119
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 210,
+                    "last": 232
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Prism / Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Prism",
+                    "first": 20,
+                    "last": 79
+                },
+                {
+                    "name": "Prism/Gobo macro 1",
+                    "first": 216,
+                    "last": 220,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 2",
+                    "first": 221,
+                    "last": 225,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 3",
+                    "first": 226,
+                    "last": 230,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 4",
+                    "first": 231,
+                    "last": 235,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 5",
+                    "first": 236,
+                    "last": 240,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 6",
+                    "first": 241,
+                    "last": 245,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 7",
+                    "first": 246,
+                    "last": 250,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 8",
+                    "first": 251,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 252,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer/Focus/Color/Gobo/Prism Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Speed",
+                    "first": 0,
+                    "last": 2,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

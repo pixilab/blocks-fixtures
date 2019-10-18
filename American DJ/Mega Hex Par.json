@@ -1,0 +1,35 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

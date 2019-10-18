@@ -1,0 +1,15 @@
+{
+    "channels": [
+        {
+            "name": "Smoke",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Fan",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Hazer, Smoke (imported from open-fixture-library)"
+}

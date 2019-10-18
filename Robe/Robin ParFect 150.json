@@ -1,0 +1,114 @@
+{
+    "channels": [
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 20,
+                    "last": 24,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Virtual Color wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 1,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 236,
+                    "last": 245
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "White",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "CTC",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Mix Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 70,
+                    "last": 128
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32896
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

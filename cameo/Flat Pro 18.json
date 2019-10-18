@@ -10,82 +10,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Red",
+                    "name": "ColorPreset",
                     "first": 0,
                     "last": 16
-                },
-                {
-                    "name": "Green",
-                    "first": 17,
-                    "last": 33
-                },
-                {
-                    "name": "Blue",
-                    "first": 34,
-                    "last": 50
-                },
-                {
-                    "name": "White",
-                    "first": 51,
-                    "last": 67
-                },
-                {
-                    "name": "Amber",
-                    "first": 68,
-                    "last": 84
-                },
-                {
-                    "name": "Yellow",
-                    "first": 85,
-                    "last": 101
-                },
-                {
-                    "name": "Cyan",
-                    "first": 102,
-                    "last": 118
-                },
-                {
-                    "name": "Lavender",
-                    "first": 119,
-                    "last": 135
-                },
-                {
-                    "name": "Pink",
-                    "first": 136,
-                    "last": 152
-                },
-                {
-                    "name": "Light Green",
-                    "first": 153,
-                    "last": 169
-                },
-                {
-                    "name": "Magenta",
-                    "first": 170,
-                    "last": 186
-                },
-                {
-                    "name": "Turquoise",
-                    "first": 187,
-                    "last": 203
-                },
-                {
-                    "name": "Orange",
-                    "first": 204,
-                    "last": 220
-                },
-                {
-                    "name": "Cool White",
-                    "first": 221,
-                    "last": 237
-                },
-                {
-                    "name": "Warm White",
-                    "first": 238,
-                    "last": 255
                 }
             ]
         }
     ],
-    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Color Changer (imported from open-fixture-library)"
 }

@@ -1,0 +1,192 @@
+{
+    "channels": [
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 72,
+                    "last": 113
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 160,
+                    "last": 166,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Prism",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Color Macros",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Frost",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 12,
+                    "last": 24
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 25,
+                    "last": 37
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 38,
+                    "last": 50
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 51,
+                    "last": 62
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 63,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 62
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 63,
+                    "last": 63,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Lamp",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 62
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 63,
+                    "last": 63,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

@@ -1,0 +1,109 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 14
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 15,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Fade In",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "Fade Out",
+                    "first": 64,
+                    "last": 95
+                },
+                {
+                    "name": "Fade In / Fade Out",
+                    "first": 96,
+                    "last": 127
+                },
+                {
+                    "name": "Effect",
+                    "first": 128,
+                    "last": 159
+                },
+                {
+                    "name": "Fade In / Fade Out, Auto run",
+                    "first": 160,
+                    "last": 191
+                },
+                {
+                    "name": "Sound-active multicolor",
+                    "first": 224,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 6,
+                    "last": 55
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

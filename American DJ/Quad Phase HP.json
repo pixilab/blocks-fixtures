@@ -5,79 +5,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Red",
+                    "name": "ColorPreset",
                     "first": 0,
                     "last": 16
-                },
-                {
-                    "name": "Green",
-                    "first": 17,
-                    "last": 33
-                },
-                {
-                    "name": "Blue",
-                    "first": 34,
-                    "last": 50
-                },
-                {
-                    "name": "White",
-                    "first": 51,
-                    "last": 67
-                },
-                {
-                    "name": "Red-Green",
-                    "first": 68,
-                    "last": 84
-                },
-                {
-                    "name": "Red-Blue",
-                    "first": 85,
-                    "last": 101
-                },
-                {
-                    "name": "Red-White",
-                    "first": 102,
-                    "last": 118
-                },
-                {
-                    "name": "Green-Blue",
-                    "first": 119,
-                    "last": 135
-                },
-                {
-                    "name": "Green-White",
-                    "first": 136,
-                    "last": 152
-                },
-                {
-                    "name": "Blue-White",
-                    "first": 153,
-                    "last": 169
-                },
-                {
-                    "name": "Red-Green-Blue",
-                    "first": 170,
-                    "last": 186
-                },
-                {
-                    "name": "Red-Green-White",
-                    "first": 187,
-                    "last": 203
-                },
-                {
-                    "name": "Red-Blue-White",
-                    "first": 204,
-                    "last": 220
-                },
-                {
-                    "name": "Green-Blue-White",
-                    "first": 221,
-                    "last": 237
-                },
-                {
-                    "name": "Red-Green-Blue-White",
-                    "first": 238,
-                    "last": 255
                 }
             ]
         },
@@ -86,22 +16,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No Rotation",
+                    "name": "Rotation",
                     "first": 0,
                     "last": 9
                 },
                 {
-					"name": "CW",
-                    "first": 10,
-                    "last": 120
-                },
-                {
-					"name": "CCW",
-                    "first": 135,
-                    "last": 245
-                },
-                {
-                    "name": "Sound",
+                    "name": "Sound Control",
                     "first": 250,
                     "last": 255,
                     "discrete": true
@@ -109,17 +29,17 @@
             ]
         },
         {
-			"name": "Strobe",
+            "name": "Strobe",
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 0,
                     "discrete": true
                 },
                 {
-					"name": "Strobe",
+                    "name": "ShutterStrobe",
                     "first": 1,
                     "last": 255
                 }
@@ -130,17 +50,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Shutter closed",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 15
-                },
-                {
-                    "name": "Shutter open",
-                    "first": 16,
-                    "last": 255
                 }
             ]
         }
     ],
-    "note": "Flower, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Flower, Color Changer (imported from open-fixture-library)"
 }

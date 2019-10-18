@@ -1,0 +1,399 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "CTO",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 189
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "WheelSlot",
+                    "first": 11,
+                    "last": 21
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 102,
+                    "last": 112
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 190,
+                    "last": 221
+                }
+            ]
+        },
+        {
+            "name": "Gobo Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlotRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Static Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 106,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 190,
+                    "last": 221
+                }
+            ]
+        },
+        {
+            "name": "Rotating Prism / Prism/Gobo Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Prism",
+                    "first": 32,
+                    "last": 64
+                },
+                {
+                    "name": "Prism/Gobo macro 1",
+                    "first": 128,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 2",
+                    "first": 136,
+                    "last": 143,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 3",
+                    "first": 144,
+                    "last": 151,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 4",
+                    "first": 152,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 5",
+                    "first": 160,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 6",
+                    "first": 168,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 7",
+                    "first": 176,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 8",
+                    "first": 184,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 9",
+                    "first": 192,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 10",
+                    "first": 200,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 11",
+                    "first": 208,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 12",
+                    "first": 216,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 13",
+                    "first": 224,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 14",
+                    "first": 232,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 15",
+                    "first": 240,
+                    "last": 247,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism/Gobo macro 16",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Auto Focus",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 50
+                },
+                {
+                    "name": "Focus",
+                    "first": 51,
+                    "last": 150
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Frost",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Animation Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 8,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "CMY Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CMY Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 32,
+                    "last": 39,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Pan / Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 225
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 226,
+                    "last": 235
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 246,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Maintenance / Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Internal Program 1",
+                    "first": 100,
+                    "last": 119
+                },
+                {
+                    "name": "Internal Program 2",
+                    "first": 120,
+                    "last": 139
+                },
+                {
+                    "name": "Internal Program 3",
+                    "first": 140,
+                    "last": 159
+                },
+                {
+                    "name": "Internal Program 4",
+                    "first": 160,
+                    "last": 179
+                },
+                {
+                    "name": "Internal Program 5",
+                    "first": 180,
+                    "last": 199
+                },
+                {
+                    "name": "Internal Program 6",
+                    "first": 200,
+                    "last": 219
+                },
+                {
+                    "name": "Internal Program 7",
+                    "first": 220,
+                    "last": 239
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

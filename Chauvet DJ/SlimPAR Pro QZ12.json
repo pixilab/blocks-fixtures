@@ -35,12 +35,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 15
                 },
                 {
-                    "name": "Color Macros",
+                    "name": "ColorPreset",
                     "first": 16,
                     "last": 255
                 }
@@ -51,12 +51,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 15
                 },
                 {
-                    "name": "Strobe 0-29Hz",
+                    "name": "ShutterStrobe",
                     "first": 16,
                     "last": 255
                 }
@@ -67,7 +67,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 31
                 },
@@ -113,37 +113,22 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Dimmer speed set from display",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 51
                 },
                 {
-                    "name": "Dimmer speed mode off",
+                    "name": "Maintenance",
                     "first": 52,
                     "last": 101
-                },
-                {
-                    "name": "Dimmer speed mode 1 fast",
-                    "first": 102,
-                    "last": 152
-                },
-                {
-                    "name": "Dimmer speed mode 2 medium",
-                    "first": 153,
-                    "last": 203
-                },
-                {
-                    "name": "Dimmer speed mode 3 slow",
-                    "first": 204,
-                    "last": 255
                 }
             ]
         },
         {
-			"name": "Zoom",
-			"type": "Analog_8",
-			"normalized": true
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
         }
     ],
-    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Color Changer (imported from open-fixture-library)"
 }

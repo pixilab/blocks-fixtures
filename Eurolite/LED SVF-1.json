@@ -1,129 +1,112 @@
 {
-	"channels": [
-		{
-			"name": "Programs",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Program 1",
-					"first": 0,
-					"last": 12,
-					"discrete": true
-				},
-				{
-					"name": "Program 2",
-					"first": 13,
-					"last": 25,
-					"discrete": true
-				},
-				{
-					"name": "Program 3",
-					"first": 26,
-					"last": 38,
-					"discrete": true
-				},
-				{
-					"name": "Program 4",
-					"first": 39,
-					"last": 51,
-					"discrete": true
-				},
-				{
-					"name": "Program 5",
-					"first": 52,
-					"last": 64,
-					"discrete": true
-				},
-				{
-					"name": "Program 6",
-					"first": 65,
-					"last": 77,
-					"discrete": true
-				},
-				{
-					"name": "Program 7",
-					"first": 78,
-					"last": 90,
-					"discrete": true
-				},
-				{
-					"name": "Program 8",
-					"first": 91,
-					"last": 103,
-					"discrete": true
-				},
-				{
-					"name": "Program 9",
-					"first": 104,
-					"last": 116,
-					"discrete": true
-				},
-				{
-					"name": "Program 10",
-					"first": 117,
-					"last": 129,
-					"discrete": true
-				},
-				{
-					"name": "Program 11",
-					"first": 130,
-					"last": 142,
-					"discrete": true
-				},
-				{
-					"name": "Program 12",
-					"first": 143,
-					"last": 155,
-					"discrete": true
-				},
-				{
-					"name": "Program 13",
-					"first": 156,
-					"last": 168,
-					"discrete": true
-				},
-				{
-					"name": "Program 14",
-					"first": 169,
-					"last": 181,
-					"discrete": true
-				},
-				{
-					"name": "Program 15",
-					"first": 182,
-					"last": 194,
-					"discrete": true
-				},
-				{
-					"name": "All programs looping",
-					"first": 195,
-					"last": 214,
-					"discrete": true
-				},
-				{
-					"name": "Sound Control",
-					"first": 215,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Program Speed",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "All off",
-					"first": 0,
-					"last": 10
-				},
-				{
-					"name": "Speed",
-					"first": 11,
-					"last": 255
-				}
-			]
-		}
-	],
-	"note": "Flower, Moving Head (imported from open-fixture-library.herokuapp.com)"
+    "channels": [
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Program 1",
+                    "first": 0,
+                    "last": 12
+                },
+                {
+                    "name": "Program 2",
+                    "first": 13,
+                    "last": 25
+                },
+                {
+                    "name": "Program 3",
+                    "first": 26,
+                    "last": 38
+                },
+                {
+                    "name": "Program 4",
+                    "first": 39,
+                    "last": 51
+                },
+                {
+                    "name": "Program 5",
+                    "first": 52,
+                    "last": 64
+                },
+                {
+                    "name": "Program 6",
+                    "first": 65,
+                    "last": 77
+                },
+                {
+                    "name": "Program 7",
+                    "first": 78,
+                    "last": 90
+                },
+                {
+                    "name": "Program 8",
+                    "first": 91,
+                    "last": 103
+                },
+                {
+                    "name": "Program 9",
+                    "first": 104,
+                    "last": 116
+                },
+                {
+                    "name": "Program 10",
+                    "first": 117,
+                    "last": 129
+                },
+                {
+                    "name": "Program 11",
+                    "first": 130,
+                    "last": 142
+                },
+                {
+                    "name": "Program 12",
+                    "first": 143,
+                    "last": 155
+                },
+                {
+                    "name": "Program 13",
+                    "first": 156,
+                    "last": 168
+                },
+                {
+                    "name": "Program 14",
+                    "first": 169,
+                    "last": 181
+                },
+                {
+                    "name": "Program 15",
+                    "first": 182,
+                    "last": 194
+                },
+                {
+                    "name": "All programs looping",
+                    "first": 195,
+                    "last": 214
+                },
+                {
+                    "name": "Sound Control",
+                    "first": 215,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "EffectSpeed",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Flower (imported from open-fixture-library)"
 }

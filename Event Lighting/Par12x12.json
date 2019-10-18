@@ -1,0 +1,15 @@
+{
+    "channels": [
+        {
+            "name": "Color Temperature",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

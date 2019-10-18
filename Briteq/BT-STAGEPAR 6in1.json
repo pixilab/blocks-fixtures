@@ -1,0 +1,10 @@
+{
+    "channels": [
+        {
+            "name": "All Colors",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

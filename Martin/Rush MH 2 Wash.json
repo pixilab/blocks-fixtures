@@ -5,64 +5,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Closed",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 19
-                },
-                {
-					"name": "Open",
-                    "first": 20,
-                    "last": 49
-                },
-                {
-					"name": "Strobe 1",
-                    "first": 50,
-                    "last": 64
-                },
-                {
-					"name": "Strobe 2 opening pulse",
-                    "first": 70,
-                    "last": 84
-                },
-                {
-					"name": "Strobe 3 closing pulse",
-                    "first": 90,
-                    "last": 104
-                },
-                {
-					"name": "Strobe 4 random strobe",
-                    "first": 110,
-                    "last": 124
-                },
-                {
-					"name": "Strobe 5 random opening pulse",
-                    "first": 130,
-                    "last": 144
-                },
-                {
-					"name": "Strobe 6 random closing pulse",
-                    "first": 150,
-                    "last": 164
-                },
-                {
-					"name": "Strobe 7 burst pulse",
-                    "first": 170,
-                    "last": 184
-                },
-                {
-					"name": "Strobe 8 random burst pulse",
-                    "first": 190,
-                    "last": 204
-                },
-                {
-					"name": "Strobe 9 sine wave",
-                    "first": 210,
-                    "last": 224
-                },
-                {
-					"name": "Strobe 10 burst",
-                    "first": 230,
-                    "last": 244
                 }
             ]
         },
@@ -74,61 +19,28 @@
         {
             "name": "Pan",
             "type": "Analog_16",
-            "normalized": true
+            "normalized": true,
+            "defaultValue": "50%"
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
-            "normalized": true
+            "normalized": true,
+            "defaultValue": "50%"
         },
         {
             "name": "Fixture Control Settings",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 9
                 },
                 {
-                    "name": "Reset entire fixture",
+                    "name": "Maintenance",
                     "first": 10,
                     "last": 14,
-                    "discrete": true
-                },
-                {
-                    "name": "Enable blackout during P/T movement",
-                    "first": 95,
-                    "last": 99,
-                    "discrete": true
-                },
-                {
-                    "name": "Disable blackout during P/T movement",
-                    "first": 105,
-                    "last": 109,
-                    "discrete": true
-                },
-                {
-                    "name": "Fast dimming, unrestricted effects speed",
-                    "first": 110,
-                    "last": 114,
-                    "discrete": true
-                },
-                {
-                    "name": "Smooth dimming, slightly reduced effects speed",
-                    "first": 120,
-                    "last": 124,
-                    "discrete": true
-                },
-                {
-                    "name": "Illuminate display",
-                    "first": 125,
-                    "last": 249
-                },
-                {
-                    "name": "Stand-alone",
-                    "first": 250,
-                    "last": 255,
                     "discrete": true
                 }
             ]
@@ -138,241 +50,20 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Open",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 9
                 },
                 {
-                    "name": "LEE 790 - Moroccan pink",
+                    "name": "ColorPreset",
                     "first": 10,
                     "last": 14,
                     "discrete": true
                 },
                 {
-                    "name": "LEE 157 - Pink",
-                    "first": 15,
-                    "last": 19,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 332 - Special rose pink",
-                    "first": 20,
-                    "last": 24,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 328 - Follies pink",
-                    "first": 25,
-                    "last": 29,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 345 - Fuchsia pink",
-                    "first": 30,
-                    "last": 34,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 194 - Surprise pink",
-                    "first": 35,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 181 - Congo blue",
-                    "first": 40,
-                    "last": 44,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 071 - Tokyo blue",
-                    "first": 45,
-                    "last": 49,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 120 - Deep blue",
-                    "first": 50,
-                    "last": 54,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 079 - Just blue",
-                    "first": 55,
-                    "last": 59,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 132 - Medium blue",
-                    "first": 60,
-                    "last": 64,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 200 - Double CT blue",
-                    "first": 65,
-                    "last": 69,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 161 - Slate blue",
-                    "first": 70,
-                    "last": 74,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 201 - Full CT blue",
-                    "first": 75,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 202 - Half CT blue",
-                    "first": 80,
-                    "last": 84,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 117 - Steel blue",
-                    "first": 85,
-                    "last": 89,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 353 - Lighter blue",
-                    "first": 90,
-                    "last": 94,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 118 - Light blue",
-                    "first": 95,
-                    "last": 99,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 116 - Medium blue green",
-                    "first": 100,
-                    "last": 104,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 124 - Dark green",
-                    "first": 105,
-                    "last": 109,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 139 - Primary green",
-                    "first": 110,
-                    "last": 114,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 089 - Moss green",
-                    "first": 115,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 122 - Fern green",
-                    "first": 120,
-                    "last": 124,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 738 - JAS green",
-                    "first": 125,
-                    "last": 129,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 088 - Lime green",
-                    "first": 130,
-                    "last": 134,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 100 - Spring yellow",
-                    "first": 135,
-                    "last": 139,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 104 - Deep amber",
-                    "first": 140,
-                    "last": 144,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 179 - Chrome orange",
-                    "first": 145,
-                    "last": 149,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 105 - Orange",
-                    "first": 150,
-                    "last": 154,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 021 - Gold amber",
-                    "first": 155,
-                    "last": 159,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 778 - Millennium gold",
-                    "first": 160,
-                    "last": 164,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 135 - Deep golden amber",
-                    "first": 165,
-                    "last": 169,
-                    "discrete": true
-                },
-                {
-                    "name": "LEE 164 - Flame red",
-                    "first": 170,
-                    "last": 174,
-                    "discrete": true
-                },
-                {
-					"name": "CW",
+                    "name": "Effect",
                     "first": 180,
                     "last": 201
-                },
-                {
-					"name": "Stop",
-                    "first": 202,
-                    "last": 207,
-                    "discrete": true
-                },
-                {
-					"name": "CCW",
-                    "first": 208,
-                    "last": 229
-                },
-                {
-                    "name": "Fast random color",
-                    "first": 235,
-                    "last": 239,
-                    "discrete": true
-                },
-                {
-                    "name": "Medium random color",
-                    "first": 240,
-                    "last": 244,
-                    "discrete": true
-                },
-                {
-                    "name": "Slow random color",
-                    "first": 245,
-                    "last": 249,
-                    "discrete": true
                 }
             ]
         },
@@ -397,5 +88,5 @@
             "normalized": true
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

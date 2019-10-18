@@ -1,0 +1,114 @@
+{
+    "channels": [
+        {
+            "name": "Shutter / Strobe / Reset / Lamp",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 208,
+                    "last": 217
+                }
+            ]
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 40
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 186,
+                    "last": 214
+                },
+                {
+                    "name": "Effect",
+                    "first": 244,
+                    "last": 247,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Beam Shaper 1",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "BladeInsertion",
+                    "first": 1,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Beam Shaper 2",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "BladeInsertion",
+                    "first": 3,
+                    "last": 170
+                },
+                {
+                    "name": "Frost",
+                    "first": 171,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

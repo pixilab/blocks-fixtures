@@ -1,0 +1,25 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Plus/Minus Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Reserved",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library)"
+}

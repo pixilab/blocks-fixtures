@@ -1,0 +1,96 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 10
+                }
+            ]
+        },
+        {
+            "name": "Auto Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Program 1",
+                    "first": 6,
+                    "last": 38
+                },
+                {
+                    "name": "Program 2",
+                    "first": 39,
+                    "last": 70
+                },
+                {
+                    "name": "Program 3",
+                    "first": 71,
+                    "last": 102
+                },
+                {
+                    "name": "Program 4",
+                    "first": 103,
+                    "last": 134
+                },
+                {
+                    "name": "Program 5",
+                    "first": 135,
+                    "last": 166
+                },
+                {
+                    "name": "Program 6",
+                    "first": 167,
+                    "last": 198
+                },
+                {
+                    "name": "Program 7",
+                    "first": 199,
+                    "last": 230
+                },
+                {
+                    "name": "Program 8",
+                    "first": 231,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Auto Program Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 6,
+                    "last": 127
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

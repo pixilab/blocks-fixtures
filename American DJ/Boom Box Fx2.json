@@ -5,7 +5,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 69
                 },
@@ -72,12 +72,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 139
                 },
                 {
-                    "name": "Reset all",
+                    "name": "Maintenance",
                     "first": 140,
                     "last": 209
                 },
@@ -90,5 +90,5 @@
             ]
         }
     ],
-    "note": "Laser, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Laser, Color Changer (imported from open-fixture-library)"
 }

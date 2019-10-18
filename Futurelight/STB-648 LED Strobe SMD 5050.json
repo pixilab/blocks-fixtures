@@ -1,0 +1,28 @@
+{
+    "channels": [
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 1,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Brightness",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Strobe (imported from open-fixture-library)"
+}

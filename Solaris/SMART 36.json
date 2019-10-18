@@ -1,0 +1,35 @@
+{
+    "channels": [
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Mode Change",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

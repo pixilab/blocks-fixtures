@@ -1,0 +1,144 @@
+{
+    "channels": [
+        {
+            "name": "Fog",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Fog",
+                    "first": 5,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Chase",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Chase 1",
+                    "first": 1,
+                    "last": 15
+                },
+                {
+                    "name": "Chase 2",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Chase 3",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Chase 4",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Chase 5",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Chase 6",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Chase 7",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Chase 8",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Chase 9",
+                    "first": 128,
+                    "last": 143
+                },
+                {
+                    "name": "Chase 10",
+                    "first": 144,
+                    "last": 159
+                },
+                {
+                    "name": "Chase 11",
+                    "first": 160,
+                    "last": 175
+                },
+                {
+                    "name": "Chase 12",
+                    "first": 176,
+                    "last": 191
+                },
+                {
+                    "name": "Chase 13",
+                    "first": 192,
+                    "last": 207
+                },
+                {
+                    "name": "Chase 14",
+                    "first": 208,
+                    "last": 223
+                },
+                {
+                    "name": "Chase 15",
+                    "first": 224,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Chase Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Smoke, Color Changer, Dimmer (imported from open-fixture-library)"
+}

@@ -1,0 +1,82 @@
+{
+    "channels": [
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Color Macro",
+                    "first": 11,
+                    "last": 50
+                },
+                {
+                    "name": "Effect",
+                    "first": 51,
+                    "last": 100
+                },
+                {
+                    "name": "Sound control",
+                    "first": 151,
+                    "last": 200
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 201,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Macro",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 39
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 40,
+                    "last": 59
+                }
+            ]
+        },
+        {
+            "name": "Effect Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

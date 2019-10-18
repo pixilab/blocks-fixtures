@@ -5,7 +5,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 9
                 },
@@ -80,7 +80,7 @@
                     "last": 219
                 },
                 {
-                    "name": "DMX mode",
+                    "name": "NoFunction",
                     "first": 220,
                     "last": 255
                 }
@@ -91,195 +91,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "ColorPreset",
                     "first": 0,
                     "last": 9
-                },
-                {
-                    "name": "Red",
-                    "first": 10,
-                    "last": 14,
-                    "discrete": true
-                },
-                {
-                    "name": "Green",
-                    "first": 15,
-                    "last": 19,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue",
-                    "first": 20,
-                    "last": 24,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber",
-                    "first": 25,
-                    "last": 29,
-                    "discrete": true
-                },
-                {
-                    "name": "White",
-                    "first": 30,
-                    "last": 34,
-                    "discrete": true
-                },
-                {
-                    "name": "White + Red",
-                    "first": 35,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green",
-                    "first": 40,
-                    "last": 44,
-                    "discrete": true
-                },
-                {
-                    "name": "Green + Blue",
-                    "first": 45,
-                    "last": 49,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue + Amber",
-                    "first": 50,
-                    "last": 54,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber + White",
-                    "first": 55,
-                    "last": 59,
-                    "discrete": true
-                },
-                {
-                    "name": "White + Green",
-                    "first": 60,
-                    "last": 64,
-                    "discrete": true
-                },
-                {
-                    "name": "Green + Amber",
-                    "first": 65,
-                    "last": 69,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber + Red",
-                    "first": 70,
-                    "last": 74,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Blue",
-                    "first": 75,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue + White",
-                    "first": 80,
-                    "last": 84,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + Blue",
-                    "first": 85,
-                    "last": 89,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + Amber",
-                    "first": 90,
-                    "last": 94,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + White",
-                    "first": 95,
-                    "last": 99,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Amber + Blue",
-                    "first": 100,
-                    "last": 104,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Blue + White",
-                    "first": 105,
-                    "last": 109,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Amber + White",
-                    "first": 110,
-                    "last": 114,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber + Green + Blue",
-                    "first": 115,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "Green + Blue + White",
-                    "first": 120,
-                    "last": 124,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber + Green + White",
-                    "first": 125,
-                    "last": 129,
-                    "discrete": true
-                },
-                {
-                    "name": "Amber + White + Blue",
-                    "first": 130,
-                    "last": 134,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + Blue + Amber",
-                    "first": 135,
-                    "last": 139,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + Blue + White",
-                    "first": 140,
-                    "last": 144,
-                    "discrete": true
-                },
-                {
-                    "name": "Green + Blue + White + Amber",
-                    "first": 145,
-                    "last": 149,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + White + Amber",
-                    "first": 150,
-                    "last": 154,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Blue + White + Amber",
-                    "first": 155,
-                    "last": 159,
-                    "discrete": true
-                },
-                {
-                    "name": "Red + Green + Blue + White + Amber",
-                    "first": 160,
-                    "last": 164,
-                    "discrete": true
                 },
                 {
                     "name": "Automatic (single color)",
@@ -303,20 +117,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Close",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 6,
-                    "discrete": true
-                },
-                {
-                    "name": "Strobe 30-0Hz",
-                    "first": 7,
-                    "last": 254
-                },
-                {
-                    "name": "Sound activated strobe",
-                    "first": 255,
-                    "last": 255,
                     "discrete": true
                 }
             ]
@@ -326,57 +129,57 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 9
                 },
                 {
-					"name": "Program 1",
+                    "name": "Program 1",
                     "first": 10,
                     "last": 19
                 },
                 {
-					"name": "Program 2",
+                    "name": "Program 2",
                     "first": 20,
                     "last": 29
                 },
                 {
-					"name": "Program 3",
+                    "name": "Program 3",
                     "first": 30,
                     "last": 39
                 },
                 {
-					"name": "Program 4",
+                    "name": "Program 4",
                     "first": 40,
                     "last": 49
                 },
                 {
-					"name": "Program 5",
+                    "name": "Program 5",
                     "first": 50,
                     "last": 59
                 },
                 {
-					"name": "Program 6",
+                    "name": "Program 6",
                     "first": 60,
                     "last": 69
                 },
                 {
-					"name": "Program 7",
+                    "name": "Program 7",
                     "first": 70,
                     "last": 79
                 },
                 {
-					"name": "Program 8",
+                    "name": "Program 8",
                     "first": 80,
                     "last": 89
                 },
                 {
-					"name": "Program 9",
+                    "name": "Program 9",
                     "first": 90,
                     "last": 99
                 },
                 {
-					"name": "Program 10",
+                    "name": "Program 10",
                     "first": 100,
                     "last": 109
                 },
@@ -392,39 +195,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "ColorPreset",
                     "first": 0,
                     "last": 9
-                },
-                {
-                    "name": "Red laser",
-                    "first": 10,
-                    "last": 49
-                },
-                {
-                    "name": "Green laser",
-                    "first": 50,
-                    "last": 89
-                },
-                {
-                    "name": "Red + Green alternating",
-                    "first": 90,
-                    "last": 129
-                },
-                {
-                    "name": "Red + Green Strobe",
-                    "first": 130,
-                    "last": 169
-                },
-                {
-                    "name": "Red Strobe + Green",
-                    "first": 170,
-                    "last": 209
-                },
-                {
-                    "name": "Red Strobe + Green Strobe",
-                    "first": 210,
-                    "last": 255
                 }
             ]
         },
@@ -433,20 +206,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 4,
-                    "discrete": true
-                },
-                {
-					"name": "Strobe",
-                    "first": 5,
-                    "last": 254
-                },
-                {
-					"name": "Sound activated",
-                    "first": 255,
-                    "last": 255,
                     "discrete": true
                 }
             ]
@@ -456,20 +218,10 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Stop",
+                    "name": "Rotation",
                     "first": 0,
                     "last": 4,
                     "discrete": true
-                },
-                {
-					"name": "Rotate CW",
-                    "first": 5,
-                    "last": 127
-                },
-                {
-					"name": "Rotate CCW",
-                    "first": 134,
-                    "last": 255
                 }
             ]
         },
@@ -478,23 +230,13 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Stop",
+                    "name": "Rotation",
                     "first": 0,
                     "last": 4,
                     "discrete": true
-                },
-                {
-					"name": "Rotate CW",
-                    "first": 5,
-                    "last": 127
-                },
-                {
-					"name": "Rotate CCW",
-                    "first": 134,
-                    "last": 255
                 }
             ]
         }
     ],
-    "note": "Laser (imported from open-fixture-library.herokuapp.com)"
+    "note": "Laser, Color Changer (imported from open-fixture-library)"
 }

@@ -1,0 +1,83 @@
+{
+    "channels": [
+        {
+            "name": "Colors / Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 5,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Automatic show 2",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Automatic show 3",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Automatic show 4",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Automatic show 5",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "Automatic show 6",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Automatic show 7",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Automatic show 8",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Automatic show 9",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Automatic show 10",
+                    "first": 160,
+                    "last": 169
+                },
+                {
+                    "name": "Automatic show 11",
+                    "first": 170,
+                    "last": 179
+                },
+                {
+                    "name": "Automatic show 12",
+                    "first": 180,
+                    "last": 189
+                },
+                {
+                    "name": "Music-controlled show",
+                    "first": 190,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

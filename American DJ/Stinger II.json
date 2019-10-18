@@ -1,0 +1,68 @@
+{
+    "channels": [
+        {
+            "name": "Show Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Show 1",
+                    "first": 10,
+                    "last": 44
+                },
+                {
+                    "name": "Show 2",
+                    "first": 45,
+                    "last": 79
+                },
+                {
+                    "name": "Show 3",
+                    "first": 80,
+                    "last": 114
+                },
+                {
+                    "name": "Show 4",
+                    "first": 115,
+                    "last": 149
+                },
+                {
+                    "name": "Show 5",
+                    "first": 150,
+                    "last": 184
+                },
+                {
+                    "name": "Show 6",
+                    "first": 185,
+                    "last": 219
+                },
+                {
+                    "name": "Random show",
+                    "first": 220,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Show Speed / Sound Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectSpeed",
+                    "first": 0,
+                    "last": 247
+                },
+                {
+                    "name": "Sound active",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Laser, Flower, Strobe, Color Changer (imported from open-fixture-library)"
+}

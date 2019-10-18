@@ -1,0 +1,168 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "TiltContinuous",
+                    "first": 0,
+                    "last": 9
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "LED Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Laser Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 9
+                }
+            ]
+        },
+        {
+            "name": "Laser Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Show",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Show 1",
+                    "first": 8,
+                    "last": 33
+                },
+                {
+                    "name": "Show 2",
+                    "first": 34,
+                    "last": 59
+                },
+                {
+                    "name": "Show 3",
+                    "first": 60,
+                    "last": 85
+                },
+                {
+                    "name": "Show 4",
+                    "first": 86,
+                    "last": 111
+                },
+                {
+                    "name": "Show 5",
+                    "first": 112,
+                    "last": 137
+                },
+                {
+                    "name": "Show 6",
+                    "first": 138,
+                    "last": 163
+                },
+                {
+                    "name": "Show 7",
+                    "first": 164,
+                    "last": 189
+                },
+                {
+                    "name": "Show 8",
+                    "first": 190,
+                    "last": 215
+                },
+                {
+                    "name": "Sound Active Show",
+                    "first": 216,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 101,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 69
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 70,
+                    "last": 79
+                }
+            ]
+        }
+    ],
+    "note": "Barrel Scanner, Laser, Color Changer (imported from open-fixture-library)"
+}

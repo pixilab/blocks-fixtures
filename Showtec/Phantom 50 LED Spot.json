@@ -4,13 +4,13 @@
             "name": "Pan",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32767
+            "defaultValue": 128
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32767
+            "defaultValue": 128
         },
         {
             "name": "Pan/Tilt Speed",
@@ -19,125 +19,19 @@
             "defaultValue": 128
         },
         {
-			"name": "Color",
+            "name": "Color Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "White",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 6,
                     "discrete": true
                 },
                 {
-                    "name": "Yellow",
-                    "first": 7,
-                    "last": 13,
-                    "discrete": true
-                },
-                {
-                    "name": "Pink",
-                    "first": 14,
-                    "last": 20,
-                    "discrete": true
-                },
-                {
-                    "name": "Green",
-                    "first": 21,
-                    "last": 27,
-                    "discrete": true
-                },
-                {
-                    "name": "Red",
-                    "first": 28,
-                    "last": 34,
-                    "discrete": true
-                },
-                {
-                    "name": "Lightblue",
-                    "first": 35,
-                    "last": 41,
-                    "discrete": true
-                },
-                {
-                    "name": "Lightgreen",
-                    "first": 42,
-                    "last": 48,
-                    "discrete": true
-                },
-                {
-                    "name": "Orange",
-                    "first": 49,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Darkblue",
-                    "first": 56,
-                    "last": 64
-                },
-                {
-                    "name": "White-Yellow",
-                    "first": 65,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Yellow-Pink",
-                    "first": 72,
-                    "last": 78,
-                    "discrete": true
-                },
-                {
-                    "name": "Pink-Green",
-                    "first": 79,
-                    "last": 85,
-                    "discrete": true
-                },
-                {
-                    "name": "Green-Red",
-                    "first": 86,
-                    "last": 92,
-                    "discrete": true
-                },
-                {
-                    "name": "Red-Lightblue",
-                    "first": 93,
-                    "last": 99,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue-Green",
-                    "first": 100,
-                    "last": 106,
-                    "discrete": true
-                },
-                {
-                    "name": "Green-Orange",
-                    "first": 107,
-                    "last": 113,
-                    "discrete": true
-                },
-                {
-                    "name": "Orange-Darkblue",
-                    "first": 114,
-                    "last": 120,
-                    "discrete": true
-                },
-                {
-                    "name": "Darkblue-White",
-                    "first": 121,
-                    "last": 127,
-                    "discrete": true
-                },
-                {
-                    "name": "Rainbow (CW)",
+                    "name": "WheelRotation",
                     "first": 128,
                     "last": 191
-                },
-                {
-                    "name": "Rainbow (CCW)",
-                    "first": 192,
-                    "last": 255
                 }
             ]
         },
@@ -146,21 +40,10 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Closed",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 3,
                     "discrete": true
-                },
-                {
-                    "name": "Shutter open",
-                    "first": 4,
-                    "last": 7,
-                    "discrete": true
-                },
-                {
-                    "name": "Strobe 0-10Hz",
-                    "first": 8,
-                    "last": 215
                 }
             ]
         },
@@ -174,104 +57,21 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Open - White",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo 1 Glass",
-                    "first": 8,
-                    "last": 15,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 2 Glass",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 3 Metal",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 4 Metal",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 5 Metal",
-                    "first": 40,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 6 Metal",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo 7 Metal",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo-Shake 7 slow-to-fast",
+                    "name": "WheelShake",
                     "first": 64,
                     "last": 71,
                     "discrete": true
                 },
                 {
-                    "name": "Gobo-Shake 6 slow-to-fast",
-                    "first": 72,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo-Shake 5 slow-to-fast",
-                    "first": 80,
-                    "last": 87,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo-Shake 4 slow-to-fast",
-                    "first": 88,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo-Shake 3 slow-to-fast",
-                    "first": 96,
-                    "last": 103,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo-Shake 2 slow-to-fast",
-                    "first": 104,
-                    "last": 111,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo-Shake 1 slow-to-fast",
-                    "first": 112,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "Rainbow slow-to-fast (CW)",
+                    "name": "WheelRotation",
                     "first": 128,
                     "last": 191
-                },
-                {
-                    "name": "Rainbow slow-to-fast (CCW)",
-                    "first": 192,
-                    "last": 255
                 }
             ]
         },
@@ -280,23 +80,13 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No rotation",
+                    "name": "WheelSlotRotation",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-                    "name": "Slow-to-fast (CW)",
-                    "first": 8,
-                    "last": 119
-                },
-                {
-                    "name": "Slow-to-fast (CCW)",
-                    "first": 120,
-                    "last": 231
-                },
-                {
-					"name": "Bounce",
+                    "name": "WheelShake",
                     "first": 232,
                     "last": 255
                 }
@@ -307,12 +97,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Open",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 15
                 },
                 {
-                    "name": "3x Prism",
+                    "name": "Prism",
                     "first": 16,
                     "last": 255
                 }
@@ -323,75 +113,15 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-                    "name": "Blackout while Pan/Tilt",
+                    "name": "Maintenance",
                     "first": 8,
                     "last": 27
-                },
-                {
-                    "name": "Blackout while Gobowheel",
-                    "first": 28,
-                    "last": 47
-                },
-                {
-                    "name": "Disabled blackout while Pan/Tilt/Gobowheel",
-                    "first": 48,
-                    "last": 67
-                },
-                {
-                    "name": "Blackout while Colorwheel",
-                    "first": 68,
-                    "last": 87
-                },
-                {
-                    "name": "Disabled blackout while Pan/Tilt/Colorwheel",
-                    "first": 88,
-                    "last": 107
-                },
-                {
-                    "name": "Disabled blackout while Gobowheel/Colorwheel",
-                    "first": 108,
-                    "last": 127
-                },
-                {
-                    "name": "Disabled blackout while Pan/Tilt/Gobowheel/Colorwheel",
-                    "first": 128,
-                    "last": 147
-                },
-                {
-                    "name": "Reset Pan",
-                    "first": 148,
-                    "last": 157
-                },
-                {
-                    "name": "Reset Tilt",
-                    "first": 158,
-                    "last": 167
-                },
-                {
-                    "name": "Reset Colorwheel",
-                    "first": 168,
-                    "last": 177
-                },
-                {
-                    "name": "Reset Gobowheel",
-                    "first": 178,
-                    "last": 187
-                },
-                {
-                    "name": "Reset Prism",
-                    "first": 188,
-                    "last": 197
-                },
-                {
-                    "name": "Reset all channels",
-                    "first": 198,
-                    "last": 207
                 }
             ]
         },
@@ -400,88 +130,88 @@
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-					"name": "Built-in 1",
+                    "name": "Built-in Program 1",
                     "first": 8,
                     "last": 23
                 },
                 {
-					"name": "Built-in 2",
+                    "name": "Built-in Program 2",
                     "first": 24,
                     "last": 39
                 },
                 {
-					"name": "Built-in 3",
+                    "name": "Built-in Program 3",
                     "first": 40,
                     "last": 55
                 },
                 {
-					"name": "Built-in 4",
+                    "name": "Built-in Program 4",
                     "first": 56,
                     "last": 71
                 },
                 {
-					"name": "Built-in 5",
+                    "name": "Built-in Program 5",
                     "first": 72,
                     "last": 87
                 },
                 {
-					"name": "Built-in 6",
+                    "name": "Built-in Program 6",
                     "first": 88,
                     "last": 103
                 },
                 {
-					"name": "Built-in 7",
+                    "name": "Built-in Program 7",
                     "first": 104,
                     "last": 119
                 },
                 {
-					"name": "Built-in 8",
+                    "name": "Built-in Program 8",
                     "first": 120,
                     "last": 135
                 },
                 {
-					"name": "Sound 1",
+                    "name": "Sound-controlled Program 1",
                     "first": 136,
                     "last": 151
                 },
                 {
-					"name": "Sound 2",
+                    "name": "Sound-controlled Program 2",
                     "first": 152,
                     "last": 167
                 },
                 {
-					"name": "Sound 3",
+                    "name": "Sound-controlled Program 3",
                     "first": 168,
                     "last": 183
                 },
                 {
-					"name": "Sound 4",
+                    "name": "Sound-controlled Program 4",
                     "first": 184,
                     "last": 199
                 },
                 {
-					"name": "Sound 5",
+                    "name": "Sound-controlled Program 5",
                     "first": 200,
                     "last": 215
                 },
                 {
-					"name": "Sound 6",
+                    "name": "Sound-controlled Program 6",
                     "first": 216,
                     "last": 231
                 },
                 {
-					"name": "Sound 7",
+                    "name": "Sound-controlled Program 7",
                     "first": 232,
                     "last": 247
                 },
                 {
-					"name": "Sound 8",
+                    "name": "Sound-controlled Program 8",
                     "first": 248,
                     "last": 255,
                     "discrete": true
@@ -489,5 +219,5 @@
             ]
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

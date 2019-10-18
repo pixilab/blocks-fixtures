@@ -5,17 +5,17 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 31
                 },
                 {
-                    "name": "Max fog & color change",
+                    "name": "Fog",
                     "first": 32,
                     "last": 255
                 }
             ]
         }
     ],
-    "note": "Smoke, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Smoke, Color Changer (imported from open-fixture-library)"
 }

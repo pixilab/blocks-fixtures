@@ -1,0 +1,190 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 8
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 91,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 40,
+                    "last": 129
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 221,
+                    "last": 225,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Gobo Stencil Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "WheelSlotRotation",
+                    "first": 64,
+                    "last": 126
+                },
+                {
+                    "name": "Gobo Stencil Shake",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Prism",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "Prism Shake",
+                    "first": 192,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Internal Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 11,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Internal Program Auto 1",
+                    "first": 16,
+                    "last": 75
+                },
+                {
+                    "name": "Internal Program Auto 2",
+                    "first": 76,
+                    "last": 135
+                },
+                {
+                    "name": "Internal Program Auto 3",
+                    "first": 136,
+                    "last": 195
+                },
+                {
+                    "name": "Internal Program Auto 4",
+                    "first": 196,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 25
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 26,
+                    "last": 45
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

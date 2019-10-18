@@ -1,0 +1,746 @@
+{
+    "channels": [
+        {
+            "name": "Mode Select",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 63
+                }
+            ]
+        },
+        {
+            "name": "Pattern Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "1 Line horizontal",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Lines horizontal stacked",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Lines horizontal side by side",
+                    "first": 2,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "1 Line vertical",
+                    "first": 3,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Lines vertical side by side",
+                    "first": 4,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Swastika-like pattern",
+                    "first": 6,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "Sinus",
+                    "first": 7,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Sinus diagonally across each other",
+                    "first": 8,
+                    "last": 8,
+                    "discrete": true
+                },
+                {
+                    "name": "Cardiogram",
+                    "first": 9,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Rectangle pulsed line",
+                    "first": 10,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Square",
+                    "first": 11,
+                    "last": 11,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Squares diagonally across each other",
+                    "first": 12,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "Square big",
+                    "first": 13,
+                    "last": 13,
+                    "discrete": true
+                },
+                {
+                    "name": "Rectangle",
+                    "first": 14,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "Triangle",
+                    "first": 15,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Maze Square",
+                    "first": 16,
+                    "last": 16,
+                    "discrete": true
+                },
+                {
+                    "name": "Maze Triangle",
+                    "first": 17,
+                    "last": 17,
+                    "discrete": true
+                },
+                {
+                    "name": "Yin Yang",
+                    "first": 18,
+                    "last": 18,
+                    "discrete": true
+                },
+                {
+                    "name": "Half Circle up",
+                    "first": 19,
+                    "last": 19,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Circle",
+                    "first": 20,
+                    "last": 20,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Circles same center",
+                    "first": 21,
+                    "last": 21,
+                    "discrete": true
+                },
+                {
+                    "name": "5 Circles form a square",
+                    "first": 22,
+                    "last": 22,
+                    "discrete": true
+                },
+                {
+                    "name": "4-pointed Star",
+                    "first": 23,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "5-pointed Star",
+                    "first": 24,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Pentagon",
+                    "first": 25,
+                    "last": 25,
+                    "discrete": true
+                },
+                {
+                    "name": "Octagon",
+                    "first": 26,
+                    "last": 26,
+                    "discrete": true
+                },
+                {
+                    "name": "3 thin Spikes",
+                    "first": 27,
+                    "last": 27,
+                    "discrete": true
+                },
+                {
+                    "name": "3 thick Spikes",
+                    "first": 28,
+                    "last": 28,
+                    "discrete": true
+                },
+                {
+                    "name": "5 thick Spikes",
+                    "first": 29,
+                    "last": 29,
+                    "discrete": true
+                },
+                {
+                    "name": "Stars twinkling",
+                    "first": 30,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "Diamond horizontal",
+                    "first": 31,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Diamonds vertical",
+                    "first": 32,
+                    "last": 32,
+                    "discrete": true
+                },
+                {
+                    "name": "Heart",
+                    "first": 33,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "8 lines every 45 degrees",
+                    "first": 34,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "4 lightnings",
+                    "first": 35,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "3 Circles",
+                    "first": 36,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "5 Circles",
+                    "first": 37,
+                    "last": 37,
+                    "discrete": true
+                },
+                {
+                    "name": "3 Fishes",
+                    "first": 38,
+                    "last": 38,
+                    "discrete": true
+                },
+                {
+                    "name": "5 Lines horizontal diagonal",
+                    "first": 39,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "8 short lines horizontal",
+                    "first": 40,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "8 short lines vertical",
+                    "first": 41,
+                    "last": 41,
+                    "discrete": true
+                },
+                {
+                    "name": "7 Big points horizontal diagonal",
+                    "first": 42,
+                    "last": 42,
+                    "discrete": true
+                },
+                {
+                    "name": "7 Big points vertical diagonal",
+                    "first": 43,
+                    "last": 43,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Letter S",
+                    "first": 44,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "7 Small circles vertical",
+                    "first": 45,
+                    "last": 45,
+                    "discrete": true
+                },
+                {
+                    "name": "5 thin spikes",
+                    "first": 46,
+                    "last": 46,
+                    "discrete": true
+                },
+                {
+                    "name": "Big circle with breaks",
+                    "first": 47,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Square with breaks",
+                    "first": 48,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "6 lines every 60 degrees",
+                    "first": 49,
+                    "last": 49,
+                    "discrete": true
+                },
+                {
+                    "name": "Tumbler",
+                    "first": 50,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "Medium Circle",
+                    "first": 51,
+                    "last": 51,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Arrow Right",
+                    "first": 52,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Square",
+                    "first": 53,
+                    "last": 53,
+                    "discrete": true
+                },
+                {
+                    "name": "Tongs",
+                    "first": 54,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "Hourglass",
+                    "first": 55,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Small circle 1…12 Hour CW",
+                    "first": 56,
+                    "last": 67
+                },
+                {
+                    "name": "4 deranged arrows",
+                    "first": 68,
+                    "last": 68,
+                    "discrete": true
+                },
+                {
+                    "name": "4 arrows",
+                    "first": 69,
+                    "last": 69,
+                    "discrete": true
+                },
+                {
+                    "name": "Diagonal lines",
+                    "first": 70,
+                    "last": 73,
+                    "discrete": true
+                },
+                {
+                    "name": "4 Groups of 4 Triangles",
+                    "first": 75,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Letter V",
+                    "first": 76,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "Big Letters XY",
+                    "first": 77,
+                    "last": 77,
+                    "discrete": true
+                },
+                {
+                    "name": "Stars Twinkling",
+                    "first": 79,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "7 Triangles vertical",
+                    "first": 80,
+                    "last": 80,
+                    "discrete": true
+                },
+                {
+                    "name": "Circle with 8 arrows",
+                    "first": 81,
+                    "last": 81,
+                    "discrete": true
+                },
+                {
+                    "name": "8 Circles",
+                    "first": 82,
+                    "last": 82,
+                    "discrete": true
+                },
+                {
+                    "name": "Welcome",
+                    "first": 83,
+                    "last": 89,
+                    "discrete": true
+                },
+                {
+                    "name": "Stars",
+                    "first": 90,
+                    "last": 92,
+                    "discrete": true
+                },
+                {
+                    "name": "Dancer",
+                    "first": 93,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "Hearts colliding",
+                    "first": 96,
+                    "last": 98,
+                    "discrete": true
+                },
+                {
+                    "name": "Tumbler growing",
+                    "first": 99,
+                    "last": 100,
+                    "discrete": true
+                },
+                {
+                    "name": "Circle",
+                    "first": 101,
+                    "last": 102,
+                    "discrete": true
+                },
+                {
+                    "name": "Dotted Circle",
+                    "first": 103,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "Dancing vertical line",
+                    "first": 105,
+                    "last": 106,
+                    "discrete": true
+                },
+                {
+                    "name": "Dotted horizontal line up…down",
+                    "first": 107,
+                    "last": 108,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Circles dancing",
+                    "first": 109,
+                    "last": 114,
+                    "discrete": true
+                },
+                {
+                    "name": "Wobbly Sinus",
+                    "first": 115,
+                    "last": 116,
+                    "discrete": true
+                },
+                {
+                    "name": "Dotted Sinus up…down",
+                    "first": 117,
+                    "last": 118,
+                    "discrete": true
+                },
+                {
+                    "name": "2 dotted horizontal lines up…down",
+                    "first": 119,
+                    "last": 120,
+                    "discrete": true
+                },
+                {
+                    "name": "2 diagonals up…down",
+                    "first": 121,
+                    "last": 122,
+                    "discrete": true
+                },
+                {
+                    "name": "Points Sinus up…down",
+                    "first": 125,
+                    "last": 126,
+                    "discrete": true
+                },
+                {
+                    "name": "2 horizontal lines revolving",
+                    "first": 127,
+                    "last": 128,
+                    "discrete": true
+                },
+                {
+                    "name": "4 dotted lines dancing",
+                    "first": 129,
+                    "last": 130,
+                    "discrete": true
+                },
+                {
+                    "name": "2 dancing dotted vertical lines",
+                    "first": 131,
+                    "last": 132,
+                    "discrete": true
+                },
+                {
+                    "name": "2 dancing vertical sinus",
+                    "first": 133,
+                    "last": 134,
+                    "discrete": true
+                },
+                {
+                    "name": "2 Lines revolving",
+                    "first": 135,
+                    "last": 136,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 137,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe Effect",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 1,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Horizontal Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamPosition",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Movement left…right alternating",
+                    "first": 168,
+                    "last": 188
+                },
+                {
+                    "name": "Movement right…left alternating",
+                    "first": 189,
+                    "last": 210
+                },
+                {
+                    "name": "Movement 5 Steps right…left alternating",
+                    "first": 211,
+                    "last": 253
+                }
+            ]
+        },
+        {
+            "name": "Vertical Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamPosition",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Movement bottom…top alternating",
+                    "first": 168,
+                    "last": 188
+                },
+                {
+                    "name": "Movement top…bottom alternating",
+                    "first": 189,
+                    "last": 210
+                },
+                {
+                    "name": "Movement 5 Steps bottom…top alternating",
+                    "first": 211,
+                    "last": 254
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Zoom",
+                    "first": 11,
+                    "last": 109
+                },
+                {
+                    "name": "Zoom in",
+                    "first": 110,
+                    "last": 154
+                },
+                {
+                    "name": "Zoom out",
+                    "first": 155,
+                    "last": 204
+                },
+                {
+                    "name": "Alternate zoom in/out",
+                    "first": 205,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Rotation Y-axis",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 150
+                }
+            ]
+        },
+        {
+            "name": "Rotation X-axis",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 150
+                }
+            ]
+        },
+        {
+            "name": "Rotation Z-axis",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 180
+                }
+            ]
+        },
+        {
+            "name": "Blanking",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "Dots visible with Pattern",
+                    "first": 64,
+                    "last": 127
+                },
+                {
+                    "name": "Dashed Lines",
+                    "first": 128,
+                    "last": 191
+                },
+                {
+                    "name": "Dots instead of Pattern",
+                    "first": 192,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Wave Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Wave overlay to Pattern",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Generic",
+                    "first": 36,
+                    "last": 138
+                },
+                {
+                    "name": "Effect",
+                    "first": 165,
+                    "last": 174
+                },
+                {
+                    "name": "Changing multi-color",
+                    "first": 175,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Laser, Color Changer (imported from open-fixture-library)"
+}

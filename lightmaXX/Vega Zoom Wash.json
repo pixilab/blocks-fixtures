@@ -3,15 +3,17 @@
         {
             "name": "Pan",
             "type": "Analog_16",
-            "normalized": true
+            "normalized": true,
+            "defaultValue": "50%"
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
-            "normalized": true
+            "normalized": true,
+            "defaultValue": "50%"
         },
         {
-			"name": "Pan/Tilt Speed",
+            "name": "Pan / Tilt Speed",
             "type": "Analog_8",
             "normalized": true
         },
@@ -25,19 +27,9 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "closed",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 9
-                },
-                {
-                    "name": "strobe",
-                    "first": 10,
-                    "last": 245
-                },
-                {
-                    "name": "open",
-                    "first": 246,
-                    "last": 255
                 }
             ]
         },
@@ -71,82 +63,17 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "open",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 10
                 },
                 {
-                    "name": "red",
+                    "name": "ColorPreset",
                     "first": 11,
                     "last": 20
                 },
                 {
-                    "name": "green",
-                    "first": 21,
-                    "last": 30
-                },
-                {
-                    "name": "blue",
-                    "first": 31,
-                    "last": 40
-                },
-                {
-                    "name": "white",
-                    "first": 41,
-                    "last": 50
-                },
-                {
-                    "name": "yellow",
-                    "first": 51,
-                    "last": 60
-                },
-                {
-                    "name": "cyan",
-                    "first": 61,
-                    "last": 70
-                },
-                {
-                    "name": "lightblue",
-                    "first": 71,
-                    "last": 80
-                },
-                {
-                    "name": "pink",
-                    "first": 81,
-                    "last": 90
-                },
-                {
-                    "name": "lightgreen",
-                    "first": 91,
-                    "last": 100
-                },
-                {
-                    "name": "lightred",
-                    "first": 101,
-                    "last": 110
-                },
-                {
-                    "name": "RGB",
-                    "first": 111,
-                    "last": 120
-                },
-                {
-                    "name": "RGW",
-                    "first": 121,
-                    "last": 130
-                },
-                {
-                    "name": "GBW",
-                    "first": 131,
-                    "last": 140
-                },
-                {
-                    "name": "RGBW",
-                    "first": 141,
-                    "last": 150
-                },
-                {
-                    "name": "jump",
+                    "name": "Effect",
                     "first": 151,
                     "last": 255
                 }
@@ -157,12 +84,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "macro off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 10
                 },
                 {
-                    "name": "speed",
+                    "name": "EffectSpeed",
                     "first": 11,
                     "last": 255
                 }
@@ -173,62 +100,62 @@
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 20
                 },
                 {
-					"name": "1",
+                    "name": "Internal Program 1",
                     "first": 21,
                     "last": 40
                 },
                 {
-					"name": "2",
+                    "name": "Internal Program 2",
                     "first": 41,
                     "last": 60
                 },
                 {
-					"name": "3",
+                    "name": "Internal Program 3",
                     "first": 61,
                     "last": 80
                 },
                 {
-					"name": "4",
+                    "name": "Internal Program 4",
                     "first": 81,
                     "last": 100
                 },
                 {
-					"name": "5",
+                    "name": "Internal Program 5",
                     "first": 101,
                     "last": 120
                 },
                 {
-					"name": "6",
+                    "name": "Internal Program 6",
                     "first": 121,
                     "last": 140
                 },
                 {
-					"name": "7",
+                    "name": "Internal Program 7",
                     "first": 141,
                     "last": 160
                 },
                 {
-					"name": "8",
+                    "name": "Internal Program 8",
                     "first": 161,
                     "last": 180
                 },
                 {
-                    "name": "motor reset",
+                    "name": "Maintenance",
                     "first": 201,
                     "last": 225
                 }
             ]
         },
         {
-            "name": "Focus",
+            "name": "Zoom",
             "type": "Analog_8",
             "normalized": true
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

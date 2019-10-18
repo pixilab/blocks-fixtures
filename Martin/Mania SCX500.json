@@ -1,0 +1,144 @@
+{
+    "channels": [
+        {
+            "name": "Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 5,
+                    "last": 68
+                },
+                {
+                    "name": "Generic",
+                    "first": 69,
+                    "last": 100
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 101,
+                    "last": 112
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 113,
+                    "last": 124
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 125,
+                    "last": 136
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 137,
+                    "last": 148
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 149,
+                    "last": 160
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 161,
+                    "last": 172
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 173,
+                    "last": 184
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 185,
+                    "last": 196
+                },
+                {
+                    "name": "Macro 9",
+                    "first": 197,
+                    "last": 208
+                },
+                {
+                    "name": "Macro 10",
+                    "first": 209,
+                    "last": 220
+                },
+                {
+                    "name": "Macro 11",
+                    "first": 221,
+                    "last": 232
+                },
+                {
+                    "name": "Macro 12",
+                    "first": 233,
+                    "last": 249
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 204,
+                    "last": 229
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 192,
+                    "last": 223
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 127
+        }
+    ],
+    "note": "Scanner, Color Changer (imported from open-fixture-library)"
+}

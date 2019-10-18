@@ -1,0 +1,55 @@
+{
+    "channels": [
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "0%"
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "0%"
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "0%"
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "0%"
+        },
+        {
+            "name": "Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 50
+                },
+                {
+                    "name": "Effect",
+                    "first": 51,
+                    "last": 101
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 153,
+                    "last": 203
+                },
+                {
+                    "name": "Sound-activated",
+                    "first": 204,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

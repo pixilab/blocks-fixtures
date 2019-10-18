@@ -1,859 +1,404 @@
 {
-	"channels": [
-		{
-			"name": "Pan",
-			"type": "Analog_16",
-			"normalized": true
-		},
-		{
-			"name": "Tilt",
-			"type": "Analog_16",
-			"normalized": true
-		},
-		{
-			"name": "Pan/Tilt Speed",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Power/Special functions",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "reserved",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "autofocus on",
-					"first": 10,
-					"last": 19
-				},
-				{
-					"name": "autofocus off",
-					"first": 20,
-					"last": 29
-				},
-				{
-					"name": "pan/tilt speed mode",
-					"first": 50,
-					"last": 59
-				},
-				{
-					"name": "pan/tilt time mode",
-					"first": 60,
-					"last": 69
-				},
-				{
-					"name": "blackout while pan/tilt moving",
-					"first": 70,
-					"last": 79
-				},
-				{
-					"name": "disabled blackout while pan/tilt moving",
-					"first": 80,
-					"last": 89
-				},
-				{
-					"name": "blackout while colour wheel moving",
-					"first": 90,
-					"last": 99
-				},
-				{
-					"name": "disabled blackout while colour wheel moving",
-					"first": 100,
-					"last": 109
-				},
-				{
-					"name": "blackout while gobo 1/gobo 2 moving",
-					"first": 110,
-					"last": 119
-				},
-				{
-					"name": "disabled blackout while gobo 1/gobo 2 moving",
-					"first": 120,
-					"last": 129
-				},
-				{
-					"name": "lamp on, reset",
-					"first": 130,
-					"last": 139
-				},
-				{
-					"name": "pan/tilt reset",
-					"first": 140,
-					"last": 149
-				},
-				{
-					"name": "colour system reset",
-					"first": 150,
-					"last": 159
-				},
-				{
-					"name": "gobo system reset",
-					"first": 160,
-					"last": 169
-				},
-				{
-					"name": "dimmer/strobe reset",
-					"first": 170,
-					"last": 179
-				},
-				{
-					"name": "focus/zoom/frost reset",
-					"first": 180,
-					"last": 189
-				},
-				{
-					"name": "iris/effect/reset",
-					"first": 190,
-					"last": 199
-				},
-				{
-					"name": "total reset",
-					"first": 200,
-					"last": 209
-				},
-				{
-					"name": "lamp off",
-					"first": 230,
-					"last": 239
-				}
-			]
-		},
-		{
-			"name": "Color Wheel",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "open/white",
-					"first": 0,
-					"last": 17
-				},
-				{
-					"name": "deep red",
-					"first": 18,
-					"last": 36
-				},
-				{
-					"name": "deep blue",
-					"first": 37,
-					"last": 54
-				},
-				{
-					"name": "green",
-					"first": 55,
-					"last": 72
-				},
-				{
-					"name": "orange",
-					"first": 73,
-					"last": 90
-				},
-				{
-					"name": "6000K filter",
-					"first": 91,
-					"last": 109
-				},
-				{
-					"name": "uv filter",
-					"first": 110,
-					"last": 127
-				},
-				{
-					"name": "white",
-					"first": 128,
-					"last": 129,
-					"discrete": true
-				},
-				{
-					"name": "forwards rainbow effect",
-					"first": 190,
-					"last": 215
-				},
-				{
-					"name": "no rotation",
-					"first": 216,
-					"last": 217,
-					"discrete": true
-				},
-				{
-					"name": "backwards rainbow effect",
-					"first": 218,
-					"last": 243
-				},
-				{
-					"name": "random color by audio control",
-					"first": 244,
-					"last": 249,
-					"discrete": true
-				},
-				{
-					"name": "auto random colour",
-					"first": 250,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Cyan",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Magenta",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Yellow",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Color Temperature",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Effect Speed",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Gobo Wheel 1",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "open",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "Gobo 1 rainbow chips",
-					"first": 10,
-					"last": 13,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 2 sun man",
-					"first": 14,
-					"last": 17,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 3 water drops",
-					"first": 18,
-					"last": 21,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 4 triangle floating",
-					"first": 22,
-					"last": 25,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 5 laser",
-					"first": 26,
-					"last": 29,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 6 swirl electric",
-					"first": 30,
-					"last": 33,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 1 rotating rainbow chips",
-					"first": 34,
-					"last": 37,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 2 rotating sun man",
-					"first": 38,
-					"last": 41,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 3 rotating water drops",
-					"first": 42,
-					"last": 45,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 4 rotating triangle floating",
-					"first": 46,
-					"last": 49,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 5 rotating laser",
-					"first": 50,
-					"last": 53,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 6 rotating swirl electric",
-					"first": 54,
-					"last": 57,
-					"discrete": true
-				},
-				{
-					"name": "Gobo shake 1 rainbow chips shaki",
-					"first": 58,
-					"last": 69
-				},
-				{
-					"name": "Gobo shake 2 sun man shaki",
-					"first": 70,
-					"last": 81
-				},
-				{
-					"name": "Gobo shake 3 water drops shaki",
-					"first": 82,
-					"last": 93
-				},
-				{
-					"name": "Gobo shake 4 triangle floating shaki",
-					"first": 94,
-					"last": 105
-				},
-				{
-					"name": "Gobo shake 5 laser shaki",
-					"first": 106,
-					"last": 117
-				},
-				{
-					"name": "Gobo shake 6 swirl electric shaki",
-					"first": 118,
-					"last": 129
-				},
-				{
-					"name": "Gobo shake 1 rotating rainbow chips shaki",
-					"first": 130,
-					"last": 141
-				},
-				{
-					"name": "Gobo shake 2 rotating sun man shaki",
-					"first": 142,
-					"last": 153
-				},
-				{
-					"name": "Gobo shake 3 rotating water drops shaki",
-					"first": 154,
-					"last": 165
-				},
-				{
-					"name": "Gobo shake 4 rotating triangle floating shaki",
-					"first": 166,
-					"last": 177
-				},
-				{
-					"name": "Gobo shake 5 rotating laser shaki",
-					"first": 178,
-					"last": 189
-				},
-				{
-					"name": "Gobo shake 6 rotating swirl electric shaki",
-					"first": 190,
-					"last": 201
-				},
-				{
-					"name": "Rotate CW",
-					"first": 202,
-					"last": 221
-				},
-				{
-					"name": "Stop",
-					"first": 222,
-					"last": 223,
-					"discrete": true
-				},
-				{
-					"name": "Rotate CCW",
-					"first": 224,
-					"last": 243
-				},
-				{
-					"name": "Audio random",
-					"first": 244,
-					"last": 249,
-					"discrete": true
-				},
-				{
-					"name": "Random",
-					"first": 250,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Gobo Wheel 2",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "open/hole",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "Gobo 1 diamante spot",
-					"first": 10,
-					"last": 13,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 2 wheek",
-					"first": 14,
-					"last": 17,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 3 space tunel",
-					"first": 18,
-					"last": 21,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 4 bubbles",
-					"first": 22,
-					"last": 25,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 5 12 dots",
-					"first": 26,
-					"last": 29,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 6 radial dashes",
-					"first": 30,
-					"last": 33,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 1 rotating diamante spot",
-					"first": 34,
-					"last": 37,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 2 rotating wheel",
-					"first": 38,
-					"last": 41,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 3 rotating space tunel",
-					"first": 42,
-					"last": 45,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 4 rotating bubbles",
-					"first": 46,
-					"last": 49,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 5 rotating 12 dots",
-					"first": 50,
-					"last": 53,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 6 rotating radial dashes",
-					"first": 54,
-					"last": 57,
-					"discrete": true
-				},
-				{
-					"name": "Gobo shake 1 diamante spot",
-					"first": 58,
-					"last": 69
-				},
-				{
-					"name": "Gobo shake 2 wheel",
-					"first": 70,
-					"last": 81
-				},
-				{
-					"name": "Gobo shake 3 space tunnel",
-					"first": 82,
-					"last": 93
-				},
-				{
-					"name": "Gobo shake 4 slow-fast bubbles",
-					"first": 94,
-					"last": 105
-				},
-				{
-					"name": "Gobo shake 5 slow-fast 12 dots",
-					"first": 106,
-					"last": 117
-				},
-				{
-					"name": "Gobo shake 6 slow-fast radial dashes",
-					"first": 118,
-					"last": 129
-				},
-				{
-					"name": "Gobo shake 1 rotating slow-fast diamante spot",
-					"first": 130,
-					"last": 141
-				},
-				{
-					"name": "Gobo shake 2 rotating slow-fast wheel",
-					"first": 142,
-					"last": 153
-				},
-				{
-					"name": "Gobo shake 3 rotating slow-fast space tunel",
-					"first": 154,
-					"last": 165
-				},
-				{
-					"name": "Gobo shake 4 rotating slow-fast bubbles",
-					"first": 166,
-					"last": 177
-				},
-				{
-					"name": "Gobo shake 5 rotating slow-fast 12 dots",
-					"first": 178,
-					"last": 189
-				},
-				{
-					"name": "Gobo shake 6 rotating slow-fast radial dashes",
-					"first": 190,
-					"last": 201
-				},
-				{
-					"name": "Rotate CW",
-					"first": 202,
-					"last": 221
-				},
-				{
-					"name": "Stop",
-					"first": 222,
-					"last": 223,
-					"discrete": true
-				},
-				{
-					"name": "Rotate CCW",
-					"first": 224,
-					"last": 243
-				},
-				{
-					"name": "Audio random",
-					"first": 244,
-					"last": 249,
-					"discrete": true
-				},
-				{
-					"name": "Random",
-					"first": 250,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Effect wheel",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "index open/hole",
-					"first": 0,
-					"last": 19
-				},
-				{
-					"name": "index 3-facet prism",
-					"first": 20,
-					"last": 39
-				},
-				{
-					"name": "index 5-facet prism",
-					"first": 40,
-					"last": 59
-				},
-				{
-					"name": "index estriado",
-					"first": 60,
-					"last": 79
-				},
-				{
-					"name": "index diamante",
-					"first": 80,
-					"last": 99
-				},
-				{
-					"name": "rotation 3-facet prism",
-					"first": 100,
-					"last": 119
-				},
-				{
-					"name": "rotation 5-facet prism",
-					"first": 120,
-					"last": 139
-				},
-				{
-					"name": "rotation estriado",
-					"first": 140,
-					"last": 159
-				},
-				{
-					"name": "rotation diamante",
-					"first": 160,
-					"last": 179
-				},
-				{
-					"name": "macro 1",
-					"first": 180,
-					"last": 183,
-					"discrete": true
-				},
-				{
-					"name": "macro 2",
-					"first": 184,
-					"last": 187,
-					"discrete": true
-				},
-				{
-					"name": "macro 3",
-					"first": 188,
-					"last": 191,
-					"discrete": true
-				},
-				{
-					"name": "macro 4",
-					"first": 192,
-					"last": 195,
-					"discrete": true
-				},
-				{
-					"name": "macro 5",
-					"first": 196,
-					"last": 199,
-					"discrete": true
-				},
-				{
-					"name": "macro 6",
-					"first": 200,
-					"last": 203,
-					"discrete": true
-				},
-				{
-					"name": "macro 7",
-					"first": 204,
-					"last": 207,
-					"discrete": true
-				},
-				{
-					"name": "macro 8",
-					"first": 208,
-					"last": 211,
-					"discrete": true
-				},
-				{
-					"name": "macro 9",
-					"first": 212,
-					"last": 215,
-					"discrete": true
-				},
-				{
-					"name": "macro 10",
-					"first": 216,
-					"last": 219,
-					"discrete": true
-				},
-				{
-					"name": "macro 11",
-					"first": 220,
-					"last": 223,
-					"discrete": true
-				},
-				{
-					"name": "macro 12",
-					"first": 224,
-					"last": 227,
-					"discrete": true
-				},
-				{
-					"name": "macro 13",
-					"first": 228,
-					"last": 231,
-					"discrete": true
-				},
-				{
-					"name": "macro 14",
-					"first": 232,
-					"last": 235,
-					"discrete": true
-				},
-				{
-					"name": "macro 15",
-					"first": 236,
-					"last": 239,
-					"discrete": true
-				},
-				{
-					"name": "macro 16",
-					"first": 240,
-					"last": 243,
-					"discrete": true
-				},
-				{
-					"name": "Audio random",
-					"first": 244,
-					"last": 249,
-					"discrete": true
-				},
-				{
-					"name": "Random",
-					"first": 250,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Frost",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "range",
-					"first": 0,
-					"last": 180
-				},
-				{
-					"name": "pulse closing",
-					"first": 190,
-					"last": 211
-				},
-				{
-					"name": "pulse opening",
-					"first": 212,
-					"last": 233
-				},
-				{
-					"name": "ramping",
-					"first": 234,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Iris",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "range",
-					"first": 0,
-					"last": 180
-				},
-				{
-					"name": "pulse opening",
-					"first": 192,
-					"last": 203
-				},
-				{
-					"name": "pulse closing",
-					"first": 204,
-					"last": 215
-				},
-				{
-					"name": "random pulse opening fast",
-					"first": 216,
-					"last": 217,
-					"discrete": true
-				},
-				{
-					"name": "random pulse opening slow",
-					"first": 218,
-					"last": 219,
-					"discrete": true
-				},
-				{
-					"name": "random pulse closing fast",
-					"first": 220,
-					"last": 221,
-					"discrete": true
-				},
-				{
-					"name": "random pulse closing slow",
-					"first": 222,
-					"last": 223,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Zoom",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Focus",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Shutter, Strobe",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "closed",
-					"first": 0,
-					"last": 31
-				},
-				{
-					"name": "open",
-					"first": 32,
-					"last": 63
-				},
-				{
-					"name": "strobe-effect",
-					"first": 64,
-					"last": 95
-				},
-				{
-					"name": "open 3",
-					"first": 96,
-					"last": 127
-				},
-				{
-					"name": "opening pulse",
-					"first": 128,
-					"last": 143
-				},
-				{
-					"name": "closing pulse",
-					"first": 144,
-					"last": 159
-				},
-				{
-					"name": "shutter open",
-					"first": 160,
-					"last": 191
-				},
-				{
-					"name": "random strobe",
-					"first": 192,
-					"last": 223
-				}
-			]
-		},
-		{
-			"name": "Dimmer",
-			"type": "Analog_16",
-			"normalized": true
-		}
-	],
-	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Power/Special functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 10,
+                    "last": 19
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 190,
+                    "last": 215
+                },
+                {
+                    "name": "random color by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "auto random color",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Effect Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Gobo Wheel 1",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 58,
+                    "last": 69
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 202,
+                    "last": 221
+                },
+                {
+                    "name": "Random gobo by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Random gobo",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel 2",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 58,
+                    "last": 69
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 202,
+                    "last": 221
+                },
+                {
+                    "name": "random gobo selection by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "auto random gobo selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Effect wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "index 3-facet prism",
+                    "first": 20,
+                    "last": 39
+                },
+                {
+                    "name": "index 5-facet prism",
+                    "first": 40,
+                    "last": 59
+                },
+                {
+                    "name": "index estriado",
+                    "first": 60,
+                    "last": 79
+                },
+                {
+                    "name": "index diamante",
+                    "first": 80,
+                    "last": 99
+                },
+                {
+                    "name": "rotation 3-facet prism",
+                    "first": 100,
+                    "last": 119
+                },
+                {
+                    "name": "rotation 5-facet prism",
+                    "first": 120,
+                    "last": 139
+                },
+                {
+                    "name": "rotation estriado",
+                    "first": 140,
+                    "last": 159
+                },
+                {
+                    "name": "rotation diamante",
+                    "first": 160,
+                    "last": 179
+                },
+                {
+                    "name": "macro 1",
+                    "first": 180,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 2",
+                    "first": 184,
+                    "last": 187,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 3",
+                    "first": 188,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 4",
+                    "first": 192,
+                    "last": 195,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 5",
+                    "first": 196,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 6",
+                    "first": 200,
+                    "last": 203,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 7",
+                    "first": 204,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 8",
+                    "first": 208,
+                    "last": 211,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 9",
+                    "first": 212,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 10",
+                    "first": 216,
+                    "last": 219,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 11",
+                    "first": 220,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 12",
+                    "first": 224,
+                    "last": 227,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 13",
+                    "first": 228,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 14",
+                    "first": 232,
+                    "last": 235,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 15",
+                    "first": 236,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "macro 16",
+                    "first": 240,
+                    "last": 243,
+                    "discrete": true
+                },
+                {
+                    "name": "random effect by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "auto random",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Frost",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Ramp down",
+                    "first": 190,
+                    "last": 211
+                },
+                {
+                    "name": "Ramp up",
+                    "first": 212,
+                    "last": 233
+                },
+                {
+                    "name": "Ramping",
+                    "first": 234,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Iris",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Iris",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Ramp up",
+                    "first": 192,
+                    "last": 203
+                },
+                {
+                    "name": "Ramp down",
+                    "first": 204,
+                    "last": 215
+                },
+                {
+                    "name": "Random ramp up",
+                    "first": 216,
+                    "last": 217,
+                    "discrete": true
+                },
+                {
+                    "name": "Random ramp down",
+                    "first": 220,
+                    "last": 221,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter, Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

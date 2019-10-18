@@ -1,0 +1,10 @@
+{
+    "channels": [
+        {
+            "name": "Color Macros",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

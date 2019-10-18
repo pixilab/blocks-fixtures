@@ -1,0 +1,25 @@
+{
+    "channels": [
+        {
+            "name": "IntensityColdWhite",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "IntensityWarmWhite",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "IntensityAmber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

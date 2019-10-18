@@ -1,0 +1,95 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Lenses Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Master",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 49
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "Program 1",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Program 2",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Program 3",
+                    "first": 160,
+                    "last": 169
+                },
+                {
+                    "name": "Program 4",
+                    "first": 170,
+                    "last": 179
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 234,
+                    "last": 236,
+                    "discrete": true
+                },
+                {
+                    "name": "Sound control",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Strobe, Color Changer, Dimmer, Flower (imported from open-fixture-library)"
+}

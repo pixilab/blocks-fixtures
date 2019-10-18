@@ -1,0 +1,483 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Access",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 32,
+                    "last": 95
+                }
+            ]
+        },
+        {
+            "name": "Folder",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Page 1",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Page 2",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Page 3",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Page 4",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Page 5",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Page 6",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Page 7",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Page 8",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Page 9",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "File",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 32
+                },
+                {
+                    "name": "Cue 1",
+                    "first": 33,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 2",
+                    "first": 37,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 3",
+                    "first": 41,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 4",
+                    "first": 45,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 5",
+                    "first": 49,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 6",
+                    "first": 53,
+                    "last": 56,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 7",
+                    "first": 57,
+                    "last": 60,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 8",
+                    "first": 61,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 9",
+                    "first": 65,
+                    "last": 68,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 10",
+                    "first": 69,
+                    "last": 72,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 11",
+                    "first": 73,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 12",
+                    "first": 77,
+                    "last": 80,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 13",
+                    "first": 81,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 14",
+                    "first": 85,
+                    "last": 88,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 15",
+                    "first": 89,
+                    "last": 92,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 16",
+                    "first": 93,
+                    "last": 96,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 17",
+                    "first": 97,
+                    "last": 100,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 18",
+                    "first": 101,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 19",
+                    "first": 105,
+                    "last": 108,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 20",
+                    "first": 109,
+                    "last": 112,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 21",
+                    "first": 113,
+                    "last": 116,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 22",
+                    "first": 117,
+                    "last": 120,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 23",
+                    "first": 121,
+                    "last": 124,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 24",
+                    "first": 125,
+                    "last": 128,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 25",
+                    "first": 129,
+                    "last": 132,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 26",
+                    "first": 133,
+                    "last": 136,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 27",
+                    "first": 137,
+                    "last": 140,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 28",
+                    "first": 141,
+                    "last": 144,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 29",
+                    "first": 145,
+                    "last": 148,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 30",
+                    "first": 149,
+                    "last": 152,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 31",
+                    "first": 153,
+                    "last": 156,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 32",
+                    "first": 157,
+                    "last": 160,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 33",
+                    "first": 161,
+                    "last": 164,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 34",
+                    "first": 165,
+                    "last": 168,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 35",
+                    "first": 169,
+                    "last": 172,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 36",
+                    "first": 173,
+                    "last": 176,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 37",
+                    "first": 177,
+                    "last": 180,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 38",
+                    "first": 181,
+                    "last": 184,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 39",
+                    "first": 185,
+                    "last": 188,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 40",
+                    "first": 189,
+                    "last": 192,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 41",
+                    "first": 193,
+                    "last": 196,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 42",
+                    "first": 197,
+                    "last": 200,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 43",
+                    "first": 201,
+                    "last": 204,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 44",
+                    "first": 205,
+                    "last": 208,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 45",
+                    "first": 209,
+                    "last": 212,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 46",
+                    "first": 213,
+                    "last": 216,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 47",
+                    "first": 217,
+                    "last": 220,
+                    "discrete": true
+                },
+                {
+                    "name": "Cue 48",
+                    "first": 221,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Playback Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectSpeed",
+                    "first": 0,
+                    "last": 16
+                }
+            ]
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "X Size",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Y Size",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Rotation",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "X Position",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Y Position",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Visible Points",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 255
+        },
+        {
+            "name": "Scan Rate",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Release",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Color",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 32,
+                    "last": 42
+                }
+            ]
+        },
+        {
+            "name": "Reserved",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Laser, Moving Head, Color Changer (imported from open-fixture-library)"
+}

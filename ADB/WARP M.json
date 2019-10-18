@@ -1,0 +1,164 @@
+{
+    "channels": [
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 31,
+                    "last": 35,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Shutter A Rotation",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Shutter A Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Shutter B Rotation",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Shutter B Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Shutter C Rotation",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Shutter C Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Shutter D Rotation",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Shutter D Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Shutters all rotation offset",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Gobo 1 rotation",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32767
+        },
+        {
+            "name": "Iris",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "External dimmer (optional)",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "External DMX output 1",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 2",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 3",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 4",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 5",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 6",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 7",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "External DMX output 8",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Moving Head (imported from open-fixture-library)"
+}

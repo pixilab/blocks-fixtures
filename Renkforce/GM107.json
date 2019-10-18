@@ -1,0 +1,30 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe effect",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color selection",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

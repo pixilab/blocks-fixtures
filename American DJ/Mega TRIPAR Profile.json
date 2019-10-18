@@ -1,0 +1,17 @@
+{
+    "channels": [
+        {
+            "name": "Color macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

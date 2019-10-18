@@ -4,407 +4,86 @@
             "name": "Pan",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32639
+            "defaultValue": "50%"
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": 32639
+            "defaultValue": "50%"
         },
         {
-            "name": "Color wheel",
+            "name": "Color Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "white",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 10
                 },
                 {
-                    "name": "red",
-                    "first": 11,
-                    "last": 19
-                },
-                {
-                    "name": "blue",
-                    "first": 20,
-                    "last": 28
-                },
-                {
-                    "name": "green",
-                    "first": 29,
-                    "last": 37
-                },
-                {
-                    "name": "yellow",
-                    "first": 38,
-                    "last": 46
-                },
-                {
-                    "name": "pink",
-                    "first": 47,
-                    "last": 55
-                },
-                {
-                    "name": "orange",
-                    "first": 56,
-                    "last": 64
-                },
-                {
-                    "name": "aqua",
-                    "first": 65,
-                    "last": 73
-                },
-                {
-                    "name": "magenta",
-                    "first": 74,
-                    "last": 82
-                },
-                {
-                    "name": "quad color",
-                    "first": 83,
-                    "last": 91
-                },
-                {
-                    "name": "cyan",
-                    "first": 92,
-                    "last": 100
-                },
-                {
-                    "name": "CTO",
-                    "first": 101,
-                    "last": 109
-                },
-                {
-                    "name": "CTB",
-                    "first": 110,
-                    "last": 118
-                },
-                {
-                    "name": "UV",
-                    "first": 119,
-                    "last": 127
-                },
-                {
-					"name": "CW rotation",
+                    "name": "WheelRotation",
                     "first": 128,
                     "last": 189
-                },
-                {
-                    "name": "no rotation",
-                    "first": 190,
-                    "last": 193,
-                    "discrete": true
-                },
-                {
-					"name": "CCW rotation",
-                    "first": 194,
-                    "last": 255
                 }
             ]
         },
         {
-            "name": "Rotating Gobos",
+            "name": "Rotating Gobo Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Beam open",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 11
                 },
                 {
-                    "name": "Spot open",
+                    "name": "WheelSlot",
                     "first": 12,
                     "last": 21
                 },
                 {
-                    "name": "Rotating Gobo 1",
-                    "first": 22,
-                    "last": 31
-                },
-                {
-                    "name": "Rotating Gobo 2",
-                    "first": 32,
-                    "last": 41
-                },
-                {
-                    "name": "Rotating Gobo 3",
-                    "first": 42,
-                    "last": 51
-                },
-                {
-                    "name": "Rotating Gobo 4",
-                    "first": 52,
-                    "last": 61
-                },
-                {
-                    "name": "Rotating Gobo 5",
-                    "first": 62,
-                    "last": 71
-                },
-                {
-                    "name": "Rotating Gobo 6",
-                    "first": 72,
-                    "last": 81
-                },
-                {
-                    "name": "Rotating Gobo 7",
-                    "first": 82,
-                    "last": 91
-                },
-                {
-                    "name": "Rotating Gobo 8",
-                    "first": 92,
-                    "last": 101
-                },
-                {
-					"name": "Gobo 1 shake",
+                    "name": "WheelShake",
                     "first": 102,
                     "last": 112
                 },
                 {
-					"name": "Gobo 2 shake",
-                    "first": 113,
-                    "last": 123
-                },
-                {
-					"name": "Gobo 3 shake",
-                    "first": 124,
-                    "last": 134
-                },
-                {
-					"name": "Gobo 4 shake",
-                    "first": 135,
-                    "last": 145
-                },
-                {
-					"name": "Gobo 5 shake",
-                    "first": 146,
-                    "last": 156
-                },
-                {
-					"name": "Gobo 6 shake",
-                    "first": 157,
-                    "last": 167
-                },
-                {
-					"name": "Gobo 7 shake",
-                    "first": 168,
-                    "last": 178
-                },
-                {
-					"name": "Gobo 8 shake",
-                    "first": 179,
-                    "last": 189
-                },
-                {
-					"name": "CW Gobo wheel rotation",
+                    "name": "WheelRotation",
                     "first": 190,
                     "last": 223
-                },
-                {
-					"name": "CCW Gobo wheel rotation",
-                    "first": 224,
-                    "last": 255
                 }
             ]
         },
         {
-            "name": "Gobo Index",
+            "name": "Gobo Stencil Rotation",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Gobo Indexing",
+                    "name": "WheelSlotRotation",
                     "first": 0,
                     "last": 127
-                },
-                {
-					"name": "CW Gobo rotation",
-                    "first": 128,
-                    "last": 189
-                },
-                {
-                    "name": "no rotation",
-                    "first": 190,
-                    "last": 193,
-                    "discrete": true
-                },
-                {
-					"name": "CCW Gobo rotation",
-                    "first": 194,
-                    "last": 255
                 }
             ]
         },
         {
-			"name": "Gobos",
+            "name": "Static Gobo Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "open",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 21
                 },
                 {
-					"name": "Gobo 1",
-                    "first": 22,
-                    "last": 28,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 2",
-                    "first": 29,
-                    "last": 35,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 3",
-                    "first": 36,
-                    "last": 42,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 4",
-                    "first": 43,
-                    "last": 49,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 5",
-                    "first": 50,
-                    "last": 56,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 6",
-                    "first": 57,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 7",
-                    "first": 64,
-                    "last": 70,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 8",
-                    "first": 71,
-                    "last": 77,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 9",
-                    "first": 78,
-                    "last": 84,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 10",
-                    "first": 85,
-                    "last": 91,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 11",
-                    "first": 92,
-                    "last": 98,
-                    "discrete": true
-                },
-                {
-					"name": "Gobo 12",
-                    "first": 99,
-                    "last": 105,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 1",
+                    "name": "WheelShake",
                     "first": 106,
                     "last": 112,
                     "discrete": true
                 },
                 {
-					"name": "Shake Gobo 2",
-                    "first": 113,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 3",
-                    "first": 120,
-                    "last": 126,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 4",
-                    "first": 127,
-                    "last": 133,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 5",
-                    "first": 134,
-                    "last": 140,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 6",
-                    "first": 141,
-                    "last": 147,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 7",
-                    "first": 148,
-                    "last": 154,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 8",
-                    "first": 155,
-                    "last": 161,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 9",
-                    "first": 162,
-                    "last": 168,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 10",
-                    "first": 169,
-                    "last": 175,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 11",
-                    "first": 176,
-                    "last": 182,
-                    "discrete": true
-                },
-                {
-					"name": "Shake Gobo 12",
-                    "first": 183,
-                    "last": 189,
-                    "discrete": true
-                },
-                {
-					"name": "CW Gobo Wheel rotation",
+                    "name": "WheelRotation",
                     "first": 190,
                     "last": 221
-                },
-                {
-                    "name": "no rotation",
-                    "first": 222,
-                    "last": 223,
-                    "discrete": true
-                },
-                {
-					"name": "CCW Gobo Wheel rotation",
-                    "first": 224,
-                    "last": 255
                 }
             ]
         },
@@ -413,127 +92,107 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "open",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 31
                 },
                 {
-                    "name": "8-facet rotating prism",
+                    "name": "Prism",
                     "first": 32,
                     "last": 50
                 },
                 {
-					"name": "Linear rotating prism",
-                    "first": 51,
-                    "last": 69
-                },
-                {
-                    "name": "10-facet static prism",
-                    "first": 70,
-                    "last": 88
-                },
-                {
-                    "name": "8-facet + 10-facet prisms",
-                    "first": 89,
-                    "last": 107
-                },
-                {
-                    "name": "10-facet + linear prisms",
-                    "first": 108,
-                    "last": 127
-                },
-                {
-					"name": "Macro 1",
+                    "name": "linear prism / Gobo macro 1",
                     "first": 128,
                     "last": 135,
                     "discrete": true
                 },
                 {
-					"name": "Macro 2",
+                    "name": "linear prism / Gobo macro 2",
                     "first": 136,
                     "last": 143,
                     "discrete": true
                 },
                 {
-					"name": "Macro 3",
+                    "name": "linear prism / Gobo macro 3",
                     "first": 144,
                     "last": 151,
                     "discrete": true
                 },
                 {
-					"name": "Macro 4",
+                    "name": "linear prism / Gobo macro 4",
                     "first": 152,
                     "last": 159,
                     "discrete": true
                 },
                 {
-					"name": "Macro 5",
+                    "name": "linear prism / Gobo macro 5",
                     "first": 160,
                     "last": 167,
                     "discrete": true
                 },
                 {
-					"name": "Macro 6",
+                    "name": "linear prism / Gobo macro 6",
                     "first": 168,
                     "last": 175,
                     "discrete": true
                 },
                 {
-					"name": "Macro 7",
+                    "name": "linear prism / Gobo macro 7",
                     "first": 176,
                     "last": 183,
                     "discrete": true
                 },
                 {
-					"name": "Macro 8",
+                    "name": "linear prism / Gobo macro 8",
                     "first": 184,
                     "last": 191,
                     "discrete": true
                 },
                 {
-					"name": "Macro 9",
+                    "name": "linear prism / Gobo macro 9",
                     "first": 192,
                     "last": 199,
                     "discrete": true
                 },
                 {
-					"name": "Macro 10",
+                    "name": "linear prism / Gobo macro 10",
                     "first": 200,
                     "last": 207,
                     "discrete": true
                 },
                 {
-					"name": "Macro 11",
+                    "name": "linear prism / Gobo macro 11",
                     "first": 208,
                     "last": 215,
                     "discrete": true
                 },
                 {
-					"name": "Macro 12",
+                    "name": "linear prism / Gobo macro 12",
                     "first": 216,
                     "last": 223,
                     "discrete": true
                 },
                 {
-					"name": "Macro 13",
+                    "name": "linear prism / Gobo macro 13",
                     "first": 224,
                     "last": 231,
                     "discrete": true
                 },
                 {
-					"name": "Macro 14",
+                    "name": "linear prism / Gobo macro 14",
                     "first": 232,
                     "last": 239,
                     "discrete": true
                 },
                 {
-					"name": "Macro 15",
+                    "name": "linear prism / Gobo macro 15",
                     "first": 240,
                     "last": 247,
                     "discrete": true
                 },
                 {
-					"name": "Macro 16",
+                    "name": "linear prism / Gobo macro 16",
                     "first": 248,
                     "last": 255,
                     "discrete": true
@@ -545,87 +204,46 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Prism indexing",
+                    "name": "PrismRotation",
                     "first": 0,
                     "last": 127
-                },
-                {
-					"name": "CW linear prism rotation",
-                    "first": 128,
-                    "last": 189
-                },
-                {
-					"name": "No rotation",
-                    "first": 190,
-                    "last": 193,
-                    "discrete": true
-                },
-                {
-					"name": "CCW linear prism rotation",
-                    "first": 194,
-                    "last": 255
                 }
             ]
         },
         {
             "name": "Focus",
-			"type": "Analog_8",
-			"normalized": true
+            "type": "Analog_16",
+            "normalized": true
         },
         {
             "name": "Zoom",
-			"type": "Analog_8",
-			"normalized": true
+            "type": "Analog_16",
+            "normalized": true
         },
         {
             "name": "Auto focus",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 50
                 },
                 {
-                    "name": "15m",
+                    "name": "Focus",
                     "first": 51,
                     "last": 150
-                },
-                {
-                    "name": "20m",
-                    "first": 151,
-                    "last": 255
                 }
             ]
         },
         {
-			"name": "Shutter/Strobe",
+            "name": "Shutter / Strobe",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "closed",
+                    "name": "ShutterStrobe",
                     "first": 0,
                     "last": 31
-                },
-                {
-                    "name": "open",
-                    "first": 32,
-                    "last": 63
-                },
-                {
-					"name": "strobe",
-                    "first": 64,
-                    "last": 95
-                },
-                {
-                    "name": "pulse",
-                    "first": 128,
-                    "last": 159
-                },
-                {
-					"name": "random strobe",
-                    "first": 192,
-                    "last": 223
                 }
             ]
         },
@@ -639,38 +257,28 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "open",
+                    "name": "Frost",
                     "first": 0,
                     "last": 127
-                },
-                {
-                    "name": "frost",
-                    "first": 128,
-                    "last": 255
                 }
             ]
         },
         {
-			"name": "Pan/Tilt speed",
+            "name": "Pan / Tilt speed",
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Speed",
+                    "name": "PanTiltSpeed",
                     "first": 0,
                     "last": 225
                 },
                 {
-					"name": "blackout with Pan/Tilt movement",
+                    "name": "Maintenance",
                     "first": 226,
                     "last": 235
                 },
                 {
-                    "name": "blackout with all movement",
-                    "first": 236,
-                    "last": 245
-                },
-                {
-                    "name": "no function",
+                    "name": "NoFunction",
                     "first": 246,
                     "last": 255
                 }
@@ -681,102 +289,52 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Color change normal",
+                    "name": "Maintenance",
                     "first": 0,
                     "last": 19
                 },
                 {
-                    "name": "Color change to any position",
-                    "first": 20,
-                    "last": 29
-                },
-                {
-                    "name": "color + static-fixed Gobo change to any position",
-                    "first": 30,
-                    "last": 39
-                },
-                {
-                    "name": "lamp on",
-                    "first": 40,
-                    "last": 59
-                },
-                {
-                    "name": "Lamp switch off",
-                    "first": 60,
-                    "last": 79
-                },
-                {
-                    "name": "all motor reset",
-                    "first": 80,
-                    "last": 84,
-                    "discrete": true
-                },
-                {
-					"name": "Pan/Tilt motor reset",
-                    "first": 85,
-                    "last": 87,
-                    "discrete": true
-                },
-                {
-                    "name": "Gobo motor reset",
-                    "first": 88,
-                    "last": 90,
-                    "discrete": true
-                },
-                {
-					"name": "Shutter/Dimmer motor reset",
-                    "first": 94,
-                    "last": 96,
-                    "discrete": true
-                },
-                {
-					"name": "Other motor reset",
-                    "first": 97,
-                    "last": 99,
-                    "discrete": true
-                },
-                {
-					"name": "Program 1",
+                    "name": "Internal program 1 (scene 1 - 8)",
                     "first": 100,
                     "last": 119
                 },
                 {
-					"name": "Program 2",
+                    "name": "Internal Program 2 (scene 9 - 16)",
                     "first": 120,
                     "last": 139
                 },
                 {
-					"name": "Program 3",
+                    "name": "Internal Program 3 (scene 17 - 24)",
                     "first": 140,
                     "last": 159
                 },
                 {
-					"name": "Program 4",
+                    "name": "Internal Program 4 (scene 25 - 32)",
                     "first": 160,
                     "last": 179
                 },
                 {
-					"name": "Program 5",
+                    "name": "Internal Program 5 (scene 33 - 40)",
                     "first": 180,
                     "last": 199
                 },
                 {
-					"name": "Program 6",
+                    "name": "Internal Program 6 (scene 41 - 48)",
                     "first": 200,
                     "last": 219
                 },
                 {
-					"name": "Program 7",
+                    "name": "Internal Program 7 (scene 49 - 56)",
                     "first": 220,
                     "last": 239
                 },
                 {
-                    "name": "reserved",
+                    "name": "NoFunction",
                     "first": 240,
                     "last": 255
                 }
             ]
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

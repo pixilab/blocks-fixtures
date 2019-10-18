@@ -1,0 +1,31 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

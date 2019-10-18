@@ -1,0 +1,113 @@
+{
+    "channels": [
+        {
+            "name": "Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 5,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Program 2",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Program 3",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Program 4",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Program 5",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "Program 6",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Program 7",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Program 8",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Program 9",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Program 10",
+                    "first": 160,
+                    "last": 169
+                },
+                {
+                    "name": "Program 11",
+                    "first": 170,
+                    "last": 179
+                },
+                {
+                    "name": "Program 12",
+                    "first": 180,
+                    "last": 189
+                },
+                {
+                    "name": "Program 13",
+                    "first": 190,
+                    "last": 199
+                },
+                {
+                    "name": "Program 14",
+                    "first": 200,
+                    "last": 209
+                },
+                {
+                    "name": "Program 15",
+                    "first": 210,
+                    "last": 219
+                },
+                {
+                    "name": "Program 16",
+                    "first": 220,
+                    "last": 229
+                },
+                {
+                    "name": "Program 17",
+                    "first": 230,
+                    "last": 239
+                },
+                {
+                    "name": "Program 18",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program Speed",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Blinder, Color Changer (imported from open-fixture-library)"
+}

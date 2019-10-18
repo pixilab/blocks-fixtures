@@ -3,116 +3,48 @@
         {
             "name": "Pan",
             "type": "Analog_16",
-            "normalized": true
+            "normalized": true,
+            "defaultValue": "50%"
         },
         {
             "name": "Tilt",
             "type": "Analog_16",
-            "normalized": true
+            "normalized": true,
+            "defaultValue": "50%"
         },
         {
             "name": "Color Macro",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Nothing",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-                    "name": "Red",
+                    "name": "ColorPreset",
                     "first": 8,
                     "last": 17
                 },
                 {
-                    "name": "Green",
-                    "first": 18,
-                    "last": 27
-                },
-                {
-                    "name": "Blue",
-                    "first": 28,
-                    "last": 37
-                },
-                {
-                    "name": "White",
-                    "first": 38,
-                    "last": 47
-                },
-                {
-                    "name": "Yellow",
-                    "first": 48,
-                    "last": 57
-                },
-                {
-                    "name": "Cyan",
-                    "first": 58,
-                    "last": 67
-                },
-                {
-                    "name": "Blue/White",
-                    "first": 68,
-                    "last": 77
-                },
-                {
-                    "name": "Red/White",
-                    "first": 78,
-                    "last": 87
-                },
-                {
-                    "name": "Red/Green/Blue",
-                    "first": 88,
-                    "last": 97
-                },
-                {
-                    "name": "Green/Blue/White",
-                    "first": 98,
-                    "last": 107
-                },
-                {
-                    "name": "Red/Blue/White",
-                    "first": 108,
-                    "last": 117
-                },
-                {
-                    "name": "Red/Green/White",
-                    "first": 118,
-                    "last": 127
-                },
-                {
-                    "name": "Red/Green/Blue/White",
-                    "first": 128,
-                    "last": 137
-                },
-                {
-                    "name": "Color Change",
+                    "name": "Effect",
                     "first": 138,
                     "last": 188
-                },
-                {
-                    "name": "Color Fade",
-                    "first": 189,
-                    "last": 239
-                },
-                {
-                    "name": "Sound Active Change",
-                    "first": 240,
-                    "last": 255
                 }
             ]
         },
         {
-			"name": "Color Change / Fade Speed",
-			"type": "Analog_8",
-			"normalized": true
+            "name": "Color Change / Fade Speed",
+            "type": "Analog_8",
+            "normalized": true
         },
         {
             "name": "Pan/Tilt Programs",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Nothing",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 7,
                     "discrete": true
@@ -165,5 +97,5 @@
             ]
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

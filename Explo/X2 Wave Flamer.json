@@ -1,0 +1,474 @@
+{
+    "channels": [
+        {
+            "name": "Angle",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Ignition",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 253
+                },
+                {
+                    "name": "Single ignition",
+                    "first": 254,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Opening Time",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Time",
+                    "first": 0,
+                    "last": 254
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function",
+                    "first": 0,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "-105°, single ignition short flame",
+                    "first": 3,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "-90°, single ignition short flame",
+                    "first": 6,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "-75°, single ignition short flame",
+                    "first": 8,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "-60°, single ignition short flame",
+                    "first": 11,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "-45°, single ignition short flame",
+                    "first": 13,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "-30°, single ignition short flame",
+                    "first": 16,
+                    "last": 17,
+                    "discrete": true
+                },
+                {
+                    "name": "-15°, single ignition short flame",
+                    "first": 18,
+                    "last": 20,
+                    "discrete": true
+                },
+                {
+                    "name": "0°, single ignition short flame",
+                    "first": 21,
+                    "last": 22,
+                    "discrete": true
+                },
+                {
+                    "name": "15°, single ignition short flame",
+                    "first": 23,
+                    "last": 25,
+                    "discrete": true
+                },
+                {
+                    "name": "30°, single ignition short flame",
+                    "first": 26,
+                    "last": 28,
+                    "discrete": true
+                },
+                {
+                    "name": "45°, single ignition short flame",
+                    "first": 29,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "60°, single ignition short flame",
+                    "first": 31,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "75°, single ignition short flame",
+                    "first": 34,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "90°, single ignition short flame",
+                    "first": 36,
+                    "last": 38,
+                    "discrete": true
+                },
+                {
+                    "name": "105°, single ignition short flame",
+                    "first": 39,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "-105°, single ignition long flame",
+                    "first": 41,
+                    "last": 43,
+                    "discrete": true
+                },
+                {
+                    "name": "-90°, single ignition long flame",
+                    "first": 44,
+                    "last": 45,
+                    "discrete": true
+                },
+                {
+                    "name": "-75°, single ignition long flame",
+                    "first": 46,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "-60°, single ignition long flame",
+                    "first": 49,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "-45°, single ignition long flame",
+                    "first": 51,
+                    "last": 53,
+                    "discrete": true
+                },
+                {
+                    "name": "-30°, single ignition long flame",
+                    "first": 54,
+                    "last": 56,
+                    "discrete": true
+                },
+                {
+                    "name": "-15°, single ignition long flame",
+                    "first": 57,
+                    "last": 58,
+                    "discrete": true
+                },
+                {
+                    "name": "0°, single ignition long flame",
+                    "first": 59,
+                    "last": 61,
+                    "discrete": true
+                },
+                {
+                    "name": "15°, single ignition long flame",
+                    "first": 62,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "30°, single ignition long flame",
+                    "first": 64,
+                    "last": 66,
+                    "discrete": true
+                },
+                {
+                    "name": "45°, single ignition long flame",
+                    "first": 67,
+                    "last": 68,
+                    "discrete": true
+                },
+                {
+                    "name": "60°, single ignition long flame",
+                    "first": 69,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "75°, single ignition long flame",
+                    "first": 72,
+                    "last": 73,
+                    "discrete": true
+                },
+                {
+                    "name": "90°, single ignition long flame",
+                    "first": 74,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "105°, single ignition long flame",
+                    "first": 77,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence from 1-15, short flame",
+                    "first": 80,
+                    "last": 81,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence from 15-1, short flame",
+                    "first": 82,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 5>8>11, short flame",
+                    "first": 85,
+                    "last": 86,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 11>8>5, short flame",
+                    "first": 87,
+                    "last": 89,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 6>10, short flame",
+                    "first": 90,
+                    "last": 91,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 10>6, short flame",
+                    "first": 92,
+                    "last": 94,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 4>6>8>10>12, short flame",
+                    "first": 95,
+                    "last": 96,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 12>10>8>6>4, short flame",
+                    "first": 97,
+                    "last": 99,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 8>6>10>4>12, short flame",
+                    "first": 100,
+                    "last": 101,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 8>10>6>12>4, short flame",
+                    "first": 102,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence from 1-15, long flame",
+                    "first": 105,
+                    "last": 107,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence from 15-1, long flame",
+                    "first": 108,
+                    "last": 109,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 5>8>11, long flame",
+                    "first": 110,
+                    "last": 112,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 11>8>5, long flame",
+                    "first": 113,
+                    "last": 114,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 6>10, long flame",
+                    "first": 115,
+                    "last": 117,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 10>6, long flame",
+                    "first": 118,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 4>6>8>10>12, long flame",
+                    "first": 120,
+                    "last": 122,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 12>10>8>6>4, long flame",
+                    "first": 123,
+                    "last": 124,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 8>6>10>4>12, long flame",
+                    "first": 125,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 8>16>12>4, long flame",
+                    "first": 128,
+                    "last": 130,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 5>11, middle",
+                    "first": 131,
+                    "last": 132,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 11>5, middle",
+                    "first": 133,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "BIG wave sequence 1>15, long",
+                    "first": 136,
+                    "last": 137,
+                    "discrete": true
+                },
+                {
+                    "name": "BIG wave sequence 15>1, long",
+                    "first": 138,
+                    "last": 140,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 8>1, middle",
+                    "first": 141,
+                    "last": 142,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 8>15, middle",
+                    "first": 143,
+                    "last": 145,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 1>8, middle",
+                    "first": 146,
+                    "last": 147,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 15>8, middle",
+                    "first": 148,
+                    "last": 150,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 8>11, short",
+                    "first": 151,
+                    "last": 152,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 8>5, short",
+                    "first": 153,
+                    "last": 155,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 5>8, short",
+                    "first": 156,
+                    "last": 158,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave sequence 11>8, short",
+                    "first": 159,
+                    "last": 160,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 2>14, short flame",
+                    "first": 161,
+                    "last": 163,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 14>2, short flame",
+                    "first": 164,
+                    "last": 165,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 2>14, long flame",
+                    "first": 166,
+                    "last": 168,
+                    "discrete": true
+                },
+                {
+                    "name": "Step sequence 14>2, long flame",
+                    "first": 169,
+                    "last": 170,
+                    "discrete": true
+                },
+                {
+                    "name": "Unknown",
+                    "first": 171,
+                    "last": 173,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 182,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 49
+                }
+            ]
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library)"
+}

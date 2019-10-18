@@ -1,0 +1,11 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 1
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library)"
+}

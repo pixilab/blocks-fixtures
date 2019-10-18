@@ -1,0 +1,443 @@
+{
+    "channels": [
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 49
+                },
+                {
+                    "name": "DMX",
+                    "first": 50,
+                    "last": 99
+                },
+                {
+                    "name": "Audio",
+                    "first": 100,
+                    "last": 149
+                },
+                {
+                    "name": "Auto",
+                    "first": 150,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Effect 1",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 2",
+                    "first": 4,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 3",
+                    "first": 8,
+                    "last": 11,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 4",
+                    "first": 12,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 5",
+                    "first": 16,
+                    "last": 19,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 6",
+                    "first": 20,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 7",
+                    "first": 24,
+                    "last": 27,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 8",
+                    "first": 28,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 9",
+                    "first": 32,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 10",
+                    "first": 36,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 11",
+                    "first": 40,
+                    "last": 43,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 12",
+                    "first": 44,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 13",
+                    "first": 48,
+                    "last": 51,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 14",
+                    "first": 52,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 15",
+                    "first": 56,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 16",
+                    "first": 60,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 17",
+                    "first": 64,
+                    "last": 67,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 18",
+                    "first": 68,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 19",
+                    "first": 72,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 20",
+                    "first": 76,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 21",
+                    "first": 80,
+                    "last": 83,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 22",
+                    "first": 84,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 23",
+                    "first": 88,
+                    "last": 91,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 24",
+                    "first": 92,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 25",
+                    "first": 96,
+                    "last": 99,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 26",
+                    "first": 100,
+                    "last": 103,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 27",
+                    "first": 104,
+                    "last": 107,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 28",
+                    "first": 108,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 29",
+                    "first": 112,
+                    "last": 115,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 30",
+                    "first": 116,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 31",
+                    "first": 120,
+                    "last": 123,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 32",
+                    "first": 124,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 33",
+                    "first": 128,
+                    "last": 131,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 34",
+                    "first": 132,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 35",
+                    "first": 136,
+                    "last": 139,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 36",
+                    "first": 140,
+                    "last": 143,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 37",
+                    "first": 144,
+                    "last": 147,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 38",
+                    "first": 148,
+                    "last": 151,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 39",
+                    "first": 152,
+                    "last": 155,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 40",
+                    "first": 156,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 41",
+                    "first": 160,
+                    "last": 163,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 42",
+                    "first": 164,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 43",
+                    "first": 168,
+                    "last": 171,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 44",
+                    "first": 172,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 45",
+                    "first": 176,
+                    "last": 179,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 46",
+                    "first": 180,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 47",
+                    "first": 184,
+                    "last": 187,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 48",
+                    "first": 188,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 49",
+                    "first": 192,
+                    "last": 195,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 50",
+                    "first": 196,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 51",
+                    "first": 200,
+                    "last": 203,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 52",
+                    "first": 204,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 53",
+                    "first": 208,
+                    "last": 211,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 54",
+                    "first": 212,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 55",
+                    "first": 216,
+                    "last": 219,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 56",
+                    "first": 220,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 57",
+                    "first": 224,
+                    "last": 227,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 58",
+                    "first": 228,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 59",
+                    "first": 232,
+                    "last": 235,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 60",
+                    "first": 236,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 61",
+                    "first": 240,
+                    "last": 243,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 62",
+                    "first": 244,
+                    "last": 247,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 63",
+                    "first": 248,
+                    "last": 251,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 64",
+                    "first": 252,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Horizontal Position",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Vertical Position",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Effect Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Rotation Speed",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Laser (imported from open-fixture-library)"
+}

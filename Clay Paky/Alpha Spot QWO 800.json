@@ -1,0 +1,409 @@
+{
+    "channels": [
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 255
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 255
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 255
+        },
+        {
+            "name": "CTO",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 190
+                }
+            ]
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Iris",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Iris",
+                    "first": 0,
+                    "last": 131
+                },
+                {
+                    "name": "Strobe",
+                    "first": 132,
+                    "last": 171
+                },
+                {
+                    "name": "RampDown",
+                    "first": 172,
+                    "last": 211
+                },
+                {
+                    "name": "RampUp",
+                    "first": 212,
+                    "last": 251
+                }
+            ]
+        },
+        {
+            "name": "Static Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 72,
+                    "last": 113
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 160,
+                    "last": 171
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 16
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 130,
+                    "last": 147
+                }
+            ]
+        },
+        {
+            "name": "Gobo Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlotRotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Prism",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Animation Disk",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Animation Disk Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelRotation",
+                    "first": 0,
+                    "last": 124
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Autofocus Distance",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "Focus",
+                    "first": 7,
+                    "last": 9,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Autofocus Adjust",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Focus",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Stand by",
+                    "first": 8,
+                    "last": 11,
+                    "discrete": true
+                },
+                {
+                    "name": "Stand by black",
+                    "first": 12,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 16,
+                    "last": 27
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 28,
+                    "last": 39
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 40,
+                    "last": 51
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 52,
+                    "last": 63
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 64,
+                    "last": 75
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 76,
+                    "last": 87
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 88,
+                    "last": 99
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 100,
+                    "last": 111
+                },
+                {
+                    "name": "Random Macro 1",
+                    "first": 136,
+                    "last": 147
+                },
+                {
+                    "name": "Random Macro 2",
+                    "first": 148,
+                    "last": 159
+                },
+                {
+                    "name": "Random Macro 3",
+                    "first": 160,
+                    "last": 171
+                },
+                {
+                    "name": "Random Macro 4",
+                    "first": 172,
+                    "last": 183
+                },
+                {
+                    "name": "Random Macro 5",
+                    "first": 184,
+                    "last": 195
+                },
+                {
+                    "name": "Random Macro 6",
+                    "first": 196,
+                    "last": 207
+                },
+                {
+                    "name": "Random Macro 7",
+                    "first": 208,
+                    "last": 219
+                },
+                {
+                    "name": "Random Macro 8",
+                    "first": 220,
+                    "last": 231
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Function",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 12,
+                    "last": 24
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 25
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 26,
+                    "last": 76
+                }
+            ]
+        },
+        {
+            "name": "Lamp Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 25
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 26,
+                    "last": 100
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

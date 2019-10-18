@@ -1,816 +1,248 @@
 {
-	"channels": [
-		{
-			"name": "Strobe/Shutter",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "shutter closed (800W)",
-					"first": 0,
-					"last": 19
-				},
-				{
-					"name": "shutter open",
-					"first": 20,
-					"last": 49
-				},
-				{
-					"name": "strobe, slow to fast",
-					"first": 50,
-					"last": 200
-				},
-				{
-					"name": "random strobe, slow to fast",
-					"first": 211,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Dimmer",
-			"type": "Analog_16",
-			"normalized": true
-		},
-		{
-			"name": "Cyan",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Magenta",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Yellow",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "CTO",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Color Wheel",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Open",
-					"first": 0,
-					"last": 0,
-					"discrete": true
-				},
-				{
-					"name": "Open > Blue",
-					"first": 1,
-					"last": 14
-				},
-				{
-					"name": "Blue",
-					"first": 15,
-					"last": 15,
-					"discrete": true
-				},
-				{
-					"name": "Blue > Green",
-					"first": 16,
-					"last": 29
-				},
-				{
-					"name": "Green",
-					"first": 30,
-					"last": 30,
-					"discrete": true
-				},
-				{
-					"name": "Green > Orange",
-					"first": 31,
-					"last": 44
-				},
-				{
-					"name": "Orange",
-					"first": 45,
-					"last": 45,
-					"discrete": true
-				},
-				{
-					"name": "Orange > Rose",
-					"first": 46,
-					"last": 59
-				},
-				{
-					"name": "Rose",
-					"first": 60,
-					"last": 60,
-					"discrete": true
-				},
-				{
-					"name": "Rose > Magenta",
-					"first": 61,
-					"last": 74
-				},
-				{
-					"name": "Magenta",
-					"first": 75,
-					"last": 75,
-					"discrete": true
-				},
-				{
-					"name": "Magenta > Deep Blue",
-					"first": 76,
-					"last": 89
-				},
-				{
-					"name": "Deep Blue",
-					"first": 90,
-					"last": 90,
-					"discrete": true
-				},
-				{
-					"name": "Deep Blue > Red",
-					"first": 91,
-					"last": 104
-				},
-				{
-					"name": "Red",
-					"first": 105,
-					"last": 105,
-					"discrete": true
-				},
-				{
-					"name": "Red > Open",
-					"first": 106,
-					"last": 119
-				},
-				{
-					"name": "CW",
-					"first": 193,
-					"last": 214
-				},
-				{
-					"name": "Stop",
-					"first": 215,
-					"last": 221,
-					"discrete": true
-				},
-				{
-					"name": "CCW",
-					"first": 222,
-					"last": 243
-				},
-				{
-					"name": "Random color fast",
-					"first": 244,
-					"last": 247,
-					"discrete": true
-				},
-				{
-					"name": "Random color medium",
-					"first": 248,
-					"last": 251,
-					"discrete": true
-				},
-				{
-					"name": "Random color slow",
-					"first": 252,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Gobo Wheel",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "open",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "gobo 1 indexed",
-					"first": 10,
-					"last": 14,
-					"discrete": true
-				},
-				{
-					"name": "gobo 2 indexed",
-					"first": 15,
-					"last": 19,
-					"discrete": true
-				},
-				{
-					"name": "gobo 3 indexed",
-					"first": 20,
-					"last": 24,
-					"discrete": true
-				},
-				{
-					"name": "gobo 4 indexed",
-					"first": 25,
-					"last": 29,
-					"discrete": true
-				},
-				{
-					"name": "gobo 5 indexed",
-					"first": 30,
-					"last": 34,
-					"discrete": true
-				},
-				{
-					"name": "gobo 1 continuous rotation",
-					"first": 35,
-					"last": 39,
-					"discrete": true
-				},
-				{
-					"name": "gobo 2 continuous rotation",
-					"first": 40,
-					"last": 44,
-					"discrete": true
-				},
-				{
-					"name": "gobo 3 continuous rotation",
-					"first": 45,
-					"last": 49,
-					"discrete": true
-				},
-				{
-					"name": "gobo 4 continuous rotation",
-					"first": 50,
-					"last": 54,
-					"discrete": true
-				},
-				{
-					"name": "gobo 5 continuous rotation",
-					"first": 55,
-					"last": 59,
-					"discrete": true
-				},
-				{
-					"name": "gobo shake 1",
-					"first": 60,
-					"last": 89
-				},
-				{
-					"name": "gobo shake 2",
-					"first": 90,
-					"last": 119
-				},
-				{
-					"name": "gobo shake 3",
-					"first": 120,
-					"last": 149
-				},
-				{
-					"name": "gobo shake 4",
-					"first": 150,
-					"last": 179
-				},
-				{
-					"name": "gobo shake 5",
-					"first": 180,
-					"last": 209
-				},
-				{
-					"name": "CW gobo wheel scroll",
-					"first": 210,
-					"last": 232
-				},
-				{
-					"name": "CCW gobo wheel scroll",
-					"first": 233,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Animation Wheel",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "open",
-					"first": 0,
-					"last": 10
-				},
-				{
-					"name": "indexed",
-					"first": 11,
-					"last": 20
-				},
-				{
-					"name": "continuous rotation",
-					"first": 31,
-					"last": 40
-				},
-				{
-					"name": "position 1",
-					"first": 41,
-					"last": 50
-				},
-				{
-					"name": "position 2",
-					"first": 51,
-					"last": 60
-				},
-				{
-					"name": "position 3",
-					"first": 61,
-					"last": 70
-				},
-				{
-					"name": "position 4",
-					"first": 71,
-					"last": 80
-				},
-				{
-					"name": "position 5",
-					"first": 81,
-					"last": 90
-				},
-				{
-					"name": "position 6",
-					"first": 91,
-					"last": 100
-				},
-				{
-					"name": "position 7",
-					"first": 101,
-					"last": 110
-				}
-			]
-		},
-		{
-			"name": "Framing blade 1, position",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Framing blade 1, angle",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "angle -",
-					"first": 0,
-					"last": 126
-				},
-				{
-					"name": "parallel",
-					"first": 127,
-					"last": 128,
-					"discrete": true
-				},
-				{
-					"name": "angle +",
-					"first": 129,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Framing blade 2, position",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Framing blade 2, angle",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "angle -",
-					"first": 0,
-					"last": 126
-				},
-				{
-					"name": "parallel",
-					"first": 127,
-					"last": 128,
-					"discrete": true
-				},
-				{
-					"name": "angle +",
-					"first": 129,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Framing blade 3, position",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Framing blade 3, angle",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "angle -",
-					"first": 0,
-					"last": 126
-				},
-				{
-					"name": "parallel",
-					"first": 127,
-					"last": 128,
-					"discrete": true
-				},
-				{
-					"name": "angle +",
-					"first": 129,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Framing blade 4, position",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Framing blade 4, angle",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "angle -",
-					"first": 0,
-					"last": 126
-				},
-				{
-					"name": "parallel",
-					"first": 127,
-					"last": 128,
-					"discrete": true
-				},
-				{
-					"name": "angle +",
-					"first": 129,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Framing indexing angle",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "minimum",
-					"first": 0,
-					"last": 126
-				},
-				{
-					"name": "0 degree",
-					"first": 127,
-					"last": 128,
-					"discrete": true
-				},
-				{
-					"name": "maximum",
-					"first": 129,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Frost",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Prism",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Off",
-					"first": 0,
-					"last": 10
-				},
-				{
-					"name": "Indexing",
-					"first": 11,
-					"last": 138
-				},
-				{
-					"name": "Rotation",
-					"first": 139,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Iris",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Zoom",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Focus",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Pan",
-			"type": "Analog_16",
-			"defaultValue": 32768,
-			"normalized": true
-		},
-		{
-			"name": "Tilt",
-			"type": "Analog_16",
-			"defaultValue": 32768,
-			"normalized": true
-		},
-		{
-			"name": "Fixture control",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "no function",
-					"first": 0,
-					"last": 9
-				},
-				{
-					"name": "reset entire fixture",
-					"first": 10,
-					"last": 14,
-					"discrete": true
-				},
-				{
-					"name": "reset dimmer and shutter",
-					"first": 15,
-					"last": 19,
-					"discrete": true
-				},
-				{
-					"name": "reset CMY, CTO and color wheel",
-					"first": 20,
-					"last": 24,
-					"discrete": true
-				},
-				{
-					"name": "reset effects",
-					"first": 25,
-					"last": 29,
-					"discrete": true
-				},
-				{
-					"name": "reset pan and tilt",
-					"first": 30,
-					"last": 34,
-					"discrete": true
-				},
-				{
-					"name": "reset framing",
-					"first": 35,
-					"last": 39,
-					"discrete": true
-				},
-				{
-					"name": "lamp on",
-					"first": 40,
-					"last": 44,
-					"discrete": true
-				},
-				{
-					"name": "lamp off",
-					"first": 45,
-					"last": 49,
-					"discrete": true
-				},
-				{
-					"name": "enable calibration",
-					"first": 55,
-					"last": 59,
-					"discrete": true
-				},
-				{
-					"name": "linear dimming curve",
-					"first": 60,
-					"last": 64,
-					"discrete": true
-				},
-				{
-					"name": "square law dimming curve",
-					"first": 65,
-					"last": 69,
-					"discrete": true
-				},
-				{
-					"name": "inverse square lae dimming curve",
-					"first": 70,
-					"last": 74,
-					"discrete": true
-				},
-				{
-					"name": "s-curve dimming curve",
-					"first": 75,
-					"last": 79,
-					"discrete": true
-				},
-				{
-					"name": "normal pan and tilt speed",
-					"first": 80,
-					"last": 84,
-					"discrete": true
-				},
-				{
-					"name": "fast pan and tilt speed",
-					"first": 85,
-					"last": 89,
-					"discrete": true
-				},
-				{
-					"name": "slow pan and tilt speed",
-					"first": 90,
-					"last": 94,
-					"discrete": true
-				},
-				{
-					"name": "effect shortcuts on",
-					"first": 95,
-					"last": 99,
-					"discrete": true
-				},
-				{
-					"name": "effect shortcuts off",
-					"first": 100,
-					"last": 104,
-					"discrete": true
-				},
-				{
-					"name": "disable zoom/focus linking",
-					"first": 105,
-					"last": 109,
-					"discrete": true
-				},
-				{
-					"name": "enable zoom/focus linking, near",
-					"first": 110,
-					"last": 114,
-					"discrete": true
-				},
-				{
-					"name": "enable zoom/focus linking, medium",
-					"first": 115,
-					"last": 119,
-					"discrete": true
-				},
-				{
-					"name": "enable zoom/focus linking, far",
-					"first": 120,
-					"last": 124,
-					"discrete": true
-				},
-				{
-					"name": "ballast output full",
-					"first": 125,
-					"last": 126,
-					"discrete": true
-				},
-				{
-					"name": "ballast output reduced to 90%",
-					"first": 127,
-					"last": 128,
-					"discrete": true
-				},
-				{
-					"name": "ballast output reduced to 80%",
-					"first": 129,
-					"last": 130,
-					"discrete": true
-				},
-				{
-					"name": "ballast output reduced to 70%",
-					"first": 131,
-					"last": 132,
-					"discrete": true
-				},
-				{
-					"name": "ballast output reduced to 60%",
-					"first": 133,
-					"last": 134,
-					"discrete": true
-				},
-				{
-					"name": "auto blackout on",
-					"first": 145,
-					"last": 149,
-					"discrete": true
-				},
-				{
-					"name": "auto blackout off",
-					"first": 150,
-					"last": 154,
-					"discrete": true
-				},
-				{
-					"name": "turn on display",
-					"first": 155,
-					"last": 159,
-					"discrete": true
-				},
-				{
-					"name": "turn off display",
-					"first": 160,
-					"last": 164,
-					"discrete": true
-				},
-				{
-					"name": "store pan and tilt calibration",
-					"first": 165,
-					"last": 169,
-					"discrete": true
-				},
-				{
-					"name": "store dimmer calibration",
-					"first": 170,
-					"last": 174,
-					"discrete": true
-				},
-				{
-					"name": "store cyan calibration",
-					"first": 175,
-					"last": 179,
-					"discrete": true
-				},
-				{
-					"name": "store magenta calibration",
-					"first": 180,
-					"last": 184,
-					"discrete": true
-				},
-				{
-					"name": "store yellow calibration",
-					"first": 185,
-					"last": 189,
-					"discrete": true
-				},
-				{
-					"name": "store CTC calibration",
-					"first": 190,
-					"last": 194,
-					"discrete": true
-				},
-				{
-					"name": "store all CMY and CTC calibration",
-					"first": 195,
-					"last": 199,
-					"discrete": true
-				},
-				{
-					"name": "store gobo wheel current slot index calibration",
-					"first": 200,
-					"last": 204,
-					"discrete": true
-				},
-				{
-					"name": "store prism calibration",
-					"first": 215,
-					"last": 219,
-					"discrete": true
-				},
-				{
-					"name": "store iris calibration",
-					"first": 220,
-					"last": 224,
-					"discrete": true
-				},
-				{
-					"name": "store focus calibration",
-					"first": 225,
-					"last": 229,
-					"discrete": true
-				},
-				{
-					"name": "store zoom calibration",
-					"first": 230,
-					"last": 234,
-					"discrete": true
-				},
-				{
-					"name": "store pan calibration",
-					"first": 235,
-					"last": 239,
-					"discrete": true
-				},
-				{
-					"name": "store tilt calibration",
-					"first": 240,
-					"last": 244,
-					"discrete": true
-				},
-				{
-					"name": "reset all calibration values to factory defaults",
-					"first": 245,
-					"last": 249,
-					"discrete": true
-				}
-			]
-		}
-	],
-	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "channels": [
+        {
+            "name": "Strobe / Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 19
+                }
+            ]
+        },
+        {
+            "name": "Dimmer fade",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CTO",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 193,
+                    "last": 214
+                },
+                {
+                    "name": "Random color",
+                    "first": 244,
+                    "last": 247,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 60,
+                    "last": 89
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 210,
+                    "last": 232
+                }
+            ]
+        },
+        {
+            "name": "Animation Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Generic",
+                    "first": 11,
+                    "last": 20
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 41,
+                    "last": 50
+                }
+            ]
+        },
+        {
+            "name": "Framing blade 1, position",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing blade 1, angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing blade 2, position",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing blade 2, angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing blade 3, position",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing blade 3, angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing blade 4, position",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing blade 4, angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing indexing angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeSystemRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Prism",
+                    "first": 11,
+                    "last": 138
+                }
+            ]
+        },
+        {
+            "name": "Iris",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Fixture control/settings",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

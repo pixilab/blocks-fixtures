@@ -1,0 +1,10 @@
+{
+    "channels": [
+        {
+            "name": "Haze",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Hazer (imported from open-fixture-library)"
+}

@@ -1,0 +1,111 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 6,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "RGB Color Change",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 16,
+                    "last": 80
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 96,
+                    "last": 110
+                },
+                {
+                    "name": "Automatic program",
+                    "first": 126,
+                    "last": 175
+                },
+                {
+                    "name": "Sound activated program",
+                    "first": 191,
+                    "last": 240
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Reversion",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 63
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

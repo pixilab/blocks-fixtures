@@ -1,0 +1,22 @@
+{
+    "channels": [
+        {
+            "name": "Safety",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 139
+                }
+            ]
+        },
+        {
+            "name": "Flame",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library)"
+}

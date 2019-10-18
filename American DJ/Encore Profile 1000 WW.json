@@ -1,0 +1,10 @@
+{
+    "channels": [
+        {
+            "name": "Warm White",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Blinder, Dimmer (imported from open-fixture-library)"
+}

@@ -1,0 +1,99 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 6,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 76,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Internal Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "Program 1",
+                    "first": 21,
+                    "last": 40
+                },
+                {
+                    "name": "Program 2",
+                    "first": 41,
+                    "last": 60
+                },
+                {
+                    "name": "Program 3",
+                    "first": 61,
+                    "last": 80
+                },
+                {
+                    "name": "Program 4",
+                    "first": 81,
+                    "last": 100
+                },
+                {
+                    "name": "Program 5",
+                    "first": 101,
+                    "last": 120
+                },
+                {
+                    "name": "Program 6",
+                    "first": 121,
+                    "last": 140
+                },
+                {
+                    "name": "Program 7",
+                    "first": 141,
+                    "last": 160
+                },
+                {
+                    "name": "Program 8",
+                    "first": 161,
+                    "last": 180
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 201,
+                    "last": 225
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

@@ -1,0 +1,22 @@
+{
+    "channels": [
+        {
+            "name": "Fan",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotation",
+                    "first": 6,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Fan (imported from open-fixture-library)"
+}

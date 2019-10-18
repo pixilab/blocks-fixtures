@@ -1,0 +1,62 @@
+{
+    "channels": [
+        {
+            "name": "Mode",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Pattern",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Circular Movement",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Y Rotation",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "X Rotation",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Horizontal Movement",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Vertical Movement",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Manual Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Pattern Buildup",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dot Effect with Strobe",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Laser, Color Changer (imported from open-fixture-library)"
+}

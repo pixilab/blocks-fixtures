@@ -1,0 +1,156 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 15
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Function",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 69
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 70,
+                    "last": 89
+                },
+                {
+                    "name": "Sound-active program",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Movement Macro",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Movement macro 1",
+                    "first": 16,
+                    "last": 35
+                },
+                {
+                    "name": "Movement macro 2",
+                    "first": 36,
+                    "last": 55
+                },
+                {
+                    "name": "Movement macro 3",
+                    "first": 56,
+                    "last": 75
+                },
+                {
+                    "name": "Movement macro 4",
+                    "first": 76,
+                    "last": 95
+                },
+                {
+                    "name": "Movement macro 5",
+                    "first": 96,
+                    "last": 115
+                },
+                {
+                    "name": "Movement macro 6",
+                    "first": 116,
+                    "last": 135
+                },
+                {
+                    "name": "Movement macro 7",
+                    "first": 136,
+                    "last": 155
+                },
+                {
+                    "name": "Movement macro 8",
+                    "first": 156,
+                    "last": 175
+                },
+                {
+                    "name": "Movement macro 9",
+                    "first": 176,
+                    "last": 195
+                },
+                {
+                    "name": "Movement macro 10",
+                    "first": 196,
+                    "last": 215
+                },
+                {
+                    "name": "Movement macro 11",
+                    "first": 216,
+                    "last": 235
+                },
+                {
+                    "name": "Movement macro 12",
+                    "first": 236,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Movement Macro Speed",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

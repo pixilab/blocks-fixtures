@@ -1,0 +1,62 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Lime",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Indigo",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Fan Control",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer, Color Changer, Strobe (imported from open-fixture-library)"
+}

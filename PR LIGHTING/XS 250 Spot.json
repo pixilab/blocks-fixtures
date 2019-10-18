@@ -1,0 +1,158 @@
+{
+    "channels": [
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 9
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 187
+                }
+            ]
+        },
+        {
+            "name": "Fixed Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 150
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 172,
+                    "last": 183
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 16
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 150
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 172,
+                    "last": 183
+                }
+            ]
+        },
+        {
+            "name": "Gobo Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "Prism",
+                    "first": 21,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 9
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 48
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 49,
+                    "last": 80
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

@@ -1,0 +1,20 @@
+{
+    "channels": [
+        {
+            "name": "Hue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Saturation",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer, Dimmer (imported from open-fixture-library)"
+}

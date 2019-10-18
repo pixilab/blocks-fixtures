@@ -1,0 +1,126 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 13
+                },
+                {
+                    "name": "Effect",
+                    "first": 128,
+                    "last": 190
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 8
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 108,
+                    "last": 116
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 207,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 9
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Function/Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 59
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 60,
+                    "last": 79
+                },
+                {
+                    "name": "Internal Program 1",
+                    "first": 100,
+                    "last": 119
+                },
+                {
+                    "name": "Internal Program 2",
+                    "first": 120,
+                    "last": 139
+                },
+                {
+                    "name": "Internal Program 3",
+                    "first": 140,
+                    "last": 159
+                },
+                {
+                    "name": "Internal Program 4",
+                    "first": 160,
+                    "last": 179
+                },
+                {
+                    "name": "Internal Program 5",
+                    "first": 180,
+                    "last": 199
+                },
+                {
+                    "name": "Internal Program 6",
+                    "first": 200,
+                    "last": 219
+                },
+                {
+                    "name": "Internal Program 7",
+                    "first": 220,
+                    "last": 239
+                },
+                {
+                    "name": "Internal Program 8",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Scanner, Color Changer (imported from open-fixture-library)"
+}

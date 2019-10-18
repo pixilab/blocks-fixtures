@@ -1,0 +1,270 @@
+{
+    "channels": [
+        {
+            "name": "Mode Select",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "Sound mode",
+                    "first": 64,
+                    "last": 127
+                },
+                {
+                    "name": "Auto mode (beam patterns)",
+                    "first": 128,
+                    "last": 159
+                },
+                {
+                    "name": "Auto mode (graphics)",
+                    "first": 160,
+                    "last": 191
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 192,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pattern Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Graphics patterns",
+                    "first": 0,
+                    "last": 87
+                },
+                {
+                    "name": "Beam patterns",
+                    "first": 88,
+                    "last": 253
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 254,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Strobe Effect",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 1,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Horizontal Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamPosition",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Movement rightwards",
+                    "first": 168,
+                    "last": 188
+                },
+                {
+                    "name": "Movement leftwards",
+                    "first": 189,
+                    "last": 209
+                },
+                {
+                    "name": "Movement rightwards/leftwards alternating",
+                    "first": 210,
+                    "last": 254
+                }
+            ]
+        },
+        {
+            "name": "Vertical Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamPosition",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Movement downwards",
+                    "first": 168,
+                    "last": 188
+                },
+                {
+                    "name": "Movement upwards",
+                    "first": 189,
+                    "last": 209
+                },
+                {
+                    "name": "Movement downwards/upwards alternating",
+                    "first": 210,
+                    "last": 254
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom",
+                    "first": 1,
+                    "last": 167
+                },
+                {
+                    "name": "Increasing angle",
+                    "first": 168,
+                    "last": 188
+                },
+                {
+                    "name": "Decreasing angle",
+                    "first": 189,
+                    "last": 209
+                },
+                {
+                    "name": "Alternate decreasing/increasing angle",
+                    "first": 210,
+                    "last": 254
+                },
+                {
+                    "name": "Opposite zoom of X- and Y-axis",
+                    "first": 255,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Rotation Y-axis",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 150
+                }
+            ]
+        },
+        {
+            "name": "Rotation X-axis",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 150
+                }
+            ]
+        },
+        {
+            "name": "Rotation Z-axis",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 180
+                }
+            ]
+        },
+        {
+            "name": "Blanking",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 70
+                },
+                {
+                    "name": "Dot visibility",
+                    "first": 71,
+                    "last": 139
+                },
+                {
+                    "name": "Dashed Lines",
+                    "first": 140,
+                    "last": 209
+                },
+                {
+                    "name": "Point selection",
+                    "first": 210,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Wave Movement",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Wave positioning",
+                    "first": 1,
+                    "last": 127
+                },
+                {
+                    "name": "Wave movement",
+                    "first": 128,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Color Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Effect",
+                    "first": 165,
+                    "last": 248
+                },
+                {
+                    "name": "Changing multi-color",
+                    "first": 249,
+                    "last": 254,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Laser, Color Changer (imported from open-fixture-library)"
+}

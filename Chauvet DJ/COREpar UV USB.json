@@ -1,0 +1,59 @@
+{
+    "channels": [
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 32,
+                    "last": 95
+                },
+                {
+                    "name": "Sound mode 1",
+                    "first": 224,
+                    "last": 240
+                },
+                {
+                    "name": "Sound mode 2",
+                    "first": 241,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Dimmer Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 51
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 52,
+                    "last": 101
+                }
+            ]
+        }
+    ],
+    "note": "Other (imported from open-fixture-library)"
+}

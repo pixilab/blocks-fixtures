@@ -1,0 +1,21 @@
+{
+    "channels": [
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macro",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 36
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

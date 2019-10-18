@@ -1,0 +1,11 @@
+{
+    "channels": [
+        {
+            "name": "Fog",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Smoke (imported from open-fixture-library)"
+}

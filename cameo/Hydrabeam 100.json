@@ -5,7 +5,7 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No function",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 7,
                     "discrete": true
@@ -36,7 +36,7 @@
                     "last": 122
                 },
                 {
-                    "name": "Reset",
+                    "name": "Maintenance",
                     "first": 200,
                     "last": 224
                 }
@@ -48,5 +48,5 @@
             "normalized": true
         }
     ],
-    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

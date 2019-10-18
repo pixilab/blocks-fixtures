@@ -5,187 +5,43 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "No strobe",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 10
                 },
                 {
-					"name": "Gobo strobe",
+                    "name": "ShutterStrobe",
                     "first": 11,
                     "last": 74
                 },
                 {
-					"name": "Color strobe",
-                    "first": 75,
-                    "last": 138
-                },
-                {
-                    "name": "Remote Autotrigger",
-                    "first": 139,
-                    "last": 170
-                },
-                {
-                    "name": "Remote Musictrigger",
-                    "first": 171,
-                    "last": 202
-                },
-                {
-                    "name": "Reset fixture",
+                    "name": "Maintenance",
                     "first": 203,
                     "last": 235
-                },
-                {
-                    "name": "Lamp on",
-                    "first": 236,
-                    "last": 255
                 }
             ]
         },
         {
-            "name": "Color",
+            "name": "Color Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Black",
+                    "name": "WheelSlot",
                     "first": 0,
-                    "last": 8
-                },
-                {
-                    "name": "White",
-                    "first": 9,
-                    "last": 22
-                },
-                {
-                    "name": "Magenta",
-                    "first": 23,
-                    "last": 37
-                },
-                {
-                    "name": "Pink",
-                    "first": 38,
-                    "last": 52
-                },
-                {
-                    "name": "Red",
-                    "first": 53,
-                    "last": 67
-                },
-                {
-                    "name": "Orange",
-                    "first": 68,
-                    "last": 82
-                },
-                {
-                    "name": "Amber",
-                    "first": 83,
-                    "last": 97
-                },
-                {
-                    "name": "Yellow",
-                    "first": 98,
-                    "last": 112
-                },
-                {
-                    "name": "Light Green",
-                    "first": 113,
-                    "last": 127
-                },
-                {
-                    "name": "Green",
-                    "first": 128,
-                    "last": 142
-                },
-                {
-                    "name": "Cyan",
-                    "first": 143,
-                    "last": 157
-                },
-                {
-                    "name": "Blue",
-                    "first": 158,
-                    "last": 172
-                },
-                {
-                    "name": "Dark Blue",
-                    "first": 173,
-                    "last": 184
-                }
-            ]
-        },
-        {
-            "name": "Gobo",
-            "type": "Ranges",
-            "ranges": [
-                {
-                    "name": "Dimmer",
-                    "first": 0,
-                    "last": 22
-                },
-                {
-                    "name": "Dot",
-                    "first": 23,
-                    "last": 37
-                },
-                {
-                    "name": "Line",
-                    "first": 38,
-                    "last": 52
-                },
-                {
-                    "name": "Stars",
-                    "first": 53,
-                    "last": 67
-                },
-                {
-                    "name": "Triangles",
-                    "first": 68,
-                    "last": 82
-                },
-                {
-                    "name": "Star",
-                    "first": 83,
-                    "last": 97
-                },
-                {
-                    "name": "Dots",
-                    "first": 98,
-                    "last": 112
-                },
-                {
-                    "name": "Bells",
-                    "first": 113,
-                    "last": 127
-                },
-                {
-                    "name": "Cone",
-                    "first": 128,
-                    "last": 142
-                },
-                {
-                    "name": "Phone",
-                    "first": 143,
-                    "last": 157
-                },
-                {
-                    "name": "Window",
-                    "first": 158,
-                    "last": 172
-                },
-                {
-                    "name": "Triangle",
-                    "first": 173,
-                    "last": 184
-                },
-                {
-                    "name": "open",
-                    "first": 235,
-                    "last": 239,
+                    "last": 0,
                     "discrete": true
-                },
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
                 {
-                    "name": "closed",
-                    "first": 240,
-                    "last": 255
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
                 }
             ]
         },
@@ -202,5 +58,5 @@
             "defaultValue": 127
         }
     ],
-    "note": "Scanner, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Scanner, Color Changer (imported from open-fixture-library)"
 }

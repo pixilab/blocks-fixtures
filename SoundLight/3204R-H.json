@@ -1,0 +1,25 @@
+{
+    "channels": [
+        {
+            "name": "Relay 1",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Relay 2",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Relay 3",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Relay 4",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library)"
+}

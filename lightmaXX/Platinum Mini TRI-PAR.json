@@ -25,124 +25,36 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Off",
+                    "name": "NoFunction",
                     "first": 0,
                     "last": 4,
                     "discrete": true
                 },
                 {
-                    "name": "White",
+                    "name": "ColorPreset",
                     "first": 5,
                     "last": 9,
                     "discrete": true
                 },
                 {
-                    "name": "Light blue",
-                    "first": 10,
-                    "last": 14,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue",
-                    "first": 15,
-                    "last": 19,
-                    "discrete": true
-                },
-                {
-                    "name": "Purple",
-                    "first": 20,
-                    "last": 24,
-                    "discrete": true
-                },
-                {
-                    "name": "Light pink",
-                    "first": 25,
-                    "last": 29,
-                    "discrete": true
-                },
-                {
-                    "name": "Magenta",
-                    "first": 30,
-                    "last": 34,
-                    "discrete": true
-                },
-                {
-                    "name": "Pink",
-                    "first": 35,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Dark pink",
-                    "first": 40,
-                    "last": 44,
-                    "discrete": true
-                },
-                {
-                    "name": "Red",
-                    "first": 45,
-                    "last": 49,
-                    "discrete": true
-                },
-                {
-                    "name": "Orange",
-                    "first": 50,
-                    "last": 54,
-                    "discrete": true
-                },
-                {
-                    "name": "Light orange",
-                    "first": 55,
-                    "last": 59,
-                    "discrete": true
-                },
-                {
-                    "name": "Yellow",
-                    "first": 60,
-                    "last": 64,
-                    "discrete": true
-                },
-                {
-                    "name": "Light green",
-                    "first": 65,
-                    "last": 69,
-                    "discrete": true
-                },
-                {
-                    "name": "Green",
-                    "first": 70,
-                    "last": 74,
-                    "discrete": true
-                },
-                {
-                    "name": "Aquamarine",
-                    "first": 75,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Cyan",
-                    "first": 80,
-                    "last": 84,
-                    "discrete": true
-                },
-                {
-					"name": "Jump",
+                    "name": "Effect",
                     "first": 85,
                     "last": 169
-                },
-                {
-					"name": "Fade",
-                    "first": 170,
-                    "last": 255
                 }
             ]
         },
         {
             "name": "Strobe",
-            "type": "Analog_8",
-            "normalized": true
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                }
+            ]
         }
     ],
-    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Color Changer (imported from open-fixture-library)"
 }

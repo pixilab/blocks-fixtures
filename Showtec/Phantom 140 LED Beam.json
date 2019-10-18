@@ -1,716 +1,230 @@
 {
-	"channels": [
-		{
-			"name": "Pan",
-			"type": "Analog_16",
-			"normalized": true,
-			"defaultValue": 32767
-		},
-		{
-			"name": "Tilt",
-			"type": "Analog_16",
-			"normalized": true,
-			"defaultValue": 32767
-		},
-		{
-			"name": "Pan/Tilt Speed",
-			"type": "Analog_8",
-			"normalized": true,
-			"defaultValue": 128
-		},
-		{
-			"name": "Color",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "White",
-					"first": 0,
-					"last": 3,
-					"discrete": true
-				},
-				{
-					"name": "Yellow",
-					"first": 4,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "Light Pink",
-					"first": 8,
-					"last": 11,
-					"discrete": true
-				},
-				{
-					"name": "Green",
-					"first": 12,
-					"last": 15,
-					"discrete": true
-				},
-				{
-					"name": "Red",
-					"first": 16,
-					"last": 19,
-					"discrete": true
-				},
-				{
-					"name": "Bright Blue",
-					"first": 20,
-					"last": 23,
-					"discrete": true
-				},
-				{
-					"name": "Light Green",
-					"first": 24,
-					"last": 27,
-					"discrete": true
-				},
-				{
-					"name": "Dark Yellow",
-					"first": 28,
-					"last": 31,
-					"discrete": true
-				},
-				{
-					"name": "Old Yellow",
-					"first": 32,
-					"last": 35,
-					"discrete": true
-				},
-				{
-					"name": "Violet",
-					"first": 36,
-					"last": 39,
-					"discrete": true
-				},
-				{
-					"name": "Hard Pink",
-					"first": 40,
-					"last": 43,
-					"discrete": true
-				},
-				{
-					"name": "Light Blue",
-					"first": 44,
-					"last": 47,
-					"discrete": true
-				},
-				{
-					"name": "Moon Yellow",
-					"first": 48,
-					"last": 51,
-					"discrete": true
-				},
-				{
-					"name": "Steel Blue",
-					"first": 52,
-					"last": 55,
-					"discrete": true
-				},
-				{
-					"name": "UV",
-					"first": 56,
-					"last": 63,
-					"discrete": true
-				},
-				{
-					"name": "White + Yellow",
-					"first": 64,
-					"last": 67,
-					"discrete": true
-				},
-				{
-					"name": "Yellow + Light Pink",
-					"first": 68,
-					"last": 71,
-					"discrete": true
-				},
-				{
-					"name": "Light Pink + Green",
-					"first": 72,
-					"last": 75,
-					"discrete": true
-				},
-				{
-					"name": "Green + Red",
-					"first": 76,
-					"last": 79,
-					"discrete": true
-				},
-				{
-					"name": "Red + Bright Blue",
-					"first": 80,
-					"last": 83,
-					"discrete": true
-				},
-				{
-					"name": "Bright Blue + Light Blue",
-					"first": 84,
-					"last": 87,
-					"discrete": true
-				},
-				{
-					"name": "Light Blue + Dark Yellow",
-					"first": 88,
-					"last": 91,
-					"discrete": true
-				},
-				{
-					"name": "Dark Yellow + Old Yellow",
-					"first": 92,
-					"last": 95,
-					"discrete": true
-				},
-				{
-					"name": "Old Yellow + Violet",
-					"first": 96,
-					"last": 99,
-					"discrete": true
-				},
-				{
-					"name": "Violet + Hard Pink",
-					"first": 100,
-					"last": 103,
-					"discrete": true
-				},
-				{
-					"name": "Hard Pink + Light Green",
-					"first": 104,
-					"last": 107,
-					"discrete": true
-				},
-				{
-					"name": "Light Green + Moon Yellow",
-					"first": 108,
-					"last": 111,
-					"discrete": true
-				},
-				{
-					"name": "Moon Yellow + Steel Blue",
-					"first": 112,
-					"last": 115,
-					"discrete": true
-				},
-				{
-					"name": "Steel Blue + UV",
-					"first": 116,
-					"last": 119,
-					"discrete": true
-				},
-				{
-					"name": "UV + White",
-					"first": 120,
-					"last": 127,
-					"discrete": true
-				},
-				{
-					"name": "Rainbow CW",
-					"first": 128,
-					"last": 191
-				},
-				{
-					"name": "Rainbow CCW",
-					"first": 192,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Shutter",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "closed",
-					"first": 0,
-					"last": 3,
-					"discrete": true
-				},
-				{
-					"name": "shutter open",
-					"first": 4,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "strobe",
-					"first": 8,
-					"last": 76
-				},
-				{
-					"name": "pulse",
-					"first": 77,
-					"last": 145
-				},
-				{
-					"name": "random",
-					"first": 146,
-					"last": 215
-				}
-			]
-		},
-		{
-			"name": "Dimmer",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Gobo",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Open/White",
-					"first": 0,
-					"last": 3,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 1",
-					"first": 4,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 2",
-					"first": 8,
-					"last": 11,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 3",
-					"first": 12,
-					"last": 15,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 4",
-					"first": 16,
-					"last": 19,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 5",
-					"first": 20,
-					"last": 23,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 6",
-					"first": 24,
-					"last": 27,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 7",
-					"first": 28,
-					"last": 31,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 8",
-					"first": 32,
-					"last": 35,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 9",
-					"first": 36,
-					"last": 39,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 10",
-					"first": 40,
-					"last": 43,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 11",
-					"first": 44,
-					"last": 47,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 12",
-					"first": 48,
-					"last": 51,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 13",
-					"first": 52,
-					"last": 55,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 14",
-					"first": 56,
-					"last": 59,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 15",
-					"first": 60,
-					"last": 63,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 16",
-					"first": 64,
-					"last": 67,
-					"discrete": true
-				},
-				{
-					"name": "Gobo 17",
-					"first": 68,
-					"last": 71,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 17",
-					"first": 72,
-					"last": 77,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 16",
-					"first": 78,
-					"last": 83,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 15",
-					"first": 84,
-					"last": 89,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 14",
-					"first": 90,
-					"last": 95,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 13",
-					"first": 96,
-					"last": 101,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 12",
-					"first": 102,
-					"last": 107,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 11",
-					"first": 108,
-					"last": 113,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 10",
-					"first": 114,
-					"last": 119,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 9",
-					"first": 120,
-					"last": 125,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 8",
-					"first": 126,
-					"last": 131,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 7",
-					"first": 132,
-					"last": 137,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 6",
-					"first": 138,
-					"last": 143,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 5",
-					"first": 144,
-					"last": 149,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 4",
-					"first": 150,
-					"last": 155,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 3",
-					"first": 156,
-					"last": 161,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 2",
-					"first": 162,
-					"last": 167,
-					"discrete": true
-				},
-				{
-					"name": "Gobo Shake 1",
-					"first": 168,
-					"last": 173,
-					"discrete": true
-				},
-				{
-					"name": "Rainbow CW",
-					"first": 180,
-					"last": 217
-				},
-				{
-					"name": "Rainbow CCW",
-					"first": 218,
-					"last": 255
-				}
-			]
-		},
-		{
-			"name": "Functions",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "No Function",
-					"first": 0,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "Blackout while Pan/Tilt",
-					"first": 8,
-					"last": 15,
-					"discrete": true
-				},
-				{
-					"name": "Blackout while Colorwheel",
-					"first": 16,
-					"last": 23,
-					"discrete": true
-				},
-				{
-					"name": "Blackout while Gobowheel",
-					"first": 24,
-					"last": 31,
-					"discrete": true
-				},
-				{
-					"name": "Blackout while Pan/Tilt/Colorwheel",
-					"first": 32,
-					"last": 39,
-					"discrete": true
-				},
-				{
-					"name": "Blackout while Pan/Tilt/Gobowheel",
-					"first": 40,
-					"last": 47,
-					"discrete": true
-				},
-				{
-					"name": "Blackout while Pan/Tilt/Gobowheel/Colorwheel",
-					"first": 48,
-					"last": 55,
-					"discrete": true
-				},
-				{
-					"name": "Reset Pan after 5 seconds",
-					"first": 96,
-					"last": 103,
-					"discrete": true
-				},
-				{
-					"name": "Reset Tilt after 5 seconds",
-					"first": 104,
-					"last": 111,
-					"discrete": true
-				},
-				{
-					"name": "Reset Colorwheel after 5 seconds",
-					"first": 112,
-					"last": 119,
-					"discrete": true
-				},
-				{
-					"name": "Reset Gobowheel after 5 seconds",
-					"first": 120,
-					"last": 127,
-					"discrete": true
-				},
-				{
-					"name": "Reset Prism after 5 seconds",
-					"first": 136,
-					"last": 143,
-					"discrete": true
-				},
-				{
-					"name": "Reset Focus after 5 seconds",
-					"first": 144,
-					"last": 151,
-					"discrete": true
-				},
-				{
-					"name": "Reset all Channels after 5 seconds",
-					"first": 152,
-					"last": 159,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Programs",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Off",
-					"first": 0,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "Built-in 1",
-					"first": 8,
-					"last": 23
-				},
-				{
-					"name": "Built-in 2",
-					"first": 24,
-					"last": 39
-				},
-				{
-					"name": "Built-in 3",
-					"first": 40,
-					"last": 55
-				},
-				{
-					"name": "Built-in 4",
-					"first": 56,
-					"last": 71
-				},
-				{
-					"name": "Built-in 5",
-					"first": 72,
-					"last": 87
-				},
-				{
-					"name": "Built-in 6",
-					"first": 88,
-					"last": 103
-				},
-				{
-					"name": "Built-in 7",
-					"first": 104,
-					"last": 119
-				},
-				{
-					"name": "Built-in 8",
-					"first": 120,
-					"last": 135
-				},
-				{
-					"name": "Sound 1",
-					"first": 136,
-					"last": 151
-				},
-				{
-					"name": "Sound 2",
-					"first": 152,
-					"last": 167
-				},
-				{
-					"name": "Sound 3",
-					"first": 168,
-					"last": 183
-				},
-				{
-					"name": "Sound 4",
-					"first": 184,
-					"last": 199
-				},
-				{
-					"name": "Sound 5",
-					"first": 200,
-					"last": 215
-				},
-				{
-					"name": "Sound 6",
-					"first": 216,
-					"last": 231
-				},
-				{
-					"name": "Sound 7",
-					"first": 232,
-					"last": 247
-				},
-				{
-					"name": "Sound 8",
-					"first": 248,
-					"last": 255,
-					"discrete": true
-				}
-			]
-		},
-		{
-			"name": "Prism",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "open",
-					"first": 0,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "8-facet Prism",
-					"first": 8,
-					"last": 12,
-					"discrete": true
-				},
-				{
-					"name": "CW rotation",
-					"first": 13,
-					"last": 130
-				},
-				{
-					"name": "CCW rotation",
-					"first": 131,
-					"last": 247
-				}
-			]
-		},
-		{
-			"name": "Focus",
-			"type": "Analog_8",
-			"normalized": true
-		},
-		{
-			"name": "Frost",
-			"type": "Ranges",
-			"ranges": [
-				{
-					"name": "Off",
-					"first": 0,
-					"last": 7,
-					"discrete": true
-				},
-				{
-					"name": "Intensity",
-					"first": 8,
-					"last": 255
-				}
-			]
-		}
-	],
-	"note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 72,
+                    "last": 77,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 180,
+                    "last": 217
+                }
+            ]
+        },
+        {
+            "name": "Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Built-in Program 1",
+                    "first": 8,
+                    "last": 23
+                },
+                {
+                    "name": "Built-in Program 2",
+                    "first": 24,
+                    "last": 39
+                },
+                {
+                    "name": "Built-in Program 3",
+                    "first": 40,
+                    "last": 55
+                },
+                {
+                    "name": "Built-in Program 4",
+                    "first": 56,
+                    "last": 71
+                },
+                {
+                    "name": "Built-in Program 5",
+                    "first": 72,
+                    "last": 87
+                },
+                {
+                    "name": "Built-in Program 6",
+                    "first": 88,
+                    "last": 103
+                },
+                {
+                    "name": "Built-in Program 7",
+                    "first": 104,
+                    "last": 119
+                },
+                {
+                    "name": "Built-in Program 8",
+                    "first": 120,
+                    "last": 135
+                },
+                {
+                    "name": "Sound control 1",
+                    "first": 136,
+                    "last": 151
+                },
+                {
+                    "name": "Sound control 2",
+                    "first": 152,
+                    "last": 167
+                },
+                {
+                    "name": "Sound control 3",
+                    "first": 168,
+                    "last": 183
+                },
+                {
+                    "name": "Sound control 4",
+                    "first": 184,
+                    "last": 199
+                },
+                {
+                    "name": "Sound control 5",
+                    "first": 200,
+                    "last": 215
+                },
+                {
+                    "name": "Sound control 6",
+                    "first": 216,
+                    "last": 231
+                },
+                {
+                    "name": "Sound control 7",
+                    "first": 232,
+                    "last": 247
+                },
+                {
+                    "name": "Sound control 8",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism",
+                    "first": 8,
+                    "last": 12,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Frost",
+                    "first": 8,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
 }

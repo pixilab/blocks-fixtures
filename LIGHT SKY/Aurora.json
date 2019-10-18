@@ -1,0 +1,412 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 20,
+                    "last": 24,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 8
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 190,
+                    "last": 215
+                },
+                {
+                    "name": "Random color selection",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto random color",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Effect Disk Positioning",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "EffectParameter",
+                    "first": 20,
+                    "last": 127
+                },
+                {
+                    "name": "Ramping from open to full position",
+                    "first": 128,
+                    "last": 170
+                },
+                {
+                    "name": "Ramping from open to half position",
+                    "first": 171,
+                    "last": 213
+                },
+                {
+                    "name": "Ramping from half position to full position",
+                    "first": 214,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Effect Disk Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelRotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Static Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 88,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 202,
+                    "last": 222
+                },
+                {
+                    "name": "Auto random gobo selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 113,
+                    "last": 124
+                },
+                {
+                    "name": "Auto random gobo selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Gobo Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlotRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Prism 1 Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism",
+                    "first": 4,
+                    "last": 15
+                }
+            ]
+        },
+        {
+            "name": "Prism 2 Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism",
+                    "first": 4,
+                    "last": 15
+                }
+            ]
+        },
+        {
+            "name": "Prism Macro Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "Indexing prism macro 1",
+                    "first": 4,
+                    "last": 14
+                },
+                {
+                    "name": "Indexing prism macro 2",
+                    "first": 15,
+                    "last": 25
+                },
+                {
+                    "name": "Indexing prism macro 3",
+                    "first": 26,
+                    "last": 36
+                },
+                {
+                    "name": "Indexing prism macro 4",
+                    "first": 37,
+                    "last": 47
+                },
+                {
+                    "name": "Indexing prism macro 5",
+                    "first": 48,
+                    "last": 58
+                },
+                {
+                    "name": "Indexing prism macro 6",
+                    "first": 59,
+                    "last": 69
+                },
+                {
+                    "name": "Indexing prism macro 7",
+                    "first": 70,
+                    "last": 80
+                },
+                {
+                    "name": "Rotation prism macro 1",
+                    "first": 81,
+                    "last": 91
+                },
+                {
+                    "name": "Rotation prism macro 2",
+                    "first": 92,
+                    "last": 102
+                },
+                {
+                    "name": "Rotation prism macro 3",
+                    "first": 103,
+                    "last": 113
+                },
+                {
+                    "name": "Rotation prism macro 4",
+                    "first": 114,
+                    "last": 124
+                },
+                {
+                    "name": "Rotation prism macro 5",
+                    "first": 125,
+                    "last": 135
+                },
+                {
+                    "name": "Rotation prism macro 6",
+                    "first": 136,
+                    "last": 146
+                },
+                {
+                    "name": "Rotation prism macro 7",
+                    "first": 147,
+                    "last": 157
+                },
+                {
+                    "name": "Rotation prism macro 8",
+                    "first": 158,
+                    "last": 168
+                },
+                {
+                    "name": "Rotation prism macro 9",
+                    "first": 169,
+                    "last": 179
+                },
+                {
+                    "name": "Rotation prism macro 10",
+                    "first": 180,
+                    "last": 190
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Frost",
+                    "first": 1,
+                    "last": 50
+                },
+                {
+                    "name": "Pulse closing",
+                    "first": 54,
+                    "last": 63
+                },
+                {
+                    "name": "Pulse opening",
+                    "first": 64,
+                    "last": 73
+                },
+                {
+                    "name": "Ramping",
+                    "first": 74,
+                    "last": 83
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Focus 2",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Autofocus",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Focus",
+                    "first": 16,
+                    "last": 55
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

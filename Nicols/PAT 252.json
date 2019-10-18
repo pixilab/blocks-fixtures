@@ -1,0 +1,70 @@
+{
+    "channels": [
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 16
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 197,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelSlot",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 129,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Scanner, Color Changer (imported from open-fixture-library)"
+}

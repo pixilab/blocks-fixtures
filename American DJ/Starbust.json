@@ -1,0 +1,158 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 30
+                },
+                {
+                    "name": "Rotation",
+                    "first": 31,
+                    "last": 140
+                }
+            ]
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 25
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 26,
+                    "last": 205
+                },
+                {
+                    "name": "Effect",
+                    "first": 206,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 55
+                },
+                {
+                    "name": "Sound-active",
+                    "first": 56,
+                    "last": 75
+                },
+                {
+                    "name": "Red CW",
+                    "first": 76,
+                    "last": 105
+                },
+                {
+                    "name": "Blue CCW",
+                    "first": 106,
+                    "last": 135
+                },
+                {
+                    "name": "7-color change CW",
+                    "first": 136,
+                    "last": 165
+                },
+                {
+                    "name": "7-color change CCW",
+                    "first": 166,
+                    "last": 195
+                },
+                {
+                    "name": "7-color change with strobe CW",
+                    "first": 196,
+                    "last": 225
+                },
+                {
+                    "name": "7-color change with strobe CCW",
+                    "first": 226,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 69
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 70,
+                    "last": 85
+                }
+            ]
+        }
+    ],
+    "note": "Effect, Flower, Color Changer (imported from open-fixture-library)"
+}

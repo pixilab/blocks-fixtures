@@ -1,0 +1,195 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Static Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 72,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 144,
+                    "last": 199
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Prism",
+                    "first": 8,
+                    "last": 12,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Frost",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Program 1",
+                    "first": 8,
+                    "last": 23
+                },
+                {
+                    "name": "Program 2",
+                    "first": 24,
+                    "last": 39
+                },
+                {
+                    "name": "Program 3",
+                    "first": 40,
+                    "last": 55
+                },
+                {
+                    "name": "Program 4",
+                    "first": 56,
+                    "last": 71
+                },
+                {
+                    "name": "Program 5",
+                    "first": 72,
+                    "last": 87
+                },
+                {
+                    "name": "Program 6",
+                    "first": 88,
+                    "last": 103
+                },
+                {
+                    "name": "Program 7",
+                    "first": 104,
+                    "last": 119
+                },
+                {
+                    "name": "Program 8",
+                    "first": 120,
+                    "last": 135
+                },
+                {
+                    "name": "Sound-controlled program 1",
+                    "first": 136,
+                    "last": 151
+                },
+                {
+                    "name": "Sound-controlled program 2",
+                    "first": 152,
+                    "last": 167
+                },
+                {
+                    "name": "Sound-controlled program 3",
+                    "first": 168,
+                    "last": 183
+                },
+                {
+                    "name": "Sound-controlled program 4",
+                    "first": 184,
+                    "last": 199
+                },
+                {
+                    "name": "Sound-controlled program 5",
+                    "first": 200,
+                    "last": 215
+                },
+                {
+                    "name": "Sound-controlled program 6",
+                    "first": 216,
+                    "last": 231
+                },
+                {
+                    "name": "Sound-controlled program 7",
+                    "first": 232,
+                    "last": 247
+                },
+                {
+                    "name": "Sound-controlled program 8",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

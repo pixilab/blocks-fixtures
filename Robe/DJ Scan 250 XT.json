@@ -4,185 +4,39 @@
             "name": "Pan",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": 127
+            "defaultValue": "50%"
         },
         {
             "name": "Tilt",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": 127
+            "defaultValue": "50%"
         },
         {
             "name": "Color Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Open/White",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 7,
                     "discrete": true
                 },
                 {
-                    "name": "Turquoise",
-                    "first": 8,
-                    "last": 15,
-                    "discrete": true
-                },
-                {
-                    "name": "Red",
-                    "first": 16,
-                    "last": 23,
-                    "discrete": true
-                },
-                {
-                    "name": "Cyan",
-                    "first": 24,
-                    "last": 31,
-                    "discrete": true
-                },
-                {
-                    "name": "Light green",
-                    "first": 32,
-                    "last": 39,
-                    "discrete": true
-                },
-                {
-                    "name": "Magenta",
-                    "first": 40,
-                    "last": 47,
-                    "discrete": true
-                },
-                {
-                    "name": "Light blue",
-                    "first": 48,
-                    "last": 55,
-                    "discrete": true
-                },
-                {
-                    "name": "Yellow",
-                    "first": 56,
-                    "last": 63,
-                    "discrete": true
-                },
-                {
-                    "name": "Green",
-                    "first": 64,
-                    "last": 71,
-                    "discrete": true
-                },
-                {
-                    "name": "Pink",
-                    "first": 72,
-                    "last": 79,
-                    "discrete": true
-                },
-                {
-                    "name": "Blue",
-                    "first": 80,
-                    "last": 87,
-                    "discrete": true
-                },
-                {
-                    "name": "Orange",
-                    "first": 88,
-                    "last": 95,
-                    "discrete": true
-                },
-                {
-                    "name": "UV",
-                    "first": 96,
-                    "last": 103,
-                    "discrete": true
-                },
-                {
-                    "name": "Red-Cyan",
-                    "first": 104,
-                    "last": 111,
-                    "discrete": true
-                },
-                {
-                    "name": "Yellow-Green",
-                    "first": 112,
-                    "last": 119,
-                    "discrete": true
-                },
-                {
-                    "name": "Pink-Blue",
-                    "first": 120,
-                    "last": 127,
-                    "discrete": true
-                },
-                {
-					"name": "CW Rainbow",
+                    "name": "WheelRotation",
                     "first": 128,
                     "last": 190
-                },
-                {
-                    "name": "No rotation",
-                    "first": 191,
-                    "last": 192,
-                    "discrete": true
-                },
-                {
-					"name": "CCW Rainbow",
-                    "first": 193,
-                    "last": 255
                 }
             ]
         },
         {
-            "name": "Gobos",
+            "name": "Gobo Wheel",
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Open",
+                    "name": "WheelSlot",
                     "first": 0,
                     "last": 23
-                },
-                {
-					"name": "Rotate 1",
-                    "first": 24,
-                    "last": 47
-                },
-                {
-					"name": "Rotate 2",
-                    "first": 48,
-                    "last": 79
-                },
-                {
-					"name": "Rotate 3",
-                    "first": 80,
-                    "last": 103
-                },
-                {
-					"name": "Rotate 4",
-                    "first": 104,
-                    "last": 127
-                },
-                {
-					"name": "Rotate 5",
-                    "first": 128,
-                    "last": 151
-                },
-                {
-					"name": "Rotate 6",
-                    "first": 152,
-                    "last": 175
-                },
-                {
-					"name": "Rotate 7",
-                    "first": 176,
-                    "last": 207
-                },
-                {
-					"name": "Rotate 8",
-                    "first": 208,
-                    "last": 231
-                },
-                {
-					"name": "Rotate 9",
-                    "first": 232,
-                    "last": 255
                 }
             ]
         },
@@ -191,64 +45,34 @@
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Rotate",
+                    "name": "WheelSlotRotation",
                     "first": 0,
                     "last": 127
-                },
-                {
-					"name": "CW",
-                    "first": 128,
-                    "last": 190
-                },
-                {
-					"name": "Stop",
-                    "first": 191,
-                    "last": 192,
-                    "discrete": true
-                },
-                {
-					"name": "CCW",
-                    "first": 193,
-                    "last": 255
                 }
             ]
         },
         {
-			"name": "Shutter/Strobe",
+            "name": "Shutter / Strobe",
             "type": "Ranges",
             "ranges": [
                 {
-					"name": "Dimmer",
+                    "name": "ShutterStrobe",
                     "first": 0,
-					"last": 64
+                    "last": 0,
+                    "discrete": true
                 },
                 {
-                    "name": "Strobe 0-8Hz",
-                    "first": 96,
-                    "last": 127
+                    "name": "Intensity",
+                    "first": 1,
+                    "last": 63
                 },
                 {
-                    "name": "Reset",
+                    "name": "Maintenance",
                     "first": 128,
                     "last": 139
-                },
-                {
-                    "name": "Pulse slow-fast",
-                    "first": 160,
-                    "last": 175
-                },
-                {
-					"name": "Pulse",
-                    "first": 176,
-                    "last": 191
-                },
-                {
-					"name": "Random strobe",
-                    "first": 192,
-                    "last": 223
                 }
             ]
         }
     ],
-    "note": "Scanner, Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Scanner, Color Changer (imported from open-fixture-library)"
 }

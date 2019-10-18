@@ -1,0 +1,368 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 225
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 226,
+                    "last": 235
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 246,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 10
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Chase Pattern",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Chase 1",
+                    "first": 10,
+                    "last": 19
+                },
+                {
+                    "name": "Chase 2",
+                    "first": 20,
+                    "last": 29
+                },
+                {
+                    "name": "Chase 3",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "Chase 4",
+                    "first": 40,
+                    "last": 49
+                }
+            ]
+        },
+        {
+            "name": "Chase Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectSpeed",
+                    "first": 0,
+                    "last": 125
+                }
+            ]
+        },
+        {
+            "name": "Chase Fade",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Auto Focus",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 50
+                },
+                {
+                    "name": "Focus",
+                    "first": 51,
+                    "last": 100
+                }
+            ]
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 32,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "CTO",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 78,
+                    "last": 93
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 190,
+                    "last": 221
+                }
+            ]
+        },
+        {
+            "name": "Gobo Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlotRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Animation Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 8,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Iris",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Iris",
+                    "first": 0,
+                    "last": 191
+                },
+                {
+                    "name": "Pulse closing",
+                    "first": 192,
+                    "last": 223
+                },
+                {
+                    "name": "Pulse opening",
+                    "first": 224,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Prism",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blade 1A Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 1B Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 2A Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 2B Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 3A Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 3B Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 4A Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade 4B Insertion",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blade System Rotation",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Maintenance / Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 5,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Internal program 1 (Scene 1…8 of EEPROM)",
+                    "first": 100,
+                    "last": 119
+                },
+                {
+                    "name": "Internal program 2 (Scene 9…16 of EEPROM)",
+                    "first": 120,
+                    "last": 139
+                },
+                {
+                    "name": "Internal program 3 (Scene 17…24 of EEPROM)",
+                    "first": 140,
+                    "last": 159
+                },
+                {
+                    "name": "Internal program 4 (Scene 25…32 of EEPROM)",
+                    "first": 160,
+                    "last": 179
+                },
+                {
+                    "name": "Internal program 5 (Scene 33…40 of EEPROM)",
+                    "first": 180,
+                    "last": 199
+                },
+                {
+                    "name": "Internal program 6 (Scene 41…48 of EEPROM)",
+                    "first": 200,
+                    "last": 219
+                },
+                {
+                    "name": "Internal program 7 (Scene 49…56 of EEPROM)",
+                    "first": 220,
+                    "last": 239
+                },
+                {
+                    "name": "Internal program 8 (Scene 57…64 of EEPROM)",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}

@@ -1,0 +1,124 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 11,
+                    "last": 30
+                }
+            ]
+        },
+        {
+            "name": "Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Auto program 1",
+                    "first": 11,
+                    "last": 60
+                },
+                {
+                    "name": "Auto program 2",
+                    "first": 61,
+                    "last": 120
+                },
+                {
+                    "name": "Auto program 3",
+                    "first": 121,
+                    "last": 180
+                },
+                {
+                    "name": "Auto program 4",
+                    "first": 181,
+                    "last": 240
+                },
+                {
+                    "name": "Sound-active program",
+                    "first": 241,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 51
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 52,
+                    "last": 101
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library)"
+}

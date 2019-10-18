@@ -1,0 +1,16 @@
+{
+    "channels": [
+        {
+            "name": "Safety",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 99
+                }
+            ]
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library)"
+}

@@ -1,7 +1,7 @@
 {
     "channels": [
         {
-            "name": "Dimmer",
+            "name": "Master dimmer",
             "type": "Analog_8",
             "normalized": true
         },
@@ -10,47 +10,12 @@
             "type": "Ranges",
             "ranges": [
                 {
-                    "name": "Blackout",
+                    "name": "ColorPreset",
                     "first": 0,
                     "last": 31
-                },
-                {
-                    "name": "Red",
-                    "first": 32,
-                    "last": 63
-                },
-                {
-                    "name": "Green",
-                    "first": 64,
-                    "last": 95
-                },
-                {
-                    "name": "Blue",
-                    "first": 96,
-                    "last": 127
-                },
-                {
-                    "name": "Yellow",
-                    "first": 128,
-                    "last": 159
-                },
-                {
-                    "name": "Cyan",
-                    "first": 160,
-                    "last": 191
-                },
-                {
-                    "name": "Magenta",
-                    "first": 192,
-                    "last": 223
-                },
-                {
-                    "name": "White",
-                    "first": 224,
-                    "last": 255
                 }
             ]
         }
     ],
-    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+    "note": "Color Changer (imported from open-fixture-library)"
 }

@@ -1,0 +1,1285 @@
+{
+    "channels": [
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 19
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "CTO",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 193,
+                    "last": 214
+                },
+                {
+                    "name": "Random colors",
+                    "first": 244,
+                    "last": 247,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 60,
+                    "last": 89
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 210,
+                    "last": 232
+                }
+            ]
+        },
+        {
+            "name": "Animation Wheel Function",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Horizontal indexed position",
+                    "first": 6,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Horizontal rotation",
+                    "first": 11,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Vertical rotation",
+                    "first": 16,
+                    "last": 20,
+                    "discrete": true
+                },
+                {
+                    "name": "Vertical indexed position",
+                    "first": 21,
+                    "last": 25,
+                    "discrete": true
+                },
+                {
+                    "name": "Angled position rotation",
+                    "first": 26,
+                    "last": 110
+                },
+                {
+                    "name": "Angled position vertical indexed",
+                    "first": 111,
+                    "last": 195
+                },
+                {
+                    "name": "Angled position horizontal indexed",
+                    "first": 196,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Iris",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Framing Blade 1 Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Framing Blade 1 Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing Blade 2 Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Framing Blade 2 Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing Blade 3 Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Framing Blade 3 Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing Blade 4 Insertion",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Framing Blade 4 Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Framing Blade System Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BladeSystemRotation",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Fixture Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 15,
+                    "last": 15,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "FX1 Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo X-Fade",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "Tick tick tick",
+                    "first": 8,
+                    "last": 8,
+                    "discrete": true
+                },
+                {
+                    "name": "Tick tock",
+                    "first": 9,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity sine wave",
+                    "first": 10,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity step",
+                    "first": 11,
+                    "last": 11,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity pulse",
+                    "first": 12,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 13,
+                    "last": 13,
+                    "discrete": true
+                },
+                {
+                    "name": "Up flash",
+                    "first": 15,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Up flash down flash",
+                    "first": 16,
+                    "last": 16,
+                    "discrete": true
+                },
+                {
+                    "name": "Random level",
+                    "first": 17,
+                    "last": 17,
+                    "discrete": true
+                },
+                {
+                    "name": "Electric arc",
+                    "first": 21,
+                    "last": 21,
+                    "discrete": true
+                },
+                {
+                    "name": "Thunderstorm atomic",
+                    "first": 22,
+                    "last": 22,
+                    "discrete": true
+                },
+                {
+                    "name": "Thunderstorm",
+                    "first": 23,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Welding",
+                    "first": 24,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Animotion",
+                    "first": 30,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "Movie flicker",
+                    "first": 31,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Cross chase",
+                    "first": 32,
+                    "last": 32,
+                    "discrete": true
+                },
+                {
+                    "name": "Random dimmers",
+                    "first": 33,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "Shakey dimmers",
+                    "first": 34,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "Center out chase",
+                    "first": 35,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "Negative pulse",
+                    "first": 36,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "Positive pulse",
+                    "first": 37,
+                    "last": 37,
+                    "discrete": true
+                },
+                {
+                    "name": "Rings in out",
+                    "first": 38,
+                    "last": 38,
+                    "discrete": true
+                },
+                {
+                    "name": "Random color wave",
+                    "first": 40,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "Random color step",
+                    "first": 41,
+                    "last": 41,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow wave",
+                    "first": 50,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow step",
+                    "first": 51,
+                    "last": 51,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow pulse",
+                    "first": 52,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "RGB wave",
+                    "first": 53,
+                    "last": 53,
+                    "discrete": true
+                },
+                {
+                    "name": "RGB step",
+                    "first": 54,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "RGB pulse",
+                    "first": 55,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY wave",
+                    "first": 56,
+                    "last": 56,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY step",
+                    "first": 57,
+                    "last": 57,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY pulse",
+                    "first": 58,
+                    "last": 58,
+                    "discrete": true
+                },
+                {
+                    "name": "Mix to white wave",
+                    "first": 59,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "Mix to white step",
+                    "first": 60,
+                    "last": 60,
+                    "discrete": true
+                },
+                {
+                    "name": "Mix to white pulse",
+                    "first": 61,
+                    "last": 61,
+                    "discrete": true
+                },
+                {
+                    "name": "Random bold",
+                    "first": 62,
+                    "last": 62,
+                    "discrete": true
+                },
+                {
+                    "name": "Random mix step",
+                    "first": 63,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Random mix pulse",
+                    "first": 64,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "Random subtle",
+                    "first": 65,
+                    "last": 65,
+                    "discrete": true
+                },
+                {
+                    "name": "Red white blue wave",
+                    "first": 66,
+                    "last": 66,
+                    "discrete": true
+                },
+                {
+                    "name": "Red white blue step",
+                    "first": 67,
+                    "last": 67,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel full step",
+                    "first": 70,
+                    "last": 70,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel all step",
+                    "first": 71,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel split step",
+                    "first": 72,
+                    "last": 72,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel random split step",
+                    "first": 73,
+                    "last": 73,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel shaker",
+                    "first": 74,
+                    "last": 74,
+                    "discrete": true
+                },
+                {
+                    "name": "Fire",
+                    "first": 75,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "Water",
+                    "first": 76,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "Ice",
+                    "first": 77,
+                    "last": 77,
+                    "discrete": true
+                },
+                {
+                    "name": "Hot and cold",
+                    "first": 78,
+                    "last": 78,
+                    "discrete": true
+                },
+                {
+                    "name": "Warm and fuzzy",
+                    "first": 79,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Ramp",
+                    "first": 80,
+                    "last": 80,
+                    "discrete": true
+                },
+                {
+                    "name": "Step",
+                    "first": 81,
+                    "last": 81,
+                    "discrete": true
+                },
+                {
+                    "name": "Pulse",
+                    "first": 82,
+                    "last": 82,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom wave",
+                    "first": 83,
+                    "last": 83,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom step",
+                    "first": 84,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom ramp",
+                    "first": 85,
+                    "last": 85,
+                    "discrete": true
+                },
+                {
+                    "name": "Random size wave",
+                    "first": 86,
+                    "last": 86,
+                    "discrete": true
+                },
+                {
+                    "name": "Random size step",
+                    "first": 87,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Pin to flood",
+                    "first": 90,
+                    "last": 90,
+                    "discrete": true
+                },
+                {
+                    "name": "Pounce",
+                    "first": 91,
+                    "last": 91,
+                    "discrete": true
+                },
+                {
+                    "name": "Splash",
+                    "first": 92,
+                    "last": 92,
+                    "discrete": true
+                },
+                {
+                    "name": "Milling around",
+                    "first": 123,
+                    "last": 123,
+                    "discrete": true
+                },
+                {
+                    "name": "Fire Gobo",
+                    "first": 160,
+                    "last": 160,
+                    "discrete": true
+                },
+                {
+                    "name": "Water Gobo",
+                    "first": 162,
+                    "last": 162,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 1",
+                    "first": 181,
+                    "last": 181,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 2",
+                    "first": 182,
+                    "last": 182,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 3",
+                    "first": 183,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 4",
+                    "first": 184,
+                    "last": 184,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 5",
+                    "first": 185,
+                    "last": 185,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 6",
+                    "first": 186,
+                    "last": 186,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 7",
+                    "first": 187,
+                    "last": 187,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom fades",
+                    "first": 210,
+                    "last": 210,
+                    "discrete": true
+                },
+                {
+                    "name": "Fade spin gobo zoom",
+                    "first": 211,
+                    "last": 211,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo twist",
+                    "first": 212,
+                    "last": 212,
+                    "discrete": true
+                },
+                {
+                    "name": "Expand twist",
+                    "first": 213,
+                    "last": 213,
+                    "discrete": true
+                },
+                {
+                    "name": "Expand twist fade",
+                    "first": 214,
+                    "last": 214,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "FX1 Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectSpeed",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "FX2 Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo X-Fade",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "Tick tick tick",
+                    "first": 8,
+                    "last": 8,
+                    "discrete": true
+                },
+                {
+                    "name": "Tick tock",
+                    "first": 9,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity sine wave",
+                    "first": 10,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity step",
+                    "first": 11,
+                    "last": 11,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity pulse",
+                    "first": 12,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 13,
+                    "last": 13,
+                    "discrete": true
+                },
+                {
+                    "name": "Up flash",
+                    "first": 15,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "Up flash down flash",
+                    "first": 16,
+                    "last": 16,
+                    "discrete": true
+                },
+                {
+                    "name": "Random level",
+                    "first": 17,
+                    "last": 17,
+                    "discrete": true
+                },
+                {
+                    "name": "Electric arc",
+                    "first": 21,
+                    "last": 21,
+                    "discrete": true
+                },
+                {
+                    "name": "Thunderstorm atomic",
+                    "first": 22,
+                    "last": 22,
+                    "discrete": true
+                },
+                {
+                    "name": "Thunderstorm",
+                    "first": 23,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Welding",
+                    "first": 24,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "Animotion",
+                    "first": 30,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "Movie flicker",
+                    "first": 31,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "Cross chase",
+                    "first": 32,
+                    "last": 32,
+                    "discrete": true
+                },
+                {
+                    "name": "Random dimmers",
+                    "first": 33,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "Shakey dimmers",
+                    "first": 34,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "Center out chase",
+                    "first": 35,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "Negative pulse",
+                    "first": 36,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "Positive pulse",
+                    "first": 37,
+                    "last": 37,
+                    "discrete": true
+                },
+                {
+                    "name": "Rings in out",
+                    "first": 38,
+                    "last": 38,
+                    "discrete": true
+                },
+                {
+                    "name": "Random color wave",
+                    "first": 40,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "Random color step",
+                    "first": 41,
+                    "last": 41,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow wave",
+                    "first": 50,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow step",
+                    "first": 51,
+                    "last": 51,
+                    "discrete": true
+                },
+                {
+                    "name": "Rainbow pulse",
+                    "first": 52,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "RGB wave",
+                    "first": 53,
+                    "last": 53,
+                    "discrete": true
+                },
+                {
+                    "name": "RGB step",
+                    "first": 54,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "RGB pulse",
+                    "first": 55,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY wave",
+                    "first": 56,
+                    "last": 56,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY step",
+                    "first": 57,
+                    "last": 57,
+                    "discrete": true
+                },
+                {
+                    "name": "CMY pulse",
+                    "first": 58,
+                    "last": 58,
+                    "discrete": true
+                },
+                {
+                    "name": "Mix to white wave",
+                    "first": 59,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "Mix to white step",
+                    "first": 60,
+                    "last": 60,
+                    "discrete": true
+                },
+                {
+                    "name": "Mix to white pulse",
+                    "first": 61,
+                    "last": 61,
+                    "discrete": true
+                },
+                {
+                    "name": "Random bold",
+                    "first": 62,
+                    "last": 62,
+                    "discrete": true
+                },
+                {
+                    "name": "Random mix step",
+                    "first": 63,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "Random mix pulse",
+                    "first": 64,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "Random subtle",
+                    "first": 65,
+                    "last": 65,
+                    "discrete": true
+                },
+                {
+                    "name": "Red white blue wave",
+                    "first": 66,
+                    "last": 66,
+                    "discrete": true
+                },
+                {
+                    "name": "Red white blue step",
+                    "first": 67,
+                    "last": 67,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel full step",
+                    "first": 70,
+                    "last": 70,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel all step",
+                    "first": 71,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel split step",
+                    "first": 72,
+                    "last": 72,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel random split step",
+                    "first": 73,
+                    "last": 73,
+                    "discrete": true
+                },
+                {
+                    "name": "Color wheel shaker",
+                    "first": 74,
+                    "last": 74,
+                    "discrete": true
+                },
+                {
+                    "name": "Fire",
+                    "first": 75,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "Water",
+                    "first": 76,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "Ice",
+                    "first": 77,
+                    "last": 77,
+                    "discrete": true
+                },
+                {
+                    "name": "Hot and cold",
+                    "first": 78,
+                    "last": 78,
+                    "discrete": true
+                },
+                {
+                    "name": "Warm and fuzzy",
+                    "first": 79,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "Ramp",
+                    "first": 80,
+                    "last": 80,
+                    "discrete": true
+                },
+                {
+                    "name": "Step",
+                    "first": 81,
+                    "last": 81,
+                    "discrete": true
+                },
+                {
+                    "name": "Pulse",
+                    "first": 82,
+                    "last": 82,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom wave",
+                    "first": 83,
+                    "last": 83,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom step",
+                    "first": 84,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom ramp",
+                    "first": 85,
+                    "last": 85,
+                    "discrete": true
+                },
+                {
+                    "name": "Random size wave",
+                    "first": 86,
+                    "last": 86,
+                    "discrete": true
+                },
+                {
+                    "name": "Random size step",
+                    "first": 87,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "Pin to flood",
+                    "first": 90,
+                    "last": 90,
+                    "discrete": true
+                },
+                {
+                    "name": "Pounce",
+                    "first": 91,
+                    "last": 91,
+                    "discrete": true
+                },
+                {
+                    "name": "Splash",
+                    "first": 92,
+                    "last": 92,
+                    "discrete": true
+                },
+                {
+                    "name": "Milling around",
+                    "first": 123,
+                    "last": 123,
+                    "discrete": true
+                },
+                {
+                    "name": "Fire Gobo",
+                    "first": 160,
+                    "last": 160,
+                    "discrete": true
+                },
+                {
+                    "name": "Water Gobo",
+                    "first": 162,
+                    "last": 162,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 1",
+                    "first": 181,
+                    "last": 181,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 2",
+                    "first": 182,
+                    "last": 182,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 3",
+                    "first": 183,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 4",
+                    "first": 184,
+                    "last": 184,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 5",
+                    "first": 185,
+                    "last": 185,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 6",
+                    "first": 186,
+                    "last": 186,
+                    "discrete": true
+                },
+                {
+                    "name": "Select fixed gobo 7",
+                    "first": 187,
+                    "last": 187,
+                    "discrete": true
+                },
+                {
+                    "name": "Zoom fades",
+                    "first": 210,
+                    "last": 210,
+                    "discrete": true
+                },
+                {
+                    "name": "Fade spin gobo zoom",
+                    "first": 211,
+                    "last": 211,
+                    "discrete": true
+                },
+                {
+                    "name": "Gobo twist",
+                    "first": 212,
+                    "last": 212,
+                    "discrete": true
+                },
+                {
+                    "name": "Expand twist",
+                    "first": 213,
+                    "last": 213,
+                    "discrete": true
+                },
+                {
+                    "name": "Expand twist fade",
+                    "first": 214,
+                    "last": 214,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "FX2 Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectSpeed",
+                    "first": 0,
+                    "last": 126
+                }
+            ]
+        },
+        {
+            "name": "FX Synchronization",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Generic",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library)"
+}
