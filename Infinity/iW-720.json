@@ -1,0 +1,215 @@
+{
+	"note": "Moving Head, 29-channel mode",
+	"channels": [
+		{
+			"name": "Pan",
+			"type": "Analog_8",
+			"defaultValue": 127,
+			"normalized": true
+		},
+		{
+			"name": "Tilt",
+			"type": "Analog_8",
+			"defaultValue": 127,
+			"normalized": true
+		},
+		{
+			"name": "PanFine",
+			"type": "Analog_8",
+			"hidden": true
+		},
+		{
+			"name": "TiltFine",
+			"type": "Analog_8",
+			"hidden": true
+		},
+		{
+			"name": "Pan/Tilt Speed",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Red 1",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green 1",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue 1",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "White 1",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Red 2",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green 2",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue 2",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "White 2",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Red 3",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green 3",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue 3",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "White 3",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Red 4",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green 4",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue 4",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "White 4",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Built-in Colors",
+			"type": "Analog_8",
+			"normalized": false
+		},
+		{
+			"name": "Built-in LED",
+			"type": "Analog_8",
+			"normalized": false
+		},
+		{
+			"name": "Built-in Speed",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Dimmer",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Shutter",
+			"type": "Ranges",
+			"defaultValue": 246,
+			"ranges": [
+				{
+					"name": "Close",
+					"first": 0,
+					"last": 19,
+					"dfiscrete": true
+				},
+				{
+					"name": "Strobe 1",
+					"first": 25,
+					"last": 65
+				},
+				{
+					"name": "Strobe 2",
+					"first": 70,
+					"last": 85
+				},
+				{
+					"name": "Strobe 3",
+					"first": 90,
+					"last": 105
+				},
+				{
+					"name": "Strobe 4",
+					"first": 110,
+					"last": 125
+				},
+				{
+					"name": "Strobe 5",
+					"first": 130,
+					"last": 145
+				},
+				{
+					"name": "Strobe 6",
+					"first": 150,
+					"last": 165
+				},
+				{
+					"name": "Strobe 7",
+					"first": 170,
+					"last": 185
+				},
+				{
+					"name": "Strobe 8",
+					"first": 190,
+					"last": 205
+				},
+				{
+					"name": "Strobe 9",
+					"first": 210,
+					"last": 225
+				},
+				{
+					"name": "Strobe 10",
+					"first": 230,
+					"last": 245
+				},
+				{
+					"name": "Open",
+					"first": 246,
+					"last": 255
+				}
+			]
+		},
+		{
+			"name": "Zoom",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Channel Function",
+			"type": "Analog_8",
+			"normalized": false
+		},
+		{
+			"name": "Built-in Program",
+			"type": "Analog_8",
+			"normalized": false
+		}
+	]
+}

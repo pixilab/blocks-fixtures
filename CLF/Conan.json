@@ -1,0 +1,167 @@
+{
+	"note": "Compact LED-based parcan",
+	"channels": [
+		{
+			"name": "Shutter",
+			"type": "Ranges",
+			"defaultValue": 246,
+			"ranges": [
+				{
+					"name": "Closed",
+					"first": 0,
+					"last": 19,
+					"discrete": true
+				},
+				{
+					"name": "Strobe 1",
+					"first": 25,
+					"last": 65
+				},
+				{
+					"name": "Opening Pulse",
+					"first": 90,
+					"last": 195
+				},
+				{
+					"name": "Random Strobe",
+					"first": 110,
+					"last": 125
+				},
+				{
+					"name": "Random Opening Pulse",
+					"first": 130,
+					"last": 145
+				},
+				{
+					"name": "Random Closing Pulse",
+					"first": 150,
+					"last": 165
+				},
+				{
+					"name": "Burst Pulse",
+					"first": 170,
+					"last": 185
+				},
+				{
+					"name": "Random Burst Pulse",
+					"first": 190,
+					"last": 205
+				},
+				{
+					"name": "Sinewave",
+					"first": 210,
+					"last": 225
+				},
+				{
+					"name": "Burst",
+					"first": 230,
+					"last": 245
+				},
+				{
+					"name": "Open",
+					"first": 246,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Dimmer",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Zoom",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Fixture Control",
+			"type": "Analog_8",
+			"normalized": false
+		},
+		{
+			"name": "Color Wheel",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "RGBW Color Mix",
+					"first": 0,
+					"last": 9,
+					"discrete": true
+				},
+				{
+					"name": "Effect",
+					"first": 10,
+					"last": 175
+				},
+				{
+					"name": "Rotation",
+					"first": 180,
+					"last": 229
+				},
+				{
+					"name": "Random Fast",
+					"first": 235,
+					"last": 239,
+					"discrete": true
+				},
+				{
+					"name": "Random Medium",
+					"first": 240,
+					"last": 244,
+					"discrete": true
+				},
+				{
+					"name": "Random Slow",
+					"first": 245,
+					"last": 249,
+					"discrete": true
+				},
+				{
+					"name": "Open",
+					"first": 250,
+					"last": 255,
+					"discrete": true
+				}
+			]
+		},
+		{
+			"name": "Red",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Green",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "Blue",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "White",
+			"type": "Analog_8",
+			"normalized": true
+		},
+		{
+			"name": "CCT",
+			"type": "Ranges",
+			"ranges": [
+				{
+					"name": "No Function",
+					"first": 0,
+					"last": 19,
+					"discrete": true
+				},
+				{
+					"name": "10000-2500",
+					"first": 20,
+					"last": 255
+				}
+			]
+		}
+	]
+}
