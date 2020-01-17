@@ -24,7 +24,7 @@
 			"hidden": true
 		},
 		{
-			"name": "Pan/Tilt Speed",
+			"name": "Pan-Tilt Speed",
 			"type": "Analog_8",
 			"normalized": true
 		},
