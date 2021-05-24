@@ -28,6 +28,7 @@ interface Channel extends Named {
   type: ChannelTypes;
   defaultValue?: number; // What value to set channel to on system start-up (not normalized)
   normalized?: boolean; // Exposed as 0...1 value (else with its full range depending on resolution)
+  multiFunc?: "color" | "position"; // Explicitly marks channel as part of multiFunc Task callable 
   hidden?: boolean; // Not shown in UI (used to represent "gaps" in the channel sequence)
   ranges?: Range[]; // When type is Ranges
 }
@@ -53,6 +54,12 @@ Each FixtureDescriptor contains a list of channels. A channel can be of one of f
   * **hidden** set to true hides the channel from the user interface, thereby blocking out "unused" slots in the channel space.
 
 Alternatively the type is defined as 'Ranges', which describes a channel divided into sub-ranges,  consisting of a number of consecutive values. These ranges are defined in the _ranges_ array, specifying the lower and upper limits of the range. If this range describes a single state (e.g., "strobe off"), the _discrete_ flag is set to indicate this. Otherwise, the range is considered to also have a numberic value, which maps into whatever range is specified (e.g., varying "strobe rates").
+
+### Property Bindings and Task Access
+
+Each defined channel will be made available as a property on the fixture object, accessible through property binding or from tasks. Tasks may also control color and position using callable functions defined as "multiFunc", allowing all related values to be set in one go. This applies to color/dimmer as well as position/zoom. You can (in Blocks 5.2 or later) explicitly mark channels as part of such a "multiFunc" group by specifying this as shown above to "color" or "position". If not specified explicitly, Blocks will use internal heuristics to expose channels such as Red/Green/Blue and Pan/Tilt as multiFunc groups.
+
+## Example File Structure
 
 Here's an example of what the content of a description file can look like, taken from the generic _Pan Tilt_ model:
 
