@@ -303,7 +303,7 @@
             "name": "Blade System Rotation",
             "type": "Analog_16",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 32767
         },
         {
             "name": "Maintenance / Programs",

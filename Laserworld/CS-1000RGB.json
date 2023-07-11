@@ -29,13 +29,13 @@
             "name": "Horizontal Movement",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 128
         },
         {
             "name": "Vertical Movement",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 128
         },
         {
             "name": "Manual Zoom",

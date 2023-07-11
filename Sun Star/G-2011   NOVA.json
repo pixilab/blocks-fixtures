@@ -420,13 +420,13 @@
             "name": "Horizontal Position",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 128
         },
         {
             "name": "Vertical Position",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 128
         },
         {
             "name": "Effect Speed",

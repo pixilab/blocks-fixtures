@@ -4,25 +4,25 @@
             "name": "Master Dimmer",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "0%"
+            "defaultValue": 0
         },
         {
             "name": "Red",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "0%"
+            "defaultValue": 0
         },
         {
             "name": "Green",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "0%"
+            "defaultValue": 0
         },
         {
             "name": "Blue",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "0%"
+            "defaultValue": 0
         },
         {
             "name": "Effects",

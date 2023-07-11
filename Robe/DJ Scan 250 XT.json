@@ -4,13 +4,13 @@
             "name": "Pan",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 128
         },
         {
             "name": "Tilt",
             "type": "Analog_8",
             "normalized": true,
-            "defaultValue": "50%"
+            "defaultValue": 128
         },
         {
             "name": "Color Wheel",
