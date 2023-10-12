@@ -1,0 +1,118 @@
+{
+    "note": "Moving Head RGBAW+UV",
+
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 255
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 10,
+                    "last": 249
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+
+        {
+            "name": "MotionMacro",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0,
+            "hidden": true
+        },
+        {
+            "name": "MotionMacroSpeed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0,
+            "hidden": true
+        },
+        {
+            "name": "ColorMacro",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0,
+            "hidden": true
+        },
+        {
+            "name": "ColorMacroSpeed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0,
+            "hidden": true
+        },
+        {
+            "name": "Reset",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0,
+            "hidden": true
+        }
+    ]
+}
