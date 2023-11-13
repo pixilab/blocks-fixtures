@@ -1,0 +1,644 @@
+{
+    "channels": [
+        {
+            "name": "Strobe and shutter effects",
+            "type": "Ranges",
+            "defaultValue": 30,
+            "ranges": [
+                {
+                    "name": "Shutter closed",
+                    "first": 0,
+                    "last": 19,
+                    "discrete":true
+                },
+                {
+                    "name": "Shutter open",
+                    "first": 20,
+                    "last": 49,
+                    "discrete":true
+                },
+                {
+                    "name": "Strobe, slow → fast",
+                    "first": 50,
+                    "last": 200,
+                    "discrete":false
+                },
+                {
+                    "name": "Random strobe, slow → fast",
+                    "first": 211,
+                    "last": 255,
+                    "discrete":false
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "CTC 1800 K to 12850 K",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 118
+        },
+        {
+            "name": "Color wheel effect (color presets)",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Open (white)",
+                    "first": 0,
+                    "last": 10,
+                    "discrete":true
+                },
+                {
+                    "name": "Moroccan Pink (LEE 790)",
+                    "first": 11,
+                    "last": 12,
+                    "discrete":true
+                },
+                {
+                    "name": "Pink (LEE 157)",
+                    "first": 13,
+                    "last": 14,
+                    "discrete":true
+                },
+                {
+                    "name": "Special Rose Pink (LEE 332)",
+                    "first": 15,
+                    "last": 16,
+                    "discrete":true
+                },
+                {
+                    "name": "Follies Pink (LEE 328)",
+                    "first": 17,
+                    "last": 18,
+                    "discrete":true
+                },
+                {
+                    "name": "Fuchsia Pink (LEE 345)",
+                    "first": 19,
+                    "last": 20,
+                    "discrete":true
+                },
+                {
+                    "name": "Surprise Pink (LEE 194)",
+                    "first": 21,
+                    "last": 22,
+                    "discrete":true
+                },
+                {
+                    "name": "Congo Blue (LEE 181)",
+                    "first": 23,
+                    "last": 24,
+                    "discrete":true
+                },
+                {
+                    "name": "Tokyo Blue (LEE 071)",
+                    "first": 25,
+                    "last": 26,
+                    "discrete":true
+                },
+                {
+                    "name": "Deep Blue (LEE 120)",
+                    "first": 27,
+                    "last": 28,
+                    "discrete":true
+                },
+                {
+                    "name": "Just Blue (LEE 079)",
+                    "first": 29,
+                    "last": 30,
+                    "discrete":true
+                },
+                {
+                    "name": "Medium Blue (LEE 132)",
+                    "first": 31,
+                    "last": 32,
+                    "discrete":true
+                },
+                {
+                    "name": "Double CT Blue (LEE 200)",
+                    "first": 33,
+                    "last": 34,
+                    "discrete":true
+                },
+                {
+                    "name": "Slate Blue (LEE 161)",
+                    "first": 35,
+                    "last": 36,
+                    "discrete":true
+                },
+                {
+                    "name": "Full CT Blue (LEE 201)",
+                    "first": 37,
+                    "last": 38,
+                    "discrete":true
+                },
+                {
+                    "name": "Half CT Blue (LEE 202)",
+                    "first": 39,
+                    "last": 40,
+                    "discrete":true
+                },
+                {
+                    "name": "Steel Blue (LEE 117)",
+                    "first": 41,
+                    "last": 42,
+                    "discrete":true
+                },
+                {
+                    "name": "Lighter Blue (LEE 353)",
+                    "first": 43,
+                    "last": 44,
+                    "discrete":true
+                },
+                {
+                    "name": "Light Blue (LEE 118)",
+                    "first": 45,
+                    "last": 46,
+                    "discrete":true
+                },
+                {
+                    "name": "Medium Blue Green (LEE 116)",
+                    "first": 47,
+                    "last": 48,
+                    "discrete":true
+                },
+                {
+                    "name": "Dark Green (LEE 124)",
+                    "first": 49,
+                    "last": 50,
+                    "discrete":true
+                },
+                {
+                    "name": "Primary Green (LEE 139)",
+                    "first": 51,
+                    "last": 52,
+                    "discrete":true
+                },
+                {
+                    "name": "Moss Green (LEE 089)",
+                    "first": 53,
+                    "last": 54,
+                    "discrete":true
+                },
+                {
+                    "name": "Fern Green (LEE 122)",
+                    "first": 55,
+                    "last": 56,
+                    "discrete":true
+                },
+                {
+                    "name": "Jas Green (LEE 738)",
+                    "first": 57,
+                    "last": 58,
+                    "discrete":true
+                },
+                {
+                    "name": "Lime Green (LEE 088)",
+                    "first": 59,
+                    "last": 60,
+                    "discrete":true
+                },
+                {
+                    "name": "Spring Yellow (LEE 100)",
+                    "first": 61,
+                    "last": 62,
+                    "discrete":true
+                },
+                {
+                    "name": "Deep Amber (LEE 104)",
+                    "first": 63,
+                    "last": 64,
+                    "discrete":true
+                },
+                {
+                    "name": "Chrome Orange (LEE 179)",
+                    "first": 65,
+                    "last": 66,
+                    "discrete":true
+                },
+                {
+                    "name": "Orange (LEE 105)",
+                    "first": 67,
+                    "last": 68,
+                    "discrete":true
+                },
+                {
+                    "name": "Gold Amber (LEE 021)",
+                    "first": 69,
+                    "last": 70,
+                    "discrete":true
+                },
+                {
+                    "name": "Millennium Gold (LEE 778)",
+                    "first": 71,
+                    "last": 72,
+                    "discrete":true
+                },
+                {
+                    "name": "Deep Golden Amber (LEE 135)",
+                    "first": 73,
+                    "last": 74,
+                    "discrete":true
+                },
+                {
+                    "name": "Flame Red (LEE 164)",
+                    "first": 75,
+                    "last": 76,
+                    "discrete":true
+                },
+                {
+                    "name": "Red Magenta (LEE 113)",
+                    "first": 77,
+                    "last": 78,
+                    "discrete":true
+                },
+                {
+                    "name": "Medium Lavender (LEE 343)",
+                    "first": 79,
+                    "last": 80,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure White (White LEDs only)",
+                    "first": 81,
+                    "last": 82,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure Red (Red LEDs only)",
+                    "first": 83,
+                    "last": 84,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure Yellow (Red & Green LEDs only)",
+                    "first": 85,
+                    "last": 86,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure Green (Green LEDs only)",
+                    "first": 87,
+                    "last": 88,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure Cyan (Green & Blue LEDs only)",
+                    "first": 89,
+                    "last": 90,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure Blue (Blue LEDs only)",
+                    "first": 91,
+                    "last": 92,
+                    "discrete":true
+                },
+                {
+                    "name": "Pure Magenta (Blue & Red LEDs only)",
+                    "first": 93,
+                    "last": 94,
+                    "discrete":true
+                },
+                {
+                    "name": "Peacock Blue (LEE 115)",
+                    "first": 95,
+                    "last": 96,
+                    "discrete":true
+                },
+                {
+                    "name": "Dark Lavender (LEE 180)",
+                    "first": 97,
+                    "last": 98,
+                    "discrete":true
+                },
+                {
+                    "name": "Double CT Orange (LEE 287)",
+                    "first": 99,
+                    "last": 100,
+                    "discrete":true
+                },
+                {
+                    "name": "Full CT Orange (LEE 204)",
+                    "first": 101,
+                    "last": 102,
+                    "discrete":true
+                },
+                {
+                    "name": "Half CT Orange (LEE 205)",
+                    "first": 103,
+                    "last": 104,
+                    "discrete":true
+                },
+                {
+                    "name": "Deep Straw (LEE 015)",
+                    "first": 105,
+                    "last": 106,
+                    "discrete":true
+                },
+                {
+                    "name": "Continuous rotation (color scroll)",
+                    "first": 191,
+                    "last": 243,
+                    "discrete":false
+                },
+                {
+                    "name": "Random color, fast",
+                    "first": 244,
+                    "last": 247,
+                    "discrete":true
+                },
+                {
+                    "name": "Random color, medium",
+                    "first": 248,
+                    "last": 251,
+                    "discrete":true
+                },
+                {
+                    "name": "Random color, slow",
+                    "first": 252,
+                    "last": 255,
+                    "discrete":true
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Control / Settings",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No function (disables calibration)",
+                    "first": 0,
+                    "last": 9,
+                    "discrete":true
+                },
+                {
+                    "name": "Reset fixture",
+                    "first": 10,
+                    "last": 14,
+                    "discrete":true
+                },
+                {
+                    "name": "Reset beam",
+                    "first": 17,
+                    "last": 17,
+                    "discrete":true
+                },
+                {
+                    "name": "Reset pan & tilt",
+                    "first": 18,
+                    "last": 18,
+                    "discrete":true
+                },
+                {
+                    "name": "Linear dimming curve",
+                    "first": 23,
+                    "last": 23,
+                    "discrete":true
+                },
+                {
+                    "name": "Square law dimming curve",
+                    "first": 24,
+                    "last": 24,
+                    "discrete":true
+                },
+                {
+                    "name": "Inverse square law dimming curve",
+                    "first": 25,
+                    "last": 25,
+                    "discrete":true
+                },
+                {
+                    "name": "S-curve dimming curve",
+                    "first": 26,
+                    "last": 26,
+                    "discrete":true
+                },
+                {
+                    "name": "Pan & tilt speed = Fast",
+                    "first": 28,
+                    "last": 28,
+                    "discrete":true
+                },
+                {
+                    "name": "Pan & tilt speed = Smooth",
+                    "first": 29,
+                    "last": 29,
+                    "discrete":true
+                },
+                {
+                    "name": "Dimming speed = Fast",
+                    "first": 31,
+                    "last": 31,
+                    "discrete":true
+                },
+                {
+                    "name": "Dimming speed = Slow",
+                    "first": 32,
+                    "last": 32,
+                    "discrete":true
+                },
+                {
+                    "name": "Extended color mode",
+                    "first": 38,
+                    "last": 38,
+                    "discrete":true
+                },
+                {
+                    "name": "Calibrated color mode",
+                    "first": 39,
+                    "last": 39,
+                    "discrete":true
+                },
+                {
+                    "name": "Raw color mode",
+                    "first": 40,
+                    "last": 40,
+                    "discrete":true
+                },
+                {
+                    "name": "Display ON",
+                    "first": 52,
+                    "last": 52,
+                    "discrete":true
+                },
+                {
+                    "name": "Display OFF",
+                    "first": 53,
+                    "last": 53,
+                    "discrete":true
+                },
+                {
+                    "name": "Regulated fan speed, fixed intensity",
+                    "first": 54,
+                    "last": 54,
+                    "discrete":true
+                },
+                {
+                    "name": "Full fan speed, regulated intensity",
+                    "first": 55,
+                    "last": 55,
+                    "discrete":true
+                },
+                {
+                    "name": "Theater mode: reduced max. intensity, low fan speed",
+                    "first": 56,
+                    "last": 56,
+                    "discrete":true
+                },
+                {
+                    "name": "Hibernation mode = ON",
+                    "first": 61,
+                    "last": 61,
+                    "discrete":true
+                },
+                {
+                    "name": "Hibernation mode = OFF",
+                    "first": 62,
+                    "last": 62,
+                    "discrete":true
+                },
+                {
+                    "name": "Pan & tilt limit = ON",
+                    "first": 65,
+                    "last": 65,
+                    "discrete":true
+                },
+                {
+                    "name": "Pan & tilt limit = OFF",
+                    "first": 66,
+                    "last": 66,
+                    "discrete":true
+                },
+                {
+                    "name": "Store lower pan limit",
+                    "first": 67,
+                    "last": 67,
+                    "discrete":true
+                },
+                {
+                    "name": "Store upper pan limit",
+                    "first": 68,
+                    "last": 68,
+                    "discrete":true
+                },
+                {
+                    "name": "Store lower tilt limit",
+                    "first": 69,
+                    "last": 69,
+                    "discrete":true
+                },
+                {
+                    "name": "Store upper tilt limit",
+                    "first": 70,
+                    "last": 70,
+                    "discrete":true
+                },
+                {
+                    "name": "Reset pan & tilt limits",
+                    "first": 71,
+                    "last": 71,
+                    "discrete":true
+                },
+                {
+                    "name": "Tungsten emulation = ON",
+                    "first": 72,
+                    "last": 72,
+                    "discrete":true
+                },
+                {
+                    "name": "Tungsten emulation = OFF",
+                    "first": 73,
+                    "last": 73,
+                    "discrete":true
+                },
+                {
+                    "name": "Scene catch record",
+                    "first": 74,
+                    "last": 74,
+                    "discrete":true
+                },
+                {
+                    "name": "Scene catch playback = ON",
+                    "first": 75,
+                    "last": 75,
+                    "discrete":true
+                },
+                {
+                    "name": "Scene catch playback = OFF",
+                    "first": 76,
+                    "last": 76,
+                    "discrete":true
+                },
+                {
+                    "name": "Enable calibration",
+                    "first": 100,
+                    "last": 100,
+                    "discrete":true
+                },
+                {
+                    "name": "Store pan & tilt calibration",
+                    "first": 101,
+                    "last": 101,
+                    "discrete":true
+                },
+                {
+                    "name": "Store dimmer calibration",
+                    "first": 102,
+                    "last": 102,
+                    "discrete":true
+                },
+                {
+                    "name": "Store zoom calibration",
+                    "first": 114,
+                    "last": 114,
+                    "discrete":true
+                },
+                {
+                    "name": "Reset ALL calibration settings to  factory defaults",
+                    "first": 199,
+                    "last": 199,
+                    "discrete":true
+                }
+            ]
+        }
+    ],
+    "note": "Martin ERA 150 Wash"
+}
