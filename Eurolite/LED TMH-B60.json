@@ -1,0 +1,137 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 3
+                },
+                {
+                    "name": "Strobe increasing speed",
+                    "first": 4,
+                    "last": 95
+                },
+                {
+                    "name": "Random Strobe increasing Speed",
+                    "first": 96,
+                    "last": 176
+                },
+                {
+                    "name": "Pulse Effect increasing Speed",
+                    "first": 177,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Intensity Red",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Green",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity Blue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Intensity White",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Auto Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Automatic Mode",
+                    "first": 16,
+                    "last": 128
+                },
+                {
+                    "name": "Sound to Light",
+                    "first": 129,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Auto Program Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Movement Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "No Function",
+                    "first": 0,
+                    "last": 20
+                },
+                {
+                    "name": "Movement Macro, Pan",
+                    "first": 21,
+                    "last": 100
+                },
+                {
+                    "name": "Movement Macro, Tilt",
+                    "first": 101,
+                    "last": 200
+                },
+                {
+                    "name": "Movement Macro Pan, + Tilt",
+                    "first": 201,
+                    "last": 249
+                },
+                {
+                    "name": "Reset",
+                    "first": 251,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, 2° Beam (created by mediaservice beddig), product link: https://www.steinigke.de/en/mpn51786082-eurolite-led-tmh-b60-moving-head-beam.html"
+}
