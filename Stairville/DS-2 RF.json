@@ -1,0 +1,11 @@
+{
+	"channels": [
+		{
+			"name": "Intensity",
+			"type": "Analog_8",
+			"normalized": false,
+			"defaultValue": 100
+		}
+	],
+	"note": "DS-2 RF dimmer value 0-100 (jonas@jalma.se)"
+}

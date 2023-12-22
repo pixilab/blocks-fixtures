@@ -1,0 +1,213 @@
+{
+	"channels": [
+		{
+			"name": "Dimmer",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Red",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Green",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Blue",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "White",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+				"name": "Channel 6",
+				"type": "Ranges",
+				"ranges": [
+						{
+								"name": "Blackout",
+								"first": 0,
+								"last": 0,
+						},
+						{
+								"name": "ActiveColourMacro chan 7",
+								"first": 1,
+								"last": 16
+						},
+						{
+								"name": "Programme 01",
+								"first": 17,
+								"last": 33
+						},
+						{
+								"name": "Programme 02",
+								"first": 34,
+								"last": 50
+						},
+						{
+								"name": "Programme 03",
+								"first": 51,
+								"last": 67
+						},
+						{
+								"name": "Programme 04",
+								"first": 68,
+								"last": 84
+						},
+						{
+								"name": "Programme 05",
+								"first": 85,
+								"last": 101
+						},
+						{
+								"name": "Programme 06",
+								"first": 102,
+								"last": 118
+						},
+						{
+								"name": "Programme 07",
+								"first": 119,
+								"last": 135
+						},
+						{
+								"name": "Programme 08",
+								"first": 136,
+								"last": 152
+						},
+						{
+								"name": "Programme 09",
+								"first": 153,
+								"last": 169
+						},
+						{
+								"name": "Programme 10",
+								"first": 170,
+								"last": 186
+						},
+						{
+								"name": "Programme 11",
+								"first": 187,
+								"last": 203
+						},
+						{
+								"name": "Programme 12",
+								"first": 204,
+								"last": 220
+						},
+						{
+								"name": "Programme 13",
+								"first": 221,
+								"last": 237
+						},
+						{
+								"name": "No function",
+								"first": 238,
+								"last": 255
+						}
+				]
+		},
+		{
+				"name": "Channel 7",
+				"type": "Ranges",
+				"ranges": [
+						{
+								"name": "Black",
+								"first": 0,
+								"last": 15,
+						},
+						{
+								"name": "Red",
+								"first": 16,
+								"last": 31
+						},
+						{
+								"name": "Green",
+								"first": 32,
+								"last": 47
+						},
+						{
+								"name": "Blue",
+								"first": 48,
+								"last": 63
+						},
+						{
+								"name": "White",
+								"first": 64,
+								"last": 79
+						},
+						{
+								"name": "Red G150",
+								"first": 80,
+								"last": 95
+						},
+						{
+								"name": "Red G180",
+								"first": 96,
+								"last": 111
+						},
+						{
+								"name": "Red Green",
+								"first": 112,
+								"last": 127
+						},
+						{
+								"name": "Red Blue",
+								"first": 128,
+								"last": 143
+						},
+						{
+								"name": "Red B140",
+								"first": 144,
+								"last": 159
+						},
+						{
+								"name": "Green Blue",
+								"first": 160,
+								"last": 175
+						},
+						{
+								"name": "Red W210",
+								"first": 176,
+								"last": 191
+						},
+						{
+								"name": "Green W210",
+								"first": 192,
+								"last": 207
+						},
+						{
+								"name": "Blue W210",
+								"first": 208,
+								"last": 223
+						},
+						{
+								"name": "Red G200 B40 W90",
+								"first": 224,
+								"last": 239
+						},
+						{
+								"name": "No function",
+								"first": 240,
+								"last": 255
+						}
+				]
+		},
+		{
+			"name": "Strobe",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 0
+		}
+	],
+	"note": "LED pot 12x1W RGBW 8-chan (jonas@jalma.se)"
+}
