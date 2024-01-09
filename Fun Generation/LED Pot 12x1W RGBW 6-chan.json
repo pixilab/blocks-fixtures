@@ -1,0 +1,41 @@
+{
+	"channels": [
+		{
+			"name": "Dimmer",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Red",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Green",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Blue",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "White",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 255
+		},
+		{
+			"name": "Strobe",
+			"type": "Analog_8",
+			"normalized": true,
+			"defaultValue": 0
+		}
+	],
+	"note": "LED pot 12x1W RGBW 6-chan (jonas@jalma.se)"
+}
