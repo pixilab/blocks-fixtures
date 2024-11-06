@@ -1,0 +1,132 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "0%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 139
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 140,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Auto Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 59
+                },
+                {
+                    "name": "Auto Mode 3",
+                    "first": 60,
+                    "last": 84
+                },
+                {
+                    "name": "Auto Mode 2",
+                    "first": 85,
+                    "last": 109
+                },
+                {
+                    "name": "Auto Mode 1",
+                    "first": 110,
+                    "last": 134
+                },
+                {
+                    "name": "Auto Mode 0",
+                    "first": 135,
+                    "last": 159
+                },
+                {
+                    "name": "Sound Mode 3",
+                    "first": 160,
+                    "last": 184
+                },
+                {
+                    "name": "Sound Mode 2",
+                    "first": 185,
+                    "last": 209
+                },
+                {
+                    "name": "Sound Mode 1",
+                    "first": 210,
+                    "last": 234
+                },
+                {
+                    "name": "Sound Mode 0",
+                    "first": 235,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 249
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

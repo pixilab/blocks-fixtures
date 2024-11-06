@@ -1,0 +1,75 @@
+{
+    "channels": [
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Strobe",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Macros/Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 5,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 81,
+                    "last": 150
+                },
+                {
+                    "name": "Sound control",
+                    "first": 221,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,39 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 6,
+                    "last": 13,
+                    "discrete": true
+                },
+                {
+                    "name": "EffectSpeed",
+                    "first": 126,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 128,
+                    "last": 191
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

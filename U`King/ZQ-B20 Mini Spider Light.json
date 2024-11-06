@@ -1,0 +1,194 @@
+{
+    "channels": [
+        {
+            "name": "Tilt 1",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Tilt 2",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Effect",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 1",
+                    "first": 8,
+                    "last": 17
+                },
+                {
+                    "name": "Effect 2",
+                    "first": 18,
+                    "last": 27
+                },
+                {
+                    "name": "Effect 3",
+                    "first": 28,
+                    "last": 37
+                },
+                {
+                    "name": "Effect 4",
+                    "first": 38,
+                    "last": 47
+                },
+                {
+                    "name": "Effect 5",
+                    "first": 48,
+                    "last": 57
+                },
+                {
+                    "name": "Effect 6",
+                    "first": 58,
+                    "last": 67
+                },
+                {
+                    "name": "Effect 7",
+                    "first": 68,
+                    "last": 77
+                },
+                {
+                    "name": "Effect 8",
+                    "first": 78,
+                    "last": 87
+                },
+                {
+                    "name": "Effect 9",
+                    "first": 88,
+                    "last": 97
+                },
+                {
+                    "name": "Effect 10",
+                    "first": 98,
+                    "last": 107
+                },
+                {
+                    "name": "Effect 11",
+                    "first": 108,
+                    "last": 117
+                },
+                {
+                    "name": "Effect 12",
+                    "first": 118,
+                    "last": 127
+                },
+                {
+                    "name": "Effect 13",
+                    "first": 128,
+                    "last": 136
+                },
+                {
+                    "name": "Effect 14",
+                    "first": 137,
+                    "last": 146
+                },
+                {
+                    "name": "Effect 15",
+                    "first": 147,
+                    "last": 156
+                },
+                {
+                    "name": "Effect 16",
+                    "first": 157,
+                    "last": 166
+                },
+                {
+                    "name": "Effect 17",
+                    "first": 167,
+                    "last": 176
+                },
+                {
+                    "name": "Effect 18",
+                    "first": 177,
+                    "last": 186
+                },
+                {
+                    "name": "Effect 19",
+                    "first": 187,
+                    "last": 196
+                },
+                {
+                    "name": "Effect 20",
+                    "first": 197,
+                    "last": 206
+                },
+                {
+                    "name": "Effect 21",
+                    "first": 207,
+                    "last": 216
+                },
+                {
+                    "name": "Effect 22",
+                    "first": 217,
+                    "last": 226
+                },
+                {
+                    "name": "Effect 23",
+                    "first": 227,
+                    "last": 236
+                },
+                {
+                    "name": "Auto Mode",
+                    "first": 237,
+                    "last": 246
+                },
+                {
+                    "name": "Sound Active Mode",
+                    "first": 247,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Effect Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Reset",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 240
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 241,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library.herokuapp.com)"
+}

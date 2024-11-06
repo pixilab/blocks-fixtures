@@ -1,0 +1,77 @@
+{
+    "channels": [
+        {
+            "name": "Motor Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 20
+                }
+            ]
+        },
+        {
+            "name": "Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 35
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 36,
+                    "last": 70
+                },
+                {
+                    "name": "Fade",
+                    "first": 71,
+                    "last": 105
+                },
+                {
+                    "name": "Color-change",
+                    "first": 106,
+                    "last": 140
+                },
+                {
+                    "name": "Color-change + strobe",
+                    "first": 141,
+                    "last": 175
+                },
+                {
+                    "name": "Cross-fade",
+                    "first": 176,
+                    "last": 210
+                },
+                {
+                    "name": "Cross-fade + strobe",
+                    "first": 211,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library.herokuapp.com)"
+}

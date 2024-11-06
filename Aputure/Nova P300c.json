@@ -1,0 +1,46 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CCT",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green/Magenta Point",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 11
+                }
+            ]
+        },
+        {
+            "name": "CCT <-> RGB",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer, Color Changer, Effect (imported from open-fixture-library.herokuapp.com)"
+}

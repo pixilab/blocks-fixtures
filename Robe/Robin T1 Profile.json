@@ -1,0 +1,468 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Power/Special Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "LED Frequency",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 25,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "LED Frequency Adjustment",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 1,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Color Functions",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 39
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 40,
+                    "last": 44,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "CRI Selection",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Virtual Color wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 1,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "Generic",
+                    "first": 133,
+                    "last": 202
+                }
+            ]
+        },
+        {
+            "name": "Cyan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Magenta",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Yellow",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "CTC",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green Correction",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Color Mix Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 80,
+                    "last": 128
+                }
+            ]
+        },
+        {
+            "name": "Gobo Selection Rotation Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Rot_ Gobo carousel/Framing shutters/Zoom/Focus/Iris/Frost/Prism time",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Speed",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Effect wheel positioning",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 20,
+                    "last": 127
+                },
+                {
+                    "name": "Speed",
+                    "first": 128,
+                    "last": 170
+                }
+            ]
+        },
+        {
+            "name": "Effect wheel rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Speed",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Effect wheel animations",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 28,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Rotating Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 202,
+                    "last": 222
+                },
+                {
+                    "name": "Random Gobo selection by audio control",
+                    "first": 244,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto Random Gobo selection",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Prism",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Prism",
+                    "first": 20,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Prism Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PrismRotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Frost",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Pulse closing",
+                    "first": 190,
+                    "last": 211
+                },
+                {
+                    "name": "Pulse opening",
+                    "first": 212,
+                    "last": 233
+                },
+                {
+                    "name": "Ramping",
+                    "first": 234,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Iris",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Iris",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "RampUp",
+                    "first": 192,
+                    "last": 219
+                },
+                {
+                    "name": "RampDown",
+                    "first": 220,
+                    "last": 247
+                },
+                {
+                    "name": "Random pulse opening",
+                    "first": 248,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Random pulse closing",
+                    "first": 252,
+                    "last": 253,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32896
+        },
+        {
+            "name": "Focus",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32896
+        },
+        {
+            "name": "Framing shutters module rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Framing shutter 1-movement",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing shutter 1-swivelling",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Framing shutter 2-movement",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing shutter 2-swivelling",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Framing shutter 3-movement",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing shutter 3-swivelling",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Framing shutter 4-movement",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Framing shutter 4-swivelling",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

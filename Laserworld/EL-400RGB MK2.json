@@ -1,0 +1,88 @@
+{
+    "channels": [
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 49
+                },
+                {
+                    "name": "Sound mode",
+                    "first": 50,
+                    "last": 99
+                },
+                {
+                    "name": "Automatic mode",
+                    "first": 100,
+                    "last": 149
+                },
+                {
+                    "name": "Static pattern",
+                    "first": 150,
+                    "last": 199
+                },
+                {
+                    "name": "Dynamic pattern",
+                    "first": 200,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Pattern Selection",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Horizontal Angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamPosition",
+                    "first": 0,
+                    "last": 10
+                }
+            ]
+        },
+        {
+            "name": "Vertical Angle",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamPosition",
+                    "first": 0,
+                    "last": 10
+                }
+            ]
+        },
+        {
+            "name": "Scanning Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dynamic Pattern Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Segment",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Laser (imported from open-fixture-library.herokuapp.com)"
+}

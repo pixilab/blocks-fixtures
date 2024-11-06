@@ -1,0 +1,15 @@
+{
+    "channels": [
+        {
+            "name": "Warm White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Cold White",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer, Color Changer"
+}

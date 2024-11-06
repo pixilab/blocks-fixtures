@@ -1,0 +1,25 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_16",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer, Dimmer, Effect (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,83 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 50
+                },
+                {
+                    "name": "Effect",
+                    "first": 51,
+                    "last": 100
+                },
+                {
+                    "name": "Color Pulse",
+                    "first": 151,
+                    "last": 200
+                },
+                {
+                    "name": "Sound Control",
+                    "first": 201,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Function Speed",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

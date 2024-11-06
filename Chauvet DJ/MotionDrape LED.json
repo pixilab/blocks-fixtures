@@ -1,0 +1,225 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Intensity",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 11,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Program 1-15",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Falling Star",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Diagonal Color Bands",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "Color Pattern Chase",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Inward Arrow (L-R)",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Color Stack",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Multi-Color Freeway",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Color Wave (L-R)",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Color Wave (R-L)",
+                    "first": 128,
+                    "last": 143
+                },
+                {
+                    "name": "Color Bar Chase (L-R)",
+                    "first": 144,
+                    "last": 159
+                },
+                {
+                    "name": "Color Bar Chase (R-L)",
+                    "first": 160,
+                    "last": 175
+                },
+                {
+                    "name": "Windmill",
+                    "first": 176,
+                    "last": 191
+                },
+                {
+                    "name": "Fan",
+                    "first": 192,
+                    "last": 207
+                },
+                {
+                    "name": "Whirlpool",
+                    "first": 208,
+                    "last": 223
+                },
+                {
+                    "name": "Falling Snow",
+                    "first": 224,
+                    "last": 239
+                },
+                {
+                    "name": "Multi Box Frenzy",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Program 16-30",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Center Burst",
+                    "first": 16,
+                    "last": 31
+                },
+                {
+                    "name": "Outer Burst",
+                    "first": 32,
+                    "last": 47
+                },
+                {
+                    "name": "EQ Effect",
+                    "first": 48,
+                    "last": 63
+                },
+                {
+                    "name": "Rolling Color",
+                    "first": 64,
+                    "last": 79
+                },
+                {
+                    "name": "Horizontal Snow",
+                    "first": 80,
+                    "last": 95
+                },
+                {
+                    "name": "Inner Zone",
+                    "first": 96,
+                    "last": 111
+                },
+                {
+                    "name": "Outer  Zone",
+                    "first": 112,
+                    "last": 127
+                },
+                {
+                    "name": "Diamond Spread",
+                    "first": 128,
+                    "last": 143
+                },
+                {
+                    "name": "Single Diamond Squeeze",
+                    "first": 144,
+                    "last": 159
+                },
+                {
+                    "name": "Follow The Leader",
+                    "first": 160,
+                    "last": 175
+                },
+                {
+                    "name": "Crisscross",
+                    "first": 176,
+                    "last": 191
+                },
+                {
+                    "name": "X-Factor",
+                    "first": 192,
+                    "last": 207
+                },
+                {
+                    "name": "Double Diamond Squeeze",
+                    "first": 208,
+                    "last": 223
+                },
+                {
+                    "name": "Red X-Factor",
+                    "first": 224,
+                    "last": 239
+                },
+                {
+                    "name": "Multi Rain",
+                    "first": 240,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Effect Speed",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Effect, Other (imported from open-fixture-library.herokuapp.com)"
+}

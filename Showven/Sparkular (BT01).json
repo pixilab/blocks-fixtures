@@ -1,0 +1,37 @@
+{
+    "channels": [
+        {
+            "name": "Fountain",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "EffectParameter",
+                    "first": 16,
+                    "last": 39
+                }
+            ]
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 11,
+                    "last": 19
+                }
+            ]
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library.herokuapp.com)"
+}

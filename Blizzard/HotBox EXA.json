@@ -1,0 +1,99 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Amber",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "UV",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 14
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 15,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Fade, Color Change, Sound Active",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 32,
+                    "last": 63
+                },
+                {
+                    "name": "Effect",
+                    "first": 128,
+                    "last": 164
+                },
+                {
+                    "name": "Fade In / Fade Out, Auto Run",
+                    "first": 165,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Fade Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

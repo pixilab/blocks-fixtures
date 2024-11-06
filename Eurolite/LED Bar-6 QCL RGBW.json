@@ -1,0 +1,32 @@
+{
+    "channels": [
+        {
+            "name": "Auto Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Auto mode",
+                    "first": 10,
+                    "last": 119
+                },
+                {
+                    "name": "Sound mode",
+                    "first": 120,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Auto Program Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,21 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Temperature Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library.herokuapp.com)"
+}

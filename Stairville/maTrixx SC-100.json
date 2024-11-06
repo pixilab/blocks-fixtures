@@ -1,0 +1,171 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Patterns / Shows",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Intensity",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Pattern 1",
+                    "first": 10,
+                    "last": 19
+                },
+                {
+                    "name": "Pattern 2",
+                    "first": 20,
+                    "last": 29
+                },
+                {
+                    "name": "Pattern 3",
+                    "first": 30,
+                    "last": 39
+                },
+                {
+                    "name": "Pattern 4",
+                    "first": 40,
+                    "last": 49
+                },
+                {
+                    "name": "Pattern 5",
+                    "first": 50,
+                    "last": 59
+                },
+                {
+                    "name": "Pattern 6",
+                    "first": 60,
+                    "last": 69
+                },
+                {
+                    "name": "Pattern 7",
+                    "first": 70,
+                    "last": 79
+                },
+                {
+                    "name": "Pattern 8",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "Pattern 9",
+                    "first": 90,
+                    "last": 99
+                },
+                {
+                    "name": "Pattern 10",
+                    "first": 100,
+                    "last": 109
+                },
+                {
+                    "name": "Pattern 11",
+                    "first": 110,
+                    "last": 119
+                },
+                {
+                    "name": "Pattern 12",
+                    "first": 120,
+                    "last": 129
+                },
+                {
+                    "name": "Pattern 13",
+                    "first": 130,
+                    "last": 139
+                },
+                {
+                    "name": "Pattern 14",
+                    "first": 140,
+                    "last": 149
+                },
+                {
+                    "name": "Pattern 15",
+                    "first": 150,
+                    "last": 159
+                },
+                {
+                    "name": "Automatic Show 1",
+                    "first": 160,
+                    "last": 169
+                },
+                {
+                    "name": "Automatic Show 2",
+                    "first": 170,
+                    "last": 179
+                },
+                {
+                    "name": "Automatic Show 3",
+                    "first": 180,
+                    "last": 189
+                },
+                {
+                    "name": "Automatic Show 4",
+                    "first": 190,
+                    "last": 199
+                },
+                {
+                    "name": "Automatic Show 5",
+                    "first": 200,
+                    "last": 209
+                },
+                {
+                    "name": "Automatic Show 6",
+                    "first": 210,
+                    "last": 219
+                },
+                {
+                    "name": "Automatic Show 7",
+                    "first": 220,
+                    "last": 229
+                },
+                {
+                    "name": "Automatic Show 8",
+                    "first": 230,
+                    "last": 239
+                },
+                {
+                    "name": "Automatic Show 9",
+                    "first": 240,
+                    "last": 249
+                },
+                {
+                    "name": "Automatic Show 10",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Sound control",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Scanner (imported from open-fixture-library.herokuapp.com)"
+}

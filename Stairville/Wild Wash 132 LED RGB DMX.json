@@ -1,0 +1,16 @@
+{
+    "channels": [
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 10
+                }
+            ]
+        }
+    ],
+    "note": "Strobe, Color Changer, Blinder, Dimmer (imported from open-fixture-library.herokuapp.com)"
+}

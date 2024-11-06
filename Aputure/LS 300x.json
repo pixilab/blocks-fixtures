@@ -1,0 +1,121 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CCT Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorTemperature-2700K-6500K",
+                    "first": 0,
+                    "last": 195
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 196,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Frequency Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 220,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Mode Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "FX Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Paparazzi",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Fireworks",
+                    "first": 20,
+                    "last": 39
+                },
+                {
+                    "name": "Faulty Bulb",
+                    "first": 40,
+                    "last": 59
+                },
+                {
+                    "name": "Lightning",
+                    "first": 60,
+                    "last": 79
+                },
+                {
+                    "name": "TV",
+                    "first": 80,
+                    "last": 99
+                },
+                {
+                    "name": "Pulsing",
+                    "first": 100,
+                    "last": 119
+                },
+                {
+                    "name": "Strobe",
+                    "first": 120,
+                    "last": 139
+                },
+                {
+                    "name": "Explosion",
+                    "first": 140,
+                    "last": 159
+                },
+                {
+                    "name": "Fire",
+                    "first": 160,
+                    "last": 179
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 180,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Start Trigger",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer, Effect (imported from open-fixture-library.herokuapp.com)"
+}
