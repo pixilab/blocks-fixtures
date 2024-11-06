@@ -1,0 +1,98 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 32768
+        },
+        {
+            "name": "Dimmer / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity",
+                    "first": 8,
+                    "last": 134
+                }
+            ]
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 11,
+                    "last": 31
+                },
+                {
+                    "name": "Color change Macro 1",
+                    "first": 179,
+                    "last": 199
+                },
+                {
+                    "name": "Color change Macro 2",
+                    "first": 200,
+                    "last": 220
+                },
+                {
+                    "name": "Color change Macro 3",
+                    "first": 221,
+                    "last": 241
+                },
+                {
+                    "name": "Color change Macro 4",
+                    "first": 242,
+                    "last": 252
+                },
+                {
+                    "name": "Color change Macro 5",
+                    "first": 253,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 80,
+                    "last": 94
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 215,
+                    "last": 235
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

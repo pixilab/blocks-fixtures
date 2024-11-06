@@ -1,0 +1,55 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 17
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 6,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Lamp",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Intensity",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 1,
+                    "last": 254
+                }
+            ]
+        }
+    ],
+    "note": "Scanner, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

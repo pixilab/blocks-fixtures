@@ -1,0 +1,15 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "CCT",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer, Effect (imported from open-fixture-library.herokuapp.com)"
+}

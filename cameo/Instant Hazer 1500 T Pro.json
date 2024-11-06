@@ -1,0 +1,27 @@
+{
+    "channels": [
+        {
+            "name": "Haze",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Fog",
+                    "first": 6,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Fan",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Hazer (imported from open-fixture-library.herokuapp.com)"
+}

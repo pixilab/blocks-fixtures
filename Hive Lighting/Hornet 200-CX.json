@@ -1,0 +1,28 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "CCT",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Saturation",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Hue",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library.herokuapp.com)"
+}

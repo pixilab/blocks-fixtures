@@ -1,0 +1,113 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Effect",
+                    "first": 150,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 80,
+                    "last": 89
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 150,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Auto Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 30
+                },
+                {
+                    "name": "Auto Program 1",
+                    "first": 31,
+                    "last": 60
+                },
+                {
+                    "name": "Auto Program 2",
+                    "first": 61,
+                    "last": 90
+                },
+                {
+                    "name": "Auto Program 3",
+                    "first": 91,
+                    "last": 120
+                },
+                {
+                    "name": "Auto Program 4",
+                    "first": 121,
+                    "last": 150
+                },
+                {
+                    "name": "Sound Program 1",
+                    "first": 151,
+                    "last": 180
+                },
+                {
+                    "name": "Sound Program 2",
+                    "first": 181,
+                    "last": 210
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 211,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

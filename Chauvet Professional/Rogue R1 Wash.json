@@ -1,0 +1,201 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": "50%"
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 19
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Color Presets",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 5,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 180,
+                    "last": 201
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Movement Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect 1",
+                    "first": 8,
+                    "last": 23
+                },
+                {
+                    "name": "Effect 2",
+                    "first": 24,
+                    "last": 39
+                },
+                {
+                    "name": "Effect 3",
+                    "first": 40,
+                    "last": 55
+                },
+                {
+                    "name": "Effect 4",
+                    "first": 56,
+                    "last": 71
+                },
+                {
+                    "name": "Effect 5",
+                    "first": 72,
+                    "last": 87
+                },
+                {
+                    "name": "Effect 6",
+                    "first": 88,
+                    "last": 103
+                },
+                {
+                    "name": "Effect 7",
+                    "first": 104,
+                    "last": 119
+                },
+                {
+                    "name": "Effect 8",
+                    "first": 120,
+                    "last": 135
+                },
+                {
+                    "name": "Effect 9",
+                    "first": 136,
+                    "last": 151
+                },
+                {
+                    "name": "Effect 10",
+                    "first": 152,
+                    "last": 167
+                },
+                {
+                    "name": "Effect 11",
+                    "first": 168,
+                    "last": 183
+                },
+                {
+                    "name": "Effect 12",
+                    "first": 184,
+                    "last": 199
+                },
+                {
+                    "name": "Effect 13",
+                    "first": 200,
+                    "last": 215
+                },
+                {
+                    "name": "Effect 14",
+                    "first": 216,
+                    "last": 231
+                },
+                {
+                    "name": "Effect 15",
+                    "first": 232,
+                    "last": 247
+                },
+                {
+                    "name": "Effect 16",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Movement Macro Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 10,
+                    "last": 14,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,60 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorTemperature-2700K-3030K",
+                    "first": 0,
+                    "last": 22
+                },
+                {
+                    "name": "ColorTemperature-3045K-3171K",
+                    "first": 23,
+                    "last": 32
+                },
+                {
+                    "name": "ColorTemperature-3185K-4400K",
+                    "first": 33,
+                    "last": 114
+                },
+                {
+                    "name": "ColorTemperature-4415K-4471K",
+                    "first": 115,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorTemperature-4485K-5400K",
+                    "first": 120,
+                    "last": 181
+                },
+                {
+                    "name": "ColorTemperature-5415K-5471K",
+                    "first": 182,
+                    "last": 186,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorTemperature-5485K-6415K",
+                    "first": 187,
+                    "last": 249
+                },
+                {
+                    "name": "ColorTemperature-6430K-6500K",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library.herokuapp.com)"
+}

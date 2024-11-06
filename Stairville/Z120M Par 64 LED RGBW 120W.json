@@ -1,0 +1,93 @@
+{
+    "channels": [
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 6,
+                    "last": 17
+                },
+                {
+                    "name": "Effect",
+                    "first": 186,
+                    "last": 220
+                }
+            ]
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 35
+                },
+                {
+                    "name": "ColorTemperature-2800K",
+                    "first": 36,
+                    "last": 55
+                },
+                {
+                    "name": "ColorTemperature-3000K",
+                    "first": 56,
+                    "last": 75
+                },
+                {
+                    "name": "ColorTemperature-3200K",
+                    "first": 76,
+                    "last": 95
+                },
+                {
+                    "name": "ColorTemperature-3500K",
+                    "first": 96,
+                    "last": 115
+                },
+                {
+                    "name": "ColorTemperature-4000K",
+                    "first": 116,
+                    "last": 135
+                },
+                {
+                    "name": "ColorTemperature-4500K",
+                    "first": 136,
+                    "last": 155
+                },
+                {
+                    "name": "ColorTemperature-5000K",
+                    "first": 156,
+                    "last": 175
+                },
+                {
+                    "name": "ColorTemperature-5500K",
+                    "first": 176,
+                    "last": 195
+                },
+                {
+                    "name": "ColorTemperature-6000K",
+                    "first": 196,
+                    "last": 215
+                },
+                {
+                    "name": "ColorTemperature-6500K",
+                    "first": 216,
+                    "last": 235
+                },
+                {
+                    "name": "ColorTemperature-7200K",
+                    "first": 236,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer, Strobe, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

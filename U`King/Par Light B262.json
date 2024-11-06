@@ -1,0 +1,73 @@
+{
+    "channels": [
+        {
+            "name": "Master Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Hue Select",
+                    "first": 11,
+                    "last": 60
+                },
+                {
+                    "name": "Hue Shift",
+                    "first": 61,
+                    "last": 110
+                },
+                {
+                    "name": "Hue Pulse Transform",
+                    "first": 111,
+                    "last": 160
+                },
+                {
+                    "name": "Hue Transition",
+                    "first": 161,
+                    "last": 210
+                },
+                {
+                    "name": "Sound Control",
+                    "first": 211,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

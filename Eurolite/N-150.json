@@ -1,0 +1,56 @@
+{
+    "channels": [
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Fog",
+                    "first": 0,
+                    "last": 13
+                },
+                {
+                    "name": "Timer mode",
+                    "first": 128,
+                    "last": 231
+                }
+            ]
+        },
+        {
+            "name": "Fog Volume",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "FogOutput",
+                    "first": 0,
+                    "last": 70
+                }
+            ]
+        },
+        {
+            "name": "Timer Duration",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Time",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Timer Interval",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Time",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Smoke (imported from open-fixture-library.herokuapp.com)"
+}

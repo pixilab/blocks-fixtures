@@ -1,0 +1,21 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 36
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer, Strobe (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,1779 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Patterns",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 1",
+                    "first": 1,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 2",
+                    "first": 2,
+                    "last": 2,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 3",
+                    "first": 3,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 4",
+                    "first": 4,
+                    "last": 4,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 5",
+                    "first": 5,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 6",
+                    "first": 6,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 7",
+                    "first": 7,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 8",
+                    "first": 8,
+                    "last": 8,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 9",
+                    "first": 9,
+                    "last": 9,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 10",
+                    "first": 10,
+                    "last": 10,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 11",
+                    "first": 11,
+                    "last": 11,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 12",
+                    "first": 12,
+                    "last": 12,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 13",
+                    "first": 13,
+                    "last": 13,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 14",
+                    "first": 14,
+                    "last": 14,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 15",
+                    "first": 15,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 16",
+                    "first": 16,
+                    "last": 16,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 17",
+                    "first": 17,
+                    "last": 17,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 18",
+                    "first": 18,
+                    "last": 18,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 19",
+                    "first": 19,
+                    "last": 19,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 20",
+                    "first": 20,
+                    "last": 20,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 21",
+                    "first": 21,
+                    "last": 21,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 22",
+                    "first": 22,
+                    "last": 22,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 23",
+                    "first": 23,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 24",
+                    "first": 24,
+                    "last": 24,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 25",
+                    "first": 25,
+                    "last": 25,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 26",
+                    "first": 26,
+                    "last": 26,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 27",
+                    "first": 27,
+                    "last": 27,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 28",
+                    "first": 28,
+                    "last": 28,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 29",
+                    "first": 29,
+                    "last": 29,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 30",
+                    "first": 30,
+                    "last": 30,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 31",
+                    "first": 31,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 32",
+                    "first": 32,
+                    "last": 32,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 33",
+                    "first": 33,
+                    "last": 33,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 34",
+                    "first": 34,
+                    "last": 34,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 35",
+                    "first": 35,
+                    "last": 35,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 36",
+                    "first": 36,
+                    "last": 36,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 37",
+                    "first": 37,
+                    "last": 37,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 38",
+                    "first": 38,
+                    "last": 38,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 39",
+                    "first": 39,
+                    "last": 39,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 40",
+                    "first": 40,
+                    "last": 40,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 41",
+                    "first": 41,
+                    "last": 41,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 42",
+                    "first": 42,
+                    "last": 42,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 43",
+                    "first": 43,
+                    "last": 43,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 44",
+                    "first": 44,
+                    "last": 44,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 45",
+                    "first": 45,
+                    "last": 45,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 46",
+                    "first": 46,
+                    "last": 46,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 47",
+                    "first": 47,
+                    "last": 47,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 48",
+                    "first": 48,
+                    "last": 48,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 49",
+                    "first": 49,
+                    "last": 49,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 50",
+                    "first": 50,
+                    "last": 50,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 51",
+                    "first": 51,
+                    "last": 51,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 52",
+                    "first": 52,
+                    "last": 52,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 53",
+                    "first": 53,
+                    "last": 53,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 54",
+                    "first": 54,
+                    "last": 54,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 55",
+                    "first": 55,
+                    "last": 55,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 56",
+                    "first": 56,
+                    "last": 56,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 57",
+                    "first": 57,
+                    "last": 57,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 58",
+                    "first": 58,
+                    "last": 58,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 59",
+                    "first": 59,
+                    "last": 59,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 60",
+                    "first": 60,
+                    "last": 60,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 61",
+                    "first": 61,
+                    "last": 61,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 62",
+                    "first": 62,
+                    "last": 62,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 63",
+                    "first": 63,
+                    "last": 63,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 64",
+                    "first": 64,
+                    "last": 64,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 65",
+                    "first": 65,
+                    "last": 65,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 66",
+                    "first": 66,
+                    "last": 66,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 67",
+                    "first": 67,
+                    "last": 67,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 68",
+                    "first": 68,
+                    "last": 68,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 69",
+                    "first": 69,
+                    "last": 69,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 70",
+                    "first": 70,
+                    "last": 70,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 71",
+                    "first": 71,
+                    "last": 71,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 72",
+                    "first": 72,
+                    "last": 72,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 73",
+                    "first": 73,
+                    "last": 73,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 74",
+                    "first": 74,
+                    "last": 74,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 75",
+                    "first": 75,
+                    "last": 75,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 76",
+                    "first": 76,
+                    "last": 76,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 77",
+                    "first": 77,
+                    "last": 77,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 78",
+                    "first": 78,
+                    "last": 78,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 79",
+                    "first": 79,
+                    "last": 79,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 80",
+                    "first": 80,
+                    "last": 80,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 81",
+                    "first": 81,
+                    "last": 81,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 82",
+                    "first": 82,
+                    "last": 82,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 83",
+                    "first": 83,
+                    "last": 83,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 84",
+                    "first": 84,
+                    "last": 84,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 85",
+                    "first": 85,
+                    "last": 85,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 86",
+                    "first": 86,
+                    "last": 86,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 87",
+                    "first": 87,
+                    "last": 87,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 88",
+                    "first": 88,
+                    "last": 88,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 89",
+                    "first": 89,
+                    "last": 89,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 90",
+                    "first": 90,
+                    "last": 90,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 91",
+                    "first": 91,
+                    "last": 91,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 92",
+                    "first": 92,
+                    "last": 92,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 93",
+                    "first": 93,
+                    "last": 93,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 94",
+                    "first": 94,
+                    "last": 94,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 95",
+                    "first": 95,
+                    "last": 95,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 96",
+                    "first": 96,
+                    "last": 96,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 97",
+                    "first": 97,
+                    "last": 97,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 98",
+                    "first": 98,
+                    "last": 98,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 99",
+                    "first": 99,
+                    "last": 99,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 100",
+                    "first": 100,
+                    "last": 100,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 101",
+                    "first": 101,
+                    "last": 101,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 102",
+                    "first": 102,
+                    "last": 102,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 103",
+                    "first": 103,
+                    "last": 103,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 104",
+                    "first": 104,
+                    "last": 104,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 105",
+                    "first": 105,
+                    "last": 105,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 106",
+                    "first": 106,
+                    "last": 106,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 107",
+                    "first": 107,
+                    "last": 107,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 108",
+                    "first": 108,
+                    "last": 108,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 109",
+                    "first": 109,
+                    "last": 109,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 110",
+                    "first": 110,
+                    "last": 110,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 111",
+                    "first": 111,
+                    "last": 111,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 112",
+                    "first": 112,
+                    "last": 112,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 113",
+                    "first": 113,
+                    "last": 113,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 114",
+                    "first": 114,
+                    "last": 114,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 115",
+                    "first": 115,
+                    "last": 115,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 116",
+                    "first": 116,
+                    "last": 116,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 117",
+                    "first": 117,
+                    "last": 117,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 118",
+                    "first": 118,
+                    "last": 118,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 119",
+                    "first": 119,
+                    "last": 119,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 120",
+                    "first": 120,
+                    "last": 120,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 121",
+                    "first": 121,
+                    "last": 121,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 122",
+                    "first": 122,
+                    "last": 122,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 123",
+                    "first": 123,
+                    "last": 123,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 124",
+                    "first": 124,
+                    "last": 124,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 125",
+                    "first": 125,
+                    "last": 125,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 126",
+                    "first": 126,
+                    "last": 126,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 127",
+                    "first": 127,
+                    "last": 127,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 128",
+                    "first": 128,
+                    "last": 128,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 129",
+                    "first": 129,
+                    "last": 129,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 130",
+                    "first": 130,
+                    "last": 130,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 131",
+                    "first": 131,
+                    "last": 131,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 132",
+                    "first": 132,
+                    "last": 132,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 133",
+                    "first": 133,
+                    "last": 133,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 134",
+                    "first": 134,
+                    "last": 134,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 135",
+                    "first": 135,
+                    "last": 135,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 136",
+                    "first": 136,
+                    "last": 136,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 137",
+                    "first": 137,
+                    "last": 137,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 138",
+                    "first": 138,
+                    "last": 138,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 139",
+                    "first": 139,
+                    "last": 139,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 140",
+                    "first": 140,
+                    "last": 140,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 141",
+                    "first": 141,
+                    "last": 141,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 142",
+                    "first": 142,
+                    "last": 142,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 143",
+                    "first": 143,
+                    "last": 143,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 144",
+                    "first": 144,
+                    "last": 144,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 145",
+                    "first": 145,
+                    "last": 145,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 146",
+                    "first": 146,
+                    "last": 146,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 147",
+                    "first": 147,
+                    "last": 147,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 148",
+                    "first": 148,
+                    "last": 148,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 149",
+                    "first": 149,
+                    "last": 149,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 150",
+                    "first": 150,
+                    "last": 150,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 151",
+                    "first": 151,
+                    "last": 151,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 152",
+                    "first": 152,
+                    "last": 152,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 153",
+                    "first": 153,
+                    "last": 153,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 154",
+                    "first": 154,
+                    "last": 154,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 155",
+                    "first": 155,
+                    "last": 155,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 156",
+                    "first": 156,
+                    "last": 156,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 157",
+                    "first": 157,
+                    "last": 157,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 158",
+                    "first": 158,
+                    "last": 158,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 159",
+                    "first": 159,
+                    "last": 159,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 160",
+                    "first": 160,
+                    "last": 160,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 161",
+                    "first": 161,
+                    "last": 161,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 162",
+                    "first": 162,
+                    "last": 162,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 163",
+                    "first": 163,
+                    "last": 163,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 164",
+                    "first": 164,
+                    "last": 164,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 165",
+                    "first": 165,
+                    "last": 165,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 166",
+                    "first": 166,
+                    "last": 166,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 167",
+                    "first": 167,
+                    "last": 167,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 168",
+                    "first": 168,
+                    "last": 168,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 169",
+                    "first": 169,
+                    "last": 169,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 170",
+                    "first": 170,
+                    "last": 170,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 171",
+                    "first": 171,
+                    "last": 171,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 172",
+                    "first": 172,
+                    "last": 172,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 173",
+                    "first": 173,
+                    "last": 173,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 174",
+                    "first": 174,
+                    "last": 174,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 175",
+                    "first": 175,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 176",
+                    "first": 176,
+                    "last": 176,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 177",
+                    "first": 177,
+                    "last": 177,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 178",
+                    "first": 178,
+                    "last": 178,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 179",
+                    "first": 179,
+                    "last": 179,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 180",
+                    "first": 180,
+                    "last": 180,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 181",
+                    "first": 181,
+                    "last": 181,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 182",
+                    "first": 182,
+                    "last": 182,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 183",
+                    "first": 183,
+                    "last": 183,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 184",
+                    "first": 184,
+                    "last": 184,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 185",
+                    "first": 185,
+                    "last": 185,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 186",
+                    "first": 186,
+                    "last": 186,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 187",
+                    "first": 187,
+                    "last": 187,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 188",
+                    "first": 188,
+                    "last": 188,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 189",
+                    "first": 189,
+                    "last": 189,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 190",
+                    "first": 190,
+                    "last": 190,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 191",
+                    "first": 191,
+                    "last": 191,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 192",
+                    "first": 192,
+                    "last": 192,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 193",
+                    "first": 193,
+                    "last": 193,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 194",
+                    "first": 194,
+                    "last": 194,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 195",
+                    "first": 195,
+                    "last": 195,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 196",
+                    "first": 196,
+                    "last": 196,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 197",
+                    "first": 197,
+                    "last": 197,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 198",
+                    "first": 198,
+                    "last": 198,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 199",
+                    "first": 199,
+                    "last": 199,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 200",
+                    "first": 200,
+                    "last": 200,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 201",
+                    "first": 201,
+                    "last": 201,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 202",
+                    "first": 202,
+                    "last": 202,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 203",
+                    "first": 203,
+                    "last": 203,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 204",
+                    "first": 204,
+                    "last": 204,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 205",
+                    "first": 205,
+                    "last": 205,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 206",
+                    "first": 206,
+                    "last": 206,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 207",
+                    "first": 207,
+                    "last": 207,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 208",
+                    "first": 208,
+                    "last": 208,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 209",
+                    "first": 209,
+                    "last": 209,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 210",
+                    "first": 210,
+                    "last": 210,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 211",
+                    "first": 211,
+                    "last": 211,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 212",
+                    "first": 212,
+                    "last": 212,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 213",
+                    "first": 213,
+                    "last": 213,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 214",
+                    "first": 214,
+                    "last": 214,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 215",
+                    "first": 215,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 216",
+                    "first": 216,
+                    "last": 216,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 217",
+                    "first": 217,
+                    "last": 217,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 218",
+                    "first": 218,
+                    "last": 218,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 219",
+                    "first": 219,
+                    "last": 219,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 220",
+                    "first": 220,
+                    "last": 220,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 221",
+                    "first": 221,
+                    "last": 221,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 222",
+                    "first": 222,
+                    "last": 222,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 223",
+                    "first": 223,
+                    "last": 223,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 224",
+                    "first": 224,
+                    "last": 224,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 225",
+                    "first": 225,
+                    "last": 225,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 226",
+                    "first": 226,
+                    "last": 226,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 227",
+                    "first": 227,
+                    "last": 227,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 228",
+                    "first": 228,
+                    "last": 228,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 229",
+                    "first": 229,
+                    "last": 229,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 230",
+                    "first": 230,
+                    "last": 230,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 231",
+                    "first": 231,
+                    "last": 231,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 232",
+                    "first": 232,
+                    "last": 232,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 233",
+                    "first": 233,
+                    "last": 233,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 234",
+                    "first": 234,
+                    "last": 234,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 235",
+                    "first": 235,
+                    "last": 235,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 236",
+                    "first": 236,
+                    "last": 236,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 237",
+                    "first": 237,
+                    "last": 237,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 238",
+                    "first": 238,
+                    "last": 238,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 239",
+                    "first": 239,
+                    "last": 239,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 240",
+                    "first": 240,
+                    "last": 240,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 241",
+                    "first": 241,
+                    "last": 241,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 242",
+                    "first": 242,
+                    "last": 242,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 243",
+                    "first": 243,
+                    "last": 243,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 244",
+                    "first": 244,
+                    "last": 244,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 245",
+                    "first": 245,
+                    "last": 245,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 246",
+                    "first": 246,
+                    "last": 246,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 247",
+                    "first": 247,
+                    "last": 247,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 248",
+                    "first": 248,
+                    "last": 248,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 249",
+                    "first": 249,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 250",
+                    "first": 250,
+                    "last": 250,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 251",
+                    "first": 251,
+                    "last": 251,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 252",
+                    "first": 252,
+                    "last": 252,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 253",
+                    "first": 253,
+                    "last": 253,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 254",
+                    "first": 254,
+                    "last": 254,
+                    "discrete": true
+                },
+                {
+                    "name": "ILDA 255",
+                    "first": 255,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Pattern Speed DJ",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectSpeed",
+                    "first": 0,
+                    "last": 15
+                }
+            ]
+        },
+        {
+            "name": "Size",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "BeamAngle",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Automatic Size",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "changing width and height",
+                    "first": 64,
+                    "last": 127
+                },
+                {
+                    "name": "changing width",
+                    "first": 128,
+                    "last": 191
+                },
+                {
+                    "name": "changing height",
+                    "first": 192,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Rotation DJ",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 192
+                }
+            ]
+        },
+        {
+            "name": "Horizontal Position",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Vertical Position",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Color Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Single color (monochrome)",
+                    "first": 16,
+                    "last": 79
+                },
+                {
+                    "name": "Replace colors",
+                    "first": 80,
+                    "last": 143
+                },
+                {
+                    "name": "Color change",
+                    "first": 144,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Effects Extended",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Effect",
+                    "first": 0,
+                    "last": 127
+                },
+                {
+                    "name": "Automatic change of color fade effects",
+                    "first": 193,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 16,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Auto position X+Y",
+                    "first": 20,
+                    "last": 83
+                },
+                {
+                    "name": "Auto position X",
+                    "first": 84,
+                    "last": 147
+                },
+                {
+                    "name": "Auto position Y",
+                    "first": 148,
+                    "last": 211
+                },
+                {
+                    "name": "Demo mode",
+                    "first": 212,
+                    "last": 233
+                },
+                {
+                    "name": "Sound-to-light",
+                    "first": 234,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Scan Speed DJ",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 32,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Safety Zone",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 63
+                }
+            ]
+        },
+        {
+            "name": "Safety Zone Intensity DJ",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Blanking",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 192
+                }
+            ]
+        },
+        {
+            "name": "Blank Shift",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 192
+                }
+            ]
+        }
+    ],
+    "note": "Laser, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

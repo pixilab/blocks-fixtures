@@ -1,0 +1,23 @@
+{
+    "channels": [
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 1,
+                    "last": 7,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer, Strobe, Effect (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,20 @@
+{
+    "channels": [
+        {
+            "name": "Hue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Saturation",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Value",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

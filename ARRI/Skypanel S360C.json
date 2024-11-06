@@ -1,0 +1,110 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Green-Magenta Point 16bit",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 4587
+                }
+            ]
+        },
+        {
+            "name": "Cross Fade to Color",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "White",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Fan Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 10,
+                    "last": 57
+                }
+            ]
+        },
+        {
+            "name": "Presets",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 11
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 12,
+                    "last": 23
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 20,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Reserved for future use",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer, Color Changer, Strobe (imported from open-fixture-library.herokuapp.com)"
+}

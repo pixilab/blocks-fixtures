@@ -1,0 +1,17 @@
+{
+    "channels": [
+        {
+            "name": "Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Other (imported from open-fixture-library.herokuapp.com)"
+}

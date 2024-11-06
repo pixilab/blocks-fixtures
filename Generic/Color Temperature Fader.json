@@ -1,0 +1,15 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Temperature",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Other"
+}

@@ -1,0 +1,37 @@
+{
+    "channels": [
+        {
+            "name": "Mode",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Intensity",
+                    "first": 0,
+                    "last": 14
+                },
+                {
+                    "name": "Auto Mode",
+                    "first": 101,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Rotation",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Rotation",
+                    "first": 0,
+                    "last": 85
+                },
+                {
+                    "name": "Rotation bounce",
+                    "first": 171,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Flower (imported from open-fixture-library.herokuapp.com)"
+}
