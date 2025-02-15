@@ -1,0 +1,188 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 65,
+                    "last": 189
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 6,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 64,
+                    "last": 69,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 128,
+                    "last": 189
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Movement Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Movement macro 1",
+                    "first": 8,
+                    "last": 23
+                },
+                {
+                    "name": "Movement macro 2",
+                    "first": 24,
+                    "last": 39
+                },
+                {
+                    "name": "Movement macro 3",
+                    "first": 40,
+                    "last": 55
+                },
+                {
+                    "name": "Movement macro 4",
+                    "first": 56,
+                    "last": 71
+                },
+                {
+                    "name": "Movement macro 5",
+                    "first": 72,
+                    "last": 87
+                },
+                {
+                    "name": "Movement macro 6",
+                    "first": 88,
+                    "last": 103
+                },
+                {
+                    "name": "Movement macro 7",
+                    "first": 104,
+                    "last": 119
+                },
+                {
+                    "name": "Movement macro 8",
+                    "first": 120,
+                    "last": 135
+                },
+                {
+                    "name": "Sound-active movement macro 1",
+                    "first": 136,
+                    "last": 151
+                },
+                {
+                    "name": "Sound-active movement macro 2",
+                    "first": 152,
+                    "last": 167
+                },
+                {
+                    "name": "Sound-active movement macro 3",
+                    "first": 168,
+                    "last": 183
+                },
+                {
+                    "name": "Sound-active movement macro 4",
+                    "first": 184,
+                    "last": 199
+                },
+                {
+                    "name": "Sound-active movement macro 5",
+                    "first": 200,
+                    "last": 215
+                },
+                {
+                    "name": "Sound-active movement macro 6",
+                    "first": 216,
+                    "last": 231
+                },
+                {
+                    "name": "Sound-active movement macro 7",
+                    "first": 232,
+                    "last": 247
+                },
+                {
+                    "name": "Sound-active movement macro 8",
+                    "first": 248,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

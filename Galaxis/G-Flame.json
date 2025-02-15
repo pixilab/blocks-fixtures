@@ -1,0 +1,21 @@
+{
+    "channels": [
+        {
+            "name": "Flame",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 228
+                },
+                {
+                    "name": "Flame On",
+                    "first": 229,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Effect (imported from open-fixture-library.herokuapp.com)"
+}

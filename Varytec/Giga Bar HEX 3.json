@@ -1,0 +1,20 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer, Strobe, Effect (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,16 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "CCT",
+            "type": "Analog_16",
+            "normalized": true
+        }
+    ],
+    "note": "Dimmer (imported from open-fixture-library.herokuapp.com)"
+}

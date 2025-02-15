@@ -1,0 +1,74 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Point",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorTemperature-3200K",
+                    "first": 0,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorTemperature-2725K-6450K",
+                    "first": 2,
+                    "last": 253
+                },
+                {
+                    "name": "ColorTemperature-5600K",
+                    "first": 254,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Tint",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 1,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Fan Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 0,
+                    "discrete": true
+                },
+                {
+                    "name": "Rotation",
+                    "first": 1,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer, Color Changer, Strobe (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,45 @@
+{
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red + Orange Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green + Purple Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue + White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green + Yellow Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Light Always On",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Sound Mode",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Flower, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

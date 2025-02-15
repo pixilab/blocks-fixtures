@@ -1,0 +1,141 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true,
+            "defaultValue": 128
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 9
+                }
+            ]
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 11,
+                    "last": 20
+                },
+                {
+                    "name": "Effect",
+                    "first": 151,
+                    "last": 200
+                }
+            ]
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Beam Split Effect",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 100
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 101,
+                    "last": 133
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 134,
+                    "last": 194
+                }
+            ]
+        },
+        {
+            "name": "Auto Programs",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Preprogrammed automatic show 1",
+                    "first": 11,
+                    "last": 20
+                },
+                {
+                    "name": "Preprogrammed automatic show 2",
+                    "first": 21,
+                    "last": 30
+                },
+                {
+                    "name": "Preprogrammed automatic show 3",
+                    "first": 31,
+                    "last": 40
+                },
+                {
+                    "name": "Preprogrammed automatic show 4",
+                    "first": 41,
+                    "last": 50
+                },
+                {
+                    "name": "Preprogrammed automatic show 5",
+                    "first": 51,
+                    "last": 60
+                },
+                {
+                    "name": "Preprogrammed automatic show 6",
+                    "first": 61,
+                    "last": 70
+                },
+                {
+                    "name": "Preprogrammed automatic show 7",
+                    "first": 71,
+                    "last": 80
+                },
+                {
+                    "name": "Preprogrammed automatic show 8",
+                    "first": 81,
+                    "last": 90
+                },
+                {
+                    "name": "Sound control",
+                    "first": 91,
+                    "last": 230
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 231,
+                    "last": 240
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,168 @@
+{
+    "channels": [
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 64,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Input Select (1)",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Lens Function Select",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 16,
+                    "last": 31
+                }
+            ]
+        },
+        {
+            "name": "Lens Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Speed",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 224,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Power",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 63
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 64,
+                    "last": 191
+                }
+            ]
+        },
+        {
+            "name": "Light Output",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Enable/Disable",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Fade in",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectDuration",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 192,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Fade out",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "EffectDuration",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 192,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Custom Masking",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 31
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Geometry",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Maintenance",
+                    "first": 0,
+                    "last": 15
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 112,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Other, Laser (imported from open-fixture-library.herokuapp.com)"
+}

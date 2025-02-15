@@ -1,0 +1,41 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Lime",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom Presets",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Zoom",
+                    "first": 0,
+                    "last": 20
+                }
+            ]
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

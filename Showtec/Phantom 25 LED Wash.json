@@ -1,0 +1,119 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity",
+                    "first": 8,
+                    "last": 132
+                }
+            ]
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Macro",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 8,
+                    "last": 21
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 78,
+                    "last": 91
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 92,
+                    "last": 105
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 106,
+                    "last": 119
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 120,
+                    "last": 133
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 134,
+                    "last": 147
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 148,
+                    "last": 161
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 162,
+                    "last": 175
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 176,
+                    "last": 189
+                },
+                {
+                    "name": "Macro 9",
+                    "first": 190,
+                    "last": 203
+                },
+                {
+                    "name": "Macro 10",
+                    "first": 204,
+                    "last": 217
+                },
+                {
+                    "name": "Macro 11",
+                    "first": 218,
+                    "last": 231
+                },
+                {
+                    "name": "Rainbow",
+                    "first": 232,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "LED Color Saturation",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,193 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer / Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Intensity",
+                    "first": 8,
+                    "last": 134
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Color Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 8,
+                    "last": 21
+                },
+                {
+                    "name": "Effect",
+                    "first": 232,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Vector Speed (Color)",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Movement Macros",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "Auto Program 1",
+                    "first": 8,
+                    "last": 22
+                },
+                {
+                    "name": "Auto Program 2",
+                    "first": 23,
+                    "last": 37
+                },
+                {
+                    "name": "Auto Program 3",
+                    "first": 38,
+                    "last": 52
+                },
+                {
+                    "name": "Auto Program 4",
+                    "first": 53,
+                    "last": 67
+                },
+                {
+                    "name": "Auto Program 5",
+                    "first": 68,
+                    "last": 82
+                },
+                {
+                    "name": "Auto Program 6",
+                    "first": 83,
+                    "last": 97
+                },
+                {
+                    "name": "Auto Program 7",
+                    "first": 98,
+                    "last": 112
+                },
+                {
+                    "name": "Auto Program 8",
+                    "first": 113,
+                    "last": 127
+                },
+                {
+                    "name": "Sound-active Program 1",
+                    "first": 128,
+                    "last": 142
+                },
+                {
+                    "name": "Sound-active Program 2",
+                    "first": 143,
+                    "last": 157
+                },
+                {
+                    "name": "Sound-active Program 3",
+                    "first": 158,
+                    "last": 172
+                },
+                {
+                    "name": "Sound-active Program 4",
+                    "first": 173,
+                    "last": 187
+                },
+                {
+                    "name": "Sound-active Program 5",
+                    "first": 188,
+                    "last": 202
+                },
+                {
+                    "name": "Sound-active Program 6",
+                    "first": 203,
+                    "last": 217
+                },
+                {
+                    "name": "Sound-active Program 7",
+                    "first": 218,
+                    "last": 232
+                },
+                {
+                    "name": "Sound-active Program 8",
+                    "first": 233,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Gobo Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "WheelSlot",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "WheelShake",
+                    "first": 80,
+                    "last": 94
+                },
+                {
+                    "name": "WheelRotation",
+                    "first": 215,
+                    "last": 235
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

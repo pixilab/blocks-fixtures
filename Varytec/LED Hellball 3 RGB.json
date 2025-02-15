@@ -1,0 +1,81 @@
+{
+    "channels": [
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 6,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Rotation (Pan)",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Pan",
+                    "first": 6,
+                    "last": 127
+                },
+                {
+                    "name": "PanContinuous",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Shows",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Built-in shows",
+                    "first": 6,
+                    "last": 127
+                },
+                {
+                    "name": "Sound-controlled shows",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Flower, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

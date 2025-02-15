@@ -1,0 +1,166 @@
+{
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Tilt",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Control",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorTemperature-default",
+                    "first": 0,
+                    "last": 7,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorTemperature-8500K",
+                    "first": 8,
+                    "last": 15,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorTemperature-6500K",
+                    "first": 16,
+                    "last": 23,
+                    "discrete": true
+                },
+                {
+                    "name": "Linear color balance for color picker function",
+                    "first": 24,
+                    "last": 31,
+                    "discrete": true
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 32,
+                    "last": 207
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 208,
+                    "last": 215,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Shutter",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ShutterStrobe",
+                    "first": 0,
+                    "last": 15
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Zoom",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 25
+        },
+        {
+            "name": "Red",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_16",
+            "normalized": true
+        },
+        {
+            "name": "CTC",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Virtual Color Wheel",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 1,
+                    "discrete": true
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 2,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "Effect",
+                    "first": 192,
+                    "last": 222
+                }
+            ]
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "PanTiltSpeed",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                }
+            ]
+        },
+        {
+            "name": "Effects Delay",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Time",
+                    "first": 0,
+                    "last": 3,
+                    "discrete": true
+                },
+                {
+                    "name": "EffectSpeed",
+                    "first": 4,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Blackout Move",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 95
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 96,
+                    "last": 127
+                }
+            ]
+        }
+    ],
+    "note": "Moving Head, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

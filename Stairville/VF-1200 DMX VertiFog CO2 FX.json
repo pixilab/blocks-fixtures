@@ -1,0 +1,10 @@
+{
+    "channels": [
+        {
+            "name": "Fog",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Smoke (imported from open-fixture-library.herokuapp.com)"
+}

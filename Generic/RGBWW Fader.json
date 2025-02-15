@@ -1,0 +1,30 @@
+{
+    "channels": [
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Warm White",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Cold White",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer"
+}

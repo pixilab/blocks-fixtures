@@ -1,0 +1,133 @@
+{
+    "channels": [
+        {
+            "name": "Fog",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Fog",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ColorIntensity",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Green",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ColorIntensity",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Blue",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ColorIntensity",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Mixing",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Auto Speed",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Speed",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 9
+                },
+                {
+                    "name": "Intensity",
+                    "first": 10,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Smoke, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

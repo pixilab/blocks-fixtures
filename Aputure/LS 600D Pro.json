@@ -1,0 +1,115 @@
+{
+    "channels": [
+        {
+            "name": "Intensity",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Mode Selection",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 127
+                }
+            ]
+        },
+        {
+            "name": "Effects",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Paparazzi",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "Fireworks",
+                    "first": 20,
+                    "last": 39
+                },
+                {
+                    "name": "Faulty bulb",
+                    "first": 40,
+                    "last": 59
+                },
+                {
+                    "name": "Lightning",
+                    "first": 60,
+                    "last": 79
+                },
+                {
+                    "name": "TV",
+                    "first": 80,
+                    "last": 99
+                },
+                {
+                    "name": "Pulsing",
+                    "first": 100,
+                    "last": 119
+                },
+                {
+                    "name": "Strobe",
+                    "first": 120,
+                    "last": 139
+                },
+                {
+                    "name": "Explosion",
+                    "first": 140,
+                    "last": 159
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 160,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Frequency",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 19
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 220,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Lightning",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 10
+                }
+            ]
+        },
+        {
+            "name": "Explosion",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Generic",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "NoFunction",
+                    "first": 128,
+                    "last": 255
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer, Effect (imported from open-fixture-library.herokuapp.com)"
+}

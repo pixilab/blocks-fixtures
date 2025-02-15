@@ -1,0 +1,16 @@
+{
+    "channels": [
+        {
+            "name": "Frequency",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Strobe"
+}

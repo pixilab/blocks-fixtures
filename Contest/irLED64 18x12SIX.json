@@ -1,0 +1,125 @@
+{
+    "channels": [
+        {
+            "name": "Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "ColorPreset",
+                    "first": 0,
+                    "last": 5,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 1",
+                    "first": 156,
+                    "last": 160,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 2",
+                    "first": 161,
+                    "last": 165,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 3",
+                    "first": 166,
+                    "last": 170,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 4",
+                    "first": 171,
+                    "last": 175,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 5",
+                    "first": 176,
+                    "last": 180,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 6",
+                    "first": 181,
+                    "last": 185,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 7",
+                    "first": 186,
+                    "last": 190,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 8",
+                    "first": 191,
+                    "last": 195,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 9",
+                    "first": 196,
+                    "last": 200,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 10",
+                    "first": 201,
+                    "last": 205,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 11",
+                    "first": 206,
+                    "last": 210,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 12",
+                    "first": 211,
+                    "last": 215,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 13",
+                    "first": 216,
+                    "last": 220,
+                    "discrete": true
+                },
+                {
+                    "name": "Macro 14",
+                    "first": 221,
+                    "last": 225,
+                    "discrete": true
+                },
+                {
+                    "name": "Music-sensitive Macro 1",
+                    "first": 226,
+                    "last": 233,
+                    "discrete": true
+                },
+                {
+                    "name": "Music-sensitive Macro 7",
+                    "first": 234,
+                    "last": 241,
+                    "discrete": true
+                },
+                {
+                    "name": "Music-sensitive Macro 11",
+                    "first": 242,
+                    "last": 249,
+                    "discrete": true
+                },
+                {
+                    "name": "Music-sensitive Macro 14",
+                    "first": 250,
+                    "last": 255,
+                    "discrete": true
+                }
+            ]
+        }
+    ],
+    "note": "Dimmer, Color Changer (imported from open-fixture-library.herokuapp.com)"
+}

@@ -1,0 +1,17 @@
+{
+    "channels": [
+        {
+            "name": "Fan Speed",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        },
+        {
+            "name": "Haze Output",
+            "type": "Analog_8",
+            "normalized": true,
+            "defaultValue": 0
+        }
+    ],
+    "note": "Hazer (imported from open-fixture-library.herokuapp.com)"
+}

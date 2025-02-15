@@ -1,0 +1,82 @@
+{
+    "channels": [
+        {
+            "name": "Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "NoFunction",
+                    "first": 0,
+                    "last": 10
+                },
+                {
+                    "name": "Maintenance",
+                    "first": 11,
+                    "last": 50
+                },
+                {
+                    "name": "Effect",
+                    "first": 51,
+                    "last": 100
+                },
+                {
+                    "name": "Sound Flash",
+                    "first": 151,
+                    "last": 200
+                },
+                {
+                    "name": "ShutterStrobe",
+                    "first": 201,
+                    "last": 255
+                }
+            ]
+        },
+        {
+            "name": "Color Program",
+            "type": "Ranges",
+            "ranges": [
+                {
+                    "name": "Color Chase",
+                    "first": 0,
+                    "last": 39
+                },
+                {
+                    "name": "ColorPreset",
+                    "first": 40,
+                    "last": 49
+                }
+            ]
+        },
+        {
+            "name": "Program Speed",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Dimmer",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Red",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Green",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "Blue",
+            "type": "Analog_8",
+            "normalized": true
+        },
+        {
+            "name": "White",
+            "type": "Analog_8",
+            "normalized": true
+        }
+    ],
+    "note": "Color Changer (imported from open-fixture-library.herokuapp.com)"
+}
